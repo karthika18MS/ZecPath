@@ -1,252 +1,203 @@
-Project Layout
+# Zecpath AI – AI-Powered Job Portal & Automated Hiring Assistant
+
+## Project Overview
+
+Zecpath AI is an AI-powered recruitment platform designed to automate the complete hiring process. The system helps recruiters efficiently manage job postings, screen candidates, conduct AI-driven interviews, analyze candidate behavior, and generate hiring recommendations using Artificial Intelligence and Machine Learning.
+
+The platform aims to reduce manual recruitment efforts, improve hiring accuracy, speed up the recruitment process, and provide a fair and scalable hiring solution.
+
+---
+
+# Project Objectives
+
+- Automate resume screening using AI.
+- Calculate ATS (Applicant Tracking System) scores.
+- Conduct AI-powered candidate screening.
+- Perform AI HR and technical interviews.
+- Analyze candidate behavior during interviews.
+- Generate hiring recommendations.
+- Provide recruiter analytics and reporting.
+
+---
+
+# Features
+
+- Resume Upload & Parsing
+- ATS Score Calculation
+- Candidate Ranking
+- AI Voice Screening
+- HR Interview Intelligence
+- Technical Interview Evaluation
+- Behavior Analysis
+- Decision & Scoring Engine
+- Notification Service
+- Recruiter Dashboard
+- Candidate Dashboard
+
+---
+
+# Technology Stack
+
+## Programming Language
+- Python 3.13
+
+## Backend Framework
+- FastAPI
+
+## Machine Learning & AI
+- Scikit-learn
+- Transformers
+- Sentence Transformers
+- PyTorch
+
+## Data Processing
+- NumPy
+- Pandas
+
+## Testing
+- PyTest
+
+## Version Control
+- Git
+- GitHub
+
+---
+
+# Project Structure
+
+```
 Zecpath_AI/
 │
-├── ats_engine/
 ├── data/
+├── parsers/
+├── ats_engine/
+├── screening_ai/
 ├── interview_ai/
+├── scoring/
+├── utils/
+├── tests/
 ├── logs/
 ├── models/
-├── parsers/
-├── scoring/
-├── screening_ai/
-├── tests/
-├── utils/
 │
 ├── main.py
-├── README.md
 ├── requirements.txt
+├── README.md
 └── .gitignore
-Folder Explanation
-1. ats_engine/
+```
 
-Purpose:
-This folder contains the Applicant Tracking System (ATS) logic.
+---
 
-Responsibilities:
+# Folder Description
 
-Calculate ATS scores
-Match resumes with job descriptions
-Rank candidates
-Shortlist eligible applicants
+### data/
+Contains datasets used for training and testing AI models.
 
-Example:
-If a job requires Python, SQL, and Machine Learning, the ATS engine checks whether the uploaded resume contains these skills and assigns a score.
+### parsers/
+Resume parsing modules for extracting candidate information.
 
-2. data/
+### ats_engine/
+Implements ATS scoring and candidate ranking.
 
-Purpose:
-Stores all datasets used by the AI system.
+### screening_ai/
+Handles AI voice screening and NLP-based response analysis.
 
-Examples:
+### interview_ai/
+Conducts HR and technical AI interviews.
 
-Candidate resumes
-Job descriptions
-Sample interview questions
-Training datasets
+### scoring/
+Calculates final candidate scores and hiring recommendations.
 
-The AI models use this data for training and testing.
+### utils/
+Common utilities such as configuration files and logging.
 
-3. interview_ai/
+### tests/
+Unit tests and integration tests for AI modules.
 
-Purpose:
-Contains the AI interview modules.
+### logs/
+Stores application logs and execution details.
 
-Responsibilities:
-
-Generate interview questions
-Conduct HR interviews
-Conduct technical interviews
-Evaluate candidate responses
-
-In future, this module may use Large Language Models (LLMs) to ask adaptive questions.
-
-4. logs/
-
-Purpose:
-Stores application log files.
-
-Current file:
-
-app.log
-
-Why it is needed:
-
-Records application events
-Tracks errors
-Helps developers debug issues
-Maintains execution history
-5. models/
-
-Purpose:
+### models/
 Stores trained AI and Machine Learning models.
 
-Examples:
+---
 
-resume_parser.pkl
+# Installation
 
-ats_model.pkl
+Clone the repository:
 
-interview_model.pt
+```bash
+git clone <repository-url>
+```
 
-Instead of training the model every time, the application loads it from this folder.
+Create a virtual environment:
 
-6. parsers/
+```bash
+python -m venv venv
+```
 
-Purpose:
-Contains resume parsing modules.
+Activate the virtual environment:
 
-Responsibilities:
+### Windows
 
-Read PDF resumes
-Extract candidate information
-Identify skills, education, experience, and certifications
-Convert resumes into structured data
-7. scoring/
+```bash
+venv\Scripts\activate
+```
 
-Purpose:
-Calculates different candidate scores.
+Install dependencies:
 
-Examples:
-
-ATS score
-Interview score
-Technical score
-Communication score
-Final recommendation score
-
-These scores help recruiters compare candidates objectively.
-
-8. screening_ai/
-
-Purpose:
-Handles AI-based screening before interviews.
-
-Responsibilities:
-
-Voice screening
-Speech-to-text conversion
-Natural Language Processing (NLP)
-Initial candidate evaluation
-
-This module filters candidates before they reach the interview stage.
-
-9. tests/
-
-Purpose:
-Contains automated test cases.
-
-Current file:
-
-test_sample.py
-
-Responsibilities:
-
-Verify code correctness
-Detect bugs
-Ensure future code changes do not break existing functionality
-
-Testing improves software quality.
-
-10. utils/
-
-Purpose:
-Stores common utility files used across the project.
-
-Current files:
-
-config.py
-
-logger.py
-config.py
-
-Stores application settings such as:
-
-Application name
-Version
-Author
-Debug mode
-logger.py
-
-Configures the logging system and writes logs to app.log.
-
-Keeping common utilities in one place avoids code duplication.
-
-File Explanation
-main.py
-
-Purpose:
-This is the entry point of the application.
-
-When you run:
-
-python main.py
-
-Python starts executing from this file.
-
-Currently it:
-
-Imports configuration values
-Initializes the logger
-Displays application information
-Records application start and finish events
-README.md
-
-Purpose:
-Provides documentation for the project.
-
-It explains:
-
-Project overview
-Features
-Folder structure
-Installation steps
-Technologies used
-Usage instructions
-
-Anyone opening the GitHub repository can understand the project by reading this file.
-
-requirements.txt
-
-Purpose:
-Lists all Python libraries required by the project.
-
-Example:
-
-numpy
-pandas
-fastapi
-pytest
-torch
-transformers
-
-Installing dependencies is easy:
-
+```bash
 pip install -r requirements.txt
-.gitignore
+```
 
-Purpose:
-Specifies files and folders that Git should not upload.
+---
 
-Examples:
+# Running the Project
 
-venv/
-__pycache__/
-.env
-logs/
+```bash
+python main.py
+```
 
-Ignoring these prevents unnecessary or sensitive files from being stored in the repository.
+---
 
-Overall Project Flow
-User
-   │
-   ▼
-main.py
-   │
-   ├── Reads configuration (config.py)
-   ├── Initializes logging (logger.py)
-   ├── Uses ATS Engine
-   ├── Uses Screening AI
-   ├── Uses Interview AI
-   ├── Uses Scoring Module
-   ├── Reads/Writes Data
-   └── Saves logs in app.log
+# Future AI Modules
+
+- Resume Parser AI
+- ATS Scoring Engine
+- Resume Ranking AI
+- Screening AI
+- Interview Intelligence AI
+- Behavior Analysis AI
+- Decision & Scoring AI
+- Notification AI
+
+---
+
+# Development Status
+
+Current Phase:
+- Environment Setup
+- Repository Setup
+- Project Structure Design
+
+Upcoming Phases:
+- Resume Parser Development
+- ATS Engine
+- AI Screening
+- AI Interview System
+- Decision Engine
+- Dashboard Integration
+
+---
+
+# Author
+
+**Karthika M S**
+
+Internship Project:
+**Zecpath – AI-Powered Job Portal & Automated Hiring Assistant**
+
+---
+
+# License
+
+This project is developed for educational and internship purposes.
