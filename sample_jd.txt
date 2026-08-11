@@ -1,0 +1,19 @@
+We are hiring a Python Developer.
+
+
+Education
+
+B.Tech or MCA
+
+Experience
+
+Minimum 5 years
+
+
+Required Skills
+
+Python
+SQL
+Django
+Docker
+Git

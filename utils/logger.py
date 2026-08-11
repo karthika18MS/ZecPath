@@ -1,15 +1,27 @@
 import logging
 import os
 
-# Create logs folder if it doesn't exist
+# Create logs directory
 os.makedirs("logs", exist_ok=True)
 
-logging.basicConfig(
-    filename="logs/app.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
+# Create a dedicated logger
+logger = logging.getLogger("ZecPath")
+logger.setLevel(logging.INFO)
 
-logger = logging.getLogger(__name__)
+# Remove old handlers (important when rerunning)
+if logger.hasHandlers():
+    logger.handlers.clear()
+
+# Create file handler
+file_handler = logging.FileHandler("logs/app.log", mode="w", encoding="utf-8")
+
+# Set log format
+formatter = logging.Formatter(
+    "%(asctime)s | %(levelname)s | %(message)s"
+)
+file_handler.setFormatter(formatter)
+
+# Attach handler
+logger.addHandler(file_handler)
 
 logger.info("Logger initialized successfully.")
