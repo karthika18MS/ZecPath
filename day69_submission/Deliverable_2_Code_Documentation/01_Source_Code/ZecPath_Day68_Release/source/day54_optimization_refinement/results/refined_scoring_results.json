@@ -1,0 +1,333 @@
+{
+    "project": "ZecPath",
+    "deliverable": "Day 54 - Deliverable 3: Refined Scoring Logic",
+    "dataset_type": "Synthetic evaluation cases",
+    "dataset_count": 11,
+    "evaluated_count": 11,
+    "error_count": 0,
+    "configuration": {
+        "round_weights": {
+            "ats": 0.2,
+            "screening": 0.1,
+            "hr_interview": 0.2,
+            "technical_interview": 0.25,
+            "machine_test": 0.25
+        },
+        "select_threshold": 80.0,
+        "review_threshold": 60.0,
+        "maximum_score_difference": 10.0,
+        "maximum_round_spread": 20.0
+    },
+    "decision_summary": {
+        "select": 2,
+        "review": 6,
+        "not_qualified": 3
+    },
+    "results": [
+        {
+            "candidate_id": "candidate_001",
+            "expected_outcome": "qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 92,
+            "recalculated_verified_score": 92.2,
+            "score_used_for_decision": 92.2,
+            "score_difference": 0.2,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 4.0,
+            "review_flags": [],
+            "decision": "SELECT",
+            "reasons": [
+                "Verified weighted score meets the selection threshold.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": false
+        },
+        {
+            "candidate_id": "candidate_002",
+            "expected_outcome": "not_qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 35,
+            "recalculated_verified_score": 34.5,
+            "score_used_for_decision": 34.5,
+            "score_difference": 0.5,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 10.0,
+            "review_flags": [],
+            "decision": "NOT_QUALIFIED",
+            "reasons": [
+                "Verified weighted score is below the review threshold.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": false
+        },
+        {
+            "candidate_id": "candidate_003",
+            "expected_outcome": "qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 79.9,
+            "recalculated_verified_score": 79.95,
+            "score_used_for_decision": 79.95,
+            "score_difference": 0.05,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 4.0,
+            "review_flags": [],
+            "decision": "REVIEW",
+            "reasons": [
+                "Verified weighted score falls within the review range.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": true
+        },
+        {
+            "candidate_id": "candidate_004",
+            "expected_outcome": "not_qualified",
+            "eligibility_status": "REJECTED",
+            "supplied_hiring_fit_score": 91,
+            "recalculated_verified_score": 90.9,
+            "score_used_for_decision": 90.9,
+            "score_difference": 0.1,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 4.0,
+            "review_flags": [],
+            "decision": "NOT_QUALIFIED",
+            "reasons": [
+                "Eligibility status is REJECTED.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": false
+        },
+        {
+            "candidate_id": "candidate_005",
+            "expected_outcome": "qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 88,
+            "recalculated_verified_score": 88.12,
+            "score_used_for_decision": 88.12,
+            "score_difference": 0.12,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [
+                "hr_interview"
+            ],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 5.0,
+            "review_flags": [],
+            "decision": "REVIEW",
+            "reasons": [
+                "Mandatory assessment rounds are missing, incomplete, or unverified."
+            ],
+            "human_review_required": true
+        },
+        {
+            "candidate_id": "candidate_006",
+            "expected_outcome": "qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 90,
+            "recalculated_verified_score": 90.53,
+            "score_used_for_decision": 90.53,
+            "score_difference": 0.53,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [
+                "machine_test"
+            ],
+            "invalid_rounds": [],
+            "round_spread": 3.0,
+            "review_flags": [],
+            "decision": "REVIEW",
+            "reasons": [
+                "Demo assessment data cannot support final selection."
+            ],
+            "human_review_required": true
+        },
+        {
+            "candidate_id": "candidate_007",
+            "expected_outcome": "qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 85,
+            "recalculated_verified_score": 84.75,
+            "score_used_for_decision": 84.75,
+            "score_difference": 0.25,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 4.0,
+            "review_flags": [],
+            "decision": "REVIEW",
+            "reasons": [
+                "Risk flags require human review.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": true
+        },
+        {
+            "candidate_id": "candidate_008",
+            "expected_outcome": "qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 58,
+            "recalculated_verified_score": 57.6,
+            "score_used_for_decision": 57.6,
+            "score_difference": 0.4,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 5.0,
+            "review_flags": [],
+            "decision": "NOT_QUALIFIED",
+            "reasons": [
+                "Verified weighted score is below the review threshold.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": false
+        },
+        {
+            "candidate_id": "candidate_009",
+            "expected_outcome": "qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 84,
+            "recalculated_verified_score": 85.3,
+            "score_used_for_decision": 85.3,
+            "score_difference": 1.3,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 46.0,
+            "review_flags": [],
+            "decision": "REVIEW",
+            "reasons": [
+                "Assessment scores vary beyond the configured limit.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": true
+        },
+        {
+            "candidate_id": "candidate_010",
+            "expected_outcome": "not_qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 68,
+            "recalculated_verified_score": 68.2,
+            "score_used_for_decision": 68.2,
+            "score_difference": 0.2,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 4.0,
+            "review_flags": [],
+            "decision": "REVIEW",
+            "reasons": [
+                "Verified weighted score falls within the review range.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": true
+        },
+        {
+            "candidate_id": "candidate_011",
+            "expected_outcome": "not_qualified",
+            "eligibility_status": "ELIGIBLE",
+            "supplied_hiring_fit_score": 88,
+            "recalculated_verified_score": 87.6,
+            "score_used_for_decision": 87.6,
+            "score_difference": 0.4,
+            "usable_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "invalid_rounds": [],
+            "round_spread": 3.0,
+            "review_flags": [],
+            "decision": "SELECT",
+            "reasons": [
+                "Verified weighted score meets the selection threshold.",
+                "All mandatory assessment rounds are available as completed, verified, non-demo results."
+            ],
+            "human_review_required": false
+        }
+    ],
+    "errors": [],
+    "limitations": [
+        "The evaluation dataset contains synthetic records.",
+        "Expected labels are not independently validated hiring outcomes.",
+        "A recalculated score is not proof of candidate suitability.",
+        "Human review is required for uncertain cases.",
+        "This module does not modify the Day 52 decision engine."
+    ]
+}

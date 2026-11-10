@@ -1,0 +1,79 @@
+{
+    "candidate_id": "candidate_013",
+    "target_role": "Python Developer",
+    "job_description": "python_developer.txt",
+    "eligibility": {
+        "status": "Rejected",
+        "reason": "ATS score is below the review cutoff. Mandatory skill requirements are not met.",
+        "failed_rules": [
+            "ats_score",
+            "mandatory_skills"
+        ]
+    },
+    "ats": {
+        "score": 37.9,
+        "status": "Rejected",
+        "eligible_cutoff": 75.0,
+        "review_cutoff": 60.0
+    },
+    "rule_checks": {
+        "mandatory_skills": {
+            "passed": false,
+            "required": [
+                "python",
+                "git"
+            ],
+            "missing": [
+                "python",
+                "git"
+            ],
+            "status": "Mandatory skill requirement not met."
+        },
+        "experience": {
+            "passed": true,
+            "candidate_years": 4.0,
+            "minimum_years": 1.0,
+            "maximum_years": 5.0,
+            "status": "Experience requirement satisfied."
+        },
+        "location": {
+            "passed": true,
+            "candidate_location": null,
+            "allowed_locations": [
+                "kochi",
+                "thiruvananthapuram"
+            ],
+            "status": "Candidate location unavailable; rule not enforced."
+        },
+        "availability": {
+            "passed": true,
+            "candidate_notice_period_days": null,
+            "maximum_allowed_days": 30,
+            "status": "Candidate availability information unavailable; rule not enforced."
+        }
+    },
+    "rule_source": "role: python_developer",
+    "applied_rules": {
+        "ats": {
+            "eligible_min": 75,
+            "review_min": 60
+        },
+        "mandatory_skills": [
+            "python",
+            "git"
+        ],
+        "experience": {
+            "min_years": 1,
+            "max_years": 5
+        },
+        "location": {
+            "allowed": [
+                "kochi",
+                "thiruvananthapuram"
+            ]
+        },
+        "availability": {
+            "max_days": 30
+        }
+    }
+}

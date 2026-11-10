@@ -1,0 +1,57 @@
+{
+    "name": "Candidate 013",
+    "job_titles": [
+        "graphic designer"
+    ],
+    "skills": [
+        "adobe illustrator",
+        "adobe photoshop",
+        "branding",
+        "canva",
+        "figma",
+        "graphic design",
+        "ui design",
+        "video editing"
+    ],
+    "degrees": [],
+    "experience_years": 4.0,
+    "years": [
+        2022,
+        2026
+    ],
+    "projects": [
+        "Brand Identity Design",
+        "Created complete visual identity packages for small businesses."
+    ],
+    "sections": {
+        "summary": [
+            "Graphic Designer with 4 years of experience creating",
+            "visual designs and marketing materials."
+        ],
+        "skills": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Figma",
+            "Canva",
+            "Graphic Design",
+            "UI Design",
+            "Branding",
+            "Video Editing"
+        ],
+        "experience": [
+            "Graphic Designer",
+            "Creative Studio",
+            "2022 - 2026",
+            "Created logos, posters, brochures, and social media designs.",
+            "Designed marketing materials.",
+            "Worked with clients to understand design requirements."
+        ],
+        "education": [
+            "Bachelor of Fine Arts"
+        ],
+        "projects": [
+            "Brand Identity Design",
+            "Created complete visual identity packages for small businesses."
+        ]
+    }
+}

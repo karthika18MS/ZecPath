@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND009",
+    "job_id": "JD001",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.067282+05:30",
+    "task": {
+        "task_id": "MERN_TASK_009",
+        "title": "React Employee Search",
+        "requirements": [
+            "Create employee search",
+            "Filter employee records",
+            "Handle case-insensitive search",
+            "Display matching records"
+        ],
+        "candidate_code": "\nimport React, { useState } from 'react';\n\nfunction EmployeeSearch() {\n\n    const employees = [\n        \"Anu\",\n        \"Arun\",\n        \"Meera\",\n        \"Karthik\"\n    ];\n\n    const [search, setSearch] = useState('');\n\n    const filteredEmployees = employees.filter(\n        employee =>\n            employee.toLowerCase().includes(\n                search.toLowerCase()\n            )\n    );\n\n    return (\n        <div>\n            <input\n                value={search}\n                onChange={e => setSearch(e.target.value)}\n                placeholder=\"Search employee\"\n            />\n\n            <ul>\n                {filteredEmployees.map(employee => (\n                    <li key={employee}>{employee}</li>\n                ))}\n            </ul>\n        </div>\n    );\n}\n\nexport default EmployeeSearch;\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 8,
+            "failed_tests": 2,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 88,
+            "code_quality": 85,
+            "readability": 88,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

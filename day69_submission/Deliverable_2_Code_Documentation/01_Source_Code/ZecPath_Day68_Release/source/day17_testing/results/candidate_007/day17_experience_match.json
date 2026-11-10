@@ -1,0 +1,15 @@
+{
+    "candidate_id": "candidate_007",
+    "target_role": "HR Executive",
+    "candidate_experience": {
+        "years": 2.0,
+        "months": 24
+    },
+    "required_experience": {
+        "minimum_years": 1.0,
+        "maximum_years": 3.0,
+        "requirement_type": "range"
+    },
+    "experience_score": 100.0,
+    "experience_status": "Experience Fully Meets Requirement"
+}

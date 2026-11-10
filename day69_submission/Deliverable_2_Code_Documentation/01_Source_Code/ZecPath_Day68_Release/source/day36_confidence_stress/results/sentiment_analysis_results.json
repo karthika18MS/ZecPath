@@ -1,0 +1,18 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "HR_TEAM_001",
+    "response": "I really enjoyed working with my team. I successfully completed the project and learned many new technologies. The experience was excellent and helped me improve my skills.",
+    "positive_signals": [
+        "enjoyed",
+        "successfully",
+        "completed",
+        "learned",
+        "excellent"
+    ],
+    "positive_signal_count": 5,
+    "negative_signals": [],
+    "negative_signal_count": 0,
+    "sentiment_score": 100,
+    "sentiment": "positive",
+    "score_range": "0-100"
+}

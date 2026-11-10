@@ -1,0 +1,226 @@
+{
+    "default_rules": {
+        "ats": {
+            "eligible_min": 75,
+            "review_min": 60
+        },
+        "mandatory_skills": [],
+        "experience": {
+            "min_years": null,
+            "max_years": null
+        },
+        "location": {
+            "allowed": []
+        },
+        "availability": {
+            "max_days": null
+        }
+    },
+
+    "job_id_rules": {
+        "JD001": {"experience": {"min_years": 2, "max_years": 4}},
+        "JD002": {"experience": {"min_years": 1, "max_years": 3}},
+        "JD003": {"experience": {"min_years": 3, "max_years": 6}}
+    },
+
+    "roles": {
+
+        "backend_developer": {
+            "ats": {
+                "eligible_min": 75,
+                "review_min": 60
+            },
+            "mandatory_skills": [
+                "python",
+                "fastapi",
+                "git"
+            ],
+            "experience": {
+                "min_years": 1,
+                "max_years": 4
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        },
+
+        "senior_backend_developer": {
+            "ats": {
+                "eligible_min": 80,
+                "review_min": 65
+            },
+            "mandatory_skills": [
+                "python",
+                "fastapi",
+                "docker",
+                "aws",
+                "git"
+            ],
+            "experience": {
+                "min_years": 4,
+                "max_years": 8
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        },
+
+        "python_developer": {
+            "ats": {
+                "eligible_min": 75,
+                "review_min": 60
+            },
+            "mandatory_skills": [
+                "python",
+                "git"
+            ],
+            "experience": {
+                "min_years": 1,
+                "max_years": 5
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        },
+
+        "senior_python_developer": {
+            "ats": {
+                "eligible_min": 80,
+                "review_min": 65
+            },
+            "mandatory_skills": [
+                "python",
+                "django",
+                "git"
+            ],
+            "experience": {
+                "min_years": 3,
+                "max_years": 8
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        },
+
+        "fresher_python_developer": {
+            "ats": {
+                "eligible_min": 70,
+                "review_min": 55
+            },
+            "mandatory_skills": [
+                "python",
+                "git"
+            ],
+            "experience": {
+                "min_years": 0,
+                "max_years": 1
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        },
+
+        "fresher_data_analyst": {
+            "ats": {
+                "eligible_min": 70,
+                "review_min": 55
+            },
+            "mandatory_skills": [
+                "python",
+                "sql",
+                "excel"
+            ],
+            "experience": {
+                "min_years": 0,
+                "max_years": 1
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        },
+
+        "hr_executive": {
+            "ats": {
+                "eligible_min": 70,
+                "review_min": 55
+            },
+            "mandatory_skills": [
+                "communication",
+                "recruitment"
+            ],
+            "experience": {
+                "min_years": 1,
+                "max_years": 5
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        },
+
+        "marketing_executive": {
+            "ats": {
+                "eligible_min": 70,
+                "review_min": 55
+            },
+            "mandatory_skills": [
+                "marketing",
+                "communication"
+            ],
+            "experience": {
+                "min_years": 1,
+                "max_years": 5
+            },
+            "location": {
+                "allowed": [
+                    "kochi",
+                    "thiruvananthapuram"
+                ]
+            },
+            "availability": {
+                "max_days": 30
+            }
+        }
+    }
+}

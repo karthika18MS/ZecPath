@@ -1,0 +1,51 @@
+{
+    "benchmark": "ZecPath Day 60 Batch Benchmark",
+    "timestamp_utc": "2026-11-03T16:24:23.647155+00:00",
+    "status": "PASS",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "text_count": 10,
+    "batch_sizes": [
+        1,
+        8,
+        16,
+        32
+    ],
+    "repetitions_per_batch_size": 3,
+    "results": [
+        {
+            "batch_size": 1,
+            "repetitions": 3,
+            "average_inference_seconds": 0.179761,
+            "best_inference_seconds": 0.134235,
+            "items_per_second": 55.629
+        },
+        {
+            "batch_size": 8,
+            "repetitions": 3,
+            "average_inference_seconds": 0.05543,
+            "best_inference_seconds": 0.045698,
+            "items_per_second": 180.408
+        },
+        {
+            "batch_size": 16,
+            "repetitions": 3,
+            "average_inference_seconds": 0.035719,
+            "best_inference_seconds": 0.02808,
+            "items_per_second": 279.96
+        },
+        {
+            "batch_size": 32,
+            "repetitions": 3,
+            "average_inference_seconds": 0.028925,
+            "best_inference_seconds": 0.027186,
+            "items_per_second": 345.718
+        }
+    ],
+    "notes": [
+        "Uses synthetic sample texts.",
+        "Model is loaded before batch timing.",
+        "First inference may include warm-up overhead.",
+        "Timing measures inference, not the full ATS pipeline.",
+        "Results must be measured; no speed improvement is assumed."
+    ]
+}

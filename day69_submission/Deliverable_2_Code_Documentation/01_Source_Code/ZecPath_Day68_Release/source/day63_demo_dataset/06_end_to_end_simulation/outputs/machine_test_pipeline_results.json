@@ -1,0 +1,172 @@
+{
+    "pipeline": "ZecPath Day 63 Configurable Machine Test Pipeline",
+    "adapter": "ZecPath Day 63 Configurable Machine Test Adapter",
+    "scoring_engine": "ZecPath Day 50 Machine Test Evaluation Engine",
+    "dataset": {
+        "dataset_name": "day63_demo_dataset",
+        "dataset_type": "DEMO_DATASET",
+        "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset"
+    },
+    "pipeline_status": "SUCCESS",
+    "scoring_policy": {
+        "test_pass_rate_weight": 0.5,
+        "requirement_coverage_weight": 0.2,
+        "code_quality_weight": 0.2,
+        "readability_weight": 0.1,
+        "human_review_required": true,
+        "test_execution_required": true,
+        "automatic_code_execution": false,
+        "test_results_are_simulated": true,
+        "review_scores_are_simulated": true,
+        "is_verified_real_candidate_result": false
+    },
+    "data_provenance": {
+        "data_type": "SIMULATED_DEMO_DATA",
+        "candidate_code": "Illustrative sample code, not actual candidate submissions.",
+        "test_results": "Illustrative values; test cases were not executed.",
+        "review_scores": "Illustrative values; no human review was performed.",
+        "hiring_use": "Demo testing only. Not suitable for real hiring decisions."
+    },
+    "generated_at": "2026-11-07T23:13:11.167047+05:30",
+    "execution_time_seconds": 0.164,
+    "stages": {
+        "adapter_execution": "SUCCESS",
+        "data_loading": "SUCCESS",
+        "candidate_validation": "SUCCESS",
+        "summary_calculation": "SUCCESS",
+        "candidate_report_generation": "SUCCESS"
+    },
+    "validation": {
+        "is_valid": true,
+        "total_validation_errors": 0,
+        "errors": []
+    },
+    "summary": {
+        "total_candidates": 10,
+        "completed": 9,
+        "not_provided": 1,
+        "invalid_data": 0,
+        "scored_candidates": 9,
+        "average_machine_test_score": 81.03,
+        "highest_machine_test_score": 91.2,
+        "lowest_machine_test_score": 67.2,
+        "score_categories": {
+            "strong": 6,
+            "moderate": 3
+        }
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 84.6,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_001_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 88.6,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_002_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 74.8,
+            "score_category": "moderate",
+            "score_status": "SCORED",
+            "source_file": "candidate_003_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 73.6,
+            "score_category": "moderate",
+            "score_status": "SCORED",
+            "source_file": "candidate_004_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 91.2,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_005_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 84.2,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_006_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 81.7,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_007_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 67.2,
+            "score_category": "moderate",
+            "score_status": "SCORED",
+            "source_file": "candidate_008_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 83.4,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_009_machine_test.json",
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "is_verified_real_candidate_result": false
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "assessment_status": "NOT_PROVIDED",
+            "machine_test_score": null,
+            "score_category": null,
+            "score_status": "NOT_SCORED",
+            "source_file": null,
+            "data_provenance": "NO_SUBMISSION_AVAILABLE",
+            "is_verified_real_candidate_result": false
+        }
+    ],
+    "source_output_file": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\machine_test_results.json",
+    "adapter_file_errors": []
+}

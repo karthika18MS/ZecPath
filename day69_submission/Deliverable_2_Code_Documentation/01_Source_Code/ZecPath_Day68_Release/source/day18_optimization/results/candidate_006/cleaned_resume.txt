@@ -1,0 +1,36 @@
+NAME: Candidate 006
+PROFESSIONAL SUMMARY:
+Backend Developer with 3 years of experience developing
+server-side applications and REST APIs using Python.
+TECHNICAL SKILLS:
+Python
+FastAPI
+Django
+REST API
+PostgreSQL
+MongoDB
+Git
+Docker
+Linux
+AWS
+Redis
+PROFESSIONAL EXPERIENCE:
+Backend Developer
+ABC Technologies
+2023 - 2026
+Developed REST APIs using Python and FastAPI.
+Built backend services using Django.
+Worked with PostgreSQL and MongoDB databases.
+Created Docker-based development environments.
+Used Git for source code management.
+Implemented API testing and debugging.
+Deployed backend services on AWS.
+Worked with Redis for caching.
+EDUCATION:
+Master of Computer Applications
+Computer Science
+PROJECTS:
+E-Commerce Backend API
+Developed REST APIs using Python and FastAPI.
+Implemented authentication, product management,
+order processing, and database integration.

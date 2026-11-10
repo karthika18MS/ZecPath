@@ -1,0 +1,414 @@
+{
+    "project": "ZecPath",
+    "deliverable": "Day 54 - Deliverable 1: Improved AI Accuracy",
+    "report_version": "1.3",
+    "dataset_type": "Synthetic evaluation cases",
+    "evaluation_method": "Rule-based evaluation of labelled synthetic cases using verified-round score recalculation, eligibility and risk checks, score consistency, mandatory-round validation, and review reporting.",
+    "configuration": {
+        "select_threshold": 80.0,
+        "review_threshold": 60.0,
+        "maximum_score_difference": 10.0,
+        "maximum_round_spread": 20.0,
+        "mandatory_rounds": [
+            "ats",
+            "screening",
+            "hr_interview",
+            "technical_interview",
+            "machine_test"
+        ],
+        "round_weights": {
+            "ats": 0.2,
+            "screening": 0.1,
+            "hr_interview": 0.2,
+            "technical_interview": 0.25,
+            "machine_test": 0.25
+        }
+    },
+    "dataset_count": 11,
+    "evaluated_count": 11,
+    "error_count": 0,
+    "metrics": {
+        "true_positives": 1,
+        "true_negatives": 2,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "review_count": 6,
+        "excluded_count": 0,
+        "binary_decision_count": 5,
+        "accuracy_percent": 60.0,
+        "precision_percent": 50.0,
+        "recall_percent": 50.0,
+        "false_positive_rate_percent": 33.33,
+        "false_negative_rate_percent": 50.0,
+        "review_rate_percent": 54.55
+    },
+    "performance": {
+        "total_processing_time_ms": 0.1781,
+        "average_time_per_case_ms": 0.0131
+    },
+    "results": [
+        {
+            "candidate_id": "candidate_001",
+            "expected_outcome": "qualified",
+            "supplied_hiring_fit_score": 92.0,
+            "round_weighted_score": 92.2,
+            "score_used": 92.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.2,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "SELECT",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 4.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Score meets the configured selection threshold."
+            ],
+            "processing_time_ms": 0.0424
+        },
+        {
+            "candidate_id": "candidate_002",
+            "expected_outcome": "not_qualified",
+            "supplied_hiring_fit_score": 35.0,
+            "round_weighted_score": 34.5,
+            "score_used": 35.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.5,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "NOT_QUALIFIED",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 10.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Score is below the configured review threshold."
+            ],
+            "processing_time_ms": 0.0162
+        },
+        {
+            "candidate_id": "candidate_003",
+            "expected_outcome": "qualified",
+            "supplied_hiring_fit_score": 79.9,
+            "round_weighted_score": 79.95,
+            "score_used": 79.9,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.05,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "REVIEW",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 4.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Score falls within the configured review range."
+            ],
+            "processing_time_ms": 0.0123
+        },
+        {
+            "candidate_id": "candidate_004",
+            "expected_outcome": "not_qualified",
+            "supplied_hiring_fit_score": 91.0,
+            "round_weighted_score": 90.9,
+            "score_used": 91.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.1,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "NOT_QUALIFIED",
+            "intent": "NOT_QUALIFIED",
+            "intent_reason": "Eligibility status is REJECTED.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 4.0,
+            "reasons": [
+                "Eligibility status is REJECTED."
+            ],
+            "processing_time_ms": 0.0129
+        },
+        {
+            "candidate_id": "candidate_005",
+            "expected_outcome": "qualified",
+            "supplied_hiring_fit_score": 88.0,
+            "round_weighted_score": 88.12,
+            "score_used": 88.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.12,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "REVIEW",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [
+                "hr_interview"
+            ],
+            "demo_rounds": [],
+            "verified_round_count": 4,
+            "round_spread": 5.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Mandatory rounds are missing, incomplete, or unverified."
+            ],
+            "processing_time_ms": 0.0098
+        },
+        {
+            "candidate_id": "candidate_006",
+            "expected_outcome": "qualified",
+            "supplied_hiring_fit_score": 90.0,
+            "round_weighted_score": 90.53,
+            "score_used": 90.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.53,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "REVIEW",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [
+                "machine_test"
+            ],
+            "verified_round_count": 4,
+            "round_spread": 3.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Demo round data cannot support selection."
+            ],
+            "processing_time_ms": 0.0083
+        },
+        {
+            "candidate_id": "candidate_007",
+            "expected_outcome": "qualified",
+            "supplied_hiring_fit_score": 85.0,
+            "round_weighted_score": 84.75,
+            "score_used": 85.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.25,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "REVIEW",
+            "intent": "REVIEW",
+            "intent_reason": "Risk flags require human review.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 4.0,
+            "reasons": [
+                "Risk flags require human review."
+            ],
+            "processing_time_ms": 0.0086
+        },
+        {
+            "candidate_id": "candidate_008",
+            "expected_outcome": "qualified",
+            "supplied_hiring_fit_score": 58.0,
+            "round_weighted_score": 57.6,
+            "score_used": 58.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.4,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "NOT_QUALIFIED",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 5.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Score is below the configured review threshold."
+            ],
+            "processing_time_ms": 0.0083
+        },
+        {
+            "candidate_id": "candidate_009",
+            "expected_outcome": "qualified",
+            "supplied_hiring_fit_score": 84.0,
+            "round_weighted_score": 85.3,
+            "score_used": 84.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 1.3,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "REVIEW",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 46.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Assessment scores vary beyond the configured limit."
+            ],
+            "processing_time_ms": 0.0083
+        },
+        {
+            "candidate_id": "candidate_010",
+            "expected_outcome": "not_qualified",
+            "supplied_hiring_fit_score": 68.0,
+            "round_weighted_score": 68.2,
+            "score_used": 68.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.2,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "REVIEW",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 4.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Score falls within the configured review range."
+            ],
+            "processing_time_ms": 0.0083
+        },
+        {
+            "candidate_id": "candidate_011",
+            "expected_outcome": "not_qualified",
+            "supplied_hiring_fit_score": 88.0,
+            "round_weighted_score": 87.6,
+            "score_used": 88.0,
+            "score_consistency": {
+                "checked": true,
+                "score_difference": 0.4,
+                "review_required": false,
+                "message": "Supplied and calculated scores are consistent."
+            },
+            "decision": "SELECT",
+            "intent": "SCORE_EVALUATION",
+            "intent_reason": "Eligibility checks passed.",
+            "valid_rounds": [
+                "ats",
+                "screening",
+                "hr_interview",
+                "technical_interview",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "demo_rounds": [],
+            "verified_round_count": 5,
+            "round_spread": 3.0,
+            "reasons": [
+                "Eligibility checks passed.",
+                "Score meets the configured selection threshold."
+            ],
+            "processing_time_ms": 0.0084
+        }
+    ],
+    "errors": [],
+    "limitations": [
+        "Dataset scores and labels are illustrative synthetic data.",
+        "These metrics do not establish real-world hiring accuracy.",
+        "Thresholds and weights require validation against reviewed historical data.",
+        "Review cases are reported separately from binary metrics.",
+        "Score consistency is a safeguard, not proof of correctness.",
+        "This evaluator does not modify the Day 52 decision engine.",
+        "This script does not make or execute actual hiring decisions.",
+        "Human oversight is required for real hiring workflows."
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "system": "ZecPath Day 42 Stable HR Interview AI",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day37_hr_interview_scoring\\results\\hr_interview_score.json",
+    "hr_score_validation": {
+        "valid": true,
+        "errors": [],
+        "final_hr_interview_score": 91.47,
+        "question_count": 4
+    },
+    "interview_stability": {
+        "stable": true,
+        "total_questions": 4,
+        "duplicate_questions": [],
+        "errors": [],
+        "warnings": [],
+        "question_validation": {
+            "question_text_available": 4,
+            "candidate_answer_available": 4,
+            "response_status_available": 4,
+            "complete_questions": 4
+        }
+    },
+    "overall_status": "STABLE"
+}

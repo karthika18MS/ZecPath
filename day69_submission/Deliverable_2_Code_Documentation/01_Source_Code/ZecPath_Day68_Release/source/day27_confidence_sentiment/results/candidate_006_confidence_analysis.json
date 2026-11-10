@@ -1,0 +1,33 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "BACKEND_EXP_001",
+    "raw_answer": "Um, I think I have maybe three years of backend development experience.",
+    "normalized_answer": "um, i think i have maybe three years of backend development experience.",
+    "response_length": {
+        "word_count": 12,
+        "character_count": 71
+    },
+    "pace": {
+        "duration_seconds": 8.0,
+        "words_per_minute": 90.0,
+        "classification": "normal"
+    },
+    "hesitation": {
+        "detected": true,
+        "count": 3,
+        "patterns": [
+            "um",
+            "i think",
+            "maybe"
+        ]
+    },
+    "uncertainty": {
+        "detected": true,
+        "count": 2,
+        "patterns": [
+            "i think",
+            "maybe"
+        ]
+    },
+    "created_at": "2026-09-08T05:13:18.633418+00:00"
+}

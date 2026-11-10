@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND002",
+  "job_id": "JD002",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What are the main features of Python?",
+      "answer": "Python is an interpreted, high-level programming language. It has simple syntax, supports object-oriented programming and provides many libraries."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is Django?",
+      "answer": "Django is a Python web framework used to develop web applications. It provides features such as URL routing, database integration and an admin interface."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you retrieve employee records from a database?",
+      "answer": "I would connect the application to the database and execute a SELECT query to retrieve employee records. In Django, I could also use the ORM to access the records."
+    }
+  ]
+}

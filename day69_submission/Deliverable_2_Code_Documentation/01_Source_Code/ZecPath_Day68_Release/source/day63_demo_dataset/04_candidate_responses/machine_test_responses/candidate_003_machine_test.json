@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND003",
+    "job_id": "JD001",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.060754+05:30",
+    "task": {
+        "task_id": "MERN_TASK_003",
+        "title": "React Form Validation",
+        "requirements": [
+            "Create a React form",
+            "Validate required fields",
+            "Display validation messages",
+            "Handle form submission"
+        ],
+        "candidate_code": "\nimport React, { useState } from 'react';\n\nfunction EmployeeForm() {\n\n    const [name, setName] = useState('');\n    const [error, setError] = useState('');\n\n    function handleSubmit(event) {\n        event.preventDefault();\n\n        if (!name.trim()) {\n            setError('Name is required');\n            return;\n        }\n\n        setError('');\n        console.log('Employee:', name);\n    }\n\n    return (\n        <form onSubmit={handleSubmit}>\n            <input\n                value={name}\n                onChange={e => setName(e.target.value)}\n                placeholder=\"Employee name\"\n            />\n\n            {error && <p>{error}</p>}\n\n            <button type=\"submit\">Submit</button>\n        </form>\n    );\n}\n\nexport default EmployeeForm;\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 7,
+            "failed_tests": 3,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 80,
+            "code_quality": 78,
+            "readability": 82,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

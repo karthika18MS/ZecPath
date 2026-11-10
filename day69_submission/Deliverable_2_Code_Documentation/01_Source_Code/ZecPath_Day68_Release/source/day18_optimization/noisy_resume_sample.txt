@@ -1,0 +1,44 @@
+NAME:   Candidate   Test!!!
+
+
+PROFESSIONAL
+SUMMARY
+
+Backend Developer   with 3 years of experience.
+
+
+TECHNICAL
+SKILLS
+
+Python!!! | Fast API | Django
+RESTful API,,, PostgreSQL
+Mongo DB • Git • Docker
+Linux — AWS — Redis
+CI / CD
+Node JS
+Power BI
+
+
+PROFESSIONAL
+EXPERIENCE
+
+Backend Developer
+ABC Technologies
+
+2023 — 2026
+
+Developed REST APIs using Python and FastAPI.
+Built backend services using Django.
+Worked with PostgreSQL and MongoDB.
+
+
+EDUCATION
+
+Master of Computer Applications
+Computer Science
+
+
+PROJECTS
+
+E-Commerce Backend API
+Developed REST APIs using Python and FastAPI.

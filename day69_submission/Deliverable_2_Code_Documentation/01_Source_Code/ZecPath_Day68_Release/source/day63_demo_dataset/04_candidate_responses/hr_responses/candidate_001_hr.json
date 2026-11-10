@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND001",
+    "job_id": "JD001",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "I am Arun Kumar, a MERN Stack Developer with three years of experience. I have worked with React.js, Node.js, Express.js and MongoDB. I have developed web applications, integrated REST APIs and implemented authentication features.",
+            "answer_relevance": 92,
+            "communication_score": 88,
+            "confidence_score": 86,
+            "consistency_score": 90
+        },
+        {
+            "question_id": "HR002",
+            "question": "How do you handle challenges while working in a team?",
+            "answer": "I first understand the problem and discuss it with my team members. I divide the work into smaller tasks and communicate regularly. If I face a technical issue, I try to solve it independently before asking for assistance.",
+            "answer_relevance": 88,
+            "communication_score": 90,
+            "confidence_score": 88,
+            "consistency_score": 90
+        },
+        {
+            "question_id": "HR003",
+            "question": "Why should we hire you?",
+            "answer": "I have practical experience in full-stack development and understand both frontend and backend technologies. I can contribute to application development, debugging and API integration. I am also comfortable working collaboratively.",
+            "answer_relevance": 91,
+            "communication_score": 89,
+            "confidence_score": 87,
+            "consistency_score": 91
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

@@ -1,0 +1,15 @@
+{
+    "candidate_id": "candidate_013",
+    "target_role": "Python Developer",
+    "candidate_experience": {
+        "years": 4.0,
+        "months": 48
+    },
+    "required_experience": {
+        "minimum_years": 2.0,
+        "maximum_years": null,
+        "requirement_type": "minimum"
+    },
+    "experience_score": 100.0,
+    "experience_status": "Experience Meets Minimum Requirement"
+}

@@ -1,0 +1,15 @@
+{
+    "candidate_id": "candidate_010",
+    "target_role": "Fresher Data Analyst",
+    "candidate_experience": {
+        "years": 0.0,
+        "months": 0
+    },
+    "required_experience": {
+        "minimum_years": null,
+        "maximum_years": null,
+        "requirement_type": "not_specified"
+    },
+    "experience_score": 100.0,
+    "experience_status": "Experience Requirement Not Specified"
+}

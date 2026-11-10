@@ -1,0 +1,25 @@
+
+{
+    "data_type": "TEST_INPUT",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "task": {
+        "task_id": "MT_PYTHON_001",
+        "title": "Python List Processing",
+        "requirements": [
+            "Remove duplicate values",
+            "Preserve the original order",
+            "Return the processed list"
+        ],
+        "candidate_code": "def remove_duplicates(items):\n    return list(dict.fromkeys(items))",
+        "test_results": {
+            "total_tests": 3,
+            "passed_tests": 3
+        },
+        "review_scores": {
+            "requirement_coverage": 90,
+            "code_quality": 85,
+            "readability": 90
+        }
+    }
+}

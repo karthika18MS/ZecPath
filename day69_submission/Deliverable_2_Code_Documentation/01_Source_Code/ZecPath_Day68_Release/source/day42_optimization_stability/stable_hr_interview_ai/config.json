@@ -1,0 +1,18 @@
+{
+    "stability_rules": {
+        "max_followups_per_question": 2,
+        "max_total_questions": 10,
+        "prevent_duplicate_questions": true,
+        "require_question_id": true,
+        "require_question_text": true,
+        "require_candidate_answer": true,
+        "require_response_status": true
+    },
+
+    "hr_scoring": {
+        "source_file": "../../day37_hr_interview_scoring/results/hr_interview_score.json",
+        "score_min": 0,
+        "score_max": 100,
+        "require_weight_total": 1.0
+    }
+}

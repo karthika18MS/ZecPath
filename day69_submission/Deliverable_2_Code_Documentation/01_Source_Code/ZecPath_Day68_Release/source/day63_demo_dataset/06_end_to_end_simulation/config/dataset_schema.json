@@ -1,0 +1,80 @@
+
+{
+    "schema_name": "ZecPath Simulation Dataset Schema",
+    "schema_version": "1.1",
+
+    "required_directories": [
+        "01_candidate_profiles",
+        "02_sample_resumes",
+        "03_job_descriptions",
+        "04_candidate_responses"
+    ],
+
+    "candidate_profile": {
+        "required_fields": [
+            "candidate_id"
+        ],
+        "field_types": {
+            "candidate_id": "string"
+        }
+    },
+
+    "resume": {
+        "allowed_extensions": [
+            ".pdf",
+            ".docx"
+        ],
+        "required": true,
+        "recursive_search": true
+    },
+
+    "job_description": {
+        "allowed_extensions": [
+            ".txt"
+        ],
+        "required": true
+    },
+
+    "responses": {
+        "required_directories": [
+            "hr_responses",
+            "aptitude_responses",
+            "technical_responses",
+            "machine_test_responses"
+        ],
+        "allowed_extensions": [
+            ".json"
+        ]
+    },
+
+    "machine_test": {
+        "required_fields": [
+            "candidate_id",
+            "job_id",
+            "assessment_type",
+            "task"
+        ],
+        "expected_assessment_type": "MACHINE_TEST",
+
+        "task_required_fields": [
+            "task_id",
+            "title",
+            "requirements",
+            "candidate_code",
+            "test_results",
+            "review_scores"
+        ],
+
+        "test_results_required_fields": [
+            "total_tests",
+            "passed_tests",
+            "failed_tests"
+        ],
+
+        "review_scores_required_fields": [
+            "requirement_coverage",
+            "code_quality",
+            "readability"
+        ]
+    }
+}

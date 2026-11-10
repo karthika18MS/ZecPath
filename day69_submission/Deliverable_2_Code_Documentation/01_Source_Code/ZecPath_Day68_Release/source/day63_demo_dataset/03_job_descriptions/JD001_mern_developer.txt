@@ -1,0 +1,68 @@
+JOB ID: JD001
+
+JOB TITLE: MERN Stack Developer
+
+COMPANY: ZecPath Technologies
+
+JOB LOCATION: Kochi, Kerala, India
+
+EMPLOYMENT TYPE: Full-Time
+
+EXPERIENCE REQUIRED: 2–4 Years
+
+JOB DESCRIPTION:
+
+We are looking for a skilled MERN Stack Developer to join our software development team. The candidate should have experience developing responsive web applications using MongoDB, Express.js, React.js and Node.js.
+
+The selected candidate will work on frontend development, backend API development, database integration and application maintenance.
+
+KEY RESPONSIBILITIES:
+
+1. Develop responsive user interfaces using React.js.
+2. Build backend services using Node.js and Express.js.
+3. Design and manage MongoDB databases.
+4. Develop and integrate RESTful APIs.
+5. Implement user authentication and authorization.
+6. Debug and resolve application issues.
+7. Collaborate with UI/UX designers and backend developers.
+8. Maintain application performance and code quality.
+9. Participate in code reviews and technical discussions.
+10. Use Git and GitHub for version control.
+
+MANDATORY SKILLS:
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- JavaScript
+
+PREFERRED SKILLS:
+
+- HTML5
+- CSS3
+- Bootstrap
+- REST API Development
+- JWT Authentication
+- Git
+- GitHub
+
+EDUCATIONAL QUALIFICATION:
+
+- BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field.
+
+EXPERIENCE REQUIREMENT:
+
+- Minimum: 2 years
+- Maximum: 4 years
+
+ADDITIONAL REQUIREMENTS:
+
+- Good problem-solving skills.
+- Ability to work independently and in a team.
+- Good communication skills.
+- Knowledge of software development practices.
+
+JOB SUMMARY:
+
+The ideal candidate should have practical experience with the MERN stack and be capable of developing and maintaining full-stack web applications.

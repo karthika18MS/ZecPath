@@ -1,0 +1,89 @@
+{
+    "report_type": "INDIVIDUAL_CANDIDATE_REPORT",
+    "dataset_name": "day63_demo_dataset",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "generated_at": "2026-11-07T17:43:11.799426+00:00",
+    "candidate_information": {
+        "candidate_id": "CAND004",
+        "job_id": "JD003"
+    },
+    "assessment_summary": {
+        "round_details": {
+            "ats": {
+                "score": 56.44,
+                "weight": 0.15,
+                "assessment_status": "COMPLETED",
+                "provenance": {
+                    "is_simulated": null,
+                    "score_source": null
+                }
+            },
+            "hr": {
+                "score": 87.62,
+                "weight": 0.15,
+                "assessment_status": "COMPLETED",
+                "provenance": {
+                    "is_simulated": null,
+                    "score_source": null
+                }
+            },
+            "aptitude": {
+                "score": 81.84,
+                "weight": 0.15,
+                "assessment_status": "COMPLETED",
+                "provenance": {
+                    "is_simulated": true,
+                    "score_source": "SIMULATED_HEURISTIC_DEMO"
+                }
+            },
+            "technical": {
+                "score": 59.78,
+                "weight": 0.25,
+                "assessment_status": "COMPLETED",
+                "provenance": {
+                    "is_simulated": true,
+                    "score_source": "SIMULATED_HEURISTIC_DEMO"
+                }
+            },
+            "machine_test": {
+                "score": 73.6,
+                "weight": 0.3,
+                "assessment_status": "COMPLETED",
+                "provenance": {
+                    "is_simulated": true,
+                    "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                    "test_results_are_simulated": true,
+                    "review_scores_are_simulated": true,
+                    "is_verified_real_candidate_result": false
+                }
+            }
+        },
+        "unified_score": 70.91,
+        "score_coverage": 100.0,
+        "available_weight": 1.0,
+        "available_rounds": [
+            "ats",
+            "hr",
+            "aptitude",
+            "technical",
+            "machine_test"
+        ],
+        "missing_rounds": [],
+        "scoring_status": "COMPLETED"
+    },
+    "eligibility_evaluation": {
+        "ats_eligibility_status": "REJECTED",
+        "final_decision": "NOT_ELIGIBLE",
+        "decision_metadata": {
+            "ats_eligibility_status": "REJECTED",
+            "scoring_status": "COMPLETED",
+            "decision_source": "CROSS_ROUND_SCORING_ENGINE",
+            "ats_gate_applied": true
+        }
+    },
+    "data_quality_notice": {
+        "dataset_type": "DEMO_DATASET",
+        "is_verified_real_hiring_evaluation": false,
+        "notice": "This report contains demonstration assessment outputs. Several assessment scores are simulated and must not be treated as verified real hiring results."
+    }
+}

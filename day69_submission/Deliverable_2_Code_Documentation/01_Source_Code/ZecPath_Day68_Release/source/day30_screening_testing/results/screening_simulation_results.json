@@ -1,0 +1,127 @@
+{
+    "report_type": "Simulated Screening Call Test Results",
+    "total_test_cases": 10,
+    "test_cases": [
+        {
+            "test_id": "SC001",
+            "description": "Strong valid experience response",
+            "question_category": "experience",
+            "human_judgment": "Valid response",
+            "expected_response_type": "valid",
+            "expected_action": "next_question",
+            "ai_response_type": "valid",
+            "ai_action": "next_question",
+            "ai_reason": "Candidate provided a valid response. The AI can continue to the next question.",
+            "next_prompt": "Continue to the next screening question."
+        },
+        {
+            "test_id": "SC002",
+            "description": "Vague experience response",
+            "question_category": "experience",
+            "human_judgment": "Needs more information",
+            "expected_response_type": "vague",
+            "expected_action": "follow_up",
+            "ai_response_type": "vague",
+            "ai_action": "follow_up",
+            "ai_reason": "Candidate response is vague. The AI should request more specific information.",
+            "next_prompt": "Could you provide more details about your relevant experience?"
+        },
+        {
+            "test_id": "SC003",
+            "description": "Candidate gives no response",
+            "question_category": "experience",
+            "human_judgment": "Retry required",
+            "expected_response_type": "no_response",
+            "expected_action": "retry",
+            "ai_response_type": "no_response",
+            "ai_action": "retry",
+            "ai_reason": "No candidate response was received. The AI should retry the question.",
+            "next_prompt": "I didn't hear your response. Could you please answer the question?"
+        },
+        {
+            "test_id": "SC004",
+            "description": "Confused candidate response",
+            "question_category": "experience",
+            "human_judgment": "Clarification required",
+            "expected_response_type": "confused",
+            "expected_action": "clarification",
+            "ai_response_type": "valid",
+            "ai_action": "next_question",
+            "ai_reason": "Candidate provided a valid response. The AI can continue to the next question.",
+            "next_prompt": "Continue to the next screening question."
+        },
+        {
+            "test_id": "SC005",
+            "description": "Off-topic candidate response",
+            "question_category": "experience",
+            "human_judgment": "Off-topic response",
+            "expected_response_type": "off_topic",
+            "expected_action": "redirect",
+            "ai_response_type": "valid",
+            "ai_action": "next_question",
+            "ai_reason": "Candidate provided a valid response. The AI can continue to the next question.",
+            "next_prompt": "Continue to the next screening question."
+        },
+        {
+            "test_id": "SC006",
+            "description": "Repeated candidate answer",
+            "question_category": "experience",
+            "human_judgment": "Additional information required",
+            "expected_response_type": "repeated",
+            "expected_action": "follow_up",
+            "ai_response_type": "repeated",
+            "ai_action": "follow_up",
+            "ai_reason": "Candidate repeated information already provided. The AI should request the missing information.",
+            "next_prompt": "Could you provide more details about your relevant experience?"
+        },
+        {
+            "test_id": "SC007",
+            "description": "Relevant but incomplete skills response",
+            "question_category": "skills",
+            "human_judgment": "Valid but limited response",
+            "expected_response_type": "valid",
+            "expected_action": "next_question",
+            "ai_response_type": "valid",
+            "ai_action": "next_question",
+            "ai_reason": "Candidate provided a valid response. The AI can continue to the next question.",
+            "next_prompt": "Continue to the next screening question."
+        },
+        {
+            "test_id": "SC008",
+            "description": "Salary response",
+            "question_category": "salary",
+            "human_judgment": "Valid salary response",
+            "expected_response_type": "valid",
+            "expected_action": "next_question",
+            "ai_response_type": "valid",
+            "ai_action": "next_question",
+            "ai_reason": "Candidate provided a valid response. The AI can continue to the next question.",
+            "next_prompt": "Continue to the next screening question."
+        },
+        {
+            "test_id": "SC009",
+            "description": "Availability response",
+            "question_category": "availability",
+            "human_judgment": "Valid availability response",
+            "expected_response_type": "valid",
+            "expected_action": "next_question",
+            "ai_response_type": "valid",
+            "ai_action": "next_question",
+            "ai_reason": "Candidate provided a valid response. The AI can continue to the next question.",
+            "next_prompt": "Continue to the next screening question."
+        },
+        {
+            "test_id": "SC010",
+            "description": "Irrelevant response to skills question",
+            "question_category": "skills",
+            "human_judgment": "Off-topic response",
+            "expected_response_type": "off_topic",
+            "expected_action": "redirect",
+            "ai_response_type": "valid",
+            "ai_action": "next_question",
+            "ai_reason": "Candidate provided a valid response. The AI can continue to the next question.",
+            "next_prompt": "Continue to the next screening question."
+        }
+    ],
+    "created_at": "2026-09-11T05:34:31.318575+00:00"
+}

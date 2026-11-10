@@ -1,0 +1,23 @@
+{
+    "candidate_id": "cand001",
+    "target_role": "python developer",
+    "final_ats_score": 74.6,
+    "components": {
+        "skill_match": {
+            "score": 51.64,
+            "status": "Available"
+        },
+        "experience_relevance": {
+            "score": 95.0,
+            "status": "Available"
+        },
+        "education_alignment": {
+            "score": 100.0,
+            "status": "Available"
+        },
+        "semantic_similarity": {
+            "score": 71.09,
+            "status": "Available"
+        }
+    }
+}

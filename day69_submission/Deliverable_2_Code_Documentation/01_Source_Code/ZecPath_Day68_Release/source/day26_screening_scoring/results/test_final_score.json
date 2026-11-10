@@ -1,0 +1,117 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "screening_summary": {
+        "total_questions": 3,
+        "answered_questions": 3,
+        "no_response_questions": 0,
+        "off_topic_questions": 0
+    },
+    "average_scores": {
+        "clarity": 8.67,
+        "relevance": 9.67,
+        "completeness": 9.0,
+        "consistency": 8.67
+    },
+    "final_screening_score": 90.0,
+    "score_scale": "0-100",
+    "explanation": {
+        "strengths": [
+            {
+                "question_id": "BACKEND_EXP_001",
+                "reason": "Answer is clear and easy to understand."
+            },
+            {
+                "question_id": "BACKEND_SKILLS_001",
+                "reason": "Answer directly addresses the question."
+            },
+            {
+                "question_id": "BACKEND_LOCATION_001",
+                "reason": "Answer directly addresses the question."
+            }
+        ],
+        "weaknesses": [
+            {
+                "question_id": "BACKEND_SKILLS_001",
+                "reason": "More technical details could be provided."
+            }
+        ]
+    },
+    "question_scores": [
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_EXP_001",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "scores": {
+                "clarity": 9,
+                "relevance": 10,
+                "completeness": 10,
+                "consistency": 9
+            },
+            "weighted_score": 9.5,
+            "normalized_score": 95.0,
+            "answer_status": "valid",
+            "intent": "experience",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer is clear and easy to understand."
+                ],
+                "weaknesses": []
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_SKILLS_001",
+            "question": "Which technical skills do you have?",
+            "question_category": "skills",
+            "scores": {
+                "clarity": 8,
+                "relevance": 9,
+                "completeness": 9,
+                "consistency": 8
+            },
+            "weighted_score": 8.5,
+            "normalized_score": 85.0,
+            "answer_status": "valid",
+            "intent": "skills",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer directly addresses the question."
+                ],
+                "weaknesses": [
+                    "More technical details could be provided."
+                ]
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_LOCATION_001",
+            "question": "Where are you currently located?",
+            "question_category": "location",
+            "scores": {
+                "clarity": 9,
+                "relevance": 10,
+                "completeness": 8,
+                "consistency": 9
+            },
+            "weighted_score": 9.0,
+            "normalized_score": 90.0,
+            "answer_status": "valid",
+            "intent": "location",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer directly addresses the question."
+                ],
+                "weaknesses": []
+            }
+        }
+    ],
+    "created_at": "2026-09-07T05:32:23.794216+00:00"
+}

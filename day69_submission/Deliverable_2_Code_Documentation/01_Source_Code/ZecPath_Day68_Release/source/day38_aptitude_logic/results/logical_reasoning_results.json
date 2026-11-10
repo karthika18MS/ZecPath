@@ -1,0 +1,29 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "APT_LOGIC_003",
+    "question": "A project has five tasks. Task A must be completed before Task B, and Task C must be completed before Task D. Which tasks can be started independently?",
+    "difficulty": "medium",
+    "response": "Task A and Task C can be started independently because neither of them depends on another task. After Task A, Task B can be started, and after Task C, Task D can be started.",
+    "parameter_scores": {
+        "problem_understanding": 90,
+        "reasoning": 85,
+        "decision_quality": 85,
+        "explanation_clarity": 90,
+        "conclusion": 85
+    },
+    "weights": {
+        "problem_understanding": 0.2,
+        "reasoning": 0.3,
+        "decision_quality": 0.2,
+        "explanation_clarity": 0.15,
+        "conclusion": 0.15
+    },
+    "weighted_contributions": {
+        "problem_understanding": 18.0,
+        "reasoning": 25.5,
+        "decision_quality": 17.0,
+        "explanation_clarity": 13.5,
+        "conclusion": 12.75
+    },
+    "logical_reasoning_score": 86.75
+}

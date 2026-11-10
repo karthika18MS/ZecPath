@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND004",
+  "job_id": "JD003",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What is object-oriented programming?",
+      "answer": "Object-oriented programming is a programming approach based on classes and objects. Its main concepts include encapsulation, inheritance, polymorphism and abstraction."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is the difference between an interface and an abstract class in Java?",
+      "answer": "An interface defines a contract that implementing classes must follow. An abstract class can contain both abstract and implemented methods and can maintain instance state."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you handle an exception in Java?",
+      "answer": "I would use try and catch blocks to handle exceptions. The finally block can be used for cleanup operations. I would also use appropriate exception types."
+    }
+  ]
+}

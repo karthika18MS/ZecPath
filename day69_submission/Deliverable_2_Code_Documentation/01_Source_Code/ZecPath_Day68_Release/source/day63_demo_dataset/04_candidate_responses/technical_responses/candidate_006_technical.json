@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND006",
+  "job_id": "JD002",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What is the difference between a Python list and a tuple?",
+      "answer": "A list is mutable, meaning its elements can be modified after creation. A tuple is immutable. Lists are generally used for collections that need modification, while tuples are useful for fixed collections."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is the purpose of Pandas in Python?",
+      "answer": "Pandas is a data analysis library that provides Series and DataFrame structures. It is useful for loading, cleaning, transforming and analyzing structured data."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you build a machine learning workflow for predicting candidate-job matching?",
+      "answer": "I would first collect candidate and job description data. Then I would clean the text, extract relevant features and represent skills using suitable numerical techniques. I would train and validate a model using appropriate evaluation metrics. Finally, I would integrate the model into a Python API and monitor its predictions."
+    }
+  ]
+}

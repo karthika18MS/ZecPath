@@ -1,0 +1,46 @@
+{
+    "candidate_id": "candidate_007",
+    "target_role": "HR Executive",
+    "normalized_role": "hr executive",
+    "skill_match_score": 80.0,
+    "matching_status": "Excellent Skill Match",
+    "required_skills": [
+        "performance management",
+        "employee engagement",
+        "talent acquisition",
+        "employee relations",
+        "human resources",
+        "communication",
+        "recruitment",
+        "onboarding",
+        "payroll",
+        "hrms"
+    ],
+    "resume_skills": [
+        "employee engagement",
+        "talent acquisition",
+        "employee relations",
+        "human resources",
+        "communication",
+        "recruitment",
+        "onboarding",
+        "hrms"
+    ],
+    "matched_skills": [
+        "employee engagement",
+        "talent acquisition",
+        "employee relations",
+        "human resources",
+        "communication",
+        "recruitment",
+        "onboarding",
+        "hrms"
+    ],
+    "missing_skills": [
+        "performance management",
+        "payroll"
+    ],
+    "total_required_skills": 10,
+    "total_matched_skills": 8,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

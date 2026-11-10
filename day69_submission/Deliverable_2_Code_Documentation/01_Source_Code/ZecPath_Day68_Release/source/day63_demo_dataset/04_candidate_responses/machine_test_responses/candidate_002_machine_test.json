@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND002",
+    "job_id": "JD002",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.060115+05:30",
+    "task": {
+        "task_id": "PYTHON_TASK_002",
+        "title": "Python Employee Data Processing",
+        "requirements": [
+            "Process employee records",
+            "Calculate average salary",
+            "Filter employee records",
+            "Handle empty input"
+        ],
+        "candidate_code": "\ndef process_employees(employees):\n\n    if not employees:\n        return {\n            \"employees\": [],\n            \"average_salary\": 0\n        }\n\n    valid_employees = [\n        employee for employee in employees\n        if \"salary\" in employee\n    ]\n\n    if not valid_employees:\n        return {\n            \"employees\": [],\n            \"average_salary\": 0\n        }\n\n    average_salary = (\n        sum(item[\"salary\"] for item in valid_employees)\n        / len(valid_employees)\n    )\n\n    return {\n        \"employees\": valid_employees,\n        \"average_salary\": average_salary\n    }\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 9,
+            "failed_tests": 1,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 88,
+            "code_quality": 85,
+            "readability": 90,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

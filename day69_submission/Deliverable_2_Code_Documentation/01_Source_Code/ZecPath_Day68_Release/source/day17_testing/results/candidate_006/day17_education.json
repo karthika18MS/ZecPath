@@ -1,0 +1,16 @@
+{
+    "candidate_id": "candidate_006",
+    "target_role": "Backend Developer",
+    "candidate_education": [
+        "mca"
+    ],
+    "accepted_education_fields": [
+        "computer_applications",
+        "computer_science",
+        "information_technology",
+        "related_field"
+    ],
+    "matched_education": "MCA",
+    "education_alignment_score": 100.0,
+    "status": "Education Aligned"
+}

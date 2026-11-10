@@ -1,0 +1,179 @@
+{
+    "candidate_id": "candidate_007",
+    "target_role": "HR Executive",
+    "job_description": "hr_executive.txt",
+    "engine": "ZecPath Day 18 Optimized ATS Engine",
+    "pipeline_status": "SUCCESS",
+    "scores": {
+        "skill_matching": 80.0,
+        "experience_relevance": 100.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 85.32,
+        "final_ats_score": 89.33
+    },
+    "weights": {
+        "skill_matching": 0.35,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "excluded_components": [],
+    "contributions": {
+        "skill_matching": 28.0,
+        "experience_relevance": 25.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 21.33
+    },
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "manual_review": {
+        "review_required": false,
+        "review_status": "NOT_REQUIRED",
+        "review_reason": null
+    },
+    "skill_details": {
+        "score": 80.0,
+        "required_skills": [
+            "communication",
+            "employee engagement",
+            "employee relations",
+            "hrms",
+            "human resources",
+            "onboarding",
+            "payroll",
+            "performance management",
+            "recruitment",
+            "talent acquisition"
+        ],
+        "matched_skills": [
+            "communication",
+            "employee engagement",
+            "employee relations",
+            "hrms",
+            "human resources",
+            "onboarding",
+            "recruitment",
+            "talent acquisition"
+        ],
+        "missing_skills": [
+            "payroll",
+            "performance management"
+        ],
+        "total_required_skills": 10,
+        "total_matched_skills": 8,
+        "source": "Day 17 validated skill matcher"
+    },
+    "experience_details": {
+        "score": 100.0,
+        "candidate_experience_years": 2.0,
+        "minimum_required_years": 1.0,
+        "maximum_required_years": 3.0,
+        "is_applicable": true,
+        "status": "Experience Fully Meets Requirement"
+    },
+    "education_details": {
+        "score": 100.0,
+        "candidate_degrees": [
+            "mba"
+        ],
+        "candidate_fields": [
+            "business administration",
+            "human resources",
+            "management"
+        ],
+        "required_degrees": [],
+        "required_fields": [
+            "business administration",
+            "human resources",
+            "management"
+        ],
+        "degree_match": false,
+        "field_match": true,
+        "status": "Education Field Requirement Met"
+    },
+    "semantic_details": {
+        "score": 85.32,
+        "raw_score": 0.8532,
+        "embedding_length": 384,
+        "model_access_time_seconds": 7.558363
+    },
+    "entity_detection": {
+        "name": "Candidate 007",
+        "job_titles": [
+            "hr executive"
+        ],
+        "skills": [
+            "communication",
+            "employee engagement",
+            "employee relations",
+            "excel",
+            "hr operations",
+            "human resources",
+            "interview coordination",
+            "onboarding",
+            "recruitment",
+            "talent acquisition"
+        ],
+        "degrees": [
+            "mba"
+        ],
+        "experience_years": 2.0,
+        "years": [
+            2024,
+            2026
+        ],
+        "projects": [],
+        "sections": {
+            "summary": [
+                "HR Executive with 2 years of experience in recruitment,",
+                "employee onboarding, HR operations, and interview coordination."
+            ],
+            "skills": [
+                "Recruitment",
+                "Talent Acquisition",
+                "Interview Coordination",
+                "Employee Onboarding",
+                "HR Operations",
+                "Communication",
+                "MS Excel",
+                "HR Documentation",
+                "Employee Relations",
+                "HRMS"
+            ],
+            "experience": [
+                "HR Executive",
+                "XYZ Solutions",
+                "2024 - 2026",
+                "Managed recruitment activities for technical and non-technical positions.",
+                "Screened resumes and shortlisted candidates.",
+                "Scheduled interviews with candidates and hiring managers.",
+                "Coordinated employee onboarding activities.",
+                "Maintained employee records and HR documentation.",
+                "Prepared HR reports using Microsoft Excel.",
+                "Supported employee engagement activities.",
+                "Used HRMS for maintaining employee information."
+            ],
+            "education": [
+                "Master of Business Administration",
+                "Human Resources",
+                "PROJECT:",
+                "Employee Recruitment Management System",
+                "Created a recruitment tracking process for managing",
+                "candidate applications, interview schedules, and hiring status."
+            ]
+        }
+    },
+    "semantic_input": "Validated Day 17 cleaned resume",
+    "performance": {
+        "extraction_time_seconds": 0.12647,
+        "cleaning_time_seconds": 0.002663,
+        "entity_detection_time_seconds": 0.036109,
+        "skill_matching_time_seconds": 0.104515,
+        "semantic_processing_time_seconds": 9.558442,
+        "semantic_model_access_time_seconds": 7.558363,
+        "unaccounted_pipeline_time_seconds": 0.015337,
+        "total_pipeline_time_seconds": 9.843535,
+        "output_save_time_seconds": 0.001398
+    }
+}

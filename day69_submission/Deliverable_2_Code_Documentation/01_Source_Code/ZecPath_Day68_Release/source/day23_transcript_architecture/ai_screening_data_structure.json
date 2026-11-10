@@ -1,0 +1,64 @@
+{
+  "schema_name": "ZecPath AI Screening Data Structure",
+  "schema_version": "1.0",
+  "description": "Structured representation of candidate screening call data prepared for AI processing.",
+
+  "screening_session": {
+    "session_id": "SESSION_000001",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "role": "backend_developer",
+    "language": "en",
+    "status": "completed",
+
+    "questions": [
+      {
+        "question_id": "BACKEND_INTRO_001",
+        "category": "introduction",
+        "question": "Can you briefly introduce yourself and describe your current role?",
+
+        "candidate_response": {
+          "raw_text": "I am a backend developer with three years of experience.",
+          "normalized_text": "I am a backend developer with three years of experience.",
+          "confidence": 0.96
+        },
+
+        "extracted_data": {
+          "answer": "Backend developer with three years of experience",
+          "experience_years": 3,
+          "skills": [
+            "backend development"
+          ],
+          "location": null,
+          "availability_days": null,
+          "salary": null
+        },
+
+        "evaluation": {
+          "answer_type": "free_text",
+          "score": null,
+          "importance": "high",
+          "reason": null
+        }
+      }
+    ],
+
+    "candidate_profile": {
+      "education": [],
+      "experience_years": null,
+      "skills": [],
+      "location": null,
+      "salary_expectation": null,
+      "notice_period_days": null
+    },
+
+    "screening_summary": {
+      "questions_asked": 1,
+      "questions_answered": 1,
+      "mandatory_questions_answered": 1,
+      "average_answer_score": null,
+      "overall_screening_score": null,
+      "recommendation": null
+    }
+  }
+}

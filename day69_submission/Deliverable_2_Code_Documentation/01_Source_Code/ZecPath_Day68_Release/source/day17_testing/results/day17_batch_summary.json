@@ -1,0 +1,90 @@
+[
+    {
+        "candidate_id": "candidate_006",
+        "target_role": "Backend Developer",
+        "job_description": "backend_developer.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 90.1,
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "recommendation": "Recommended for Interview"
+    },
+    {
+        "candidate_id": "candidate_007",
+        "target_role": "HR Executive",
+        "job_description": "hr_executive.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 89.33,
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "recommendation": "Recommended for Interview"
+    },
+    {
+        "candidate_id": "candidate_008",
+        "target_role": "Marketing Executive",
+        "job_description": "marketing_executive.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 92.54,
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "recommendation": "Recommended for Interview"
+    },
+    {
+        "candidate_id": "candidate_009",
+        "target_role": "Fresher Python Developer",
+        "job_description": "fresher_python_developer.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 91.92,
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "recommendation": "Recommended for Interview"
+    },
+    {
+        "candidate_id": "candidate_010",
+        "target_role": "Fresher Data Analyst",
+        "job_description": "fresher_data_analyst.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 93.27,
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "recommendation": "Recommended for Interview"
+    },
+    {
+        "candidate_id": "candidate_011",
+        "target_role": "Senior Python Developer",
+        "job_description": "senior_python_developer.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 91.56,
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "recommendation": "Recommended for Interview"
+    },
+    {
+        "candidate_id": "candidate_012",
+        "target_role": "Senior Backend Developer",
+        "job_description": "senior_backend_developer.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 94.29,
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "recommendation": "Recommended for Interview"
+    },
+    {
+        "candidate_id": "candidate_013",
+        "target_role": "Python Developer",
+        "job_description": "python_developer.txt",
+        "pipeline_status": "SUCCESS",
+        "failed_stage": null,
+        "final_ats_score": 37.9,
+        "matching_status": "Low Match",
+        "shortlisting_status": "Not Shortlisted",
+        "recommendation": "Not Recommended"
+    }
+]

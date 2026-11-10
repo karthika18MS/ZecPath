@@ -1,0 +1,34 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "evaluation_scores": {
+        "hr_interview_score": 91.47,
+        "communication_score": 91.75,
+        "confidence_score": 81.25,
+        "logical_reasoning_score": 86.75,
+        "scenario_score": 89.9
+    },
+    "overall_hr_performance": {
+        "score": 88.22,
+        "level": "Strong",
+        "summary": "The candidate demonstrated strong overall HR interview performance. The evaluation indicates good communication, reasoning, and practical problem-solving ability."
+    },
+    "strengths": [
+        "Strong communication skills",
+        "Strong confidence indicators",
+        "Good logical reasoning ability",
+        "Good practical problem-solving ability",
+        "Relevant and focused responses",
+        "Consistent responses"
+    ],
+    "weaknesses": [],
+    "cultural_fit_indicators": [
+        "Communicates ideas clearly",
+        "Demonstrates practical problem-solving",
+        "Demonstrates consistent responses",
+        "Demonstrates teamwork orientation",
+        "Demonstrates adaptability"
+    ],
+    "risk_flags": [],
+    "inconsistencies": []
+}

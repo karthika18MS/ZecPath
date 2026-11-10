@@ -1,0 +1,96 @@
+{
+  "title": "ATS Scoring API",
+  "description": "Proposed request and response schema for scoring a resume against a job description.",
+  "request": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "job_id",
+      "resume_text",
+      "job_description"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "job_id": {
+        "type": "string"
+      },
+      "resume_text": {
+        "type": "string",
+        "minLength": 1
+      },
+      "job_description": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "additionalProperties": false
+  },
+  "success_response": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "job_id",
+      "ats_score",
+      "status"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "job_id": {
+        "type": "string"
+      },
+      "ats_score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "score_breakdown": {
+        "type": "object",
+        "description": "Optional component scores, each in the range 0\u2013100"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "SUCCESS"
+        ]
+      },
+      "request_id": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  },
+  "error_response": {
+    "type": "object",
+    "required": [
+      "status",
+      "error"
+    ],
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "FAILED"
+        ]
+      },
+      "error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

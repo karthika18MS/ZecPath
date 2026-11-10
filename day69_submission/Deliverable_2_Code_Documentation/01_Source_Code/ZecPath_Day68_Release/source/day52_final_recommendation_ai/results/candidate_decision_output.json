@@ -1,0 +1,49 @@
+{
+    "engine": "ZecPath Day 52 Decision AI Engine",
+    "engine_version": "1.1",
+    "output_status": "SUCCESS",
+    "report_type": "DEMO_ONLY",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "hiring_fit_score": 89.82,
+    "decision": "Hold / Review",
+    "confidence": {
+        "confidence_score": 60.0,
+        "scale": "0-100",
+        "verified_rounds": 3,
+        "total_rounds": 5,
+        "method": "Percentage of rounds not labelled as demo data.",
+        "interpretation": "Data-completeness indicator, not a probability of hiring success."
+    },
+    "risk_assessment": {
+        "risk_flags": [],
+        "demo_data_rounds": [
+            "machine_test",
+            "technical_interview"
+        ],
+        "requires_human_review": true,
+        "method": "Explicit input flags and evaluation-data labels."
+    },
+    "explanation": {
+        "reasons": [
+            "Demo data is present in: machine_test, technical_interview",
+            "Eligibility status was not provided.",
+            "Confidence indicator is below the configured threshold.",
+            "The score meets the selection threshold, but one or more safeguards require review."
+        ],
+        "decision_policy": "Score thresholds combined with eligibility, confidence, risk, and data-quality safeguards.",
+        "score_thresholds": {
+            "selected_minimum_score": 80.0,
+            "review_minimum_score": 60.0,
+            "require_verified_data_for_selection": true,
+            "review_if_demo_data": true,
+            "review_if_risk_flags": true,
+            "review_if_low_confidence": true,
+            "minimum_confidence_for_selection": 80.0
+        },
+        "eligibility_status": "NOT_PROVIDED"
+    },
+    "human_review_required": true,
+    "automated_hiring_action_taken": false,
+    "generated_at_utc": "2026-10-12T15:50:55.903149+00:00"
+}

@@ -1,0 +1,53 @@
+JOB TITLE: Senior Backend Developer
+
+JOB SUMMARY:
+
+We are looking for an experienced Senior Backend Developer
+to design scalable server-side systems and lead backend
+development activities.
+
+REQUIRED SKILLS:
+
+Python
+FastAPI
+Django
+REST API
+PostgreSQL
+MongoDB
+Docker
+Kubernetes
+AWS
+Microservices
+System Design
+Git
+
+PREFERRED SKILLS:
+
+Redis
+CI/CD
+Linux
+Cloud Architecture
+Technical Leadership
+
+EDUCATION:
+
+Bachelor's or Master's degree in Computer Science,
+Computer Applications, Information Technology,
+or a related field.
+
+EXPERIENCE:
+
+5+ years of backend development experience.
+
+RESPONSIBILITIES:
+
+Design and develop backend systems.
+Develop REST APIs.
+Design scalable microservices.
+Manage relational and NoSQL databases.
+Deploy services to cloud environments.
+Use Docker and Kubernetes.
+Perform code reviews.
+Mentor developers.
+Troubleshoot production issues.
+Design reliable backend architecture.

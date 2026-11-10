@@ -1,0 +1,104 @@
+{
+    "report_type": "BATCH_RECRUITMENT_REPORT",
+    "module": "ZecPath Day 63 Batch Reporting",
+    "dataset_name": "day63_demo_dataset",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "generated_at": "2026-11-07T17:43:11.963733+00:00",
+    "source_pipeline_status": "SUCCESS",
+    "batch_overview": {
+        "total_candidates": 10,
+        "eligible_for_next_stage": 3,
+        "manual_review": 2,
+        "not_eligible": 3,
+        "blocked_pending_ats": 2,
+        "pending_assessments": 0,
+        "eligible_assessments_incomplete": 0
+    },
+    "score_statistics": {
+        "scored_candidates": 9,
+        "average_score": 76.16,
+        "highest_score": 84.99,
+        "lowest_score": 63.45
+    },
+    "decision_distribution": {
+        "ELIGIBLE_FOR_NEXT_STAGE": 3,
+        "MANUAL_REVIEW": 2,
+        "NOT_ELIGIBLE": 3,
+        "BLOCKED_PENDING_ATS": 2
+    },
+    "job_wise_summary": {
+        "JD001": {
+            "total_candidates": 4,
+            "scored_candidates": 4,
+            "average_unified_score": 75.8,
+            "decision_distribution": {
+                "ELIGIBLE_FOR_NEXT_STAGE": 2,
+                "NOT_ELIGIBLE": 1,
+                "BLOCKED_PENDING_ATS": 1
+            }
+        },
+        "JD002": {
+            "total_candidates": 3,
+            "scored_candidates": 3,
+            "average_unified_score": 75.45,
+            "decision_distribution": {
+                "MANUAL_REVIEW": 2,
+                "NOT_ELIGIBLE": 1
+            }
+        },
+        "JD003": {
+            "total_candidates": 3,
+            "scored_candidates": 2,
+            "average_unified_score": 77.95,
+            "decision_distribution": {
+                "NOT_ELIGIBLE": 1,
+                "ELIGIBLE_FOR_NEXT_STAGE": 1,
+                "BLOCKED_PENDING_ATS": 1
+            }
+        }
+    },
+    "assessment_round_statistics": {
+        "ats": {
+            "completed": 8,
+            "missing_or_incomplete": 2,
+            "other_status": 0,
+            "average_score": 83.77
+        },
+        "hr": {
+            "completed": 9,
+            "missing_or_incomplete": 1,
+            "other_status": 0,
+            "average_score": 83.13
+        },
+        "aptitude": {
+            "completed": 9,
+            "missing_or_incomplete": 1,
+            "other_status": 0,
+            "average_score": 75.87
+        },
+        "technical": {
+            "completed": 9,
+            "missing_or_incomplete": 1,
+            "other_status": 0,
+            "average_score": 62.35
+        },
+        "machine_test": {
+            "completed": 9,
+            "missing_or_incomplete": 1,
+            "other_status": 0,
+            "average_score": 81.03
+        }
+    },
+    "validation": {
+        "is_valid": true,
+        "total_input_candidates": 10,
+        "processed_candidates": 10,
+        "validation_error_count": 0,
+        "errors": []
+    },
+    "data_quality_notice": {
+        "dataset_type": "DEMO_DATASET",
+        "is_verified_real_hiring_evaluation": false,
+        "notice": "This batch report contains demonstration data. HR, aptitude, technical and machine-test scores include simulated assessment outputs. Machine-test execution and human review scores are illustrative. This report is not suitable for actual hiring decisions."
+    }
+}

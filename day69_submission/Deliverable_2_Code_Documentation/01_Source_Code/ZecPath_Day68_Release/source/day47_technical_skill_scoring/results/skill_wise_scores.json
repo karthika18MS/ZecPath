@@ -1,0 +1,190 @@
+{
+    "engine": "ZecPath Day 47 Skill-wise Scoring Breakdown",
+    "data_type": "DEMO_SAMPLE_DATA",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "skill_wise_scoring": [
+        {
+            "skill_domain": "JavaScript",
+            "question_count": 1,
+            "question_ids": [
+                "TECH_JS_001"
+            ],
+            "parameter_averages": {
+                "accuracy": 90.0,
+                "depth": 82.0,
+                "logical_reasoning": 80.0,
+                "real_world_applicability": 78.0
+            },
+            "skill_score": 84.3,
+            "score_category": "strong",
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 90.0
+            },
+            "weakest_parameter": {
+                "parameter": "real_world_applicability",
+                "score": 78.0
+            },
+            "question_details": [
+                {
+                    "question_id": "TECH_JS_001",
+                    "question_type": "conceptual",
+                    "difficulty": "basic",
+                    "question_score": 84.3,
+                    "answer_depth": "basic"
+                }
+            ]
+        },
+        {
+            "skill_domain": "React",
+            "question_count": 1,
+            "question_ids": [
+                "TECH_REACT_001"
+            ],
+            "parameter_averages": {
+                "accuracy": 88.0,
+                "depth": 84.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 86.0
+            },
+            "skill_score": 85.3,
+            "score_category": "strong",
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 88.0
+            },
+            "weakest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 82.0
+            },
+            "question_details": [
+                {
+                    "question_id": "TECH_REACT_001",
+                    "question_type": "experience_based",
+                    "difficulty": "intermediate",
+                    "question_score": 85.3,
+                    "answer_depth": "deep"
+                }
+            ]
+        },
+        {
+            "skill_domain": "Node.js",
+            "question_count": 1,
+            "question_ids": [
+                "TECH_NODE_001"
+            ],
+            "parameter_averages": {
+                "accuracy": 90.0,
+                "depth": 84.0,
+                "logical_reasoning": 86.0,
+                "real_world_applicability": 80.0
+            },
+            "skill_score": 85.3,
+            "score_category": "strong",
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 90.0
+            },
+            "weakest_parameter": {
+                "parameter": "real_world_applicability",
+                "score": 80.0
+            },
+            "question_details": [
+                {
+                    "question_id": "TECH_NODE_001",
+                    "question_type": "scenario_based",
+                    "difficulty": "advanced",
+                    "question_score": 85.3,
+                    "answer_depth": "deep"
+                }
+            ]
+        },
+        {
+            "skill_domain": "Express.js",
+            "question_count": 1,
+            "question_ids": [
+                "TECH_EXPRESS_001"
+            ],
+            "parameter_averages": {
+                "accuracy": 91.0,
+                "depth": 85.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 84.0
+            },
+            "skill_score": 86.8,
+            "score_category": "strong",
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 91.0
+            },
+            "weakest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 82.0
+            },
+            "question_details": [
+                {
+                    "question_id": "TECH_EXPRESS_001",
+                    "question_type": "conceptual",
+                    "difficulty": "intermediate",
+                    "question_score": 86.8,
+                    "answer_depth": "moderate"
+                }
+            ]
+        },
+        {
+            "skill_domain": "MongoDB",
+            "question_count": 1,
+            "question_ids": [
+                "TECH_MONGO_001"
+            ],
+            "parameter_averages": {
+                "accuracy": 87.0,
+                "depth": 82.0,
+                "logical_reasoning": 88.0,
+                "real_world_applicability": 85.0
+            },
+            "skill_score": 85.65,
+            "score_category": "strong",
+            "strongest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 88.0
+            },
+            "weakest_parameter": {
+                "parameter": "depth",
+                "score": 82.0
+            },
+            "question_details": [
+                {
+                    "question_id": "TECH_MONGO_001",
+                    "question_type": "scenario_based",
+                    "difficulty": "intermediate",
+                    "question_score": 85.65,
+                    "answer_depth": "deep"
+                }
+            ]
+        }
+    ],
+    "skill_summary": {
+        "total_skills": 5,
+        "skills_evaluated": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ],
+        "strong_skills": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ],
+        "skills_needing_improvement": []
+    },
+    "overall_technical_skill_score": 85.47,
+    "overall_score_category": "strong",
+    "scoring_method": "Each skill score is calculated as the average of the normalized technical scores of all questions belonging to that skill. The overall technical skill score is the average of the skill scores.",
+    "overall_status": "SUCCESS"
+}

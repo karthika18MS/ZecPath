@@ -1,0 +1,47 @@
+{
+    "evaluation_name": "ZecPath Day 45 HR Interview AI Manager Evaluation",
+    "evaluation_purpose": "Record actual manager/reviewer feedback after the final HR Interview AI demonstration",
+    "evaluation_type": "REAL_MANAGER_EVALUATION",
+
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+
+    "demo_evaluation": {
+        "architecture_explanation": {
+            "rating": null,
+            "feedback": null
+        },
+        "scoring_logic_explanation": {
+            "rating": null,
+            "feedback": null
+        },
+        "interview_flow": {
+            "rating": null,
+            "feedback": null
+        },
+        "score_explainability": {
+            "rating": null,
+            "feedback": null
+        },
+        "system_stability": {
+            "rating": null,
+            "feedback": null
+        },
+        "demo_clarity": {
+            "rating": null,
+            "feedback": null
+        }
+    },
+
+    "overall_feedback": {
+        "strengths": [],
+        "improvements_required": [],
+        "additional_comments": []
+    },
+
+    "final_evaluation": {
+        "status": "AWAITING_REAL_MANAGER_FEEDBACK",
+        "manager_name": null,
+        "evaluation_date": null
+    }
+}

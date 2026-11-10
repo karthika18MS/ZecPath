@@ -1,0 +1,99 @@
+{
+    "report_type": "AI Screening Report",
+    "candidate_id": "sample_candidate_003",
+    "job_id": "JOB_BACKEND_001",
+    "question_context": {
+        "question_id": "BACKEND_EXP_003",
+        "question": "How many years of backend development experience do you have?",
+        "question_category": "experience"
+    },
+    "key_answers": {
+        "response": "I really enjoy working with technology and I am looking for a good opportunity."
+    },
+    "screening_evaluation": {
+        "final_screening_score": 48.0,
+        "score_scale": "0-100",
+        "average_scores": {
+            "clarity": 7.0,
+            "relevance": 3.0,
+            "completeness": 2.5,
+            "consistency": 7.0
+        },
+        "screening_summary": {
+            "total_questions": 5,
+            "answered_questions": 5,
+            "no_response_questions": 0,
+            "off_topic_questions": 2
+        }
+    },
+    "question_scores": [
+        {
+            "question_id": "BACKEND_EXP_003",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "normalized_score": 35.0,
+            "answer_status": "off_topic",
+            "intent": "off_topic",
+            "off_topic": true,
+            "strengths": [
+                "Response was understandable."
+            ],
+            "weaknesses": [
+                "Response did not answer the experience question.",
+                "Experience duration was not provided."
+            ]
+        }
+    ],
+    "strengths": [
+        "Response was understandable.",
+        "Positive communication tone detected."
+    ],
+    "risks": [
+        "Response was off-topic.",
+        "Required experience information was not provided.",
+        "Two off-topic responses detected during screening."
+    ],
+    "missing_data": [
+        "Years of backend experience",
+        "Backend development domain",
+        "Technical skills"
+    ],
+    "highlights": {
+        "salary_expectation": null,
+        "availability": null,
+        "skill_confirmations": []
+    },
+    "communication_summary": {
+        "confidence": {
+            "score": 60,
+            "level": "moderate"
+        },
+        "clarity": {
+            "score": 80,
+            "level": "strong"
+        },
+        "engagement": {
+            "score": 50,
+            "level": "needs_improvement"
+        },
+        "consistency": {
+            "score": 100,
+            "level": "strong"
+        },
+        "communication_strength": {
+            "score": 72.5,
+            "level": "moderate"
+        }
+    },
+    "behavioral_signals": {
+        "hesitation_count": 0,
+        "uncertainty_count": 0,
+        "response_word_count": 15,
+        "pace": "normal",
+        "sentiment": "positive",
+        "sentiment_score": 100.0,
+        "contradiction_detected": false
+    },
+    "answer_status": "off_topic",
+    "created_at": "2026-09-09T06:10:00+00:00"
+}

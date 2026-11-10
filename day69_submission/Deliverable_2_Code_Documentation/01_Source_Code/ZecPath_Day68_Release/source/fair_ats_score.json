@@ -1,0 +1,31 @@
+{
+    "candidate_id": "CAND001",
+    "target_role": "Python Developer",
+    "fair_ats_score": 74.6,
+    "matching_status": "Good Match",
+    "recommendation": "Can be Considered",
+    "components": {
+        "skill_match": {
+            "score": 51.64,
+            "weight": 0.35
+        },
+        "experience_relevance": {
+            "score": 95.0,
+            "weight": 0.25
+        },
+        "education_alignment": {
+            "score": 100.0,
+            "weight": 0.15
+        },
+        "semantic_similarity": {
+            "score": 71.09,
+            "weight": 0.25
+        }
+    },
+    "fairness_improvements": [
+        "Scoring is based on job-related qualifications rather than non-essential personal attributes.",
+        "Semantic similarity is included to reduce over-dependence on exact keyword matching.",
+        "All available scoring components are normalized to a 0-100 scale.",
+        "All scoring components were available."
+    ]
+}

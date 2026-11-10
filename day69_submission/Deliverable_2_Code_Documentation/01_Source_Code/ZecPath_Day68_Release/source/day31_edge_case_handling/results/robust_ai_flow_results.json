@@ -1,0 +1,187 @@
+{
+    "report_type": "Robust AI Flow Results",
+    "total_cases": 6,
+    "matched_cases": 6,
+    "mismatched_cases": 0,
+    "agreement_percentage": 100.0,
+    "results": [
+        {
+            "case_id": "NORMAL_001",
+            "expected_action": "continue",
+            "actual_action": "continue",
+            "matched": true,
+            "result": {
+                "status": "success",
+                "action": "continue",
+                "error_type": null,
+                "retry_count": 0,
+                "follow_up_count": 0,
+                "message": "Input processed successfully.",
+                "edge_case_detection": {
+                    "status": "normal",
+                    "primary_error": null,
+                    "detected_errors": [],
+                    "transcript": "I have three years of Python experience.",
+                    "audio_quality": 0.95,
+                    "background_noise": 0.1
+                }
+            }
+        },
+        {
+            "case_id": "POOR_AUDIO_001",
+            "expected_action": "retry",
+            "actual_action": "retry",
+            "matched": true,
+            "result": {
+                "status": "retry_required",
+                "action": "retry",
+                "error_type": "poor_audio",
+                "retry_count": 1,
+                "follow_up_count": 0,
+                "message": "I couldn't hear you clearly. Could you please repeat your answer?",
+                "edge_case_detection": {
+                    "status": "edge_case",
+                    "primary_error": "poor_audio",
+                    "detected_errors": [
+                        "poor_audio"
+                    ],
+                    "transcript": "I have three years of Python experience.",
+                    "audio_quality": 0.3,
+                    "background_noise": 0.1
+                },
+                "error_handling": {
+                    "status": "retry_required",
+                    "action": "retry",
+                    "error_type": "poor_audio",
+                    "retry_count": 1,
+                    "message": "I couldn't hear you clearly. Could you please repeat your answer?"
+                }
+            }
+        },
+        {
+            "case_id": "MISSING_ANSWER_001",
+            "expected_action": "retry",
+            "actual_action": "retry",
+            "matched": true,
+            "result": {
+                "status": "retry_required",
+                "action": "retry",
+                "error_type": "missing_answer",
+                "retry_count": 1,
+                "follow_up_count": 0,
+                "message": "I didn't receive your answer. Could you please answer the question?",
+                "edge_case_detection": {
+                    "status": "edge_case",
+                    "primary_error": "missing_answer",
+                    "detected_errors": [
+                        "missing_answer"
+                    ],
+                    "transcript": "",
+                    "audio_quality": 0.95,
+                    "background_noise": 0.1
+                },
+                "error_handling": {
+                    "status": "retry_required",
+                    "action": "retry",
+                    "error_type": "missing_answer",
+                    "retry_count": 1,
+                    "message": "I didn't receive your answer. Could you please answer the question?"
+                }
+            }
+        },
+        {
+            "case_id": "BACKGROUND_NOISE_001",
+            "expected_action": "retry",
+            "actual_action": "retry",
+            "matched": true,
+            "result": {
+                "status": "retry_required",
+                "action": "retry",
+                "error_type": "background_noise",
+                "retry_count": 1,
+                "follow_up_count": 0,
+                "message": "There seems to be some background noise. Could you please repeat your answer clearly?",
+                "edge_case_detection": {
+                    "status": "edge_case",
+                    "primary_error": "background_noise",
+                    "detected_errors": [
+                        "background_noise"
+                    ],
+                    "transcript": "I have three years of Python experience.",
+                    "audio_quality": 0.9,
+                    "background_noise": 0.85
+                },
+                "error_handling": {
+                    "status": "retry_required",
+                    "action": "retry",
+                    "error_type": "background_noise",
+                    "retry_count": 1,
+                    "message": "There seems to be some background noise. Could you please repeat your answer clearly?"
+                }
+            }
+        },
+        {
+            "case_id": "LANGUAGE_MIXING_001",
+            "expected_action": "clarification",
+            "actual_action": "clarification",
+            "matched": true,
+            "result": {
+                "status": "clarification_required",
+                "action": "clarification",
+                "error_type": "language_mixing",
+                "retry_count": 0,
+                "follow_up_count": 0,
+                "message": "Could you please answer the question in English so I can understand your response clearly?",
+                "edge_case_detection": {
+                    "status": "edge_case",
+                    "primary_error": "language_mixing",
+                    "detected_errors": [
+                        "language_mixing"
+                    ],
+                    "transcript": "I have three years experience, njan Python use cheythittundu.",
+                    "audio_quality": 0.9,
+                    "background_noise": 0.1
+                },
+                "error_handling": {
+                    "status": "clarification_required",
+                    "action": "clarification",
+                    "error_type": "language_mixing",
+                    "retry_count": 0,
+                    "message": "Could you please answer the question in English so I can understand your response clearly?"
+                }
+            }
+        },
+        {
+            "case_id": "RETRY_LIMIT_001",
+            "expected_action": "fallback",
+            "actual_action": "fallback",
+            "matched": true,
+            "result": {
+                "status": "fallback_required",
+                "action": "fallback",
+                "error_type": "poor_audio",
+                "retry_count": 2,
+                "follow_up_count": 0,
+                "message": "We are having difficulty processing your response. We will continue with the screening process.",
+                "edge_case_detection": {
+                    "status": "edge_case",
+                    "primary_error": "poor_audio",
+                    "detected_errors": [
+                        "poor_audio"
+                    ],
+                    "transcript": "I have three years of Python experience.",
+                    "audio_quality": 0.3,
+                    "background_noise": 0.1
+                },
+                "error_handling": {
+                    "status": "fallback_required",
+                    "action": "fallback",
+                    "error_type": "poor_audio",
+                    "retry_count": 2,
+                    "message": "We are having difficulty processing your response. We will continue with the screening process."
+                }
+            }
+        }
+    ],
+    "created_at": "2026-09-12T05:48:18.126514Z"
+}

@@ -1,0 +1,13 @@
+{
+    "weights": {
+        "answer_relevance": 0.30,
+        "communication": 0.25,
+        "confidence": 0.20,
+        "consistency": 0.25
+    },
+    "score_range": {
+        "minimum": 0,
+        "maximum": 100
+    },
+    "rounding": 2
+}

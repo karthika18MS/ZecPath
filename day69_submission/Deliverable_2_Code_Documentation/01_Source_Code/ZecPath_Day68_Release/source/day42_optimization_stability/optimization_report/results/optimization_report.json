@@ -1,0 +1,34 @@
+{
+    "system": "ZecPath Day 42 Optimization Report",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "hr_score": 91.47,
+    "question_count": 4,
+    "hr_score_validation": {
+        "valid": true,
+        "error_count": 0
+    },
+    "interview_stability": {
+        "stable": true,
+        "total_questions": 4,
+        "duplicate_question_count": 0,
+        "error_count": 0,
+        "warning_count": 0,
+        "question_text_available": 4,
+        "candidate_answer_available": 4,
+        "response_status_available": 4
+    },
+    "optimization_findings": [
+        "HR scoring structure is valid.",
+        "Interview flow passed stability validation.",
+        "No duplicate question IDs detected.",
+        "No interview stability errors detected.",
+        "No warnings detected.",
+        "Question text, candidate answers, and response status are available for all questions."
+    ],
+    "recommended_improvements": [
+        "Question-level content validation is complete for the current sample dataset.",
+        "Continue testing additional interview sessions while preserving the current stability validation rules."
+    ],
+    "overall_status": "STABLE"
+}

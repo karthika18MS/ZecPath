@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND001",
+    "job_id": "JD001",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.059283+05:30",
+    "task": {
+        "task_id": "MERN_TASK_001",
+        "title": "MERN Employee Management API",
+        "requirements": [
+            "Create employee records",
+            "Retrieve employee records",
+            "Validate incoming data",
+            "Handle API errors"
+        ],
+        "candidate_code": "\nconst express = require('express');\nconst app = express();\n\napp.use(express.json());\n\nlet employees = [];\n\napp.post('/employees', (req, res) => {\n    const { name, email } = req.body;\n\n    if (!name || !email) {\n        return res.status(400).json({\n            error: 'Name and email required'\n        });\n    }\n\n    const employee = {\n        id: employees.length + 1,\n        name,\n        email\n    };\n\n    employees.push(employee);\n    res.status(201).json(employee);\n});\n\napp.get('/employees', (req, res) => {\n    res.json(employees);\n});\n\napp.listen(3000);\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 8,
+            "failed_tests": 2,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 90,
+            "code_quality": 88,
+            "readability": 90,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

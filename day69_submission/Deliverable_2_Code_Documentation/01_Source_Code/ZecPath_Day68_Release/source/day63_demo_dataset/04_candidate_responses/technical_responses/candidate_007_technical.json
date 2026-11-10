@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND007",
+  "job_id": "JD001",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What are React components?",
+      "answer": "Components are reusable parts of a React user interface. They help divide the application into smaller and manageable sections."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is a REST API?",
+      "answer": "A REST API allows applications to communicate over HTTP. It uses methods such as GET, POST, PUT and DELETE to perform operations on resources."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you store data submitted through a React form?",
+      "answer": "I would collect the form values using React state and send them to a backend API. The backend would validate the input and save it to the database."
+    }
+  ]
+}

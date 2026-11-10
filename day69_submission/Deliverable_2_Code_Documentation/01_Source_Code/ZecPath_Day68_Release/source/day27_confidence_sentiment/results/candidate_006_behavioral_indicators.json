@@ -1,0 +1,37 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "BACKEND_SKILLS_001",
+    "communication_indicators": {
+        "confidence": {
+            "score": 100,
+            "level": "strong"
+        },
+        "clarity": {
+            "score": 100,
+            "level": "strong"
+        },
+        "engagement": {
+            "score": 90,
+            "level": "strong"
+        },
+        "consistency": {
+            "score": 100.0,
+            "level": "strong"
+        },
+        "communication_strength": {
+            "score": 97.5,
+            "level": "strong"
+        }
+    },
+    "behavioral_signals": {
+        "hesitation_count": 0,
+        "uncertainty_count": 0,
+        "response_word_count": 14,
+        "pace": "normal",
+        "sentiment": "positive",
+        "sentiment_score": 100.0,
+        "contradiction_detected": false
+    },
+    "answer_status": "valid",
+    "created_at": "2026-09-08T05:23:19.117076+00:00"
+}

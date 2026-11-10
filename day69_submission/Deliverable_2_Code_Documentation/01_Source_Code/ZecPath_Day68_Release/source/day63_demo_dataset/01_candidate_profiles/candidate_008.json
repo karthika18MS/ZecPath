@@ -1,0 +1,28 @@
+{
+  "candidate_id": "CAND008",
+  "candidate_name": "Manu K",
+  "job_id": "JD002",
+  "target_role": "Python Developer",
+  "experience_years": 1,
+  "education": "BCA",
+  "skills": [
+    "Python",
+    "HTML",
+    "CSS",
+    "SQL",
+    "Computer Fundamentals"
+  ],
+  "resume_file": "candidate_008_resume.pdf",
+  "resume_quality": "poor",
+  "candidate_type": "junior",
+  "missing_mandatory_skills": [
+    "Django"
+  ],
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "module": "ZecPath Day 63 End-to-End Simulation",
+    "dataset": {
+        "dataset_name": "day63_demo_dataset",
+        "dataset_root": "D:/ZecPath-AI/day63_demo_dataset",
+        "dataset_type": "DEMO_DATASET"
+    },
+    "execution": {
+        "timeout_seconds": 900,
+        "continue_on_stage_failure": false,
+        "validate_outputs": true
+    },
+    "reporting": {
+        "generate_candidate_reports": true,
+        "generate_batch_report": true,
+        "generate_performance_report": true
+    }
+}

@@ -1,0 +1,157 @@
+
+[
+    {
+        "candidate_id": "candidate_001",
+        "hiring_fit_score": 92,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "qualified",
+        "round_scores": {
+            "ats": {"score": 92, "status": "completed", "verified": true},
+            "screening": {"score": 90, "status": "completed", "verified": true},
+            "hr_interview": {"score": 94, "status": "completed", "verified": true},
+            "technical_interview": {"score": 91, "status": "completed", "verified": true},
+            "machine_test": {"score": 93, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_002",
+        "hiring_fit_score": 35,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "not_qualified",
+        "round_scores": {
+            "ats": {"score": 35, "status": "completed", "verified": true},
+            "screening": {"score": 40, "status": "completed", "verified": true},
+            "hr_interview": {"score": 30, "status": "completed", "verified": true},
+            "technical_interview": {"score": 32, "status": "completed", "verified": true},
+            "machine_test": {"score": 38, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_003",
+        "hiring_fit_score": 79.9,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "qualified",
+        "round_scores": {
+            "ats": {"score": 80, "status": "completed", "verified": true},
+            "screening": {"score": 78, "status": "completed", "verified": true},
+            "hr_interview": {"score": 82, "status": "completed", "verified": true},
+            "technical_interview": {"score": 79, "status": "completed", "verified": true},
+            "machine_test": {"score": 80, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_004",
+        "hiring_fit_score": 91,
+        "eligibility_status": "REJECTED",
+        "risk_flags": [],
+        "expected_outcome": "not_qualified",
+        "round_scores": {
+            "ats": {"score": 91, "status": "completed", "verified": true},
+            "screening": {"score": 92, "status": "completed", "verified": true},
+            "hr_interview": {"score": 90, "status": "completed", "verified": true},
+            "technical_interview": {"score": 93, "status": "completed", "verified": true},
+            "machine_test": {"score": 89, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_005",
+        "hiring_fit_score": 88,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "qualified",
+        "round_scores": {
+            "ats": {"score": 90, "status": "completed", "verified": true},
+            "screening": {"score": 85, "status": "completed", "verified": true},
+            "hr_interview": {"score": 88, "status": "pending", "verified": false},
+            "technical_interview": {"score": 89, "status": "completed", "verified": true},
+            "machine_test": {"score": 87, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_006",
+        "hiring_fit_score": 90,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "qualified",
+        "round_scores": {
+            "ats": {"score": 90, "status": "completed", "verified": true},
+            "screening": {"score": 91, "status": "completed", "verified": true},
+            "hr_interview": {"score": 89, "status": "completed", "verified": true},
+            "technical_interview": {"score": 92, "status": "completed", "verified": true},
+            "machine_test": {"score": 90, "status": "completed", "verified": true, "is_demo": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_007",
+        "hiring_fit_score": 85,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": ["manual_review_required"],
+        "expected_outcome": "qualified",
+        "round_scores": {
+            "ats": {"score": 85, "status": "completed", "verified": true},
+            "screening": {"score": 87, "status": "completed", "verified": true},
+            "hr_interview": {"score": 84, "status": "completed", "verified": true},
+            "technical_interview": {"score": 86, "status": "completed", "verified": true},
+            "machine_test": {"score": 83, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_008",
+        "hiring_fit_score": 58,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "qualified",
+        "round_scores": {
+            "ats": {"score": 58, "status": "completed", "verified": true},
+            "screening": {"score": 60, "status": "completed", "verified": true},
+            "hr_interview": {"score": 55, "status": "completed", "verified": true},
+            "technical_interview": {"score": 59, "status": "completed", "verified": true},
+            "machine_test": {"score": 57, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_009",
+        "hiring_fit_score": 84,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "qualified",
+        "round_scores": {
+            "ats": {"score": 98, "status": "completed", "verified": true},
+            "screening": {"score": 52, "status": "completed", "verified": true},
+            "hr_interview": {"score": 95, "status": "completed", "verified": true},
+            "technical_interview": {"score": 70, "status": "completed", "verified": true},
+            "machine_test": {"score": 96, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_010",
+        "hiring_fit_score": 68,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "not_qualified",
+        "round_scores": {
+            "ats": {"score": 68, "status": "completed", "verified": true},
+            "screening": {"score": 66, "status": "completed", "verified": true},
+            "hr_interview": {"score": 70, "status": "completed", "verified": true},
+            "technical_interview": {"score": 67, "status": "completed", "verified": true},
+            "machine_test": {"score": 69, "status": "completed", "verified": true}
+        }
+    },
+    {
+        "candidate_id": "candidate_011",
+        "hiring_fit_score": 88,
+        "eligibility_status": "ELIGIBLE",
+        "risk_flags": [],
+        "expected_outcome": "not_qualified",
+        "round_scores": {
+            "ats": {"score": 88, "status": "completed", "verified": true},
+            "screening": {"score": 87, "status": "completed", "verified": true},
+            "hr_interview": {"score": 89, "status": "completed", "verified": true},
+            "technical_interview": {"score": 88, "status": "completed", "verified": true},
+            "machine_test": {"score": 86, "status": "completed", "verified": true}
+        }
+    }
+]

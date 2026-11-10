@@ -1,0 +1,698 @@
+{
+    "system": "ZecPath AI Screening System",
+    "pipeline_version": "Day 32",
+    "session_status": "completed",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "screening_summary": {
+        "total_questions": 4,
+        "successfully_processed": 4,
+        "edge_cases_handled": 0,
+        "final_screening_score": 95.0,
+        "score_scale": "0-100",
+        "average_communication": {
+            "confidence": 96.25,
+            "clarity": 100.0,
+            "engagement": 73.75,
+            "consistency": 100.0,
+            "communication_strength": 92.5
+        }
+    },
+    "responses": [
+        {
+            "system": "ZecPath AI Screening System",
+            "pipeline_version": "Day 32",
+            "pipeline_status": "success",
+            "candidate": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001"
+            },
+            "question": {
+                "question_id": "BACKEND_EXP_001",
+                "question": "How many years of backend development experience do you have?",
+                "category": "experience"
+            },
+            "input": {
+                "raw_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                "normalized_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                "duration_seconds": 8,
+                "audio_quality": 1.0,
+                "background_noise": 0.0
+            },
+            "edge_case_handling": {
+                "status": "normal",
+                "action": "continue",
+                "result": {
+                    "status": "success",
+                    "action": "continue",
+                    "error_type": null,
+                    "retry_count": 0,
+                    "follow_up_count": 0,
+                    "message": "Input processed successfully.",
+                    "edge_case_detection": {
+                        "status": "normal",
+                        "primary_error": null,
+                        "detected_errors": [],
+                        "transcript": "I have three years of backend development experience. I have worked with Python and Django.",
+                        "audio_quality": 1.0,
+                        "background_noise": 0.0
+                    }
+                }
+            },
+            "answer_understanding": {
+                "intent": "experience",
+                "answer_status": "valid",
+                "off_topic": false,
+                "confidence": 0.9167,
+                "semantic_object": {
+                    "skills": [
+                        "Python",
+                        "Django"
+                    ],
+                    "experience": {
+                        "years": 3,
+                        "months": null,
+                        "domain": "backend development"
+                    }
+                }
+            },
+            "screening_scoring": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "question_id": "BACKEND_EXP_001",
+                "question": "How many years of backend development experience do you have?",
+                "question_category": "experience",
+                "scores": {
+                    "clarity": 9,
+                    "relevance": 10,
+                    "completeness": 10,
+                    "consistency": 9
+                },
+                "weighted_score": 9.5,
+                "normalized_score": 95.0,
+                "answer_status": "valid",
+                "intent": "experience",
+                "off_topic": false,
+                "explanation": {
+                    "strengths": [
+                        "Answer is clear and easy to understand.",
+                        "Answer directly addresses the question.",
+                        "Required information is sufficiently provided.",
+                        "Answer information is consistent."
+                    ],
+                    "weaknesses": []
+                },
+                "created_at": "2026-09-14T14:52:36.880346+00:00"
+            },
+            "confidence_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_EXP_001",
+                "raw_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                "normalized_answer": "i have three years of backend development experience. i have worked with python and django.",
+                "response_length": {
+                    "word_count": 15,
+                    "character_count": 91
+                },
+                "pace": {
+                    "duration_seconds": 8,
+                    "words_per_minute": 112.5,
+                    "classification": "normal"
+                },
+                "hesitation": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "uncertainty": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "created_at": "2026-09-14T14:52:36.880853+00:00"
+            },
+            "sentiment_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_EXP_001",
+                "raw_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                "normalized_answer": "i have three years of backend development experience. i have worked with python and django.",
+                "sentiment_analysis": {
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "positive_count": 0,
+                    "negative_count": 0,
+                    "positive_words": [],
+                    "negative_words": []
+                },
+                "created_at": "2026-09-14T14:52:36.880990+00:00"
+            },
+            "behavioral_indicators": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_EXP_001",
+                "communication_indicators": {
+                    "confidence": {
+                        "score": 100,
+                        "level": "strong"
+                    },
+                    "clarity": {
+                        "score": 100,
+                        "level": "strong"
+                    },
+                    "engagement": {
+                        "score": 80,
+                        "level": "strong"
+                    },
+                    "consistency": {
+                        "score": 100.0,
+                        "level": "strong"
+                    },
+                    "communication_strength": {
+                        "score": 95.0,
+                        "level": "strong"
+                    }
+                },
+                "behavioral_signals": {
+                    "hesitation_count": 0,
+                    "uncertainty_count": 0,
+                    "response_word_count": 15,
+                    "pace": "normal",
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "contradiction_detected": false
+                },
+                "answer_status": "valid",
+                "created_at": "2026-09-14T14:52:36.881017+00:00"
+            },
+            "conversation_flow": {
+                "response_type": "valid",
+                "action": "next_question",
+                "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                "next_prompt": "Continue to the next screening question."
+            },
+            "created_at": "2026-09-14T14:52:36.881026+00:00"
+        },
+        {
+            "system": "ZecPath AI Screening System",
+            "pipeline_version": "Day 32",
+            "pipeline_status": "success",
+            "candidate": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001"
+            },
+            "question": {
+                "question_id": "BACKEND_SKILLS_001",
+                "question": "What technical skills do you have?",
+                "category": "skills"
+            },
+            "input": {
+                "raw_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                "normalized_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                "duration_seconds": 9,
+                "audio_quality": 1.0,
+                "background_noise": 0.0
+            },
+            "edge_case_handling": {
+                "status": "normal",
+                "action": "continue",
+                "result": {
+                    "status": "success",
+                    "action": "continue",
+                    "error_type": null,
+                    "retry_count": 0,
+                    "follow_up_count": 0,
+                    "message": "Input processed successfully.",
+                    "edge_case_detection": {
+                        "status": "normal",
+                        "primary_error": null,
+                        "detected_errors": [],
+                        "transcript": "I have worked with Python, Django, Docker and PostgreSQL.",
+                        "audio_quality": 1.0,
+                        "background_noise": 0.0
+                    }
+                }
+            },
+            "answer_understanding": {
+                "intent": "skills",
+                "answer_status": "valid",
+                "off_topic": false,
+                "confidence": 0.9167,
+                "semantic_object": {
+                    "skills": [
+                        "Python",
+                        "Django",
+                        "Docker",
+                        "PostgreSQL"
+                    ]
+                }
+            },
+            "screening_scoring": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "question_id": "BACKEND_SKILLS_001",
+                "question": "What technical skills do you have?",
+                "question_category": "skills",
+                "scores": {
+                    "clarity": 9,
+                    "relevance": 10,
+                    "completeness": 10,
+                    "consistency": 9
+                },
+                "weighted_score": 9.5,
+                "normalized_score": 95.0,
+                "answer_status": "valid",
+                "intent": "skills",
+                "off_topic": false,
+                "explanation": {
+                    "strengths": [
+                        "Answer is clear and easy to understand.",
+                        "Answer directly addresses the question.",
+                        "Required information is sufficiently provided.",
+                        "Answer information is consistent."
+                    ],
+                    "weaknesses": []
+                },
+                "created_at": "2026-09-14T14:52:36.882300+00:00"
+            },
+            "confidence_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_SKILLS_001",
+                "raw_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                "normalized_answer": "i have worked with python, django, docker and postgresql.",
+                "response_length": {
+                    "word_count": 9,
+                    "character_count": 57
+                },
+                "pace": {
+                    "duration_seconds": 9,
+                    "words_per_minute": 60.0,
+                    "classification": "slow"
+                },
+                "hesitation": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "uncertainty": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "created_at": "2026-09-14T14:52:36.882405+00:00"
+            },
+            "sentiment_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_SKILLS_001",
+                "raw_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                "normalized_answer": "i have worked with python, django, docker and postgresql.",
+                "sentiment_analysis": {
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "positive_count": 0,
+                    "negative_count": 0,
+                    "positive_words": [],
+                    "negative_words": []
+                },
+                "created_at": "2026-09-14T14:52:36.882454+00:00"
+            },
+            "behavioral_indicators": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_SKILLS_001",
+                "communication_indicators": {
+                    "confidence": {
+                        "score": 95,
+                        "level": "strong"
+                    },
+                    "clarity": {
+                        "score": 100,
+                        "level": "strong"
+                    },
+                    "engagement": {
+                        "score": 75,
+                        "level": "moderate"
+                    },
+                    "consistency": {
+                        "score": 100.0,
+                        "level": "strong"
+                    },
+                    "communication_strength": {
+                        "score": 92.5,
+                        "level": "strong"
+                    }
+                },
+                "behavioral_signals": {
+                    "hesitation_count": 0,
+                    "uncertainty_count": 0,
+                    "response_word_count": 9,
+                    "pace": "slow",
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "contradiction_detected": false
+                },
+                "answer_status": "valid",
+                "created_at": "2026-09-14T14:52:36.882473+00:00"
+            },
+            "conversation_flow": {
+                "response_type": "valid",
+                "action": "next_question",
+                "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                "next_prompt": "Continue to the next screening question."
+            },
+            "created_at": "2026-09-14T14:52:36.882479+00:00"
+        },
+        {
+            "system": "ZecPath AI Screening System",
+            "pipeline_version": "Day 32",
+            "pipeline_status": "success",
+            "candidate": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001"
+            },
+            "question": {
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "question": "When would you be available to join?",
+                "category": "availability"
+            },
+            "input": {
+                "raw_answer": "I can join immediately.",
+                "normalized_answer": "I can join immediately.",
+                "duration_seconds": 5,
+                "audio_quality": 1.0,
+                "background_noise": 0.0
+            },
+            "edge_case_handling": {
+                "status": "normal",
+                "action": "continue",
+                "result": {
+                    "status": "success",
+                    "action": "continue",
+                    "error_type": null,
+                    "retry_count": 0,
+                    "follow_up_count": 0,
+                    "message": "Input processed successfully.",
+                    "edge_case_detection": {
+                        "status": "normal",
+                        "primary_error": null,
+                        "detected_errors": [],
+                        "transcript": "I can join immediately.",
+                        "audio_quality": 1.0,
+                        "background_noise": 0.0
+                    }
+                }
+            },
+            "answer_understanding": {
+                "intent": "availability",
+                "answer_status": "valid",
+                "off_topic": false,
+                "confidence": 0.9167,
+                "semantic_object": {
+                    "availability": {
+                        "status": "immediate",
+                        "days": 0
+                    }
+                }
+            },
+            "screening_scoring": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "question": "When would you be available to join?",
+                "question_category": "availability",
+                "scores": {
+                    "clarity": 9,
+                    "relevance": 10,
+                    "completeness": 10,
+                    "consistency": 9
+                },
+                "weighted_score": 9.5,
+                "normalized_score": 95.0,
+                "answer_status": "valid",
+                "intent": "availability",
+                "off_topic": false,
+                "explanation": {
+                    "strengths": [
+                        "Answer is clear and easy to understand.",
+                        "Answer directly addresses the question.",
+                        "Required information is sufficiently provided.",
+                        "Answer information is consistent."
+                    ],
+                    "weaknesses": []
+                },
+                "created_at": "2026-09-14T14:52:36.882758+00:00"
+            },
+            "confidence_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "raw_answer": "I can join immediately.",
+                "normalized_answer": "i can join immediately.",
+                "response_length": {
+                    "word_count": 4,
+                    "character_count": 23
+                },
+                "pace": {
+                    "duration_seconds": 5,
+                    "words_per_minute": 48.0,
+                    "classification": "slow"
+                },
+                "hesitation": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "uncertainty": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "created_at": "2026-09-14T14:52:36.882835+00:00"
+            },
+            "sentiment_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "raw_answer": "I can join immediately.",
+                "normalized_answer": "i can join immediately.",
+                "sentiment_analysis": {
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "positive_count": 0,
+                    "negative_count": 0,
+                    "positive_words": [],
+                    "negative_words": []
+                },
+                "created_at": "2026-09-14T14:52:36.882863+00:00"
+            },
+            "behavioral_indicators": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "communication_indicators": {
+                    "confidence": {
+                        "score": 95,
+                        "level": "strong"
+                    },
+                    "clarity": {
+                        "score": 100,
+                        "level": "strong"
+                    },
+                    "engagement": {
+                        "score": 70,
+                        "level": "moderate"
+                    },
+                    "consistency": {
+                        "score": 100.0,
+                        "level": "strong"
+                    },
+                    "communication_strength": {
+                        "score": 91.25,
+                        "level": "strong"
+                    }
+                },
+                "behavioral_signals": {
+                    "hesitation_count": 0,
+                    "uncertainty_count": 0,
+                    "response_word_count": 4,
+                    "pace": "slow",
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "contradiction_detected": false
+                },
+                "answer_status": "valid",
+                "created_at": "2026-09-14T14:52:36.882879+00:00"
+            },
+            "conversation_flow": {
+                "response_type": "valid",
+                "action": "next_question",
+                "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                "next_prompt": "Continue to the next screening question."
+            },
+            "created_at": "2026-09-14T14:52:36.882885+00:00"
+        },
+        {
+            "system": "ZecPath AI Screening System",
+            "pipeline_version": "Day 32",
+            "pipeline_status": "success",
+            "candidate": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001"
+            },
+            "question": {
+                "question_id": "BACKEND_SALARY_001",
+                "question": "What is your expected salary?",
+                "category": "salary"
+            },
+            "input": {
+                "raw_answer": "I expect 6 lakhs per year.",
+                "normalized_answer": "I expect 6 lakhs per year.",
+                "duration_seconds": 5,
+                "audio_quality": 1.0,
+                "background_noise": 0.0
+            },
+            "edge_case_handling": {
+                "status": "normal",
+                "action": "continue",
+                "result": {
+                    "status": "success",
+                    "action": "continue",
+                    "error_type": null,
+                    "retry_count": 0,
+                    "follow_up_count": 0,
+                    "message": "Input processed successfully.",
+                    "edge_case_detection": {
+                        "status": "normal",
+                        "primary_error": null,
+                        "detected_errors": [],
+                        "transcript": "I expect 6 lakhs per year.",
+                        "audio_quality": 1.0,
+                        "background_noise": 0.0
+                    }
+                }
+            },
+            "answer_understanding": {
+                "intent": "salary",
+                "answer_status": "valid",
+                "off_topic": false,
+                "confidence": 0.9167,
+                "semantic_object": {
+                    "salary_expectation": {
+                        "amount": 600000,
+                        "currency": "INR",
+                        "unit": "annual",
+                        "period": "annual",
+                        "source": "lpa"
+                    }
+                }
+            },
+            "screening_scoring": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "question_id": "BACKEND_SALARY_001",
+                "question": "What is your expected salary?",
+                "question_category": "salary",
+                "scores": {
+                    "clarity": 9,
+                    "relevance": 10,
+                    "completeness": 10,
+                    "consistency": 9
+                },
+                "weighted_score": 9.5,
+                "normalized_score": 95.0,
+                "answer_status": "valid",
+                "intent": "salary",
+                "off_topic": false,
+                "explanation": {
+                    "strengths": [
+                        "Answer is clear and easy to understand.",
+                        "Answer directly addresses the question.",
+                        "Required information is sufficiently provided.",
+                        "Answer information is consistent."
+                    ],
+                    "weaknesses": []
+                },
+                "created_at": "2026-09-14T14:52:36.883183+00:00"
+            },
+            "confidence_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_SALARY_001",
+                "raw_answer": "I expect 6 lakhs per year.",
+                "normalized_answer": "i expect 6 lakhs per year.",
+                "response_length": {
+                    "word_count": 6,
+                    "character_count": 26
+                },
+                "pace": {
+                    "duration_seconds": 5,
+                    "words_per_minute": 72.0,
+                    "classification": "slow"
+                },
+                "hesitation": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "uncertainty": {
+                    "detected": false,
+                    "count": 0,
+                    "patterns": []
+                },
+                "created_at": "2026-09-14T14:52:36.883258+00:00"
+            },
+            "sentiment_analysis": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_SALARY_001",
+                "raw_answer": "I expect 6 lakhs per year.",
+                "normalized_answer": "i expect 6 lakhs per year.",
+                "sentiment_analysis": {
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "positive_count": 0,
+                    "negative_count": 0,
+                    "positive_words": [],
+                    "negative_words": []
+                },
+                "created_at": "2026-09-14T14:52:36.883290+00:00"
+            },
+            "behavioral_indicators": {
+                "candidate_id": "candidate_006",
+                "question_id": "BACKEND_SALARY_001",
+                "communication_indicators": {
+                    "confidence": {
+                        "score": 95,
+                        "level": "strong"
+                    },
+                    "clarity": {
+                        "score": 100,
+                        "level": "strong"
+                    },
+                    "engagement": {
+                        "score": 70,
+                        "level": "moderate"
+                    },
+                    "consistency": {
+                        "score": 100.0,
+                        "level": "strong"
+                    },
+                    "communication_strength": {
+                        "score": 91.25,
+                        "level": "strong"
+                    }
+                },
+                "behavioral_signals": {
+                    "hesitation_count": 0,
+                    "uncertainty_count": 0,
+                    "response_word_count": 6,
+                    "pace": "slow",
+                    "sentiment": "neutral",
+                    "sentiment_score": 50.0,
+                    "contradiction_detected": false
+                },
+                "answer_status": "valid",
+                "created_at": "2026-09-14T14:52:36.883302+00:00"
+            },
+            "conversation_flow": {
+                "response_type": "valid",
+                "action": "next_question",
+                "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                "next_prompt": "Continue to the next screening question."
+            },
+            "created_at": "2026-09-14T14:52:36.883310+00:00"
+        }
+    ],
+    "created_at": "2026-09-14T14:52:36.883345+00:00"
+}

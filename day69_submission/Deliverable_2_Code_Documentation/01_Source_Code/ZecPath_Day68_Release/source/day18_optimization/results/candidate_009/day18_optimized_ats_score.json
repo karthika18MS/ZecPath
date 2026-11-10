@@ -1,0 +1,199 @@
+{
+    "candidate_id": "candidate_009",
+    "target_role": "Fresher Python Developer",
+    "job_description": "fresher_python_developer.txt",
+    "engine": "ZecPath Day 18 Optimized ATS Engine",
+    "pipeline_status": "SUCCESS",
+    "scores": {
+        "skill_matching": 87.5,
+        "experience_relevance": null,
+        "education_alignment": 100.0,
+        "semantic_similarity": 85.17,
+        "final_ats_score": 89.22
+    },
+    "weights": {
+        "skill_matching": 0.466667,
+        "experience_relevance": 0.0,
+        "education_alignment": 0.2,
+        "semantic_similarity": 0.333333
+    },
+    "excluded_components": [
+        "experience_relevance"
+    ],
+    "contributions": {
+        "skill_matching": 40.83,
+        "experience_relevance": 0.0,
+        "education_alignment": 20.0,
+        "semantic_similarity": 28.39
+    },
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "manual_review": {
+        "review_required": false,
+        "review_status": "NOT_REQUIRED",
+        "review_reason": null
+    },
+    "skill_details": {
+        "score": 87.5,
+        "required_skills": [
+            "django",
+            "fastapi",
+            "git",
+            "mongodb",
+            "postgresql",
+            "python",
+            "rest api",
+            "sql"
+        ],
+        "matched_skills": [
+            "django",
+            "git",
+            "mongodb",
+            "postgresql",
+            "python",
+            "rest api",
+            "sql"
+        ],
+        "missing_skills": [
+            "fastapi"
+        ],
+        "total_required_skills": 8,
+        "total_matched_skills": 7,
+        "source": "Day 17 validated skill matcher"
+    },
+    "experience_details": {
+        "score": null,
+        "candidate_experience_years": null,
+        "minimum_required_years": null,
+        "maximum_required_years": null,
+        "is_applicable": false,
+        "status": "Not Applicable - Experience Requirement Not Specified"
+    },
+    "education_details": {
+        "score": 100.0,
+        "candidate_degrees": [
+            "mca"
+        ],
+        "candidate_fields": [
+            "computer applications",
+            "computer science"
+        ],
+        "required_degrees": [],
+        "required_fields": [
+            "computer applications",
+            "computer science",
+            "information technology"
+        ],
+        "degree_match": false,
+        "field_match": true,
+        "status": "Education Field Requirement Met"
+    },
+    "semantic_details": {
+        "score": 85.17,
+        "raw_score": 0.8517,
+        "embedding_length": 384,
+        "model_access_time_seconds": 7.927545
+    },
+    "entity_detection": {
+        "name": "Candidate 009",
+        "job_titles": [
+            "python developer"
+        ],
+        "skills": [
+            "candidate screening",
+            "django",
+            "express.js",
+            "git",
+            "mongodb",
+            "node.js",
+            "object oriented programming",
+            "postgresql",
+            "problem solving",
+            "python",
+            "react",
+            "rest api",
+            "sql",
+            "testing"
+        ],
+        "degrees": [
+            "mca"
+        ],
+        "experience_years": null,
+        "years": [
+            2024,
+            2026
+        ],
+        "projects": [
+            "Resume Screening System",
+            "Developed a resume screening application using Python.",
+            "Implemented text processing and skill matching.",
+            "Used Python and SQL for application development.",
+            "Wedding Service Integration System",
+            "Developed a web application using React, Node.js,",
+            "Express.js, and MongoDB.",
+            "Implemented REST APIs and database integration.",
+            "INTERNSHIP:",
+            "Python Development Intern",
+            "ABC Technologies",
+            "3 months",
+            "Worked with Python and REST API development.",
+            "Performed debugging and testing of backend applications."
+        ],
+        "sections": {
+            "summary": [
+                "Recent MCA graduate seeking an entry-level Python Developer",
+                "position with strong programming fundamentals and practical",
+                "academic project experience."
+            ],
+            "skills": [
+                "Python",
+                "SQL",
+                "Git",
+                "REST API",
+                "Object Oriented Programming",
+                "Django",
+                "Problem Solving",
+                "PostgreSQL",
+                "MongoDB"
+            ],
+            "education": [
+                "Master of Computer Applications",
+                "Computer Science",
+                "2024 - 2026"
+            ],
+            "projects": [
+                "Resume Screening System",
+                "Developed a resume screening application using Python.",
+                "Implemented text processing and skill matching.",
+                "Used Python and SQL for application development.",
+                "Wedding Service Integration System",
+                "Developed a web application using React, Node.js,",
+                "Express.js, and MongoDB.",
+                "Implemented REST APIs and database integration.",
+                "INTERNSHIP:",
+                "Python Development Intern",
+                "ABC Technologies",
+                "3 months",
+                "Worked with Python and REST API development.",
+                "Performed debugging and testing of backend applications."
+            ],
+            "certifications": [
+                "Python Programming",
+                "SQL Fundamentals"
+            ]
+        }
+    },
+    "semantic_input": "Validated Day 17 cleaned resume",
+    "performance": {
+        "extraction_time_seconds": 0.147415,
+        "cleaning_time_seconds": 0.002441,
+        "entity_detection_time_seconds": 0.039155,
+        "skill_matching_time_seconds": 0.124385,
+        "semantic_processing_time_seconds": 9.995438,
+        "semantic_model_access_time_seconds": 7.927545,
+        "unaccounted_pipeline_time_seconds": 0.016802,
+        "total_pipeline_time_seconds": 10.325636,
+        "output_save_time_seconds": 0.002088
+    }
+}

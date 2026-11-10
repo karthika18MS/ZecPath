@@ -1,0 +1,73 @@
+{
+    "candidate_id": "candidate_009",
+    "target_role": "Fresher Python Developer",
+    "job_description": "fresher_python_developer.txt",
+    "eligibility": {
+        "status": "Eligible",
+        "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+        "failed_rules": []
+    },
+    "ats": {
+        "score": 91.92,
+        "status": "Eligible",
+        "eligible_cutoff": 70.0,
+        "review_cutoff": 55.0
+    },
+    "rule_checks": {
+        "mandatory_skills": {
+            "passed": true,
+            "required": [
+                "python",
+                "git"
+            ],
+            "missing": [],
+            "status": "All mandatory skills are satisfied."
+        },
+        "experience": {
+            "passed": true,
+            "candidate_years": null,
+            "minimum_years": 0.0,
+            "maximum_years": 1.0,
+            "status": "Experience information unavailable; rule not enforced."
+        },
+        "location": {
+            "passed": true,
+            "candidate_location": null,
+            "allowed_locations": [
+                "kochi",
+                "thiruvananthapuram"
+            ],
+            "status": "Candidate location unavailable; rule not enforced."
+        },
+        "availability": {
+            "passed": true,
+            "candidate_notice_period_days": null,
+            "maximum_allowed_days": 30,
+            "status": "Candidate availability information unavailable; rule not enforced."
+        }
+    },
+    "rule_source": "role: fresher_python_developer",
+    "applied_rules": {
+        "ats": {
+            "eligible_min": 70,
+            "review_min": 55
+        },
+        "mandatory_skills": [
+            "python",
+            "git"
+        ],
+        "experience": {
+            "min_years": 0,
+            "max_years": 1
+        },
+        "location": {
+            "allowed": [
+                "kochi",
+                "thiruvananthapuram"
+            ]
+        },
+        "availability": {
+            "max_days": 30
+        }
+    }
+}

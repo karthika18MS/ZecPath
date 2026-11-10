@@ -1,0 +1,28 @@
+{
+    "candidate_id": "candidate_010",
+    "target_role": "Fresher Data Analyst",
+    "candidate_education": {
+        "degrees": [
+            "mca"
+        ],
+        "fields": [
+            "computer science",
+            "computer applications",
+            "data science",
+            "statistics",
+            "engineering"
+        ]
+    },
+    "job_description_education": {
+        "required_degrees": [],
+        "required_fields": [
+            "computer science",
+            "data science",
+            "statistics"
+        ]
+    },
+    "degree_match": false,
+    "field_match": true,
+    "education_score": 100.0,
+    "education_status": "Education Field Requirement Met"
+}

@@ -1,0 +1,1149 @@
+{
+    "module": "Configurable Aptitude Adapter",
+    "dataset": "day63_demo_dataset",
+    "dataset_type": "DEMO_DATASET",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "pipeline_status": "SUCCESS",
+    "score_type": "SIMULATED_HEURISTIC_DEMO",
+    "is_simulated": true,
+    "candidate_summary": {
+        "total_candidates": 10,
+        "completed": 9,
+        "incomplete": 1,
+        "partial": 0,
+        "invalid_data": 0,
+        "errors": 0
+    },
+    "execution_time_seconds": 0.0055,
+    "candidates": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 84.09,
+            "scenario_evaluation_average": 86.54,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 85.31,
+            "evaluation_level": "strong",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND001",
+                    "question_id": "APT001",
+                    "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+                    "difficulty": "medium",
+                    "response": "Assuming equal productivity, total work is 5 multiplied by 10, which is 50 developer-days. Ten developers will complete it in 5 days.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 90.0,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 91,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 27.0,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 13.65,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 89.7,
+                    "expected_answer": "5 days",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND001",
+                    "question_id": "APT002",
+                    "question": "A sequence is 2, 4, 8, 16. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "32. Each number is multiplied by 2.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 68.61,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 59,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 20.58,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 8.85,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 78.48,
+                    "expected_answer": "32",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND001",
+                    "scenario_id": "SCN001",
+                    "scenario": "Your application becomes slow after several users log in. What would you do?",
+                    "response": "I would first identify whether the issue is in the frontend, backend or database. I would inspect API response times, database queries and server logs. Then I would optimize the bottleneck and test the application under concurrent user load.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 84.93,
+                        "problem_identification": 86.93,
+                        "decision_making": 84.93,
+                        "problem_solving": 89.93,
+                        "communication_clarity": 84.0,
+                        "outcome_awareness": 86.93
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 12.74,
+                        "problem_identification": 13.04,
+                        "decision_making": 16.99,
+                        "problem_solving": 22.48,
+                        "communication_clarity": 12.6,
+                        "outcome_awareness": 8.69
+                    },
+                    "scenario_evaluation_score": 86.54,
+                    "evaluation_level": "strong",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 76.69,
+            "scenario_evaluation_average": 74.93,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 75.81,
+            "evaluation_level": "moderate",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND002",
+                    "question_id": "APT001",
+                    "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+                    "difficulty": "medium",
+                    "response": "Ten developers will take 5 days because the number of developers is doubled.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 80.28,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 71,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 24.08,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 10.65,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 83.78,
+                    "expected_answer": "5 days",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND002",
+                    "question_id": "APT002",
+                    "question": "A sequence is 3, 6, 9, 12. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "15. The numbers increase by 3.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 46.67,
+                        "decision_quality": 78.6,
+                        "explanation_clarity": 57,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 14.0,
+                        "decision_quality": 15.72,
+                        "explanation_clarity": 8.55,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 69.6,
+                    "expected_answer": "15",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND002",
+                    "scenario_id": "SCN001",
+                    "scenario": "Your Python application produces an unexpected error. What would you do?",
+                    "response": "I would check the error message and identify the line where the error occurs. Then I would debug the code and search for a solution if needed.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 74.8,
+                        "problem_identification": 76.8,
+                        "decision_making": 74.8,
+                        "problem_solving": 79.8,
+                        "communication_clarity": 72.0,
+                        "outcome_awareness": 64.8
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 11.22,
+                        "problem_identification": 11.52,
+                        "decision_making": 14.96,
+                        "problem_solving": 19.95,
+                        "communication_clarity": 10.8,
+                        "outcome_awareness": 6.48
+                    },
+                    "scenario_evaluation_score": 74.93,
+                    "evaluation_level": "moderate",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 45.84,
+            "scenario_evaluation_average": 66.04,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 55.94,
+            "evaluation_level": "needs_improvement",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND003",
+                    "question_id": "APT001",
+                    "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+                    "difficulty": "medium",
+                    "response": "10 days because there are more developers working.",
+                    "parameter_scores": {
+                        "problem_understanding": 46.25,
+                        "reasoning": 70.56,
+                        "decision_quality": 43.0,
+                        "explanation_clarity": 61,
+                        "conclusion": 41.75
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 9.25,
+                        "reasoning": 21.17,
+                        "decision_quality": 8.6,
+                        "explanation_clarity": 9.15,
+                        "conclusion": 6.26
+                    },
+                    "logical_reasoning_score": 54.43,
+                    "expected_answer": "5 days",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND003",
+                    "question_id": "APT002",
+                    "question": "A sequence is 2, 4, 8, 16. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "20.",
+                    "parameter_scores": {
+                        "problem_understanding": 31.25,
+                        "reasoning": 36.94,
+                        "decision_quality": 33.0,
+                        "explanation_clarity": 47,
+                        "conclusion": 41.75
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 6.25,
+                        "reasoning": 11.08,
+                        "decision_quality": 6.6,
+                        "explanation_clarity": 7.05,
+                        "conclusion": 6.26
+                    },
+                    "logical_reasoning_score": 37.24,
+                    "expected_answer": "32",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND003",
+                    "scenario_id": "SCN001",
+                    "scenario": "Your website is not loading. What would you do?",
+                    "response": "I will refresh the page and check the internet connection. If it still does not work, I will ask a senior developer.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 70.58,
+                        "problem_identification": 72.58,
+                        "decision_making": 60.58,
+                        "problem_solving": 60.58,
+                        "communication_clarity": 75.0,
+                        "outcome_awareness": 60.58
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 10.59,
+                        "problem_identification": 10.89,
+                        "decision_making": 12.12,
+                        "problem_solving": 15.14,
+                        "communication_clarity": 11.25,
+                        "outcome_awareness": 6.06
+                    },
+                    "scenario_evaluation_score": 66.04,
+                    "evaluation_level": "moderate",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 82.02,
+            "scenario_evaluation_average": 81.67,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 81.84,
+            "evaluation_level": "strong",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND004",
+                    "question_id": "APT001",
+                    "question": "If three machines produce 30 products in 5 hours, how many products will six machines produce in 5 hours?",
+                    "difficulty": "medium",
+                    "response": "Each machine produces 10 products in 5 hours. Six machines will produce 60 products.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 82.22,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 73,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 24.67,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 10.95,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 84.67,
+                    "expected_answer": "60 products",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND004",
+                    "question_id": "APT002",
+                    "question": "A sequence is 5, 10, 15, 20. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "25. The difference between consecutive numbers is 5.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 70.56,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 61,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 21.17,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 9.15,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 79.37,
+                    "expected_answer": "25",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND004",
+                    "scenario_id": "SCN001",
+                    "scenario": "You receive a programming task but do not understand the requirement. What would you do?",
+                    "response": "I would read the requirement carefully, identify what the program should do and ask questions to clarify anything I do not understand. Then I would create a small solution and test it.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 79.02,
+                        "problem_identification": 81.02,
+                        "decision_making": 79.02,
+                        "problem_solving": 84.02,
+                        "communication_clarity": 85.0,
+                        "outcome_awareness": 81.02
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 11.85,
+                        "problem_identification": 12.15,
+                        "decision_making": 15.8,
+                        "problem_solving": 21.0,
+                        "communication_clarity": 12.75,
+                        "outcome_awareness": 8.1
+                    },
+                    "scenario_evaluation_score": 81.67,
+                    "evaluation_level": "strong",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 84.66,
+            "scenario_evaluation_average": 92.95,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 88.81,
+            "evaluation_level": "strong",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND005",
+                    "question_id": "APT001",
+                    "question": "A team of four developers completes a task in 12 days. How many days will eight equally productive developers take?",
+                    "difficulty": "medium",
+                    "response": "The total work is 48 developer-days. Eight developers will require 6 days.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 80.28,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 71,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 24.08,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 10.65,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 83.78,
+                    "expected_answer": "6 days",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND005",
+                    "question_id": "APT002",
+                    "question": "A sequence is 2, 6, 12, 20, 30. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "42. The differences are 4, 6, 8 and 10, so the next difference is 12.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 84.17,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 75,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 25.25,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 11.25,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 85.55,
+                    "expected_answer": "42",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND005",
+                    "scenario_id": "SCN001",
+                    "scenario": "A production application fails after a new deployment. How would you respond?",
+                    "response": "I would first assess the impact and check monitoring alerts and application logs. I would identify the affected service and compare the latest deployment changes. If the issue affects users significantly, I would coordinate a rollback while investigating the root cause. After fixing it, I would test the solution and document the incident.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 90.0,
+                        "problem_identification": 92.0,
+                        "decision_making": 90.0,
+                        "problem_solving": 95.0,
+                        "communication_clarity": 98.0,
+                        "outcome_awareness": 92.0
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 13.5,
+                        "problem_identification": 13.8,
+                        "decision_making": 18.0,
+                        "problem_solving": 23.75,
+                        "communication_clarity": 14.7,
+                        "outcome_awareness": 9.2
+                    },
+                    "scenario_evaluation_score": 92.95,
+                    "evaluation_level": "strong",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 83.77,
+            "scenario_evaluation_average": 91.75,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 87.76,
+            "evaluation_level": "strong",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND006",
+                    "question_id": "APT001",
+                    "question": "If 20% of 500 records are incorrect, how many records are correct?",
+                    "difficulty": "medium",
+                    "response": "Twenty percent of 500 is 100 incorrect records. Therefore, 500 minus 100 equals 400 correct records.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 86.11,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 77,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 25.83,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 11.55,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 86.43,
+                    "expected_answer": "400 records",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND006",
+                    "question_id": "APT002",
+                    "question": "A sequence is 1, 4, 9, 16, 25. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "36. These are square numbers: 1 squared, 2 squared, 3 squared, 4 squared and 5 squared. The next is 6 squared.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 70.0,
+                        "decision_quality": 78.6,
+                        "explanation_clarity": 87,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 21.0,
+                        "decision_quality": 15.72,
+                        "explanation_clarity": 13.05,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 81.1,
+                    "expected_answer": "36",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND006",
+                    "scenario_id": "SCN001",
+                    "scenario": "A machine learning model produces inconsistent predictions. How would you investigate?",
+                    "response": "I would first check whether the input data is consistent and whether preprocessing is applied correctly. I would examine missing values, feature distributions and model parameters. I would compare training and validation performance and investigate data leakage or overfitting. Then I would test improvements using a separate validation dataset.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 90.0,
+                        "problem_identification": 92.0,
+                        "decision_making": 90.0,
+                        "problem_solving": 95.0,
+                        "communication_clarity": 90.0,
+                        "outcome_awareness": 92.0
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 13.5,
+                        "problem_identification": 13.8,
+                        "decision_making": 18.0,
+                        "problem_solving": 23.75,
+                        "communication_clarity": 13.5,
+                        "outcome_awareness": 9.2
+                    },
+                    "scenario_evaluation_score": 91.75,
+                    "evaluation_level": "strong",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 69.89,
+            "scenario_evaluation_average": 74.72,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 72.31,
+            "evaluation_level": "moderate",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND007",
+                    "question_id": "APT001",
+                    "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+                    "difficulty": "medium",
+                    "response": "5 days.",
+                    "parameter_scores": {
+                        "problem_understanding": 74.0,
+                        "reasoning": 38.89,
+                        "decision_quality": 78.6,
+                        "explanation_clarity": 49,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 14.8,
+                        "reasoning": 11.67,
+                        "decision_quality": 15.72,
+                        "explanation_clarity": 7.35,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 63.07,
+                    "expected_answer": "5 days",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND007",
+                    "question_id": "APT002",
+                    "question": "A sequence is 10, 20, 30, 40. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "50. Add 10 each time.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 64.72,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 55,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 19.42,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 8.25,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 76.72,
+                    "expected_answer": "50",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND007",
+                    "scenario_id": "SCN001",
+                    "scenario": "An API is returning an error. What would you do?",
+                    "response": "I would check the API response and server logs. I would also check whether the request data is correct. If I cannot identify the issue, I would discuss it with the team.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 79.02,
+                        "problem_identification": 81.02,
+                        "decision_making": 69.02,
+                        "problem_solving": 69.02,
+                        "communication_clarity": 85.0,
+                        "outcome_awareness": 69.02
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 11.85,
+                        "problem_identification": 12.15,
+                        "decision_making": 13.8,
+                        "problem_solving": 17.25,
+                        "communication_clarity": 12.75,
+                        "outcome_awareness": 6.9
+                    },
+                    "scenario_evaluation_score": 74.72,
+                    "evaluation_level": "moderate",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 37.69,
+            "scenario_evaluation_average": 63.28,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 50.48,
+            "evaluation_level": "needs_improvement",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND008",
+                    "question_id": "APT001",
+                    "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+                    "difficulty": "medium",
+                    "response": "10 days.",
+                    "parameter_scores": {
+                        "problem_understanding": 31.25,
+                        "reasoning": 38.89,
+                        "decision_quality": 33.0,
+                        "explanation_clarity": 49,
+                        "conclusion": 41.75
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 6.25,
+                        "reasoning": 11.67,
+                        "decision_quality": 6.6,
+                        "explanation_clarity": 7.35,
+                        "conclusion": 6.26
+                    },
+                    "logical_reasoning_score": 38.13,
+                    "expected_answer": "5 days",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND008",
+                    "question_id": "APT002",
+                    "question": "A sequence is 1, 2, 4, 8. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "10.",
+                    "parameter_scores": {
+                        "problem_understanding": 31.25,
+                        "reasoning": 36.94,
+                        "decision_quality": 33.0,
+                        "explanation_clarity": 47,
+                        "conclusion": 41.75
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 6.25,
+                        "reasoning": 11.08,
+                        "decision_quality": 6.6,
+                        "explanation_clarity": 7.05,
+                        "conclusion": 6.26
+                    },
+                    "logical_reasoning_score": 37.24,
+                    "expected_answer": "16",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND008",
+                    "scenario_id": "SCN001",
+                    "scenario": "Your Python program is not working. What would you do?",
+                    "response": "I will restart the program. If it does not work, I will ask someone for help.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 55.51,
+                        "problem_identification": 55.51,
+                        "decision_making": 65.51,
+                        "problem_solving": 70.51,
+                        "communication_clarity": 69.0,
+                        "outcome_awareness": 55.51
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 8.33,
+                        "problem_identification": 8.33,
+                        "decision_making": 13.1,
+                        "problem_solving": 17.63,
+                        "communication_clarity": 10.35,
+                        "outcome_awareness": 5.55
+                    },
+                    "scenario_evaluation_score": 63.28,
+                    "evaluation_level": "moderate",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "response_status": "completed",
+            "logical_question_count": 2,
+            "scenario_question_count": 1,
+            "logical_reasoning_average": 76.25,
+            "scenario_evaluation_average": 92.95,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": 84.6,
+            "evaluation_level": "strong",
+            "logical_reasoning_results": [
+                {
+                    "candidate_id": "CAND009",
+                    "question_id": "APT001",
+                    "question": "If 15 employees complete 60 tasks equally, how many tasks does each employee complete?",
+                    "difficulty": "medium",
+                    "response": "Each employee completes 4 tasks because 60 divided by 15 equals 4.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 78.33,
+                        "decision_quality": 88.6,
+                        "explanation_clarity": 69,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 23.5,
+                        "decision_quality": 17.72,
+                        "explanation_clarity": 10.35,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 82.9,
+                    "expected_answer": "4 tasks",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                },
+                {
+                    "candidate_id": "CAND009",
+                    "question_id": "APT002",
+                    "question": "A sequence is 4, 8, 12, 16. What is the next number?",
+                    "difficulty": "medium",
+                    "response": "20. The sequence increases by 4.",
+                    "parameter_scores": {
+                        "problem_understanding": 89.0,
+                        "reasoning": 46.67,
+                        "decision_quality": 78.6,
+                        "explanation_clarity": 57,
+                        "conclusion": 90.2
+                    },
+                    "weights": {
+                        "problem_understanding": 0.2,
+                        "reasoning": 0.3,
+                        "decision_quality": 0.2,
+                        "explanation_clarity": 0.15,
+                        "conclusion": 0.15
+                    },
+                    "weighted_contributions": {
+                        "problem_understanding": 17.8,
+                        "reasoning": 14.0,
+                        "decision_quality": 15.72,
+                        "explanation_clarity": 8.55,
+                        "conclusion": 13.53
+                    },
+                    "logical_reasoning_score": 69.6,
+                    "expected_answer": "20",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "scenario_evaluation_results": [
+                {
+                    "candidate_id": "CAND009",
+                    "scenario_id": "SCN001",
+                    "scenario": "A teammate is unable to complete their assigned task before the deadline. What would you do?",
+                    "response": "I would first communicate with the teammate to understand the problem. Then I would discuss task priorities with the team and see whether we can redistribute some work. I would inform the project lead about the situation and help the team complete the important tasks on time.",
+                    "response_status": "valid",
+                    "parameter_scores": {
+                        "situation_understanding": 90.0,
+                        "problem_identification": 92.0,
+                        "decision_making": 90.0,
+                        "problem_solving": 95.0,
+                        "communication_clarity": 98.0,
+                        "outcome_awareness": 92.0
+                    },
+                    "weights": {
+                        "situation_understanding": 0.15,
+                        "problem_identification": 0.15,
+                        "decision_making": 0.2,
+                        "problem_solving": 0.25,
+                        "communication_clarity": 0.15,
+                        "outcome_awareness": 0.1
+                    },
+                    "weighted_contributions": {
+                        "situation_understanding": 13.5,
+                        "problem_identification": 13.8,
+                        "decision_making": 18.0,
+                        "problem_solving": 23.75,
+                        "communication_clarity": 14.7,
+                        "outcome_awareness": 9.2
+                    },
+                    "scenario_evaluation_score": 92.95,
+                    "evaluation_level": "strong",
+                    "score_origin": "SIMULATED_HEURISTIC_DEMO",
+                    "is_simulated": true
+                }
+            ],
+            "errors": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "scoring_note": "Demo-only heuristic parameter scores generated from answer text. Not a human evaluation or a trained AI assessment."
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "status": "INCOMPLETE",
+            "response_status": "not_provided",
+            "logical_question_count": 0,
+            "scenario_question_count": 0,
+            "logical_reasoning_average": null,
+            "scenario_evaluation_average": null,
+            "category_weights": {
+                "logical_reasoning": 0.5,
+                "scenario_evaluation": 0.5
+            },
+            "aptitude_score": null,
+            "evaluation_level": null,
+            "logical_reasoning_results": [],
+            "scenario_evaluation_results": [],
+            "score_origin": "SIMULATED_HEURISTIC_DEMO",
+            "is_simulated": true,
+            "errors": [],
+            "message": "Assessment was not provided or was not completed."
+        }
+    ]
+}

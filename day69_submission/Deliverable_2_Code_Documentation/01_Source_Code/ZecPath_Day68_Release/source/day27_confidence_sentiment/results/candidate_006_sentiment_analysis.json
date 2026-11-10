@@ -1,0 +1,19 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "BACKEND_SKILLS_001",
+    "raw_answer": "I really enjoy backend development. I successfully completed several projects and I am confident working with Python.",
+    "normalized_answer": "i really enjoy backend development. i successfully completed several projects and i am confident working with python.",
+    "sentiment_analysis": {
+        "sentiment": "positive",
+        "sentiment_score": 100.0,
+        "positive_count": 3,
+        "negative_count": 0,
+        "positive_words": [
+            "enjoy",
+            "successfully",
+            "confident"
+        ],
+        "negative_words": []
+    },
+    "created_at": "2026-09-08T05:17:27.740341+00:00"
+}

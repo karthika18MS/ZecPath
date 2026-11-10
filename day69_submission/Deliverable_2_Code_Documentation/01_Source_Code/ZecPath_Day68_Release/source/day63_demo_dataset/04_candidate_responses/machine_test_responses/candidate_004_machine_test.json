@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND004",
+    "job_id": "JD003",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.063475+05:30",
+    "task": {
+        "task_id": "JAVA_TASK_004",
+        "title": "Java Employee Management",
+        "requirements": [
+            "Create an Employee class",
+            "Store employee information",
+            "Calculate annual salary",
+            "Display employee details"
+        ],
+        "candidate_code": "\nclass Employee {\n\n    private String name;\n    private double monthlySalary;\n\n    public Employee(String name, double monthlySalary) {\n        this.name = name;\n        this.monthlySalary = monthlySalary;\n    }\n\n    public double calculateAnnualSalary() {\n        return monthlySalary * 12;\n    }\n\n    public void displayDetails() {\n        System.out.println(\"Name: \" + name);\n        System.out.println(\n            \"Annual Salary: \" + calculateAnnualSalary()\n        );\n    }\n\n    public static void main(String[] args) {\n\n        Employee employee = new Employee(\n            \"Arun\",\n            25000\n        );\n\n        employee.displayDetails();\n    }\n}\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 7,
+            "failed_tests": 3,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 78,
+            "code_quality": 75,
+            "readability": 80,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

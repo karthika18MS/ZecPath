@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND007",
+    "job_id": "JD001",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.065953+05:30",
+    "task": {
+        "task_id": "MERN_TASK_007",
+        "title": "Node.js REST API",
+        "requirements": [
+            "Create REST API endpoint",
+            "Validate request parameters",
+            "Return JSON response",
+            "Handle errors"
+        ],
+        "candidate_code": "\nconst express = require('express');\n\nconst app = express();\n\napp.use(express.json());\n\napp.get('/api/employees/:id', (req, res) => {\n\n    const id = Number(req.params.id);\n\n    if (!Number.isInteger(id) || id <= 0) {\n        return res.status(400).json({\n            message: 'Invalid employee ID'\n        });\n    }\n\n    res.json({\n        id: id,\n        name: 'Demo Employee'\n    });\n});\n\napp.listen(3000);\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 8,
+            "failed_tests": 2,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 84,
+            "code_quality": 82,
+            "readability": 85,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

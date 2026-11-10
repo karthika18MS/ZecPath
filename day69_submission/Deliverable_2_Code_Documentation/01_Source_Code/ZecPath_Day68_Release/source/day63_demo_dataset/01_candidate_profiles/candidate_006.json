@@ -1,0 +1,39 @@
+{
+  "candidate_id": "CAND006",
+  "candidate_name": "Priya Nair",
+  "job_id": "JD002",
+  "target_role": "Python Developer",
+  "experience_years": 3,
+  "education": "MCA",
+  "skills": [
+    "Python",
+    "Django",
+    "Flask",
+    "SQL",
+    "MySQL",
+    "PostgreSQL",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "Machine Learning",
+    "Natural Language Processing",
+    "TF-IDF",
+    "Cosine Similarity",
+    "REST APIs"
+  ],
+  "resume_file": "candidate_006_resume.pdf",
+  "resume_quality": "excellent",
+  "candidate_type": "experienced",
+  "specialization": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Natural Language Processing"
+  ],
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

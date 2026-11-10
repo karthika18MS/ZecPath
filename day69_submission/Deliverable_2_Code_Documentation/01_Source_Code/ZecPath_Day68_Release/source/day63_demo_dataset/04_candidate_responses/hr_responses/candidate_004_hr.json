@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND004",
+    "job_id": "JD003",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "My name is Adithya. I recently completed my BCA. I have learned Java programming, object-oriented programming and SQL. I completed academic projects using Java and MySQL. I am looking for an opportunity to start my software development career.",
+            "answer_relevance": 88,
+            "communication_score": 85,
+            "confidence_score": 82,
+            "consistency_score": 88
+        },
+        {
+            "question_id": "HR002",
+            "question": "Why do you want to become a Java Developer?",
+            "answer": "I am interested in Java because it is an object-oriented programming language. I enjoy solving programming problems and want to improve my backend development skills.",
+            "answer_relevance": 86,
+            "communication_score": 88,
+            "confidence_score": 84,
+            "consistency_score": 87
+        },
+        {
+            "question_id": "HR003",
+            "question": "How would you handle a task you have never done before?",
+            "answer": "First, I would understand the requirement. Then I would research the concept, try a small implementation and test it. If I need help, I would discuss it with an experienced team member.",
+            "answer_relevance": 92,
+            "communication_score": 90,
+            "confidence_score": 88,
+            "consistency_score": 91
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

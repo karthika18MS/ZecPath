@@ -1,0 +1,1032 @@
+
+######################################################################
+ZECPath - REUSABLE END-TO-END SIMULATION
+######################################################################
+
+Project directory: D:\ZecPath-AI
+Simulation directory: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation
+Dataset name: day63_demo_dataset
+Dataset type: DEMO_DATASET
+Dataset root: D:\ZecPath-AI\day63_demo_dataset
+Execution timeout: 900
+Continue on stage failure: False
+Validate outputs: True
+=================================================================
+ZECPath - SIMULATION CONFIGURATION
+=================================================================
+Configuration: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\config\pipeline_config.json
+Project Root: D:\ZecPath-AI
+Simulation Root: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation
+Dataset Name: day63_demo_dataset
+Dataset Type: DEMO_DATASET
+Dataset Root: D:\ZecPath-AI\day63_demo_dataset
+Candidate Profiles: D:\ZecPath-AI\day63_demo_dataset\01_candidate_profiles
+Resumes: D:\ZecPath-AI\day63_demo_dataset\02_sample_resumes
+Job Descriptions: D:\ZecPath-AI\day63_demo_dataset\03_job_descriptions
+Candidate Responses: D:\ZecPath-AI\day63_demo_dataset\04_candidate_responses
+Output Directory: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs
+Timeout: 900 seconds
+=================================================================
+
+Starting complete simulation...
+
+STEP 1: ATS WORKFLOW
+
+======================================================================
+RUNNING STAGE: ATS_INPUT
+======================================================================
+
+Initializing ZecPath ATS Input Pipeline...
+Pipeline initialized successfully.
+Dataset Name: day63_demo_dataset
+Dataset Type: DEMO_DATASET
+Dataset Root: D:\ZecPath-AI\day63_demo_dataset
+Output Directory: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs
+
+
+############################################################
+ZECPath - CONFIGURABLE ATS INPUT PIPELINE
+############################################################
+
+Loading candidate dataset...
+
+Candidates discovered: 10
+Dataset: day63_demo_dataset
+
+============================================================
+Processing Candidate: CAND001
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND002
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND003
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND004
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND005
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND006
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND007
+============================================================
+Resume Status: MISSING
+JD Status: PROCESSED
+Input Status: BLOCKED_RESUME
+
+============================================================
+Processing Candidate: CAND008
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND009
+============================================================
+Resume Status: PROCESSED
+JD Status: PROCESSED
+Input Status: READY_FOR_ATS
+
+============================================================
+Processing Candidate: CAND010
+============================================================
+Resume Status: MISSING
+JD Status: PROCESSED
+Input Status: BLOCKED_RESUME
+
+
+============================================================
+ATS INPUT PIPELINE - FINAL SUMMARY
+============================================================
+Total Candidates       : 10
+Ready for ATS          : 8
+Blocked - Resume       : 2
+Blocked - JD           : 0
+Blocked - Both         : 0
+Processing Errors      : 0
+------------------------------------------------------------
+PIPELINE RESULT: SUCCESS
+============================================================
+
+Output saved successfully:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\ats_input_results.json
+
+
+ERROR OUTPUT:
+D:\ZecPath-AI\venv\Lib\site-packages\fitz\__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+
+
+ATS_INPUT completed successfully.
+
+======================================================================
+RUNNING STAGE: ATS_SCORING
+======================================================================
+[MODEL] Loaded 'sentence-transformers/all-MiniLM-L6-v2' locally in 0.304 seconds.
+Scored CAND001
+Scored CAND002
+Scored CAND003
+Scored CAND004
+Scored CAND005
+Scored CAND006
+Scored CAND008
+Scored CAND009
+
+Scoring summary: {'total_candidates': 10, 'scored': 8, 'blocked': 2, 'errors': 0}
+Results saved to: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\ats_scoring_results.json
+
+
+ERROR OUTPUT:
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 4134.18it/s]
+
+
+ATS_SCORING completed successfully.
+
+STEP 2: INTEGRATED ATS PIPELINE
+
+======================================================================
+RUNNING STAGE: ATS
+======================================================================
+
+Initializing ZecPath Integrated ATS Pipeline...
+Pipeline initialized successfully.
+
+#################################################################
+ZECPath DAY64 - INTEGRATED ATS PIPELINE
+#################################################################
+
+STEP 1: REUSING EXISTING ATS RESULTS
+
+=================================================================
+STEP 1: ATS ADAPTER
+=================================================================
+
+Initializing ZecPath ATS Adapter...
+ATS Adapter initialized successfully.
+Dataset Root: D:\ZecPath-AI\day63_demo_dataset
+Simulation Root: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation
+Output Directory: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs
+
+############################################################
+ZECPath DAY64 - ATS ADAPTER
+############################################################
+
+Reusing existing ATS pipeline results...
+ATS input results validated.
+ATS scoring results validated.
+No ATS pipeline was executed again.
+
+============================================================
+ATS ADAPTER SUMMARY
+============================================================
+Input Candidates: 10
+Total Scoring Candidates: 10
+ATS Completed: 8
+ATS Blocked: 2
+ATS Errors: 0
+Results Reused: True
+Execution Time: 0.0016 seconds
+
+ATS Adapter completed successfully.
+
+ATS candidates received: 10
+ATS results reused: True
+ATS pipelines executed: 0
+
+=================================================================
+RUNNING DAY21 ELIGIBILITY ENGINE
+=================================================================
+CAND001: Eligible
+CAND002: Review
+CAND003: Rejected
+CAND004: Rejected
+CAND005: Eligible
+CAND006: Review
+CAND007: BLOCKED
+CAND008: Rejected
+CAND009: Eligible
+CAND010: BLOCKED
+
+Eligibility summary: {'total': 10, 'eligible': 3, 'review': 2, 'rejected': 3, 'blocked': 2, 'errors': 0}
+Results saved to: D:\ZecPath-AI\eligibility_engine\day63_results\day63_eligibility_summary.json
+
+Eligibility Engine: SUCCESS
+
+=================================================================
+STEP 3: MERGING ATS AND ELIGIBILITY RESULTS
+=================================================================
+
+=================================================================
+INTEGRATED ATS PIPELINE SUMMARY
+=================================================================
+Pipeline Status: SUCCESS
+Total Candidates: 10
+ATS Completed: 8
+ATS Blocked: 2
+ATS Errors: 0
+Eligible: 3
+Review: 2
+Rejected: 3
+Eligibility Blocked: 2
+Eligibility Errors: 0
+Not Evaluated: 0
+ATS Results Reused: True
+ATS Pipelines Executed: 0
+Execution Time: 0.1561 seconds
+
+Results saved to:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\ats_pipeline_results.json
+
+Integrated ATS Pipeline completed.
+
+Final pipeline status: SUCCESS
+
+
+ATS completed successfully.
+
+STEP 3: ASSESSMENT PIPELINES
+
+======================================================================
+RUNNING STAGE: HR
+======================================================================
+
+#################################################################
+ZECPath DAY 63 - HR PIPELINE
+#################################################################
+
+=================================================================
+STEP 1: RUNNING HR ADAPTER
+=================================================================
+Initializing ZecPath HR Adapter...
+HR Adapter initialized successfully.
+
+############################################################
+ZECPath DAY63 - HR ADAPTER
+############################################################
+
+Candidate HR files found: 10
+
+=======================================================
+Processing HR Candidate: candidate_001_hr
+=======================================================
+Questions Processed: 3
+HR Score: 89.33/100
+Score Category: strong
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_002_hr
+=======================================================
+Questions Processed: 3
+HR Score: 84.1/100
+Score Category: strong
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_003_hr
+=======================================================
+Questions Processed: 3
+HR Score: 68.42/100
+Score Category: moderate
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_004_hr
+=======================================================
+Questions Processed: 3
+HR Score: 87.62/100
+Score Category: strong
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_005_hr
+=======================================================
+Questions Processed: 3
+HR Score: 91.8/100
+Score Category: strong
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_006_hr
+=======================================================
+Questions Processed: 3
+HR Score: 91.73/100
+Score Category: strong
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_007_hr
+=======================================================
+Questions Processed: 3
+HR Score: 82.82/100
+Score Category: strong
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_008_hr
+=======================================================
+Questions Processed: 3
+HR Score: 62.73/100
+Score Category: moderate
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_009_hr
+=======================================================
+Questions Processed: 3
+HR Score: 89.58/100
+Score Category: strong
+HR Processing: SUCCESS
+
+=======================================================
+Processing HR Candidate: candidate_010_hr
+=======================================================
+
+============================================================
+HR ADAPTER - FINAL SUMMARY
+============================================================
+Total Candidates: 10
+Completed: 9
+Pending Manual Evaluation: 0
+Incomplete: 1
+Invalid Data: 0
+Errors: 0
+Execution Time: 0.0032 seconds
+
+Results saved to:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\hr_results.json
+
+HR Adapter execution completed.
+
+HR adapter execution: SUCCESS
+
+=================================================================
+HR PIPELINE SUMMARY
+=================================================================
+Pipeline status: SUCCESS
+Total candidates: 10
+Completed: 9
+Pending manual evaluation: 0
+Incomplete: 1
+Invalid data: 0
+Errors: 0
+Average HR score: 83.13
+Validation errors: 0
+
+Output saved:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\hr_pipeline_results.json
+
+
+HR completed successfully.
+
+======================================================================
+RUNNING STAGE: APTITUDE
+======================================================================
+
+
+#################################################################
+ZECPath DAY 63 - APTITUDE PIPELINE
+#################################################################
+
+=================================================================
+STAGE 1: EXECUTING APTITUDE ADAPTER
+=================================================================
+
+DAY63 APTITUDE ADAPTER
+---------------------
+Total candidates : 10
+Completed        : 9
+Incomplete       : 1
+Partial          : 0
+Invalid data     : 0
+Errors           : 0
+Output           : D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\aptitude_results.json
+
+Candidate Scores
+CAND001: COMPLETED - 85.31/100
+CAND002: COMPLETED - 75.81/100
+CAND003: COMPLETED - 55.94/100
+CAND004: COMPLETED - 81.84/100
+CAND005: COMPLETED - 88.81/100
+CAND006: COMPLETED - 87.76/100
+CAND007: COMPLETED - 72.31/100
+CAND008: COMPLETED - 50.48/100
+CAND009: COMPLETED - 84.6/100
+CAND010: INCOMPLETE - No score
+
+Aptitude adapter execution successful.
+
+=================================================================
+STAGE 2: LOADING ADAPTER OUTPUT
+=================================================================
+Candidate records loaded: 10
+
+=================================================================
+STAGE 3: VALIDATING CANDIDATE RESULTS
+=================================================================
+Candidate validation successful.
+No validation errors found.
+
+Pipeline output saved successfully:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\aptitude_pipeline_results.json
+
+=================================================================
+DAY 63 APTITUDE PIPELINE SUMMARY
+=================================================================
+Total candidates : 10
+Completed        : 9
+Incomplete       : 1
+Partial          : 0
+Invalid          : 0
+Not provided     : 0
+Average score    : 75.87
+Validation errors: 0
+Pipeline status  : SUCCESS
+=================================================================
+
+
+APTITUDE completed successfully.
+
+======================================================================
+RUNNING STAGE: TECHNICAL
+======================================================================
+
+
+#################################################################
+ZECPath DAY 63 - TECHNICAL INTERVIEW PIPELINE
+#################################################################
+
+=================================================================
+STAGE 1: RUNNING TECHNICAL ADAPTER
+=================================================================
+=================================================================
+ZecPath Day 63 - Technical Interview Adapter
+=================================================================
+Scoring mode: DEMO
+
+Processing: candidate_001_technical.json
+Candidate: CAND001
+Status: COMPLETED
+Technical Score: 67.48
+
+Processing: candidate_002_technical.json
+Candidate: CAND002
+Status: COMPLETED
+Technical Score: 63.43
+
+Processing: candidate_003_technical.json
+Candidate: CAND003
+Status: COMPLETED
+Technical Score: 61.84
+
+Processing: candidate_004_technical.json
+Candidate: CAND004
+Status: COMPLETED
+Technical Score: 59.78
+
+Processing: candidate_005_technical.json
+Candidate: CAND005
+Status: COMPLETED
+Technical Score: 64.47
+
+Processing: candidate_006_technical.json
+Candidate: CAND006
+Status: COMPLETED
+Technical Score: 62.66
+
+Processing: candidate_007_technical.json
+Candidate: CAND007
+Status: COMPLETED
+Technical Score: 62.93
+
+Processing: candidate_008_technical.json
+Candidate: CAND008
+Status: COMPLETED
+Technical Score: 57.52
+
+Processing: candidate_009_technical.json
+Candidate: CAND009
+Status: COMPLETED
+Technical Score: 61.05
+
+Processing: candidate_010_technical.json
+Candidate: CAND010
+Status: NOT_PROVIDED
+Technical Score: None
+
+=================================================================
+TECHNICAL ADAPTER SUMMARY
+=================================================================
+Total candidates : 10
+Completed        : 9
+Pending review   : 0
+Not provided     : 1
+Invalid data     : 0
+Average score    : 62.35
+File errors      : 0
+
+Output saved to:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\technical_results.json
+=================================================================
+
+
+Technical adapter executed successfully.
+
+=================================================================
+STAGE 2: LOADING TECHNICAL RESULTS
+=================================================================
+Candidate records loaded: 10
+
+=================================================================
+STAGE 3: VALIDATING CANDIDATE RESULTS
+=================================================================
+Candidate validation successful.
+No validation errors found.
+
+=================================================================
+STAGE 4: CALCULATING SUMMARY STATISTICS
+=================================================================
+Total candidates : 10
+Completed        : 9
+Pending review   : 0
+Not provided     : 1
+Invalid data     : 0
+Average score    : 62.35
+Highest score    : 67.48
+Lowest score     : 57.52
+
+Pipeline output saved successfully:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\technical_pipeline_results.json
+
+#################################################################
+TECHNICAL PIPELINE EXECUTION SUMMARY
+#################################################################
+Pipeline Status : SUCCESS
+Total Candidates: 10
+Completed       : 9
+Pending Review  : 0
+Not Provided    : 1
+Average Score   : 62.35
+Execution Time  : 0.165 seconds
+#################################################################
+
+
+TECHNICAL completed successfully.
+
+======================================================================
+RUNNING STAGE: MACHINE_TEST
+======================================================================
+
+
+#################################################################
+ZECPath DAY 63 - MACHINE TEST PIPELINE
+#################################################################
+
+=================================================================
+STAGE 1: RUNNING MACHINE TEST ADAPTER
+=================================================================
+
+=================================================================
+ZecPath Day 63 - Machine Test Adapter
+=================================================================
+Scoring engine: Day 50 Machine Test Evaluation Engine
+Data mode: SIMULATED DEMO DATA
+
+Processing: CAND001
+Status: COMPLETED
+Machine Test Score: 84.6
+Simulated: True
+
+Processing: CAND002
+Status: COMPLETED
+Machine Test Score: 88.6
+Simulated: True
+
+Processing: CAND003
+Status: COMPLETED
+Machine Test Score: 74.8
+Simulated: True
+
+Processing: CAND004
+Status: COMPLETED
+Machine Test Score: 73.6
+Simulated: True
+
+Processing: CAND005
+Status: COMPLETED
+Machine Test Score: 91.2
+Simulated: True
+
+Processing: CAND006
+Status: COMPLETED
+Machine Test Score: 84.2
+Simulated: True
+
+Processing: CAND007
+Status: COMPLETED
+Machine Test Score: 81.7
+Simulated: True
+
+Processing: CAND008
+Status: COMPLETED
+Machine Test Score: 67.2
+Simulated: True
+
+Processing: CAND009
+Status: COMPLETED
+Machine Test Score: 83.4
+Simulated: True
+
+Processing: CAND010
+Status: NOT_PROVIDED
+Machine Test Score: None
+Simulated: False
+
+=================================================================
+MACHINE TEST ADAPTER SUMMARY
+=================================================================
+Total candidates : 10
+Completed        : 9
+Not provided     : 1
+Invalid data     : 0
+Scored candidates: 9
+Average score    : 81.03
+Highest score    : 91.2
+Lowest score     : 67.2
+File errors      : 0
+
+Output saved to:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\machine_test_results.json
+=================================================================
+
+
+Machine test adapter executed successfully.
+
+=================================================================
+STAGE 2: LOADING MACHINE TEST RESULTS
+=================================================================
+Candidate records loaded: 10
+
+=================================================================
+STAGE 3: VALIDATING MACHINE TEST RESULTS
+=================================================================
+Candidate validation successful.
+No validation errors found.
+
+=================================================================
+STAGE 4: CALCULATING SUMMARY STATISTICS
+=================================================================
+Total candidates : 10
+Completed        : 9
+Not provided     : 1
+Invalid data     : 0
+Scored candidates: 9
+Average score    : 81.03
+Highest score    : 91.2
+Lowest score     : 67.2
+
+Pipeline output saved successfully:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\machine_test_pipeline_results.json
+
+#################################################################
+MACHINE TEST PIPELINE EXECUTION SUMMARY
+#################################################################
+Pipeline Status : SUCCESS
+Total Candidates: 10
+Completed       : 9
+Not Provided    : 1
+Invalid Data    : 0
+Average Score   : 81.03
+Execution Time  : 0.149 seconds
+#################################################################
+
+
+MACHINE_TEST completed successfully.
+
+STEP 4: CHECKING CORE PIPELINE RESULTS
+All core assessment pipelines succeeded.
+
+STEP 5: CROSS-ROUND SCORING
+
+======================================================================
+RUNNING STAGE: CROSS_ROUND
+======================================================================
+
+######################################################################
+ZECPath DAY 63 - CROSS-ROUND PIPELINE
+######################################################################
+
+======================================================================
+STEP 1: RUNNING CROSS-ROUND SCORING ENGINE
+======================================================================
+
+======================================================================
+ZECPath DAY 63 - CROSS-ROUND SCORING ENGINE
+======================================================================
+
+Loading ATS results...
+ATS candidates loaded: 10
+
+Loading HR results...
+HR candidates loaded: 10
+
+Loading APTITUDE results...
+APTITUDE candidates loaded: 10
+
+Loading TECHNICAL results...
+TECHNICAL candidates loaded: 10
+
+Loading MACHINE_TEST results...
+MACHINE_TEST candidates loaded: 10
+
+Total unique candidate/job combinations: 10
+CAND001 | JD001 | Score: 83.08 | Coverage: 100.0% | Status: COMPLETED | Decision: ELIGIBLE_FOR_NEXT_STAGE
+CAND002 | JD002 | Score: 80.82 | Coverage: 100.0% | Status: COMPLETED | Decision: MANUAL_REVIEW
+CAND003 | JD001 | Score: 64.74 | Coverage: 100.0% | Status: COMPLETED | Decision: NOT_ELIGIBLE
+CAND004 | JD003 | Score: 70.91 | Coverage: 100.0% | Status: COMPLETED | Decision: NOT_ELIGIBLE
+CAND005 | JD003 | Score: 84.99 | Coverage: 100.0% | Status: COMPLETED | Decision: ELIGIBLE_FOR_NEXT_STAGE
+CAND006 | JD002 | Score: 82.07 | Coverage: 100.0% | Status: COMPLETED | Decision: MANUAL_REVIEW
+CAND007 | JD001 | Score: 74.72 | Coverage: 85.0% | Status: INCOMPLETE | Decision: BLOCKED_PENDING_ATS
+CAND008 | JD002 | Score: 63.45 | Coverage: 100.0% | Status: COMPLETED | Decision: NOT_ELIGIBLE
+CAND009 | JD001 | Score: 80.67 | Coverage: 100.0% | Status: COMPLETED | Decision: ELIGIBLE_FOR_NEXT_STAGE
+CAND010 | JD003 | Score: None | Coverage: 0.0% | Status: NO_SCORES_AVAILABLE | Decision: BLOCKED_PENDING_ATS
+
+======================================================================
+CROSS-ROUND SCORING COMPLETED
+======================================================================
+Pipeline status: SUCCESS
+Total candidates: 10
+Scored candidates: 9
+Completed: 8
+Incomplete: 1
+No scores available: 1
+Average unified score: 76.16
+Highest unified score: 84.99
+Lowest unified score: 63.45
+
+Input warnings:
+No input warnings.
+
+Output saved successfully:
+D:\ZecPath-AI\day63_demo_dataset\07_cross_round_scoring\results\cross_round_scoring_results.json
+
+Cross-round engine execution: SUCCESS
+
+======================================================================
+CROSS-ROUND PIPELINE SUMMARY
+======================================================================
+Pipeline status: SUCCESS
+Total candidates: 10
+Scored candidates: 9
+Completed: 8
+Incomplete: 1
+No scores available: 1
+Average unified score: 76.16
+Validation errors: 0
+
+Pipeline output saved:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\cross_round_pipeline_results.json
+
+
+CROSS_ROUND completed successfully.
+
+STEP 6: FINAL DECISION
+
+======================================================================
+RUNNING STAGE: FINAL_DECISION
+======================================================================
+
+=================================================================
+ZECPath DAY 63 - FINAL DECISION PIPELINE
+=================================================================
+
+STEP 1: LOADING DECISION ENGINE
+Decision function loaded successfully.
+
+STEP 2: LOADING CROSS-ROUND RESULTS
+Candidates loaded: 10
+
+STEP 3: PROCESSING FINAL DECISIONS
+CAND001 | JD001 | ELIGIBLE_FOR_NEXT_STAGE
+CAND002 | JD002 | MANUAL_REVIEW
+CAND003 | JD001 | NOT_ELIGIBLE
+CAND004 | JD003 | NOT_ELIGIBLE
+CAND005 | JD003 | ELIGIBLE_FOR_NEXT_STAGE
+CAND006 | JD002 | MANUAL_REVIEW
+CAND007 | JD001 | BLOCKED_PENDING_ATS
+CAND008 | JD002 | NOT_ELIGIBLE
+CAND009 | JD001 | ELIGIBLE_FOR_NEXT_STAGE
+CAND010 | JD003 | BLOCKED_PENDING_ATS
+
+STEP 4: BUILDING SUMMARY
+Eligible: 3
+Manual review: 2
+Not eligible: 3
+Blocked: 2
+Pending assessments: 0
+Eligible but incomplete: 0
+
+STEP 5: SAVING FINAL DECISIONS
+
+=================================================================
+FINAL DECISION PIPELINE COMPLETED
+=================================================================
+Pipeline status: SUCCESS
+Total candidates: 10
+Processed candidates: 10
+Validation errors: 0
+
+Output saved:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\final_decision_pipeline_results.json
+
+
+FINAL_DECISION completed successfully.
+
+STEP 7: REPORT GENERATION
+
+======================================================================
+RUNNING STAGE: CANDIDATE_REPORT
+======================================================================
+
+=================================================================
+ZECPath DAY 63 - CANDIDATE REPORT GENERATION
+=================================================================
+
+Candidates loaded: 10
+CAND001 | Report generated successfully
+CAND002 | Report generated successfully
+CAND003 | Report generated successfully
+CAND004 | Report generated successfully
+CAND005 | Report generated successfully
+CAND006 | Report generated successfully
+CAND007 | Report generated successfully
+CAND008 | Report generated successfully
+CAND009 | Report generated successfully
+CAND010 | Report generated successfully
+
+=================================================================
+CANDIDATE REPORTING COMPLETED
+=================================================================
+Total candidates: 10
+Reports generated: 10
+Failed reports: 0
+Execution time: 0.011 seconds
+Output directory: D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\candidate_results
+Source pipeline: SUCCESS
+
+
+CANDIDATE_REPORT completed successfully.
+
+======================================================================
+RUNNING STAGE: BATCH_REPORT
+======================================================================
+
+=================================================================
+ZECPath DAY 63 - BATCH REPORT GENERATION
+=================================================================
+
+Candidates loaded: 10
+
+BATCH REPORT SUMMARY
+total_candidates: 10
+eligible_for_next_stage: 3
+manual_review: 2
+not_eligible: 3
+blocked_pending_ats: 2
+pending_assessments: 0
+eligible_assessments_incomplete: 0
+
+Score statistics:
+scored_candidates: 9
+average_score: 76.16
+highest_score: 84.99
+lowest_score: 63.45
+
+Assessment statistics generated.
+
+=================================================================
+BATCH REPORT GENERATION COMPLETED
+=================================================================
+Pipeline status: SUCCESS
+Total candidates: 10
+Execution time: 0.003 seconds
+
+JSON report saved:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\batch_report.json
+
+Markdown report saved:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\batch_report.md
+
+
+BATCH_REPORT completed successfully.
+
+STEP 8: PERFORMANCE REPORT
+
+======================================================================
+RUNNING STAGE: PERFORMANCE_REPORT
+======================================================================
+
+=================================================================
+ZECPath DAY 63 - PERFORMANCE REPORT GENERATION
+=================================================================
+
+PIPELINE PERFORMANCE SUMMARY
+total_pipelines: 7
+successful_pipelines: 7
+failed_pipelines: 0
+unavailable_pipelines: 0
+other_status_pipelines: 0
+known_execution_time_count: 7
+total_reported_execution_time_seconds: 0.941
+total_known_validation_errors: 0
+pipelines_with_execution_time: 7
+pipelines_with_validation_metrics: 6
+
+INDIVIDUAL PIPELINE STATUS
+ATS | SUCCESS | Candidates: 10 | Time: 0.156
+HR | SUCCESS | Candidates: 10 | Time: 0.151
+APTITUDE | SUCCESS | Candidates: 10 | Time: 0.164
+TECHNICAL | SUCCESS | Candidates: 10 | Time: 0.165
+MACHINE_TEST | SUCCESS | Candidates: 10 | Time: 0.149
+CROSS_ROUND | SUCCESS | Candidates: 10 | Time: 0.154
+FINAL_DECISION | SUCCESS | Candidates: 10 | Time: 0.002
+
+=================================================================
+PERFORMANCE REPORT GENERATION COMPLETED
+=================================================================
+Report status: SUCCESS
+Execution time: 0.005 seconds
+
+JSON report:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\performance_report.json
+
+Markdown report:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\performance_report.md
+
+
+PERFORMANCE_REPORT completed successfully.
+
+######################################################################
+ZECPath - SIMULATION SUMMARY
+######################################################################
+ATS_INPUT            | SUCCESS
+ATS_SCORING          | SUCCESS
+ATS                  | SUCCESS
+HR                   | SUCCESS
+APTITUDE             | SUCCESS
+TECHNICAL            | SUCCESS
+MACHINE_TEST         | SUCCESS
+CROSS_ROUND          | SUCCESS
+FINAL_DECISION       | SUCCESS
+CANDIDATE_REPORT     | SUCCESS
+BATCH_REPORT         | SUCCESS
+PERFORMANCE_REPORT   | SUCCESS
+
+Dataset: day63_demo_dataset
+Dataset type: DEMO_DATASET
+Total stages: 12
+Executed stages: 12
+Successful stages: 12
+Failed stages: 0
+Skipped stages: 0
+Total execution time: 16.987 seconds
+
+Overall pipeline status: SUCCESS
+
+Simulation summary saved:
+D:\ZecPath-AI\day63_demo_dataset\06_end_to_end_simulation\outputs\simulation_run_summary.json
+
+######################################################################
+END-TO-END SIMULATION FINISHED
+######################################################################

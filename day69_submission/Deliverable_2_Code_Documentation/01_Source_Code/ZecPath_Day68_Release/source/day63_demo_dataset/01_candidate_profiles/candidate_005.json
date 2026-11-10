@@ -1,0 +1,34 @@
+{
+  "candidate_id": "CAND005",
+  "candidate_name": "Rohit Krishnan",
+  "job_id": "JD003",
+  "target_role": "Java Developer",
+  "experience_years": 6,
+  "education": "MCA",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Spring MVC",
+    "Hibernate",
+    "Microservices",
+    "REST APIs",
+    "SQL",
+    "MySQL",
+    "PostgreSQL",
+    "Oracle",
+    "Git",
+    "Maven",
+    "Jenkins",
+    "JUnit"
+  ],
+  "resume_file": "candidate_005_resume.pdf",
+  "resume_quality": "excellent",
+  "candidate_type": "experienced",
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

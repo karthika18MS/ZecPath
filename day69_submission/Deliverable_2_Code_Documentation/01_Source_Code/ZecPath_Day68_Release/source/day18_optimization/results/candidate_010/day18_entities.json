@@ -1,0 +1,77 @@
+{
+    "name": "Candidate 010",
+    "job_titles": [],
+    "skills": [
+        "data analysis",
+        "data visualization",
+        "excel",
+        "machine learning",
+        "numpy",
+        "pandas",
+        "power bi",
+        "python",
+        "scikit-learn",
+        "sql",
+        "statistics"
+    ],
+    "degrees": [
+        "mca"
+    ],
+    "experience_years": null,
+    "years": [
+        2024,
+        2026
+    ],
+    "projects": [
+        "Customer Churn Analysis",
+        "Used Python, Pandas, and NumPy to clean and analyze",
+        "customer datasets.",
+        "Created visualizations using Matplotlib and Seaborn.",
+        "Used SQL for data extraction.",
+        "Customer Prediction Project",
+        "Built a machine learning model using Scikit-learn.",
+        "Performed data preprocessing, feature engineering,",
+        "and model evaluation."
+    ],
+    "sections": {
+        "summary": [
+            "Recent MCA graduate interested in data analysis and",
+            "machine learning with practical academic project experience."
+        ],
+        "skills": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "SQL",
+            "Excel",
+            "Data Cleaning",
+            "Data Visualization",
+            "Statistics",
+            "Matplotlib",
+            "Seaborn",
+            "Scikit-learn",
+            "Power BI"
+        ],
+        "education": [
+            "Master of Computer Applications",
+            "Computer Science",
+            "2024 - 2026"
+        ],
+        "projects": [
+            "Customer Churn Analysis",
+            "Used Python, Pandas, and NumPy to clean and analyze",
+            "customer datasets.",
+            "Created visualizations using Matplotlib and Seaborn.",
+            "Used SQL for data extraction.",
+            "Customer Prediction Project",
+            "Built a machine learning model using Scikit-learn.",
+            "Performed data preprocessing, feature engineering,",
+            "and model evaluation."
+        ],
+        "certifications": [
+            "Python for Data Analysis",
+            "SQL",
+            "Power BI"
+        ]
+    }
+}

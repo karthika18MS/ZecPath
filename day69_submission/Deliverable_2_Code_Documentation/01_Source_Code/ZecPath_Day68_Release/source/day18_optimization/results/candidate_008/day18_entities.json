@@ -1,0 +1,75 @@
+{
+    "name": "Candidate 008",
+    "job_titles": [
+        "marketing executive"
+    ],
+    "skills": [
+        "campaign management",
+        "canva",
+        "communication",
+        "content creation",
+        "content marketing",
+        "digital marketing",
+        "email marketing",
+        "excel",
+        "google ads",
+        "google analytics",
+        "market research",
+        "seo",
+        "social media management",
+        "social media marketing"
+    ],
+    "degrees": [
+        "mba"
+    ],
+    "experience_years": 2.0,
+    "years": [
+        2024,
+        2026
+    ],
+    "projects": [],
+    "sections": {
+        "summary": [
+            "Marketing Executive with 2 years of experience in digital",
+            "marketing, social media management, content creation,",
+            "and campaign analysis."
+        ],
+        "skills": [
+            "Digital Marketing",
+            "Social Media Marketing",
+            "Content Marketing",
+            "Market Research",
+            "SEO",
+            "Google Analytics",
+            "Content Creation",
+            "Communication",
+            "Campaign Management",
+            "MS Excel",
+            "Google Ads",
+            "Email Marketing",
+            "Canva"
+        ],
+        "experience": [
+            "Marketing Executive",
+            "ABC Marketing Solutions",
+            "2024 - 2026",
+            "Managed social media marketing campaigns.",
+            "Created social media and website content.",
+            "Performed keyword research and SEO activities.",
+            "Used Google Analytics to monitor campaign performance.",
+            "Prepared monthly marketing reports.",
+            "Conducted market research and competitor analysis.",
+            "Created email marketing campaigns.",
+            "Used Canva for marketing materials.",
+            "Supported Google Ads campaigns."
+        ],
+        "education": [
+            "Master of Business Administration",
+            "Marketing",
+            "PROJECT:",
+            "Digital Marketing Campaign Analysis",
+            "Analyzed campaign performance using Google Analytics",
+            "and prepared recommendations for improving customer engagement."
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "candidate_id": "candidate_011",
+    "target_role": "Senior Python Developer",
+    "normalized_role": "senior python developer",
+    "skill_match_score": 86.67,
+    "matching_status": "Excellent Skill Match",
+    "required_skills": [
+        "microservices",
+        "system design",
+        "unit testing",
+        "postgresql",
+        "kubernetes",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "redis",
+        "ci/cd",
+        "aws",
+        "git"
+    ],
+    "resume_skills": [
+        "microservices",
+        "system design",
+        "postgresql",
+        "kubernetes",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "redis",
+        "aws",
+        "git"
+    ],
+    "matched_skills": [
+        "microservices",
+        "system design",
+        "postgresql",
+        "kubernetes",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "redis",
+        "aws",
+        "git"
+    ],
+    "missing_skills": [
+        "unit testing",
+        "ci/cd"
+    ],
+    "total_required_skills": 15,
+    "total_matched_skills": 13,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

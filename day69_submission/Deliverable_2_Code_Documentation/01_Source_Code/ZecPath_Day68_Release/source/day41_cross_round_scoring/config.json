@@ -1,0 +1,52 @@
+{
+    "weights": {
+        "ats": 0.30,
+        "hr": 0.30,
+        "aptitude": 0.40
+    },
+
+    "rounds": {
+        "ats": {
+            "directory": "day18_optimization/results",
+            "filename": "day18_optimized_ats_score.json"
+        },
+
+        "hr": {
+            "directory": "day37_hr_interview_scoring/results",
+            "filename": "candidate_hr_score_report.json"
+        },
+
+        "aptitude": {
+            "logical_reasoning_file": "day38_aptitude_logic/results/logical_reasoning_results.json",
+            "scenario_file": "day38_aptitude_logic/results/scenario_evaluation_results.json"
+        }
+    },
+
+    "hiring_fit": {
+        "default_role": "Backend Developer",
+
+        "roles": {
+            "Backend Developer": {
+                "ats": 0.40,
+                "screening": 0.30,
+                "hr": 0.30
+            },
+
+            "Frontend Developer": {
+                "ats": 0.35,
+                "screening": 0.35,
+                "hr": 0.30
+            },
+
+            "HR Executive": {
+                "ats": 0.25,
+                "screening": 0.35,
+                "hr": 0.40
+            }
+        },
+
+        "screening": {
+            "file": "day32_screening_finalization/results/final_screening_pipeline_result.json"
+        }
+    }
+}

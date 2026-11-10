@@ -1,0 +1,60 @@
+============================================================================
+ZECPath - RECRUITER CANDIDATE REPORT
+============================================================================
+
+1. CANDIDATE OVERVIEW
+----------------------------------------------------------------------------
+Candidate ID          : CAND007
+Job ID                : JD001
+Unified Score         : 74.72/100
+Assessment Coverage   : 85.00%
+Scoring Status        : INCOMPLETE
+ATS Eligibility       : BLOCKED
+Final Decision        : BLOCKED_PENDING_ATS
+
+2. ASSESSMENT BREAKDOWN
+----------------------------------------------------------------------------
+Assessment                  Score               Status
+----------------------------------------------------------------------------
+ATS Screening               Not available       NOT_PROVIDED
+HR Interview                82.82/100           COMPLETED
+Aptitude Assessment         72.31/100           COMPLETED
+Technical Interview         62.93/100           COMPLETED
+Machine Test                81.70/100           COMPLETED
+
+3. ASSESSMENT COMPLETENESS
+----------------------------------------------------------------------------
+Available Rounds : hr, aptitude, technical, machine_test
+Missing Rounds   : ats
+Coverage         : 85.00%
+
+4. FINAL DECISION
+----------------------------------------------------------------------------
+Decision : BLOCKED_PENDING_ATS
+
+Progress is blocked because ATS eligibility is missing or blocked. Do not use the unified score alone to advance this candidate.
+
+5. SUGGESTED RECRUITER ACTION
+----------------------------------------------------------------------------
+Obtain or verify the candidate's ATS eligibility result before considering further progression.
+
+Human review required: YES
+
+6. DATA PROVENANCE
+----------------------------------------------------------------------------
+Dataset Type       : DEMO_DATASET
+Simulated Rounds   : Aptitude Assessment, Technical Interview, Machine Test
+Unknown Provenance : ATS Screening, HR Interview
+
+7. WARNINGS
+----------------------------------------------------------------------------
+[!] Missing assessments: ATS Screening
+[!] Simulated assessment data detected: Aptitude Assessment, Technical Interview, Machine Test
+[!] Provenance is not specified for: ATS Screening, HR Interview
+[!] Assessment coverage is incomplete: 85.00%
+[!] This report uses a demo dataset and is not suitable for real hiring decisions.
+[!] Recruiters must independently verify candidate information and assessment evidence before making hiring decisions.
+
+============================================================================
+END OF REPORT
+============================================================================

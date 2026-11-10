@@ -1,0 +1,1475 @@
+{
+    "engine": "ZecPath Day 63 ATS Scoring Pipeline using Day 18 Optimized ATS Engine",
+    "pipeline_status": "COMPLETED",
+    "source_file": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\ats_input_results.json",
+    "generated_at": "2026-11-09T11:21:30.756986+05:30",
+    "summary": {
+        "total_candidates": 10,
+        "scored": 8,
+        "blocked": 2,
+        "errors": 0
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "target_role": "MERN Stack Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 3,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": 3.0,
+                "resume_experience_source": "resume_extracted",
+                "scoring_value": 3.0,
+                "scoring_source": "resume_extracted"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 100.0,
+                "experience_relevance": 100.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 90.31,
+                "final_ats_score": 97.58
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 97.58,
+                "skill_contribution": 35.0,
+                "experience_contribution": 25.0,
+                "education_contribution": 15.0,
+                "semantic_contribution": 22.58,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Excellent Match",
+            "shortlisting_status": "Shortlisted",
+            "recommendation": "Recommended for Interview",
+            "mandatory_skill_check": {
+                "passed": true,
+                "required": [
+                    "express.js",
+                    "javascript",
+                    "mongodb",
+                    "node.js",
+                    "react.js"
+                ],
+                "matched": [
+                    "express.js",
+                    "javascript",
+                    "mongodb",
+                    "node.js",
+                    "react.js"
+                ],
+                "missing": [],
+                "status": "All mandatory skills are satisfied."
+            },
+            "skill_details": {
+                "score": 100.0,
+                "required_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "matched_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "missing_skills": [],
+                "total_required_skills": 5,
+                "total_matched_skills": 5,
+                "preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "matched_preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "missing_preferred_skills": [],
+                "total_preferred_skills": 7,
+                "total_matched_preferred_skills": 7,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 100.0,
+                    "required_skills": [
+                        "bootstrap",
+                        "css3",
+                        "express.js",
+                        "git",
+                        "github",
+                        "html5",
+                        "javascript",
+                        "jwt authentication",
+                        "mongodb",
+                        "node.js",
+                        "react.js",
+                        "rest api"
+                    ],
+                    "matched_skills": [
+                        "bootstrap",
+                        "css3",
+                        "express.js",
+                        "git",
+                        "github",
+                        "html5",
+                        "javascript",
+                        "jwt authentication",
+                        "mongodb",
+                        "node.js",
+                        "react.js",
+                        "rest api"
+                    ],
+                    "missing_skills": [],
+                    "total_required_skills": 12,
+                    "total_matched_skills": 12,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 100.0,
+                "candidate_experience_years": 3.0,
+                "minimum_required_years": 2.0,
+                "maximum_required_years": 4.0,
+                "is_applicable": true,
+                "status": "Experience Fully Meets Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bca",
+                    "mca"
+                ],
+                "candidate_fields": [
+                    "computer applications",
+                    "management"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science"
+                ],
+                "degree_match": true,
+                "field_match": false,
+                "status": "Degree Requirement Met"
+            },
+            "semantic_details": {
+                "score": 90.31,
+                "raw_score": 0.9031,
+                "embedding_length": 384,
+                "model_access_time_seconds": 7.973066
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "target_role": "Python Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 2,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": null,
+                "resume_experience_source": null,
+                "scoring_value": 2,
+                "scoring_source": "candidate_profile_fallback"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 100.0,
+                "experience_relevance": 100.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 83.79,
+                "final_ats_score": 95.95
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 95.95,
+                "skill_contribution": 35.0,
+                "experience_contribution": 25.0,
+                "education_contribution": 15.0,
+                "semantic_contribution": 20.95,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Excellent Match",
+            "shortlisting_status": "Shortlisted",
+            "recommendation": "Recommended for Interview",
+            "mandatory_skill_check": {
+                "passed": true,
+                "required": [
+                    "django",
+                    "python",
+                    "sql"
+                ],
+                "matched": [
+                    "django",
+                    "python",
+                    "sql"
+                ],
+                "missing": [],
+                "status": "All mandatory skills are satisfied."
+            },
+            "skill_details": {
+                "score": 100.0,
+                "required_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "matched_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "missing_skills": [],
+                "total_required_skills": 3,
+                "total_matched_skills": 3,
+                "preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "matched_preferred_skills": [
+                    "MySQL",
+                    "Git"
+                ],
+                "missing_preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "total_preferred_skills": 10,
+                "total_matched_preferred_skills": 2,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 44.44,
+                    "required_skills": [
+                        "django",
+                        "flask",
+                        "git",
+                        "numpy",
+                        "pandas",
+                        "postgresql",
+                        "python",
+                        "rest api",
+                        "sql"
+                    ],
+                    "matched_skills": [
+                        "django",
+                        "git",
+                        "python",
+                        "sql"
+                    ],
+                    "missing_skills": [
+                        "flask",
+                        "numpy",
+                        "pandas",
+                        "postgresql",
+                        "rest api"
+                    ],
+                    "total_required_skills": 9,
+                    "total_matched_skills": 4,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 100.0,
+                "candidate_experience_years": 2,
+                "minimum_required_years": 1.0,
+                "maximum_required_years": 3.0,
+                "is_applicable": true,
+                "status": "Experience Fully Meets Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bca"
+                ],
+                "candidate_fields": [
+                    "computer applications",
+                    "management"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science",
+                    "management"
+                ],
+                "degree_match": true,
+                "field_match": true,
+                "status": "Education Fully Aligned"
+            },
+            "semantic_details": {
+                "score": 83.79,
+                "raw_score": 0.8379,
+                "embedding_length": 384,
+                "model_access_time_seconds": 2e-06
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "target_role": "MERN Stack Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 1,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": null,
+                "resume_experience_source": null,
+                "scoring_value": 1,
+                "scoring_source": "candidate_profile_fallback"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 40.0,
+                "experience_relevance": 50.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 52.3,
+                "final_ats_score": 54.58
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 54.58,
+                "skill_contribution": 14.0,
+                "experience_contribution": 12.5,
+                "education_contribution": 15.0,
+                "semantic_contribution": 13.07,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Moderate Match",
+            "shortlisting_status": "Not Shortlisted",
+            "recommendation": "Not Recommended",
+            "mandatory_skill_check": {
+                "passed": false,
+                "required": [
+                    "express.js",
+                    "javascript",
+                    "mongodb",
+                    "node.js",
+                    "react.js"
+                ],
+                "matched": [
+                    "javascript",
+                    "react.js"
+                ],
+                "missing": [
+                    "express.js",
+                    "mongodb",
+                    "node.js"
+                ],
+                "status": "Mandatory skill requirement not met."
+            },
+            "skill_details": {
+                "score": 40.0,
+                "required_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "matched_skills": [
+                    "React.js",
+                    "JavaScript"
+                ],
+                "missing_skills": [
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB"
+                ],
+                "total_required_skills": 5,
+                "total_matched_skills": 2,
+                "preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "matched_preferred_skills": [
+                    "Bootstrap"
+                ],
+                "missing_preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "total_preferred_skills": 7,
+                "total_matched_preferred_skills": 1,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 25.0,
+                    "required_skills": [
+                        "bootstrap",
+                        "css3",
+                        "express.js",
+                        "git",
+                        "github",
+                        "html5",
+                        "javascript",
+                        "jwt authentication",
+                        "mongodb",
+                        "node.js",
+                        "react.js",
+                        "rest api"
+                    ],
+                    "matched_skills": [
+                        "bootstrap",
+                        "javascript",
+                        "react.js"
+                    ],
+                    "missing_skills": [
+                        "css3",
+                        "express.js",
+                        "git",
+                        "github",
+                        "html5",
+                        "jwt authentication",
+                        "mongodb",
+                        "node.js",
+                        "rest api"
+                    ],
+                    "total_required_skills": 12,
+                    "total_matched_skills": 3,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 50.0,
+                "candidate_experience_years": 1,
+                "minimum_required_years": 2.0,
+                "maximum_required_years": 4.0,
+                "is_applicable": true,
+                "status": "Experience Below Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bca"
+                ],
+                "candidate_fields": [
+                    "computer applications"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science"
+                ],
+                "degree_match": true,
+                "field_match": false,
+                "status": "Degree Requirement Met"
+            },
+            "semantic_details": {
+                "score": 52.3,
+                "raw_score": 0.523,
+                "embedding_length": 384,
+                "model_access_time_seconds": 1e-06
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "target_role": "Java Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 0,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": null,
+                "resume_experience_source": null,
+                "scoring_value": 0,
+                "scoring_source": "candidate_profile_fallback"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 66.67,
+                "experience_relevance": 0.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 72.42,
+                "final_ats_score": 56.44
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 56.44,
+                "skill_contribution": 23.33,
+                "experience_contribution": 0.0,
+                "education_contribution": 15.0,
+                "semantic_contribution": 18.11,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Moderate Match",
+            "shortlisting_status": "Not Shortlisted",
+            "recommendation": "Not Recommended",
+            "mandatory_skill_check": {
+                "passed": false,
+                "required": [
+                    "java",
+                    "spring boot",
+                    "sql"
+                ],
+                "matched": [
+                    "java",
+                    "sql"
+                ],
+                "missing": [
+                    "spring boot"
+                ],
+                "status": "Mandatory skill requirement not met."
+            },
+            "skill_details": {
+                "score": 66.67,
+                "required_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "matched_skills": [
+                    "Java",
+                    "SQL"
+                ],
+                "missing_skills": [
+                    "Spring Boot"
+                ],
+                "total_required_skills": 3,
+                "total_matched_skills": 2,
+                "preferred_skills": [
+                    "Spring MVC",
+                    "Hibernate",
+                    "Microservices",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Oracle",
+                    "Maven",
+                    "Git",
+                    "Jenkins",
+                    "JUnit"
+                ],
+                "matched_preferred_skills": [
+                    "MySQL",
+                    "Git"
+                ],
+                "missing_preferred_skills": [
+                    "Spring MVC",
+                    "Hibernate",
+                    "Microservices",
+                    "REST API Development",
+                    "PostgreSQL",
+                    "Oracle",
+                    "Maven",
+                    "Jenkins",
+                    "JUnit"
+                ],
+                "total_preferred_skills": 11,
+                "total_matched_preferred_skills": 2,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 28.57,
+                    "required_skills": [
+                        "git",
+                        "hibernate",
+                        "java",
+                        "jenkins",
+                        "junit",
+                        "maven",
+                        "microservices",
+                        "mysql",
+                        "oracle",
+                        "postgresql",
+                        "rest api",
+                        "spring boot",
+                        "spring mvc",
+                        "sql"
+                    ],
+                    "matched_skills": [
+                        "git",
+                        "java",
+                        "mysql",
+                        "sql"
+                    ],
+                    "missing_skills": [
+                        "hibernate",
+                        "jenkins",
+                        "junit",
+                        "maven",
+                        "microservices",
+                        "oracle",
+                        "postgresql",
+                        "rest api",
+                        "spring boot",
+                        "spring mvc"
+                    ],
+                    "total_required_skills": 14,
+                    "total_matched_skills": 4,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 0.0,
+                "candidate_experience_years": 0,
+                "minimum_required_years": 3.0,
+                "maximum_required_years": 6.0,
+                "is_applicable": true,
+                "status": "Experience Below Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bca"
+                ],
+                "candidate_fields": [
+                    "computer applications",
+                    "management"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science",
+                    "management"
+                ],
+                "degree_match": true,
+                "field_match": true,
+                "status": "Education Fully Aligned"
+            },
+            "semantic_details": {
+                "score": 72.42,
+                "raw_score": 0.7242,
+                "embedding_length": 384,
+                "model_access_time_seconds": 2e-06
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "target_role": "Java Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 6,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": 6.0,
+                "resume_experience_source": "resume_extracted",
+                "scoring_value": 6.0,
+                "scoring_source": "resume_extracted"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 100.0,
+                "experience_relevance": 100.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 84.67,
+                "final_ats_score": 96.17
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 96.17,
+                "skill_contribution": 35.0,
+                "experience_contribution": 25.0,
+                "education_contribution": 15.0,
+                "semantic_contribution": 21.17,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Excellent Match",
+            "shortlisting_status": "Shortlisted",
+            "recommendation": "Recommended for Interview",
+            "mandatory_skill_check": {
+                "passed": true,
+                "required": [
+                    "java",
+                    "spring boot",
+                    "sql"
+                ],
+                "matched": [
+                    "java",
+                    "spring boot",
+                    "sql"
+                ],
+                "missing": [],
+                "status": "All mandatory skills are satisfied."
+            },
+            "skill_details": {
+                "score": 100.0,
+                "required_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "matched_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "missing_skills": [],
+                "total_required_skills": 3,
+                "total_matched_skills": 3,
+                "preferred_skills": [
+                    "Spring MVC",
+                    "Hibernate",
+                    "Microservices",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Oracle",
+                    "Maven",
+                    "Git",
+                    "Jenkins",
+                    "JUnit"
+                ],
+                "matched_preferred_skills": [
+                    "Spring MVC",
+                    "Hibernate",
+                    "Microservices",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Oracle",
+                    "Maven",
+                    "Git",
+                    "Jenkins",
+                    "JUnit"
+                ],
+                "missing_preferred_skills": [],
+                "total_preferred_skills": 11,
+                "total_matched_preferred_skills": 11,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 100.0,
+                    "required_skills": [
+                        "git",
+                        "hibernate",
+                        "java",
+                        "jenkins",
+                        "junit",
+                        "maven",
+                        "microservices",
+                        "mysql",
+                        "oracle",
+                        "postgresql",
+                        "rest api",
+                        "spring boot",
+                        "spring mvc",
+                        "sql"
+                    ],
+                    "matched_skills": [
+                        "git",
+                        "hibernate",
+                        "java",
+                        "jenkins",
+                        "junit",
+                        "maven",
+                        "microservices",
+                        "mysql",
+                        "oracle",
+                        "postgresql",
+                        "rest api",
+                        "spring boot",
+                        "spring mvc",
+                        "sql"
+                    ],
+                    "missing_skills": [],
+                    "total_required_skills": 14,
+                    "total_matched_skills": 14,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 100.0,
+                "candidate_experience_years": 6.0,
+                "minimum_required_years": 3.0,
+                "maximum_required_years": 6.0,
+                "is_applicable": true,
+                "status": "Experience Fully Meets Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bca",
+                    "mca"
+                ],
+                "candidate_fields": [
+                    "computer applications",
+                    "management"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science",
+                    "management"
+                ],
+                "degree_match": true,
+                "field_match": true,
+                "status": "Education Fully Aligned"
+            },
+            "semantic_details": {
+                "score": 84.67,
+                "raw_score": 0.8467,
+                "embedding_length": 384,
+                "model_access_time_seconds": 1e-06
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "target_role": "Python Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 3,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": 3.0,
+                "resume_experience_source": "resume_extracted",
+                "scoring_value": 3.0,
+                "scoring_source": "resume_extracted"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 100.0,
+                "experience_relevance": 100.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 79.2,
+                "final_ats_score": 94.8
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 94.8,
+                "skill_contribution": 35.0,
+                "experience_contribution": 25.0,
+                "education_contribution": 15.0,
+                "semantic_contribution": 19.8,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Excellent Match",
+            "shortlisting_status": "Shortlisted",
+            "recommendation": "Recommended for Interview",
+            "mandatory_skill_check": {
+                "passed": true,
+                "required": [
+                    "django",
+                    "python",
+                    "sql"
+                ],
+                "matched": [
+                    "django",
+                    "python",
+                    "sql"
+                ],
+                "missing": [],
+                "status": "All mandatory skills are satisfied."
+            },
+            "skill_details": {
+                "score": 100.0,
+                "required_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "matched_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "missing_skills": [],
+                "total_required_skills": 3,
+                "total_matched_skills": 3,
+                "preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "matched_preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing"
+                ],
+                "missing_preferred_skills": [
+                    "Machine Learning Fundamentals"
+                ],
+                "total_preferred_skills": 10,
+                "total_matched_preferred_skills": 9,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 88.89,
+                    "required_skills": [
+                        "django",
+                        "flask",
+                        "git",
+                        "numpy",
+                        "pandas",
+                        "postgresql",
+                        "python",
+                        "rest api",
+                        "sql"
+                    ],
+                    "matched_skills": [
+                        "django",
+                        "flask",
+                        "git",
+                        "numpy",
+                        "pandas",
+                        "postgresql",
+                        "python",
+                        "sql"
+                    ],
+                    "missing_skills": [
+                        "rest api"
+                    ],
+                    "total_required_skills": 9,
+                    "total_matched_skills": 8,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 100.0,
+                "candidate_experience_years": 3.0,
+                "minimum_required_years": 1.0,
+                "maximum_required_years": 3.0,
+                "is_applicable": true,
+                "status": "Experience Fully Meets Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bsc",
+                    "mca"
+                ],
+                "candidate_fields": [
+                    "computer applications",
+                    "computer science"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science",
+                    "management"
+                ],
+                "degree_match": true,
+                "field_match": true,
+                "status": "Education Fully Aligned"
+            },
+            "semantic_details": {
+                "score": 79.2,
+                "raw_score": 0.792,
+                "embedding_length": 384,
+                "model_access_time_seconds": 1e-06
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "input_status": "BLOCKED_RESUME",
+            "ats_scoring_status": "BLOCKED",
+            "scores": null,
+            "reason": "Candidate is not READY_FOR_ATS; no score was calculated."
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "target_role": "Python Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 1,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": null,
+                "resume_experience_source": null,
+                "scoring_value": 1,
+                "scoring_source": "candidate_profile_fallback"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 66.67,
+                "experience_relevance": 100.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 64.78,
+                "final_ats_score": 79.53
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 79.53,
+                "skill_contribution": 23.33,
+                "experience_contribution": 25.0,
+                "education_contribution": 15.0,
+                "semantic_contribution": 16.2,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Good Match",
+            "shortlisting_status": "Not Shortlisted",
+            "recommendation": "Not Recommended",
+            "mandatory_skill_check": {
+                "passed": false,
+                "required": [
+                    "django",
+                    "python",
+                    "sql"
+                ],
+                "matched": [
+                    "python",
+                    "sql"
+                ],
+                "missing": [
+                    "django"
+                ],
+                "status": "Mandatory skill requirement not met."
+            },
+            "skill_details": {
+                "score": 66.67,
+                "required_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "matched_skills": [
+                    "Python",
+                    "SQL"
+                ],
+                "missing_skills": [
+                    "Django"
+                ],
+                "total_required_skills": 3,
+                "total_matched_skills": 2,
+                "preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "matched_preferred_skills": [],
+                "missing_preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "total_preferred_skills": 10,
+                "total_matched_preferred_skills": 0,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 22.22,
+                    "required_skills": [
+                        "django",
+                        "flask",
+                        "git",
+                        "numpy",
+                        "pandas",
+                        "postgresql",
+                        "python",
+                        "rest api",
+                        "sql"
+                    ],
+                    "matched_skills": [
+                        "python",
+                        "sql"
+                    ],
+                    "missing_skills": [
+                        "django",
+                        "flask",
+                        "git",
+                        "numpy",
+                        "pandas",
+                        "postgresql",
+                        "rest api"
+                    ],
+                    "total_required_skills": 9,
+                    "total_matched_skills": 2,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 100.0,
+                "candidate_experience_years": 1,
+                "minimum_required_years": 1.0,
+                "maximum_required_years": 3.0,
+                "is_applicable": true,
+                "status": "Experience Fully Meets Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bca"
+                ],
+                "candidate_fields": [
+                    "computer applications"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science",
+                    "management"
+                ],
+                "degree_match": true,
+                "field_match": false,
+                "status": "Degree Requirement Met"
+            },
+            "semantic_details": {
+                "score": 64.78,
+                "raw_score": 0.6478,
+                "embedding_length": 384,
+                "model_access_time_seconds": 1e-06
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "target_role": "MERN Stack Developer",
+            "input_status": "READY_FOR_ATS",
+            "experience_provenance": {
+                "profile_experience_years": 2,
+                "profile_experience_source": "candidate_profile",
+                "resume_experience_years": 2.0,
+                "resume_experience_source": "resume_extracted",
+                "scoring_value": 2.0,
+                "scoring_source": "resume_extracted"
+            },
+            "ats_scoring_status": "COMPLETED",
+            "engine": "ZecPath Day 18 Optimized ATS Engine",
+            "scores": {
+                "skill_matching": 100.0,
+                "experience_relevance": 100.0,
+                "education_alignment": 100.0,
+                "semantic_similarity": 80.32,
+                "final_ats_score": 95.08
+            },
+            "weights": {
+                "skill_matching": 0.35,
+                "experience_relevance": 0.25,
+                "education_alignment": 0.15,
+                "semantic_similarity": 0.25
+            },
+            "contributions": {
+                "final_score": 95.08,
+                "skill_contribution": 35.0,
+                "experience_contribution": 25.0,
+                "education_contribution": 15.0,
+                "semantic_contribution": 20.08,
+                "effective_weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "excluded_components": []
+            },
+            "matching_status": "Excellent Match",
+            "shortlisting_status": "Shortlisted",
+            "recommendation": "Recommended for Interview",
+            "mandatory_skill_check": {
+                "passed": true,
+                "required": [
+                    "express.js",
+                    "javascript",
+                    "mongodb",
+                    "node.js",
+                    "react.js"
+                ],
+                "matched": [
+                    "express.js",
+                    "javascript",
+                    "mongodb",
+                    "node.js",
+                    "react.js"
+                ],
+                "missing": [],
+                "status": "All mandatory skills are satisfied."
+            },
+            "skill_details": {
+                "score": 100.0,
+                "required_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "matched_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "missing_skills": [],
+                "total_required_skills": 5,
+                "total_matched_skills": 5,
+                "preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "matched_preferred_skills": [
+                    "REST API Development",
+                    "Git",
+                    "GitHub"
+                ],
+                "missing_preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "JWT Authentication"
+                ],
+                "total_preferred_skills": 7,
+                "total_matched_preferred_skills": 3,
+                "source": "Day 63 JD skill adapter (literal resume evidence; Day 17 retained for role-specific detail)",
+                "day17_matcher_details": {
+                    "score": 66.67,
+                    "required_skills": [
+                        "bootstrap",
+                        "css3",
+                        "express.js",
+                        "git",
+                        "github",
+                        "html5",
+                        "javascript",
+                        "jwt authentication",
+                        "mongodb",
+                        "node.js",
+                        "react.js",
+                        "rest api"
+                    ],
+                    "matched_skills": [
+                        "express.js",
+                        "git",
+                        "github",
+                        "javascript",
+                        "mongodb",
+                        "node.js",
+                        "react.js",
+                        "rest api"
+                    ],
+                    "missing_skills": [
+                        "bootstrap",
+                        "css3",
+                        "html5",
+                        "jwt authentication"
+                    ],
+                    "total_required_skills": 12,
+                    "total_matched_skills": 8,
+                    "source": "Day 17 validated skill matcher"
+                }
+            },
+            "experience_details": {
+                "score": 100.0,
+                "candidate_experience_years": 2.0,
+                "minimum_required_years": 2.0,
+                "maximum_required_years": 4.0,
+                "is_applicable": true,
+                "status": "Experience Fully Meets Requirement"
+            },
+            "education_details": {
+                "score": 100.0,
+                "candidate_degrees": [
+                    "bca"
+                ],
+                "candidate_fields": [
+                    "computer applications",
+                    "management"
+                ],
+                "required_degrees": [
+                    "bca",
+                    "bsc",
+                    "btech",
+                    "mca"
+                ],
+                "required_fields": [
+                    "computer science"
+                ],
+                "degree_match": true,
+                "field_match": false,
+                "status": "Degree Requirement Met"
+            },
+            "semantic_details": {
+                "score": 80.32,
+                "raw_score": 0.8032,
+                "embedding_length": 384,
+                "model_access_time_seconds": 2e-06
+            },
+            "semantic_input": "Day 63 cleaned resume text"
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "input_status": "BLOCKED_RESUME",
+            "ats_scoring_status": "BLOCKED",
+            "scores": null,
+            "reason": "Candidate is not READY_FOR_ATS; no score was calculated."
+        }
+    ],
+    "errors": [],
+    "notes": [
+        "The existing Day 17 role-specific skill matcher and Day 18 component scoring functions are reused.",
+        "Semantic similarity uses the Day 63 cleaned resume text because no validated Day 17 resume artifact exists for these candidate IDs.",
+        "The original ats_input_results.json is not modified; blocked candidates receive no scores."
+    ]
+}

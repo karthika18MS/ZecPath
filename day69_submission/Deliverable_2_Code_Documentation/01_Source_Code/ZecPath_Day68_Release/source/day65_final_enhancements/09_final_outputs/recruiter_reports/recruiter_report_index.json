@@ -1,0 +1,111 @@
+{
+    "module": "ZecPath Day 65 Enhanced Recruiter Report Generator",
+    "generated_at": "2026-11-08T07:00:21.208140+00:00",
+    "dataset_type": "DEMO_DATASET",
+    "total_candidates": 10,
+    "successful_reports": 10,
+    "failed_reports": 0,
+    "generation_errors": [],
+    "candidate_report_index": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "unified_score": 83.08,
+            "coverage": 100.0,
+            "final_decision": "ELIGIBLE_FOR_NEXT_STAGE",
+            "warnings_count": 4,
+            "json_report": "CAND001_report.json",
+            "text_report": "CAND001_report.txt"
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "unified_score": 80.82,
+            "coverage": 100.0,
+            "final_decision": "MANUAL_REVIEW",
+            "warnings_count": 4,
+            "json_report": "CAND002_report.json",
+            "text_report": "CAND002_report.txt"
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "unified_score": 64.74,
+            "coverage": 100.0,
+            "final_decision": "NOT_ELIGIBLE",
+            "warnings_count": 4,
+            "json_report": "CAND003_report.json",
+            "text_report": "CAND003_report.txt"
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "unified_score": 70.91,
+            "coverage": 100.0,
+            "final_decision": "NOT_ELIGIBLE",
+            "warnings_count": 4,
+            "json_report": "CAND004_report.json",
+            "text_report": "CAND004_report.txt"
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "unified_score": 84.99,
+            "coverage": 100.0,
+            "final_decision": "ELIGIBLE_FOR_NEXT_STAGE",
+            "warnings_count": 4,
+            "json_report": "CAND005_report.json",
+            "text_report": "CAND005_report.txt"
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "unified_score": 82.07,
+            "coverage": 100.0,
+            "final_decision": "MANUAL_REVIEW",
+            "warnings_count": 4,
+            "json_report": "CAND006_report.json",
+            "text_report": "CAND006_report.txt"
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "unified_score": 74.72,
+            "coverage": 85.0,
+            "final_decision": "BLOCKED_PENDING_ATS",
+            "warnings_count": 6,
+            "json_report": "CAND007_report.json",
+            "text_report": "CAND007_report.txt"
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "unified_score": 63.45,
+            "coverage": 100.0,
+            "final_decision": "NOT_ELIGIBLE",
+            "warnings_count": 4,
+            "json_report": "CAND008_report.json",
+            "text_report": "CAND008_report.txt"
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "unified_score": 80.67,
+            "coverage": 100.0,
+            "final_decision": "ELIGIBLE_FOR_NEXT_STAGE",
+            "warnings_count": 4,
+            "json_report": "CAND009_report.json",
+            "text_report": "CAND009_report.txt"
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "unified_score": null,
+            "coverage": 0.0,
+            "final_decision": "BLOCKED_PENDING_ATS",
+            "warnings_count": 7,
+            "json_report": "CAND010_report.json",
+            "text_report": "CAND010_report.txt"
+        }
+    ]
+}

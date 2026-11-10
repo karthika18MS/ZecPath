@@ -1,0 +1,15 @@
+{
+    "candidate_id": "candidate_011",
+    "target_role": "Senior Python Developer",
+    "candidate_experience": {
+        "years": 7.0,
+        "months": 84
+    },
+    "required_experience": {
+        "minimum_years": 5.0,
+        "maximum_years": null,
+        "requirement_type": "minimum"
+    },
+    "experience_score": 100.0,
+    "experience_status": "Experience Meets Minimum Requirement"
+}

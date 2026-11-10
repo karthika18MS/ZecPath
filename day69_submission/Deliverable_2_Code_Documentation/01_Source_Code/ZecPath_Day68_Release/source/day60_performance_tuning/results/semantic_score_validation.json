@@ -1,0 +1,99 @@
+{
+    "report": "ZecPath Day 60 Semantic Score Validation",
+    "status": "PASS",
+    "comparison_count": 8,
+    "passed": 8,
+    "review_required": 0,
+    "tolerance": 0.0001,
+    "results": [
+        {
+            "candidate_id": "candidate_006",
+            "target_role": "Backend Developer",
+            "baseline_score": 0.8193,
+            "optimized_score": 0.8193,
+            "baseline_percentage": 81.93,
+            "optimized_percentage": 81.93,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "candidate_007",
+            "target_role": "HR Executive",
+            "baseline_score": 0.8532,
+            "optimized_score": 0.8532,
+            "baseline_percentage": 85.32,
+            "optimized_percentage": 85.32,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "candidate_008",
+            "target_role": "Marketing Executive",
+            "baseline_score": 0.829,
+            "optimized_score": 0.829,
+            "baseline_percentage": 82.9,
+            "optimized_percentage": 82.9,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "candidate_009",
+            "target_role": "Fresher Python Developer",
+            "baseline_score": 0.8517,
+            "optimized_score": 0.8517,
+            "baseline_percentage": 85.17,
+            "optimized_percentage": 85.17,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "candidate_010",
+            "target_role": "Fresher Data Analyst",
+            "baseline_score": 0.7308,
+            "optimized_score": 0.7308,
+            "baseline_percentage": 73.08,
+            "optimized_percentage": 73.08,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "candidate_011",
+            "target_role": "Senior Python Developer",
+            "baseline_score": 0.8491,
+            "optimized_score": 0.8491,
+            "baseline_percentage": 84.91,
+            "optimized_percentage": 84.91,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "candidate_012",
+            "target_role": "Senior Backend Developer",
+            "baseline_score": 0.8648,
+            "optimized_score": 0.8648,
+            "baseline_percentage": 86.48,
+            "optimized_percentage": 86.48,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "candidate_013",
+            "target_role": "Python Developer",
+            "baseline_score": 0.2159,
+            "optimized_score": 0.2159,
+            "baseline_percentage": 21.59,
+            "optimized_percentage": 21.59,
+            "absolute_difference": 0.0,
+            "tolerance": 0.0001,
+            "status": "PASS"
+        }
+    ],
+    "note": "Scores were recalculated using the locally cached model and the same cosine similarity calculation. Differences may occur if model versions, model settings, or source inputs differ from the original run."
+}

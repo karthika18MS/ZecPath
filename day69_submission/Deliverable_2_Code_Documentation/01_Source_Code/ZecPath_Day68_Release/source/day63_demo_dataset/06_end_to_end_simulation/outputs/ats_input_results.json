@@ -1,0 +1,1827 @@
+{
+    "engine": "ZecPath Day 63 ATS Input Preparation Pipeline",
+    "pipeline_status": "COMPLETED",
+    "dataset_name": "day63_demo_dataset",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "dataset_type": "DEMO_DATASET",
+    "generated_at": "2026-11-09T11:21:18.790008",
+    "summary": {
+        "total_candidates": 10,
+        "ready_for_ats": 8,
+        "blocked_resume": 2,
+        "blocked_jd": 0,
+        "blocked_resume_and_jd": 0,
+        "processing_errors": 0
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "candidate_information": {
+                "candidate_id": "CAND001",
+                "name": "Arun Kumar",
+                "email": null,
+                "phone": null,
+                "job_id": "JD001",
+                "target_role": "MERN Stack Developer",
+                "experience_years": 3,
+                "education": "MCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\excellent\\candidate_001_resume.pdf",
+                "raw_text_characters": 2137,
+                "cleaned_text_characters": 2058,
+                "cleaned_text": "ARUN KUMAR\nMERN Stack Developer\nEmail: arun.kumar@example.com\nLocation: Kochi, Kerala\nPhone: +91-9000000001\nPROFESSIONAL SUMMARY\nResults-oriented MERN Stack Developer with 3 years of professional experience developing\nscalable web applications. Skilled in React.js, Node.js, Express.js, MongoDB and JavaScript.\nExperienced in REST API development, database design, authentication and responsive frontend\ndevelopment. Strong problem-solving and teamwork abilities.\nTECHNICAL SKILLS\n-\nFrontend: React.js, JavaScript, HTML5, CSS3, Bootstrap\n-\nBackend: Node.js, Express.js\n-\nDatabase: MongoDB, MySQL\n-\nProgramming: JavaScript\n-\nTools: Git, GitHub, Postman, VS Code\n-\nConcepts: REST APIs, JWT Authentication, MVC Architecture\nPROFESSIONAL EXPERIENCE\nMERN Stack Developer - ABC Technologies\nJanuary 2023 - Present\n-\nDeveloped responsive web applications using React.js.\n-\nBuilt REST APIs using Node.js and Express.js.\n-\nDesigned MongoDB schemas and managed database operations.\n-\nImplemented JWT-based authentication and authorization.\n-\nIntegrated frontend components with backend services.\n-\nCollaborated with developers using Git and GitHub.\n-\nIdentified and resolved application bugs to improve performance.\nPROJECTS\nOnline Shopping Management System\n-\nDeveloped a full-stack shopping application using the MERN stack.\n-\nCreated product listing, search, cart and user authentication features.\n-\nDesigned REST APIs for product and order management.\n-\nUsed MongoDB for storing user, product and order information.\nEmployee Management System\n-\nDeveloped employee registration and management features.\n-\nImplemented CRUD operations using Node.js and Express.js.\n-\nCreated a responsive interface using React.js.\nEDUCATION\nMaster of Computer Applications (MCA)\nABC College of Technology | 2022\nBachelor of Computer Applications (BCA)\nXYZ College | 2020\nSOFT SKILLS\n-\nProblem-solving\n-\nTeam collaboration\n-\nCommunication\n-\nTime management\n-\nAdaptability\nDECLARATION\nI hereby declare that the information provided above is true and correct to the best of my\nknowledge.",
+                "extracted_entities": {
+                    "name": "ARUN KUMAR",
+                    "job_titles": [
+                        "mern stack developer"
+                    ],
+                    "skills": [
+                        "bootstrap",
+                        "communication",
+                        "css3",
+                        "express.js",
+                        "git",
+                        "github",
+                        "html5",
+                        "javascript",
+                        "jwt authentication",
+                        "mongodb",
+                        "mvc architecture",
+                        "mysql",
+                        "node.js",
+                        "postman",
+                        "problem solving",
+                        "react",
+                        "rest api",
+                        "teamwork",
+                        "time management",
+                        "visual studio code"
+                    ],
+                    "degrees": [
+                        "bca",
+                        "mca"
+                    ],
+                    "experience_years": 3.0,
+                    "years": [
+                        2020,
+                        2022,
+                        2023
+                    ],
+                    "projects": [
+                        "Online Shopping Management System",
+                        "-",
+                        "Developed a full-stack shopping application using the MERN stack.",
+                        "-",
+                        "Created product listing, search, cart and user authentication features.",
+                        "-",
+                        "Designed REST APIs for product and order management.",
+                        "-",
+                        "Used MongoDB for storing user, product and order information.",
+                        "Employee Management System",
+                        "-",
+                        "Developed employee registration and management features.",
+                        "-",
+                        "Implemented CRUD operations using Node.js and Express.js.",
+                        "-",
+                        "Created a responsive interface using React.js."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Results-oriented MERN Stack Developer with 3 years of professional experience developing",
+                            "scalable web applications. Skilled in React.js, Node.js, Express.js, MongoDB and JavaScript.",
+                            "Experienced in REST API development, database design, authentication and responsive frontend",
+                            "development. Strong problem-solving and teamwork abilities."
+                        ],
+                        "skills": [
+                            "-",
+                            "Frontend: React.js, JavaScript, HTML5, CSS3, Bootstrap",
+                            "-",
+                            "Backend: Node.js, Express.js",
+                            "-",
+                            "Database: MongoDB, MySQL",
+                            "-",
+                            "Programming: JavaScript",
+                            "-",
+                            "Tools: Git, GitHub, Postman, VS Code",
+                            "-",
+                            "Concepts: REST APIs, JWT Authentication, MVC Architecture"
+                        ],
+                        "experience": [
+                            "MERN Stack Developer - ABC Technologies",
+                            "January 2023 - Present",
+                            "-",
+                            "Developed responsive web applications using React.js.",
+                            "-",
+                            "Built REST APIs using Node.js and Express.js.",
+                            "-",
+                            "Designed MongoDB schemas and managed database operations.",
+                            "-",
+                            "Implemented JWT-based authentication and authorization.",
+                            "-",
+                            "Integrated frontend components with backend services.",
+                            "-",
+                            "Collaborated with developers using Git and GitHub.",
+                            "-",
+                            "Identified and resolved application bugs to improve performance."
+                        ],
+                        "projects": [
+                            "Online Shopping Management System",
+                            "-",
+                            "Developed a full-stack shopping application using the MERN stack.",
+                            "-",
+                            "Created product listing, search, cart and user authentication features.",
+                            "-",
+                            "Designed REST APIs for product and order management.",
+                            "-",
+                            "Used MongoDB for storing user, product and order information.",
+                            "Employee Management System",
+                            "-",
+                            "Developed employee registration and management features.",
+                            "-",
+                            "Implemented CRUD operations using Node.js and Express.js.",
+                            "-",
+                            "Created a responsive interface using React.js."
+                        ],
+                        "education": [
+                            "Master of Computer Applications (MCA)",
+                            "ABC College of Technology | 2022",
+                            "Bachelor of Computer Applications (BCA)",
+                            "XYZ College | 2020"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Problem-solving",
+                            "-",
+                            "Team collaboration",
+                            "-",
+                            "Communication",
+                            "-",
+                            "Time management",
+                            "-",
+                            "Adaptability"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the information provided above is true and correct to the best of my",
+                            "knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD001",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "job_title": "MERN Stack Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Kochi, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 2.0,
+                    "maximum_years": 4.0
+                },
+                "mandatory_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_001.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\excellent\\candidate_001_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.624295",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "candidate_information": {
+                "candidate_id": "CAND002",
+                "name": "Rahul Menon",
+                "email": null,
+                "phone": null,
+                "job_id": "JD002",
+                "target_role": "Python Developer",
+                "experience_years": 2,
+                "education": "BCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\average\\candidate_002_resume.pdf",
+                "raw_text_characters": 1509,
+                "cleaned_text_characters": 1435,
+                "cleaned_text": "RAHUL MENON\nPython Developer\nEmail: rahul.menon@example.com\nLocation: Kochi, Kerala\nPhone: +91-9000000002\nCAREER OBJECTIVE\nLooking for an opportunity as a Python Developer where I can use my programming knowledge\nand development skills to contribute to software projects and improve my technical abilities.\nTECHNICAL SKILLS\n-\nPython\n-\nDjango\n-\nSQL\n-\nHTML\n-\nCSS\n-\nJavaScript\n-\nMySQL\n-\nGit\nWORK EXPERIENCE\nJunior Python Developer - Bright Software Solutions\nJune 2024 - Present\n-\nWorked on Python-based application development.\n-\nCreated basic backend functionalities using Django.\n-\nConnected applications with MySQL databases.\n-\nWorked on database queries and data management.\n-\nFixed bugs and performed basic application testing.\n-\nAssisted senior developers in project development.\nPROJECTS\nStudent Management System\n-\nDeveloped a basic student management application using Python and Django.\n-\nImplemented student registration and login.\n-\nStored student details using MySQL.\n-\nCreated basic CRUD operations.\nLibrary Management System\n-\nDeveloped a library application using Python.\n-\nImplemented book registration and issue management.\n-\nUsed SQL queries for database operations.\nEDUCATION\nBachelor of Computer Applications (BCA)\nABC College | 2023\nPERSONAL SKILLS\n-\nTeamwork\n-\nBasic communication\n-\nTime management\n-\nWillingness to learn\nDECLARATION\nI hereby declare that the above information is true to the best of my knowledge.",
+                "extracted_entities": {
+                    "name": "RAHUL MENON",
+                    "job_titles": [
+                        "python developer"
+                    ],
+                    "skills": [
+                        "communication",
+                        "css",
+                        "django",
+                        "git",
+                        "html",
+                        "javascript",
+                        "mysql",
+                        "python",
+                        "sql",
+                        "teamwork",
+                        "testing",
+                        "time management"
+                    ],
+                    "degrees": [
+                        "bca"
+                    ],
+                    "experience_years": null,
+                    "years": [
+                        2023,
+                        2024
+                    ],
+                    "projects": [
+                        "Student Management System",
+                        "-",
+                        "Developed a basic student management application using Python and Django.",
+                        "-",
+                        "Implemented student registration and login.",
+                        "-",
+                        "Stored student details using MySQL.",
+                        "-",
+                        "Created basic CRUD operations.",
+                        "Library Management System",
+                        "-",
+                        "Developed a library application using Python.",
+                        "-",
+                        "Implemented book registration and issue management.",
+                        "-",
+                        "Used SQL queries for database operations."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Looking for an opportunity as a Python Developer where I can use my programming knowledge",
+                            "and development skills to contribute to software projects and improve my technical abilities."
+                        ],
+                        "skills": [
+                            "-",
+                            "Python",
+                            "-",
+                            "Django",
+                            "-",
+                            "SQL",
+                            "-",
+                            "HTML",
+                            "-",
+                            "CSS",
+                            "-",
+                            "JavaScript",
+                            "-",
+                            "MySQL",
+                            "-",
+                            "Git"
+                        ],
+                        "experience": [
+                            "Junior Python Developer - Bright Software Solutions",
+                            "June 2024 - Present",
+                            "-",
+                            "Worked on Python-based application development.",
+                            "-",
+                            "Created basic backend functionalities using Django.",
+                            "-",
+                            "Connected applications with MySQL databases.",
+                            "-",
+                            "Worked on database queries and data management.",
+                            "-",
+                            "Fixed bugs and performed basic application testing.",
+                            "-",
+                            "Assisted senior developers in project development."
+                        ],
+                        "projects": [
+                            "Student Management System",
+                            "-",
+                            "Developed a basic student management application using Python and Django.",
+                            "-",
+                            "Implemented student registration and login.",
+                            "-",
+                            "Stored student details using MySQL.",
+                            "-",
+                            "Created basic CRUD operations.",
+                            "Library Management System",
+                            "-",
+                            "Developed a library application using Python.",
+                            "-",
+                            "Implemented book registration and issue management.",
+                            "-",
+                            "Used SQL queries for database operations."
+                        ],
+                        "education": [
+                            "Bachelor of Computer Applications (BCA)",
+                            "ABC College | 2023"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Teamwork",
+                            "-",
+                            "Basic communication",
+                            "-",
+                            "Time management",
+                            "-",
+                            "Willingness to learn"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the above information is true to the best of my knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [
+                    "experience_years"
+                ],
+                "warnings": [
+                    "Experience could not be detected. This does not necessarily mean the candidate has no experience."
+                ],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD002",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD002_python_developer.txt",
+                "job_title": "Python Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Thiruvananthapuram, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 1.0,
+                    "maximum_years": 3.0
+                },
+                "mandatory_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_002.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\average\\candidate_002_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD002_python_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.647522",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "candidate_information": {
+                "candidate_id": "CAND003",
+                "name": "Vishnu S",
+                "email": null,
+                "phone": null,
+                "job_id": "JD001",
+                "target_role": "MERN Stack Developer",
+                "experience_years": 1,
+                "education": "BCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\poor\\candidate_003_resume.pdf",
+                "raw_text_characters": 1323,
+                "cleaned_text_characters": 1259,
+                "cleaned_text": "VISHNU S\nJunior Web Developer\nEmail: vishnu.s@example.com\nLocation: Kollam, Kerala\nPhone: +91-9000000003\nCAREER OBJECTIVE\nTo obtain a junior software developer position where I can improve my programming knowledge\nand gain experience in web development.\nTECHNICAL SKILLS\n-\nHTML\n-\nCSS\n-\nJavaScript (Basic)\n-\nBootstrap\n-\nBasic React.js\n-\nBasic computer knowledge\nWORK EXPERIENCE\nWeb Development Trainee - Digital Web Solutions\nAugust 2025 - Present\n-\nCreated basic web pages using HTML and CSS.\n-\nAdded simple JavaScript functionality.\n-\nWorked on website layout and styling.\n-\nAssisted senior developers with frontend tasks.\n-\nParticipated in basic website testing.\nPROJECTS\nPersonal Portfolio Website\n-\nCreated a simple portfolio website using HTML and CSS.\n-\nAdded basic information and project details.\n-\nUsed simple JavaScript for interactive elements.\nSimple Calculator\n-\nDeveloped a basic calculator using HTML, CSS and JavaScript.\n-\nImplemented addition, subtraction, multiplication and division.\nEDUCATION\nBachelor of Computer Applications (BCA)\nABC College | 2025\nPERSONAL SKILLS\n-\nHardworking\n-\nBasic communication\n-\nTeamwork\n-\nWillingness to learn\nDECLARATION\nI hereby declare that the information provided above is true to the best of my knowledge.",
+                "extracted_entities": {
+                    "name": "VISHNU S",
+                    "job_titles": [
+                        "software developer"
+                    ],
+                    "skills": [
+                        "bootstrap",
+                        "communication",
+                        "css",
+                        "html",
+                        "javascript",
+                        "react",
+                        "teamwork",
+                        "testing"
+                    ],
+                    "degrees": [
+                        "bca"
+                    ],
+                    "experience_years": null,
+                    "years": [
+                        2025
+                    ],
+                    "projects": [
+                        "Personal Portfolio Website",
+                        "-",
+                        "Created a simple portfolio website using HTML and CSS.",
+                        "-",
+                        "Added basic information and project details.",
+                        "-",
+                        "Used simple JavaScript for interactive elements.",
+                        "Simple Calculator",
+                        "-",
+                        "Developed a basic calculator using HTML, CSS and JavaScript.",
+                        "-",
+                        "Implemented addition, subtraction, multiplication and division."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "To obtain a junior software developer position where I can improve my programming knowledge",
+                            "and gain experience in web development."
+                        ],
+                        "skills": [
+                            "-",
+                            "HTML",
+                            "-",
+                            "CSS",
+                            "-",
+                            "JavaScript (Basic)",
+                            "-",
+                            "Bootstrap",
+                            "-",
+                            "Basic React.js",
+                            "-",
+                            "Basic computer knowledge"
+                        ],
+                        "experience": [
+                            "Web Development Trainee - Digital Web Solutions",
+                            "August 2025 - Present",
+                            "-",
+                            "Created basic web pages using HTML and CSS.",
+                            "-",
+                            "Added simple JavaScript functionality.",
+                            "-",
+                            "Worked on website layout and styling.",
+                            "-",
+                            "Assisted senior developers with frontend tasks.",
+                            "-",
+                            "Participated in basic website testing."
+                        ],
+                        "projects": [
+                            "Personal Portfolio Website",
+                            "-",
+                            "Created a simple portfolio website using HTML and CSS.",
+                            "-",
+                            "Added basic information and project details.",
+                            "-",
+                            "Used simple JavaScript for interactive elements.",
+                            "Simple Calculator",
+                            "-",
+                            "Developed a basic calculator using HTML, CSS and JavaScript.",
+                            "-",
+                            "Implemented addition, subtraction, multiplication and division."
+                        ],
+                        "education": [
+                            "Bachelor of Computer Applications (BCA)",
+                            "ABC College | 2025"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Hardworking",
+                            "-",
+                            "Basic communication",
+                            "-",
+                            "Teamwork",
+                            "-",
+                            "Willingness to learn"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the information provided above is true to the best of my knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [
+                    "experience_years"
+                ],
+                "warnings": [
+                    "Experience could not be detected. This does not necessarily mean the candidate has no experience."
+                ],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD001",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "job_title": "MERN Stack Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Kochi, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 2.0,
+                    "maximum_years": 4.0
+                },
+                "mandatory_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_003.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\poor\\candidate_003_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.667283",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "candidate_information": {
+                "candidate_id": "CAND004",
+                "name": "Adithya R",
+                "email": null,
+                "phone": null,
+                "job_id": "JD003",
+                "target_role": "Java Developer",
+                "experience_years": 0,
+                "education": "BCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\fresher\\candidate_004_resume.pdf",
+                "raw_text_characters": 1773,
+                "cleaned_text_characters": 1699,
+                "cleaned_text": "ADITHYA R\nFresher Java Developer\nEmail: adithya.r@example.com\nLocation: Pathanamthitta, Kerala\nPhone: +91-9000000004\nCAREER OBJECTIVE\nRecent Computer Applications graduate seeking an entry-level Java Developer position.\nInterested in applying programming knowledge, learning software development practices and\ncontributing to real-world application development.\nTECHNICAL SKILLS\n-\nProgramming Languages: Java, C\n-\nDatabase: MySQL, SQL\n-\nWeb Technologies: HTML, CSS, JavaScript (Basic)\n-\nConcepts: Object-Oriented Programming, DBMS, Data Structures (Basic)\n-\nTools: Eclipse IDE, VS Code, Git (Basic)\nINTERNSHIP\nJava Development Intern - CodeTech Academy\nJanuary 2025 - March 2025\n-\nPracticed Java programming and object-oriented concepts.\n-\nDeveloped basic Java applications.\n-\nPerformed database operations using MySQL.\n-\nLearned exception handling and file handling.\n-\nParticipated in basic software testing activities.\nACADEMIC PROJECTS\nStudent Management System\n-\nDeveloped a Java-based application to manage student records.\n-\nImplemented student registration, updating and deletion.\n-\nUsed MySQL for database storage.\n-\nApplied basic object-oriented programming concepts.\nLibrary Management System\n-\nDeveloped a basic application using Java.\n-\nImplemented book registration and issue management.\n-\nUsed SQL queries to manage library records.\nEDUCATION\nBachelor of Computer Applications (BCA)\nABC College | 2025\nCERTIFICATIONS\n-\nJava Programming Fundamentals\n-\nIntroduction to Database Management Systems\nSOFT SKILLS\n-\nCommunication\n-\nTeamwork\n-\nProblem-solving\n-\nQuick learning\n-\nAdaptability\nDECLARATION\nI hereby declare that the information provided above is true to the best of my knowledge.",
+                "extracted_entities": {
+                    "name": "ADITHYA R",
+                    "job_titles": [
+                        "java developer"
+                    ],
+                    "skills": [
+                        "communication",
+                        "css",
+                        "git",
+                        "html",
+                        "java",
+                        "javascript",
+                        "mysql",
+                        "problem solving",
+                        "sql",
+                        "teamwork",
+                        "testing",
+                        "visual studio code"
+                    ],
+                    "degrees": [
+                        "bca"
+                    ],
+                    "experience_years": null,
+                    "years": [
+                        2025
+                    ],
+                    "projects": [
+                        "Student Management System",
+                        "-",
+                        "Developed a Java-based application to manage student records.",
+                        "-",
+                        "Implemented student registration, updating and deletion.",
+                        "-",
+                        "Used MySQL for database storage.",
+                        "-",
+                        "Applied basic object-oriented programming concepts.",
+                        "Library Management System",
+                        "-",
+                        "Developed a basic application using Java.",
+                        "-",
+                        "Implemented book registration and issue management.",
+                        "-",
+                        "Used SQL queries to manage library records."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Recent Computer Applications graduate seeking an entry-level Java Developer position.",
+                            "Interested in applying programming knowledge, learning software development practices and",
+                            "contributing to real-world application development."
+                        ],
+                        "skills": [
+                            "-",
+                            "Programming Languages: Java, C",
+                            "-",
+                            "Database: MySQL, SQL",
+                            "-",
+                            "Web Technologies: HTML, CSS, JavaScript (Basic)",
+                            "-",
+                            "Concepts: Object-Oriented Programming, DBMS, Data Structures (Basic)",
+                            "-",
+                            "Tools: Eclipse IDE, VS Code, Git (Basic)",
+                            "INTERNSHIP",
+                            "Java Development Intern - CodeTech Academy",
+                            "January 2025 - March 2025",
+                            "-",
+                            "Practiced Java programming and object-oriented concepts.",
+                            "-",
+                            "Developed basic Java applications.",
+                            "-",
+                            "Performed database operations using MySQL.",
+                            "-",
+                            "Learned exception handling and file handling.",
+                            "-",
+                            "Participated in basic software testing activities.",
+                            "ACADEMIC"
+                        ],
+                        "projects": [
+                            "Student Management System",
+                            "-",
+                            "Developed a Java-based application to manage student records.",
+                            "-",
+                            "Implemented student registration, updating and deletion.",
+                            "-",
+                            "Used MySQL for database storage.",
+                            "-",
+                            "Applied basic object-oriented programming concepts.",
+                            "Library Management System",
+                            "-",
+                            "Developed a basic application using Java.",
+                            "-",
+                            "Implemented book registration and issue management.",
+                            "-",
+                            "Used SQL queries to manage library records."
+                        ],
+                        "education": [
+                            "Bachelor of Computer Applications (BCA)",
+                            "ABC College | 2025"
+                        ],
+                        "certifications": [
+                            "-",
+                            "Java Programming Fundamentals",
+                            "-",
+                            "Introduction to Database Management Systems"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Communication",
+                            "-",
+                            "Teamwork",
+                            "-",
+                            "Problem-solving",
+                            "-",
+                            "Quick learning",
+                            "-",
+                            "Adaptability"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the information provided above is true to the best of my knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [
+                    "experience_years"
+                ],
+                "warnings": [
+                    "Experience could not be detected. This does not necessarily mean the candidate has no experience."
+                ],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD003",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD003_java_developer.txt",
+                "job_title": "Java Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Kochi, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 3.0,
+                    "maximum_years": 6.0
+                },
+                "mandatory_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "preferred_skills": [
+                    "Spring MVC",
+                    "Hibernate",
+                    "Microservices",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Oracle",
+                    "Maven",
+                    "Git",
+                    "Jenkins",
+                    "JUnit"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_004.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\fresher\\candidate_004_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD003_java_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.690303",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "candidate_information": {
+                "candidate_id": "CAND005",
+                "name": "Rohit Krishnan",
+                "email": null,
+                "phone": null,
+                "job_id": "JD003",
+                "target_role": "Java Developer",
+                "experience_years": 6,
+                "education": "MCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\experienced\\candidate_005_resume.pdf",
+                "raw_text_characters": 2790,
+                "cleaned_text_characters": 2683,
+                "cleaned_text": "ROHIT KRISHNAN\nSenior Java Developer\nEmail: rohit.krishnan@example.com\nLocation: Ernakulam, Kerala\nPhone: +91-9000000005\nPROFESSIONAL SUMMARY\nExperienced Java Developer with 6 years of professional experience in designing, developing\nand maintaining enterprise-level applications. Strong knowledge of Java, Spring Boot, REST\nAPIs, Microservices and SQL databases. Experienced in backend development, application\nintegration, debugging and performance optimization.\nTECHNICAL SKILLS\n-\nProgramming: Java, SQL\n-\nFrameworks: Spring Boot, Spring MVC, Hibernate\n-\nArchitecture: Microservices, MVC Architecture\n-\nBackend: REST APIs, JDBC\n-\nDatabase: MySQL, PostgreSQL, Oracle\n-\nTools: Git, GitHub, Maven, Jenkins, Postman, IntelliJ IDEA\n-\nTesting: JUnit, Mockito\n-\nConcepts: Object-Oriented Programming, Data Structures, Exception Handling\nPROFESSIONAL EXPERIENCE\nSenior Java Developer - Innovate Software Solutions\nJanuary 2023 - Present\n-\nDesigned and developed backend services using Java and Spring Boot.\n-\nBuilt REST APIs for enterprise applications.\n-\nDeveloped and maintained microservices-based application modules.\n-\nIntegrated applications with MySQL and PostgreSQL databases.\n-\nImplemented exception handling and application validation.\n-\nPerformed code reviews and debugging.\n-\nCollaborated with frontend and QA teams.\n-\nImproved application performance through code optimization.\nJava Developer - TechVision Technologies\nJune 2020 - December 2022\n-\nDeveloped Java-based web applications.\n-\nImplemented backend business logic using Spring MVC.\n-\nUsed Hibernate for database interaction.\n-\nCreated and maintained REST API endpoints.\n-\nWrote SQL queries for data retrieval and updates.\n-\nParticipated in testing and application maintenance.\nPROJECTS\nEnterprise Employee Management Platform\n-\nDeveloped backend modules using Java and Spring Boot.\n-\nImplemented employee registration and management.\n-\nCreated REST APIs for frontend integration.\n-\nUsed PostgreSQL for data storage.\nE-Commerce Order Management System\n-\nDeveloped order processing modules using Java.\n-\nImplemented service-based application architecture.\n-\nIntegrated payment status and order tracking APIs.\n-\nUsed MySQL for database operations.\nEDUCATION\nMaster of Computer Applications (MCA)\nABC Institute of Technology | 2020\nBachelor of Computer Applications (BCA)\nXYZ College | 2018\nCERTIFICATIONS\n-\nJava Programming Certification\n-\nSpring Boot Application Development\n-\nREST API Development\nSOFT SKILLS\n-\nTechnical problem-solving\n-\nTeam leadership\n-\nCommunication\n-\nProject coordination\n-\nAnalytical thinking\nDECLARATION\nI hereby declare that the information provided above is true to the best of my knowledge.",
+                "extracted_entities": {
+                    "name": "ROHIT KRISHNAN",
+                    "job_titles": [
+                        "senior java developer",
+                        "java developer"
+                    ],
+                    "skills": [
+                        "communication",
+                        "git",
+                        "github",
+                        "hibernate",
+                        "java",
+                        "jenkins",
+                        "junit",
+                        "maven",
+                        "microservices",
+                        "mvc architecture",
+                        "mysql",
+                        "oracle",
+                        "postgresql",
+                        "postman",
+                        "problem solving",
+                        "rest api",
+                        "spring boot",
+                        "spring mvc",
+                        "sql",
+                        "testing"
+                    ],
+                    "degrees": [
+                        "bca",
+                        "mca"
+                    ],
+                    "experience_years": 6.0,
+                    "years": [
+                        2018,
+                        2020,
+                        2022,
+                        2023
+                    ],
+                    "projects": [
+                        "Enterprise Employee Management Platform",
+                        "-",
+                        "Developed backend modules using Java and Spring Boot.",
+                        "-",
+                        "Implemented employee registration and management.",
+                        "-",
+                        "Created REST APIs for frontend integration.",
+                        "-",
+                        "Used PostgreSQL for data storage.",
+                        "E-Commerce Order Management System",
+                        "-",
+                        "Developed order processing modules using Java.",
+                        "-",
+                        "Implemented service-based application architecture.",
+                        "-",
+                        "Integrated payment status and order tracking APIs.",
+                        "-",
+                        "Used MySQL for database operations."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Experienced Java Developer with 6 years of professional experience in designing, developing",
+                            "and maintaining enterprise-level applications. Strong knowledge of Java, Spring Boot, REST",
+                            "APIs, Microservices and SQL databases. Experienced in backend development, application",
+                            "integration, debugging and performance optimization."
+                        ],
+                        "skills": [
+                            "-",
+                            "Programming: Java, SQL",
+                            "-",
+                            "Frameworks: Spring Boot, Spring MVC, Hibernate",
+                            "-",
+                            "Architecture: Microservices, MVC Architecture",
+                            "-",
+                            "Backend: REST APIs, JDBC",
+                            "-",
+                            "Database: MySQL, PostgreSQL, Oracle",
+                            "-",
+                            "Tools: Git, GitHub, Maven, Jenkins, Postman, IntelliJ IDEA",
+                            "-",
+                            "Testing: JUnit, Mockito",
+                            "-",
+                            "Concepts: Object-Oriented Programming, Data Structures, Exception Handling"
+                        ],
+                        "experience": [
+                            "Senior Java Developer - Innovate Software Solutions",
+                            "January 2023 - Present",
+                            "-",
+                            "Designed and developed backend services using Java and Spring Boot.",
+                            "-",
+                            "Built REST APIs for enterprise applications.",
+                            "-",
+                            "Developed and maintained microservices-based application modules.",
+                            "-",
+                            "Integrated applications with MySQL and PostgreSQL databases.",
+                            "-",
+                            "Implemented exception handling and application validation.",
+                            "-",
+                            "Performed code reviews and debugging.",
+                            "-",
+                            "Collaborated with frontend and QA teams.",
+                            "-",
+                            "Improved application performance through code optimization.",
+                            "Java Developer - TechVision Technologies",
+                            "June 2020 - December 2022",
+                            "-",
+                            "Developed Java-based web applications.",
+                            "-",
+                            "Implemented backend business logic using Spring MVC.",
+                            "-",
+                            "Used Hibernate for database interaction.",
+                            "-",
+                            "Created and maintained REST API endpoints.",
+                            "-",
+                            "Wrote SQL queries for data retrieval and updates.",
+                            "-",
+                            "Participated in testing and application maintenance."
+                        ],
+                        "projects": [
+                            "Enterprise Employee Management Platform",
+                            "-",
+                            "Developed backend modules using Java and Spring Boot.",
+                            "-",
+                            "Implemented employee registration and management.",
+                            "-",
+                            "Created REST APIs for frontend integration.",
+                            "-",
+                            "Used PostgreSQL for data storage.",
+                            "E-Commerce Order Management System",
+                            "-",
+                            "Developed order processing modules using Java.",
+                            "-",
+                            "Implemented service-based application architecture.",
+                            "-",
+                            "Integrated payment status and order tracking APIs.",
+                            "-",
+                            "Used MySQL for database operations."
+                        ],
+                        "education": [
+                            "Master of Computer Applications (MCA)",
+                            "ABC Institute of Technology | 2020",
+                            "Bachelor of Computer Applications (BCA)",
+                            "XYZ College | 2018"
+                        ],
+                        "certifications": [
+                            "-",
+                            "Java Programming Certification",
+                            "-",
+                            "Spring Boot Application Development",
+                            "-",
+                            "REST API Development"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Technical problem-solving",
+                            "-",
+                            "Team leadership",
+                            "-",
+                            "Communication",
+                            "-",
+                            "Project coordination",
+                            "-",
+                            "Analytical thinking"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the information provided above is true to the best of my knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD003",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD003_java_developer.txt",
+                "job_title": "Java Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Kochi, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 3.0,
+                    "maximum_years": 6.0
+                },
+                "mandatory_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "preferred_skills": [
+                    "Spring MVC",
+                    "Hibernate",
+                    "Microservices",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Oracle",
+                    "Maven",
+                    "Git",
+                    "Jenkins",
+                    "JUnit"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_005.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\experienced\\candidate_005_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD003_java_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.718127",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "candidate_information": {
+                "candidate_id": "CAND006",
+                "name": "Priya Nair",
+                "email": null,
+                "phone": null,
+                "job_id": "JD002",
+                "target_role": "Python Developer",
+                "experience_years": 3,
+                "education": "MCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\excellent\\candidate_006_resume.pdf",
+                "raw_text_characters": 2422,
+                "cleaned_text_characters": 2335,
+                "cleaned_text": "PRIYA NAIR\nPython Developer | AI & Machine Learning\nEmail: priya.nair@example.com\nLocation: Thiruvananthapuram, Kerala\nPhone: +91-9000000006\nPROFESSIONAL SUMMARY\nPython Developer with 3 years of experience in software development, data processing and\nmachine learning applications. Strong knowledge of Python, SQL, Pandas, Scikit-learn and\nNatural Language Processing. Experienced in developing REST APIs, implementing machine\nlearning workflows and processing structured and unstructured data.\nTECHNICAL SKILLS\n-\nProgramming: Python, SQL\n-\nFrameworks: Django, Flask\n-\nMachine Learning: Scikit-learn, Random Forest, Gradient Boosting\n-\nData Processing: Pandas, NumPy\n-\nAI & NLP: Natural Language Processing, TF-IDF, Cosine Similarity\n-\nDatabase: MySQL, PostgreSQL\n-\nTools: Git, GitHub, Jupyter Notebook, VS Code, Postman\n-\nConcepts: REST APIs, Model Evaluation, Data Preprocessing\nPROFESSIONAL EXPERIENCE\nPython Developer - Tech Solutions Pvt. Ltd.\nFebruary 2023 - Present\n-\nDeveloped backend applications using Python and Django.\n-\nDesigned and integrated REST APIs for application modules.\n-\nProcessed structured datasets using Pandas and NumPy.\n-\nImplemented machine learning models using Scikit-learn.\n-\nApplied data preprocessing and feature extraction techniques.\n-\nWorked with SQL databases for data storage and retrieval.\n-\nTested application modules and resolved software issues.\nPROJECTS\nAI-Based Resume Screening System\n-\nDeveloped a resume screening application using Python.\n-\nExtracted and processed resume text.\n-\nUsed TF-IDF and Cosine Similarity to compare resumes with job descriptions.\n-\nGenerated similarity-based matching scores.\n-\nUsed structured candidate and job-description data for evaluation.\nCustomer Classification System\n-\nBuilt a machine learning classification model using Scikit-learn.\n-\nApplied data preprocessing and feature selection.\n-\nEvaluated model performance using standard evaluation metrics.\n-\nUsed Pandas and NumPy for data analysis.\nEDUCATION\nMaster of Computer Applications (MCA)\nABC Institute of Technology | 2022\nBachelor of Science in Computer Science\nXYZ College | 2020\nSOFT SKILLS\n-\nAnalytical thinking\n-\nProblem-solving\n-\nCommunication\n-\nTeamwork\n-\nContinuous learning\nDECLARATION\nI hereby declare that the information provided above is true and correct to the best of my\nknowledge.",
+                "extracted_entities": {
+                    "name": "PRIYA NAIR",
+                    "job_titles": [
+                        "python developer"
+                    ],
+                    "skills": [
+                        "candidate screening",
+                        "communication",
+                        "data analysis",
+                        "data processing",
+                        "django",
+                        "flask",
+                        "git",
+                        "github",
+                        "machine learning",
+                        "mysql",
+                        "nlp",
+                        "numpy",
+                        "pandas",
+                        "postgresql",
+                        "postman",
+                        "problem solving",
+                        "python",
+                        "rest api",
+                        "scikit-learn",
+                        "sql",
+                        "teamwork",
+                        "visual studio code"
+                    ],
+                    "degrees": [
+                        "bsc",
+                        "mca"
+                    ],
+                    "experience_years": 3.0,
+                    "years": [
+                        2020,
+                        2022,
+                        2023
+                    ],
+                    "projects": [
+                        "AI-Based Resume Screening System",
+                        "-",
+                        "Developed a resume screening application using Python.",
+                        "-",
+                        "Extracted and processed resume text.",
+                        "-",
+                        "Used TF-IDF and Cosine Similarity to compare resumes with job descriptions.",
+                        "-",
+                        "Generated similarity-based matching scores.",
+                        "-",
+                        "Used structured candidate and job-description data for evaluation.",
+                        "Customer Classification System",
+                        "-",
+                        "Built a machine learning classification model using Scikit-learn.",
+                        "-",
+                        "Applied data preprocessing and feature selection.",
+                        "-",
+                        "Evaluated model performance using standard evaluation metrics.",
+                        "-",
+                        "Used Pandas and NumPy for data analysis."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Python Developer with 3 years of experience in software development, data processing and",
+                            "machine learning applications. Strong knowledge of Python, SQL, Pandas, Scikit-learn and",
+                            "Natural Language Processing. Experienced in developing REST APIs, implementing machine",
+                            "learning workflows and processing structured and unstructured data."
+                        ],
+                        "skills": [
+                            "-",
+                            "Programming: Python, SQL",
+                            "-",
+                            "Frameworks: Django, Flask",
+                            "-",
+                            "Machine Learning: Scikit-learn, Random Forest, Gradient Boosting",
+                            "-",
+                            "Data Processing: Pandas, NumPy",
+                            "-",
+                            "AI & NLP: Natural Language Processing, TF-IDF, Cosine Similarity",
+                            "-",
+                            "Database: MySQL, PostgreSQL",
+                            "-",
+                            "Tools: Git, GitHub, Jupyter Notebook, VS Code, Postman",
+                            "-",
+                            "Concepts: REST APIs, Model Evaluation, Data Preprocessing"
+                        ],
+                        "experience": [
+                            "Python Developer - Tech Solutions Pvt. Ltd.",
+                            "February 2023 - Present",
+                            "-",
+                            "Developed backend applications using Python and Django.",
+                            "-",
+                            "Designed and integrated REST APIs for application modules.",
+                            "-",
+                            "Processed structured datasets using Pandas and NumPy.",
+                            "-",
+                            "Implemented machine learning models using Scikit-learn.",
+                            "-",
+                            "Applied data preprocessing and feature extraction techniques.",
+                            "-",
+                            "Worked with SQL databases for data storage and retrieval.",
+                            "-",
+                            "Tested application modules and resolved software issues."
+                        ],
+                        "projects": [
+                            "AI-Based Resume Screening System",
+                            "-",
+                            "Developed a resume screening application using Python.",
+                            "-",
+                            "Extracted and processed resume text.",
+                            "-",
+                            "Used TF-IDF and Cosine Similarity to compare resumes with job descriptions.",
+                            "-",
+                            "Generated similarity-based matching scores.",
+                            "-",
+                            "Used structured candidate and job-description data for evaluation.",
+                            "Customer Classification System",
+                            "-",
+                            "Built a machine learning classification model using Scikit-learn.",
+                            "-",
+                            "Applied data preprocessing and feature selection.",
+                            "-",
+                            "Evaluated model performance using standard evaluation metrics.",
+                            "-",
+                            "Used Pandas and NumPy for data analysis."
+                        ],
+                        "education": [
+                            "Master of Computer Applications (MCA)",
+                            "ABC Institute of Technology | 2022",
+                            "Bachelor of Science in Computer Science",
+                            "XYZ College | 2020"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Analytical thinking",
+                            "-",
+                            "Problem-solving",
+                            "-",
+                            "Communication",
+                            "-",
+                            "Teamwork",
+                            "-",
+                            "Continuous learning"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the information provided above is true and correct to the best of my",
+                            "knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD002",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD002_python_developer.txt",
+                "job_title": "Python Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Thiruvananthapuram, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 1.0,
+                    "maximum_years": 3.0
+                },
+                "mandatory_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_006.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\excellent\\candidate_006_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD002_python_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.743939",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "candidate_information": {
+                "candidate_id": "CAND007",
+                "name": "Nikhil Raj",
+                "email": null,
+                "phone": null,
+                "job_id": "JD001",
+                "target_role": "MERN Stack Developer",
+                "experience_years": 2,
+                "education": "MCA"
+            },
+            "resume_information": {
+                "resume_status": "MISSING",
+                "resume_source": null,
+                "raw_text_characters": null,
+                "cleaned_text_characters": null,
+                "cleaned_text": null,
+                "extracted_entities": {},
+                "missing_fields": [],
+                "warnings": [],
+                "error": "Resume file not provided."
+            },
+            "job_information": {
+                "job_id": "JD001",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "job_title": "MERN Stack Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Kochi, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 2.0,
+                    "maximum_years": 4.0
+                },
+                "mandatory_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "BLOCKED_RESUME",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_007.json",
+                "resume_source": null,
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.744019",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "candidate_information": {
+                "candidate_id": "CAND008",
+                "name": "Manu K",
+                "email": null,
+                "phone": null,
+                "job_id": "JD002",
+                "target_role": "Python Developer",
+                "experience_years": 1,
+                "education": "BCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\poor\\candidate_008_resume.pdf",
+                "raw_text_characters": 2046,
+                "cleaned_text_characters": 1939,
+                "cleaned_text": "MANU K\nJunior Software Developer\nEmail: manu.k@example.com\nLocation: Alappuzha, Kerala\nPhone: +91-9000000008\nOBJECTIVE\nSeeking a job opportunity in the software field where I can learn and improve my technical\nskills.\nSKILLS\n-\nPython (Basic)\n-\nHTML\n-\nCSS\n-\nBasic SQL\n-\nComputer fundamentals\nEXPERIENCE\nSoftware Development Intern - ABC Software\nJanuary 2025 - December 2025\n-\nAssisted with simple Python programming tasks.\n-\nPracticed basic Python programs.\n-\nHelped update website content.\n-\nPerformed simple manual testing.\n-\nLearned basic database operations.\nPROJECTS\nBasic Student Record System\n-\nCreated a simple Python program to store student details.\n-\nUsed basic file handling.\n-\nImplemented simple search functionality.\nEDUCATION\nBachelor of Computer Applications (BCA)\nXYZ College | 2024\nPERSONAL SKILLS\n-\nHardworking\n-\nQuick learner\n-\nInterested in programming\nDECLARATION\nI hereby declare that the above information is correct to the best of my knowledge.\nMANU K\nJunior Software Developer\nEmail: manu.k@example.com\nLocation: Alappuzha, Kerala\nPhone: +91-9000000008\nOBJECTIVE\nSeeking a job opportunity in the software field where I can learn and improve my technical\nskills.\nSKILLS\n-\nPython (Basic)\n-\nHTML\n-\nCSS\n-\nBasic SQL\n-\nComputer fundamentals\nEXPERIENCE\nSoftware Development Intern - ABC Software\nJanuary 2025 - December 2025\n-\nAssisted with simple Python programming tasks.\n-\nPracticed basic Python programs.\n-\nHelped update website content.\n-\nPerformed simple manual testing.\n-\nLearned basic database operations.\nPROJECTS\nBasic Student Record System\n-\nCreated a simple Python program to store student details.\n-\nUsed basic file handling.\n-\nImplemented simple search functionality.\nEDUCATION\nBachelor of Computer Applications (BCA)\nXYZ College | 2024\nPERSONAL SKILLS\n-\nHardworking\n-\nQuick learner\n-\nInterested in programming\nDECLARATION\nI hereby declare that the above information is correct to the best of my knowledge.",
+                "extracted_entities": {
+                    "name": "MANU K",
+                    "job_titles": [
+                        "software developer"
+                    ],
+                    "skills": [
+                        "css",
+                        "html",
+                        "python",
+                        "sql",
+                        "testing"
+                    ],
+                    "degrees": [
+                        "bca"
+                    ],
+                    "experience_years": null,
+                    "years": [
+                        2024,
+                        2025
+                    ],
+                    "projects": [
+                        "Basic Student Record System",
+                        "-",
+                        "Created a simple Python program to store student details.",
+                        "-",
+                        "Used basic file handling.",
+                        "-",
+                        "Implemented simple search functionality.",
+                        "Basic Student Record System",
+                        "-",
+                        "Created a simple Python program to store student details.",
+                        "-",
+                        "Used basic file handling.",
+                        "-",
+                        "Implemented simple search functionality."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Seeking a job opportunity in the software field where I can learn and improve my technical",
+                            "skills.",
+                            "Seeking a job opportunity in the software field where I can learn and improve my technical",
+                            "skills."
+                        ],
+                        "skills": [
+                            "-",
+                            "Python (Basic)",
+                            "-",
+                            "HTML",
+                            "-",
+                            "CSS",
+                            "-",
+                            "Basic SQL",
+                            "-",
+                            "Computer fundamentals",
+                            "-",
+                            "Python (Basic)",
+                            "-",
+                            "HTML",
+                            "-",
+                            "CSS",
+                            "-",
+                            "Basic SQL",
+                            "-",
+                            "Computer fundamentals"
+                        ],
+                        "experience": [
+                            "Software Development Intern - ABC Software",
+                            "January 2025 - December 2025",
+                            "-",
+                            "Assisted with simple Python programming tasks.",
+                            "-",
+                            "Practiced basic Python programs.",
+                            "-",
+                            "Helped update website content.",
+                            "-",
+                            "Performed simple manual testing.",
+                            "-",
+                            "Learned basic database operations.",
+                            "Software Development Intern - ABC Software",
+                            "January 2025 - December 2025",
+                            "-",
+                            "Assisted with simple Python programming tasks.",
+                            "-",
+                            "Practiced basic Python programs.",
+                            "-",
+                            "Helped update website content.",
+                            "-",
+                            "Performed simple manual testing.",
+                            "-",
+                            "Learned basic database operations."
+                        ],
+                        "projects": [
+                            "Basic Student Record System",
+                            "-",
+                            "Created a simple Python program to store student details.",
+                            "-",
+                            "Used basic file handling.",
+                            "-",
+                            "Implemented simple search functionality.",
+                            "Basic Student Record System",
+                            "-",
+                            "Created a simple Python program to store student details.",
+                            "-",
+                            "Used basic file handling.",
+                            "-",
+                            "Implemented simple search functionality."
+                        ],
+                        "education": [
+                            "Bachelor of Computer Applications (BCA)",
+                            "XYZ College | 2024",
+                            "Bachelor of Computer Applications (BCA)",
+                            "XYZ College | 2024"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Hardworking",
+                            "-",
+                            "Quick learner",
+                            "-",
+                            "Interested in programming",
+                            "-",
+                            "Hardworking",
+                            "-",
+                            "Quick learner",
+                            "-",
+                            "Interested in programming"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the above information is correct to the best of my knowledge.",
+                            "MANU K",
+                            "Junior Software Developer",
+                            "Email: manu.k@example.com",
+                            "Location: Alappuzha, Kerala",
+                            "Phone: +91-9000000008",
+                            "I hereby declare that the above information is correct to the best of my knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [
+                    "experience_years"
+                ],
+                "warnings": [
+                    "Experience could not be detected. This does not necessarily mean the candidate has no experience."
+                ],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD002",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD002_python_developer.txt",
+                "job_title": "Python Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Thiruvananthapuram, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 1.0,
+                    "maximum_years": 3.0
+                },
+                "mandatory_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "preferred_skills": [
+                    "Flask",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Pandas",
+                    "NumPy",
+                    "Scikit-learn",
+                    "Git",
+                    "Data Processing",
+                    "Machine Learning Fundamentals"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_008.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\poor\\candidate_008_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD002_python_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.769133",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "candidate_information": {
+                "candidate_id": "CAND009",
+                "name": "Anjali Krishna",
+                "email": null,
+                "phone": null,
+                "job_id": "JD001",
+                "target_role": "MERN Stack Developer",
+                "experience_years": 2,
+                "education": "BCA"
+            },
+            "resume_information": {
+                "resume_status": "PROCESSED",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\average\\candidate_009_resume.pdf",
+                "raw_text_characters": 1912,
+                "cleaned_text_characters": 1837,
+                "cleaned_text": "ANJALI KRISHNA\nJunior Full Stack Developer\nEmail: anjali.krishna@example.com\nLocation: Thrissur, Kerala\nPhone: +91-9000000009\nPROFESSIONAL SUMMARY\nMotivated Full Stack Developer with 2 years of experience in web application development.\nFamiliar with JavaScript, React.js, Node.js and basic backend development. Good\ncommunication skills and experience working with team members to complete project tasks.\nInterested in learning new technologies and improving software development skills.\nTECHNICAL SKILLS\n-\nFrontend: HTML, CSS, JavaScript, React.js\n-\nBackend: Node.js, Express.js (basic)\n-\nDatabase: MongoDB (basic)\n-\nTools: VS Code, Git, GitHub\n-\nOther: Responsive Web Design, REST API fundamentals\nWORK EXPERIENCE\nJunior Web Developer - WebTech Solutions\nJuly 2024 - Present\n-\nDeveloped frontend pages using HTML, CSS and JavaScript.\n-\nCreated reusable UI components using React.js.\n-\nWorked with senior developers on web application features.\n-\nParticipated in team meetings and project discussions.\n-\nAssisted with application testing and bug fixing.\n-\nCommunicated project progress and technical issues to team members.\nPROJECTS\nOnline Event Management Website\n-\nDeveloped frontend pages using React.js.\n-\nCreated event listing and registration interfaces.\n-\nUsed JavaScript to handle user interactions.\n-\nWorked with backend team members for API integration.\nPersonal Portfolio Website\n-\nDesigned a responsive personal portfolio website.\n-\nUsed HTML, CSS and JavaScript.\n-\nAdded project and contact sections.\nEDUCATION\nBachelor of Computer Applications (BCA)\nXYZ College | 2023\nSOFT SKILLS\n-\nExcellent verbal communication\n-\nTeam collaboration\n-\nPresentation skills\n-\nAdaptability\n-\nProblem-solving\n-\nTime management\nDECLARATION\nI hereby declare that the information provided above is true and correct to the best of my\nknowledge.",
+                "extracted_entities": {
+                    "name": "ANJALI KRISHNA",
+                    "job_titles": [
+                        "full stack developer"
+                    ],
+                    "skills": [
+                        "communication",
+                        "css",
+                        "express.js",
+                        "git",
+                        "github",
+                        "html",
+                        "javascript",
+                        "mongodb",
+                        "node.js",
+                        "problem solving",
+                        "react",
+                        "rest api",
+                        "testing",
+                        "time management",
+                        "visual studio code"
+                    ],
+                    "degrees": [
+                        "bca"
+                    ],
+                    "experience_years": 2.0,
+                    "years": [
+                        2023,
+                        2024
+                    ],
+                    "projects": [
+                        "Online Event Management Website",
+                        "-",
+                        "Developed frontend pages using React.js.",
+                        "-",
+                        "Created event listing and registration interfaces.",
+                        "-",
+                        "Used JavaScript to handle user interactions.",
+                        "-",
+                        "Worked with backend team members for API integration.",
+                        "Personal Portfolio Website",
+                        "-",
+                        "Designed a responsive personal portfolio website.",
+                        "-",
+                        "Used HTML, CSS and JavaScript.",
+                        "-",
+                        "Added project and contact sections."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Motivated Full Stack Developer with 2 years of experience in web application development.",
+                            "Familiar with JavaScript, React.js, Node.js and basic backend development. Good",
+                            "communication skills and experience working with team members to complete project tasks.",
+                            "Interested in learning new technologies and improving software development skills."
+                        ],
+                        "skills": [
+                            "-",
+                            "Frontend: HTML, CSS, JavaScript, React.js",
+                            "-",
+                            "Backend: Node.js, Express.js (basic)",
+                            "-",
+                            "Database: MongoDB (basic)",
+                            "-",
+                            "Tools: VS Code, Git, GitHub",
+                            "-",
+                            "Other: Responsive Web Design, REST API fundamentals"
+                        ],
+                        "experience": [
+                            "Junior Web Developer - WebTech Solutions",
+                            "July 2024 - Present",
+                            "-",
+                            "Developed frontend pages using HTML, CSS and JavaScript.",
+                            "-",
+                            "Created reusable UI components using React.js.",
+                            "-",
+                            "Worked with senior developers on web application features.",
+                            "-",
+                            "Participated in team meetings and project discussions.",
+                            "-",
+                            "Assisted with application testing and bug fixing.",
+                            "-",
+                            "Communicated project progress and technical issues to team members."
+                        ],
+                        "projects": [
+                            "Online Event Management Website",
+                            "-",
+                            "Developed frontend pages using React.js.",
+                            "-",
+                            "Created event listing and registration interfaces.",
+                            "-",
+                            "Used JavaScript to handle user interactions.",
+                            "-",
+                            "Worked with backend team members for API integration.",
+                            "Personal Portfolio Website",
+                            "-",
+                            "Designed a responsive personal portfolio website.",
+                            "-",
+                            "Used HTML, CSS and JavaScript.",
+                            "-",
+                            "Added project and contact sections."
+                        ],
+                        "education": [
+                            "Bachelor of Computer Applications (BCA)",
+                            "XYZ College | 2023"
+                        ],
+                        "soft_skills": [
+                            "-",
+                            "Excellent verbal communication",
+                            "-",
+                            "Team collaboration",
+                            "-",
+                            "Presentation skills",
+                            "-",
+                            "Adaptability",
+                            "-",
+                            "Problem-solving",
+                            "-",
+                            "Time management"
+                        ],
+                        "declaration": [
+                            "I hereby declare that the information provided above is true and correct to the best of my",
+                            "knowledge."
+                        ]
+                    }
+                },
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "job_information": {
+                "job_id": "JD001",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "job_title": "MERN Stack Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Kochi, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 2.0,
+                    "maximum_years": 4.0
+                },
+                "mandatory_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "preferred_skills": [
+                    "HTML5",
+                    "CSS3",
+                    "Bootstrap",
+                    "REST API Development",
+                    "JWT Authentication",
+                    "Git",
+                    "GitHub"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "READY_FOR_ATS",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_009.json",
+                "resume_source": "D:\\ZecPath-AI\\day63_demo_dataset\\02_sample_resumes\\average\\candidate_009_resume.pdf",
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD001_mern_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.789912",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "candidate_information": {
+                "candidate_id": "CAND010",
+                "name": "Sandeep Kumar",
+                "email": null,
+                "phone": null,
+                "job_id": "JD003",
+                "target_role": "Java Developer",
+                "experience_years": 2,
+                "education": "MCA"
+            },
+            "resume_information": {
+                "resume_status": "MISSING",
+                "resume_source": null,
+                "raw_text_characters": null,
+                "cleaned_text_characters": null,
+                "cleaned_text": null,
+                "extracted_entities": {},
+                "missing_fields": [],
+                "warnings": [],
+                "error": "Resume file not provided."
+            },
+            "job_information": {
+                "job_id": "JD003",
+                "jd_status": "PROCESSED",
+                "jd_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD003_java_developer.txt",
+                "job_title": "Java Developer",
+                "company": "ZecPath Technologies",
+                "job_location": "Kochi, Kerala, India",
+                "employment_type": "Full-Time",
+                "experience_requirement": {
+                    "minimum_years": 3.0,
+                    "maximum_years": 6.0
+                },
+                "mandatory_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "preferred_skills": [
+                    "Spring MVC",
+                    "Hibernate",
+                    "Microservices",
+                    "REST API Development",
+                    "MySQL",
+                    "PostgreSQL",
+                    "Oracle",
+                    "Maven",
+                    "Git",
+                    "Jenkins",
+                    "JUnit"
+                ],
+                "education_requirement": [
+                    "BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field."
+                ],
+                "missing_fields": [],
+                "warnings": [],
+                "error": null
+            },
+            "input_status": "BLOCKED_RESUME",
+            "ats_scoring_status": "NOT_STARTED",
+            "data_provenance": {
+                "dataset": "day63_demo_dataset",
+                "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+                "dataset_type": "DEMO_DATASET",
+                "profile_source": "D:\\ZecPath-AI\\day63_demo_dataset\\01_candidate_profiles\\candidate_010.json",
+                "resume_source": null,
+                "job_description_source": "D:\\ZecPath-AI\\day63_demo_dataset\\03_job_descriptions\\JD003_java_developer.txt",
+                "generated_at": "2026-11-09T11:21:18.789995",
+                "processing_stage": "ATS_INPUT_PREPARATION",
+                "data_type": "DEMO_DATASET"
+            }
+        }
+    ]
+}

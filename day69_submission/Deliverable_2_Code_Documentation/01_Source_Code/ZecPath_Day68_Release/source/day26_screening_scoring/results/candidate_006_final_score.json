@@ -1,0 +1,180 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "screening_summary": {
+        "total_questions": 4,
+        "answered_questions": 4,
+        "no_response_questions": 0,
+        "off_topic_questions": 0
+    },
+    "average_scores": {
+        "clarity": 8.75,
+        "relevance": 9.75,
+        "completeness": 9.5,
+        "consistency": 9.0
+    },
+    "final_screening_score": 92.5,
+    "score_scale": "0-100",
+    "explanation": {
+        "strengths": [
+            {
+                "question_id": "BACKEND_EXP_001",
+                "reason": "Answer is clear and easy to understand."
+            },
+            {
+                "question_id": "BACKEND_EXP_001",
+                "reason": "Answer directly addresses the question."
+            },
+            {
+                "question_id": "BACKEND_EXP_001",
+                "reason": "Required information is sufficiently provided."
+            },
+            {
+                "question_id": "BACKEND_EXP_001",
+                "reason": "Answer information is consistent."
+            },
+            {
+                "question_id": "BACKEND_SKILLS_001",
+                "reason": "Answer directly addresses the question."
+            },
+            {
+                "question_id": "BACKEND_SKILLS_001",
+                "reason": "Required information is sufficiently provided."
+            },
+            {
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "reason": "Answer is clear and easy to understand."
+            },
+            {
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "reason": "Answer directly addresses the question."
+            },
+            {
+                "question_id": "BACKEND_SALARY_001",
+                "reason": "Answer is clear and easy to understand."
+            },
+            {
+                "question_id": "BACKEND_SALARY_001",
+                "reason": "Answer directly addresses the question."
+            },
+            {
+                "question_id": "BACKEND_SALARY_001",
+                "reason": "Required information is sufficiently provided."
+            }
+        ],
+        "weaknesses": [
+            {
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "reason": "Availability information could be more specific."
+            }
+        ]
+    },
+    "question_scores": [
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_EXP_001",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "scores": {
+                "clarity": 9,
+                "relevance": 10,
+                "completeness": 10,
+                "consistency": 9
+            },
+            "weighted_score": 9.5,
+            "normalized_score": 95.0,
+            "answer_status": "valid",
+            "intent": "experience",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer is clear and easy to understand.",
+                    "Answer directly addresses the question.",
+                    "Required information is sufficiently provided.",
+                    "Answer information is consistent."
+                ],
+                "weaknesses": []
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_SKILLS_001",
+            "question": "Which technical skills do you have?",
+            "question_category": "skills",
+            "scores": {
+                "clarity": 9,
+                "relevance": 10,
+                "completeness": 10,
+                "consistency": 9
+            },
+            "weighted_score": 9.5,
+            "normalized_score": 95.0,
+            "answer_status": "valid",
+            "intent": "skills",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer directly addresses the question.",
+                    "Required information is sufficiently provided."
+                ],
+                "weaknesses": []
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_AVAILABILITY_001",
+            "question": "When can you join the organization?",
+            "question_category": "availability",
+            "scores": {
+                "clarity": 8,
+                "relevance": 9,
+                "completeness": 8,
+                "consistency": 9
+            },
+            "weighted_score": 8.5,
+            "normalized_score": 85.0,
+            "answer_status": "valid",
+            "intent": "availability",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer is clear and easy to understand.",
+                    "Answer directly addresses the question."
+                ],
+                "weaknesses": [
+                    "Availability information could be more specific."
+                ]
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_SALARY_001",
+            "question": "What are your salary expectations?",
+            "question_category": "salary",
+            "scores": {
+                "clarity": 9,
+                "relevance": 10,
+                "completeness": 10,
+                "consistency": 9
+            },
+            "weighted_score": 9.5,
+            "normalized_score": 95.0,
+            "answer_status": "valid",
+            "intent": "salary",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer is clear and easy to understand.",
+                    "Answer directly addresses the question.",
+                    "Required information is sufficiently provided."
+                ],
+                "weaknesses": []
+            }
+        }
+    ],
+    "created_at": "2026-09-07T05:32:12.214413+00:00"
+}

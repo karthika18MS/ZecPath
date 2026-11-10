@@ -1,0 +1,33 @@
+{
+    "candidate_id": "candidate_006",
+    "scenario_id": "APT_SCENARIO_003",
+    "scenario": "A team member is not completing an assigned task on time and the project deadline is approaching. What would you do?",
+    "response": "First, I would talk to the team member and understand the reason for the delay. If they are facing a technical or workload-related issue, I would help them or discuss how the task can be completed efficiently. If the delay can affect the project deadline, I would inform the team lead and work with the team to redistribute tasks if required. I would then monitor the progress to ensure that the deadline is achieved.",
+    "response_status": "valid",
+    "parameter_scores": {
+        "situation_understanding": 90,
+        "problem_identification": 90,
+        "decision_making": 88,
+        "problem_solving": 92,
+        "communication_clarity": 90,
+        "outcome_awareness": 88
+    },
+    "weights": {
+        "situation_understanding": 0.15,
+        "problem_identification": 0.15,
+        "decision_making": 0.2,
+        "problem_solving": 0.25,
+        "communication_clarity": 0.15,
+        "outcome_awareness": 0.1
+    },
+    "weighted_contributions": {
+        "situation_understanding": 13.5,
+        "problem_identification": 13.5,
+        "decision_making": 17.6,
+        "problem_solving": 23.0,
+        "communication_clarity": 13.5,
+        "outcome_awareness": 8.8
+    },
+    "scenario_evaluation_score": 89.9,
+    "evaluation_level": "strong"
+}

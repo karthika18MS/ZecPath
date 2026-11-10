@@ -1,0 +1,102 @@
+
+======================================================================
+                    AI SCREENING REPORT
+======================================================================
+Candidate ID : candidate_006
+Job ID       : JOB_BACKEND_001
+======================================================================
+
+
+1. SCREENING SCORE
+----------------------------------------------------------------------
+Final Screening Score : 92.5/100
+
+Average Parameter Scores:
+  Clarity       : 8.75/10
+  Relevance     : 9.75/10
+  Completeness  : 9.5/10
+  Consistency   : 9.0/10
+
+Screening Summary:
+  Total Questions      : 4
+  Answered Questions   : 4
+  No Response          : 0
+  Off-topic Responses  : 0
+
+2. KEY ANSWERS
+----------------------------------------------------------------------
+Experience:
+  Years  : 3
+  Months : None
+  Domain : backend development
+
+Candidate Response:
+  I have three years of backend development experience. I have worked with Python and Django.
+
+3. RECRUITER HIGHLIGHTS
+----------------------------------------------------------------------
+
+Skill Confirmations:
+  - Python
+  - Django
+
+Salary Expectation:
+  Not provided
+
+Availability:
+  Not provided
+
+4. STRENGTHS
+----------------------------------------------------------------------
+  + Strong confidence communication indicator.
+  + Strong clarity communication indicator.
+  + Strong engagement communication indicator.
+  + Strong consistency communication indicator.
+
+5. RISKS
+----------------------------------------------------------------------
+  No major risks identified.
+
+6. MISSING DATA
+----------------------------------------------------------------------
+  No missing data identified.
+
+7. COMMUNICATION SUMMARY
+----------------------------------------------------------------------
+  Confidence               : 100/100 (strong)
+  Clarity                  : 100/100 (strong)
+  Engagement               : 90/100 (strong)
+  Consistency              : 100/100 (strong)
+  Communication Strength   : 97.5/100 (strong)
+
+8. BEHAVIORAL / RESPONSE SIGNALS
+----------------------------------------------------------------------
+  Hesitation Count       : 0
+  Uncertainty Count     : 0
+  Response Word Count   : 14
+  Response Pace         : normal
+  Sentiment             : positive
+  Sentiment Score       : 100.0
+  Contradiction Detected: False
+
+9. QUESTION-WISE EVALUATION
+----------------------------------------------------------------------
+
+Question 1:
+  Question ID : BACKEND_EXP_001
+  Question    : How many years of backend development experience do you have?
+  Category    : experience
+  Score       : 95.0/100
+  Status      : valid
+  Intent      : experience
+  Off-topic   : False
+  Strengths:
+    + Clear response.
+    + Relevant experience provided.
+
+======================================================================
+10. REPORT INFORMATION
+----------------------------------------------------------------------
+Answer Status : valid
+Created At   : 2026-09-09T05:44:51.712291+00:00
+======================================================================

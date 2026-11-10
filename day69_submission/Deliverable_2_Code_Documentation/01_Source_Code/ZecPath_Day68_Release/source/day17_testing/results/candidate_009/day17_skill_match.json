@@ -1,0 +1,41 @@
+{
+    "candidate_id": "candidate_009",
+    "target_role": "Fresher Python Developer",
+    "normalized_role": "fresher python developer",
+    "skill_match_score": 87.5,
+    "matching_status": "Excellent Skill Match",
+    "required_skills": [
+        "postgresql",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "sql",
+        "git"
+    ],
+    "resume_skills": [
+        "postgresql",
+        "rest api",
+        "mongodb",
+        "python",
+        "django",
+        "sql",
+        "git"
+    ],
+    "matched_skills": [
+        "postgresql",
+        "rest api",
+        "mongodb",
+        "python",
+        "django",
+        "sql",
+        "git"
+    ],
+    "missing_skills": [
+        "fastapi"
+    ],
+    "total_required_skills": 8,
+    "total_matched_skills": 7,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

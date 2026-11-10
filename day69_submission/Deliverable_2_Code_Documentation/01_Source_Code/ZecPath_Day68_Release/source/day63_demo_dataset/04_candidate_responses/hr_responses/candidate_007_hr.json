@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND007",
+    "job_id": "JD001",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "My name is Nikhil Raj. I completed MCA and have two years of experience in web development. I have worked with React, Node.js and Express.js.",
+            "answer_relevance": 85,
+            "communication_score": 84,
+            "confidence_score": 82,
+            "consistency_score": 86
+        },
+        {
+            "question_id": "HR002",
+            "question": "How do you work with a development team?",
+            "answer": "I communicate with team members, understand assigned tasks and complete my work. I also participate in discussions when problems occur.",
+            "answer_relevance": 82,
+            "communication_score": 84,
+            "confidence_score": 81,
+            "consistency_score": 84
+        },
+        {
+            "question_id": "HR003",
+            "question": "What is one area you want to improve?",
+            "answer": "I want to improve my database knowledge and learn more about backend development.",
+            "answer_relevance": 80,
+            "communication_score": 82,
+            "confidence_score": 80,
+            "consistency_score": 83
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

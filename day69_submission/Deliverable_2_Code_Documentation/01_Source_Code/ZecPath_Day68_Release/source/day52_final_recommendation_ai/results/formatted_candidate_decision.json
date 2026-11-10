@@ -1,0 +1,51 @@
+{
+    "report_type": "DEMO_ONLY",
+    "output_status": "SUCCESS",
+    "engine": "ZecPath Day 52 Candidate Decision Output Formatter",
+    "format_version": "1.1",
+    "candidate_information": {
+        "candidate_id": "candidate_006",
+        "job_id": "JOB_BACKEND_001"
+    },
+    "decision_summary": {
+        "hiring_fit_score": 89.82,
+        "decision": "Hold / Review",
+        "confidence_score": 60.0,
+        "confidence_method": "Percentage of rounds not labelled as demo data.",
+        "verified_rounds": 3,
+        "total_rounds": 5,
+        "eligibility_status": "NOT_PROVIDED"
+    },
+    "evaluation_quality": {
+        "demo_data_rounds": [
+            "machine_test",
+            "technical_interview"
+        ],
+        "risk_flags": [],
+        "verified_hiring_fit_status": "NOT_EVALUATED",
+        "human_review_required": true,
+        "automated_hiring_action_taken": false
+    },
+    "decision_reasons": [
+        "Demo data is present in: machine_test, technical_interview",
+        "Eligibility status was not provided.",
+        "Confidence indicator is below the configured threshold.",
+        "The score meets the selection threshold, but one or more safeguards require review."
+    ],
+    "decision_policy": "Score thresholds combined with eligibility, confidence, risk, and data-quality safeguards.",
+    "score_thresholds": {
+        "selected_minimum_score": 80.0,
+        "review_minimum_score": 60.0,
+        "require_verified_data_for_selection": true,
+        "review_if_demo_data": true,
+        "review_if_risk_flags": true,
+        "review_if_low_confidence": true,
+        "minimum_confidence_for_selection": 80.0
+    },
+    "audit_information": {
+        "source_file": "candidate_decision_output.json",
+        "source_generated_at_utc": "2026-10-10T04:19:34.813786+00:00",
+        "formatted_at_utc": "2026-10-10T04:40:08.950982+00:00",
+        "decision_changed_by_formatter": false
+    }
+}

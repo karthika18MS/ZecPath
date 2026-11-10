@@ -1,0 +1,246 @@
+{
+    "project": "ZecPath",
+    "deliverable": "Deliverable 3 - Refined Stability Checker",
+    "generated_at": "2026-10-14T12:38:20",
+    "overall_status": "PASS_WITH_LIMITATIONS",
+    "round_weights": {
+        "ats": 0.3,
+        "hr": 0.3,
+        "aptitude": 0.4
+    },
+    "checks": [
+        {
+            "check": "Day 56 report",
+            "status": "PASS",
+            "details": "Day 56 report exists and contains valid JSON."
+        },
+        {
+            "check": "demo_data_used",
+            "status": "REVIEW_REQUIRED",
+            "details": "Demo data was used. Do not interpret demo results as real candidate results."
+        },
+        {
+            "check": "human_vs_ai_comparison_performed",
+            "status": "REVIEW_REQUIRED",
+            "details": "Human-vs-AI comparison has not been performed."
+        },
+        {
+            "check": "Cross-round weights",
+            "status": "PASS",
+            "details": "Weights: {'ats': 0.3, 'hr': 0.3, 'aptitude': 0.4}; total = 1.00."
+        },
+        {
+            "check": "Candidate ATS coverage",
+            "status": "PASS",
+            "details": "8/8 candidates have valid ATS scores."
+        },
+        {
+            "check": "HR and aptitude source scores",
+            "status": "PASS",
+            "details": "3/3 source score files contain valid scores."
+        },
+        {
+            "check": "Cross-round data completeness",
+            "status": "REVIEW_REQUIRED",
+            "details": "1/8 candidates have all required cross-round scores in their candidate output."
+        }
+    ],
+    "candidate_ats_coverage": [
+        {
+            "candidate_id": "candidate_006",
+            "status": "PASS",
+            "ats_score": 90.1,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_006\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 90.10/100."
+        },
+        {
+            "candidate_id": "candidate_007",
+            "status": "PASS",
+            "ats_score": 89.33,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_007\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 89.33/100."
+        },
+        {
+            "candidate_id": "candidate_008",
+            "status": "PASS",
+            "ats_score": 92.54,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_008\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 92.54/100."
+        },
+        {
+            "candidate_id": "candidate_009",
+            "status": "PASS",
+            "ats_score": 91.92,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_009\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 91.92/100."
+        },
+        {
+            "candidate_id": "candidate_010",
+            "status": "PASS",
+            "ats_score": 93.27,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_010\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 93.27/100."
+        },
+        {
+            "candidate_id": "candidate_011",
+            "status": "PASS",
+            "ats_score": 91.56,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_011\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 91.56/100."
+        },
+        {
+            "candidate_id": "candidate_012",
+            "status": "PASS",
+            "ats_score": 94.29,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_012\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 94.29/100."
+        },
+        {
+            "candidate_id": "candidate_013",
+            "status": "PASS",
+            "ats_score": 37.9,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_013\\day18_optimized_ats_score.json",
+            "details": "Valid ATS score: 37.90/100."
+        }
+    ],
+    "cross_round_coverage": [
+        {
+            "candidate_id": "candidate_006",
+            "status": "PASS",
+            "scores": {
+                "ats_score": 90.1,
+                "hr_score": 91.47,
+                "aptitude_score": 88.33,
+                "cross_round_score": 89.8
+            },
+            "missing_fields": [],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_006\\cross_round_score.json",
+            "details": "All required cross-round scores are present and valid."
+        },
+        {
+            "candidate_id": "candidate_007",
+            "status": "INCOMPLETE",
+            "scores": {
+                "ats_score": 89.33
+            },
+            "missing_fields": [
+                "hr_score",
+                "aptitude_score",
+                "cross_round_score"
+            ],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_007\\cross_round_score.json",
+            "details": "One or more required cross-round scores are missing."
+        },
+        {
+            "candidate_id": "candidate_008",
+            "status": "INCOMPLETE",
+            "scores": {
+                "ats_score": 92.54
+            },
+            "missing_fields": [
+                "hr_score",
+                "aptitude_score",
+                "cross_round_score"
+            ],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_008\\cross_round_score.json",
+            "details": "One or more required cross-round scores are missing."
+        },
+        {
+            "candidate_id": "candidate_009",
+            "status": "INCOMPLETE",
+            "scores": {
+                "ats_score": 91.92
+            },
+            "missing_fields": [
+                "hr_score",
+                "aptitude_score",
+                "cross_round_score"
+            ],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_009\\cross_round_score.json",
+            "details": "One or more required cross-round scores are missing."
+        },
+        {
+            "candidate_id": "candidate_010",
+            "status": "INCOMPLETE",
+            "scores": {
+                "ats_score": 93.27
+            },
+            "missing_fields": [
+                "hr_score",
+                "aptitude_score",
+                "cross_round_score"
+            ],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_010\\cross_round_score.json",
+            "details": "One or more required cross-round scores are missing."
+        },
+        {
+            "candidate_id": "candidate_011",
+            "status": "INCOMPLETE",
+            "scores": {
+                "ats_score": 91.56
+            },
+            "missing_fields": [
+                "hr_score",
+                "aptitude_score",
+                "cross_round_score"
+            ],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_011\\cross_round_score.json",
+            "details": "One or more required cross-round scores are missing."
+        },
+        {
+            "candidate_id": "candidate_012",
+            "status": "INCOMPLETE",
+            "scores": {
+                "ats_score": 94.29
+            },
+            "missing_fields": [
+                "hr_score",
+                "aptitude_score",
+                "cross_round_score"
+            ],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_012\\cross_round_score.json",
+            "details": "One or more required cross-round scores are missing."
+        },
+        {
+            "candidate_id": "candidate_013",
+            "status": "INCOMPLETE",
+            "scores": {
+                "ats_score": 37.9
+            },
+            "missing_fields": [
+                "hr_score",
+                "aptitude_score",
+                "cross_round_score"
+            ],
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\candidate_013\\cross_round_score.json",
+            "details": "One or more required cross-round scores are missing."
+        }
+    ],
+    "source_round_score_validation": [
+        {
+            "check": "HR interview score",
+            "status": "PASS",
+            "candidate_id": "candidate_006",
+            "score": 91.47,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day37_hr_interview_scoring\\results\\hr_interview_score.json",
+            "details": "Score: 91.47/100."
+        },
+        {
+            "check": "Logical reasoning score",
+            "status": "PASS",
+            "candidate_id": "candidate_006",
+            "score": 86.75,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day38_aptitude_logic\\results\\logical_reasoning_results.json",
+            "details": "Score: 86.75/100."
+        },
+        {
+            "check": "Scenario evaluation score",
+            "status": "PASS",
+            "candidate_id": "candidate_006",
+            "score": 89.9,
+            "source": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day38_aptitude_logic\\results\\scenario_evaluation_results.json",
+            "details": "Score: 89.90/100."
+        }
+    ],
+    "execution_time_seconds": 0.011
+}

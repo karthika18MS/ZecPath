@@ -1,0 +1,70 @@
+{
+    "interview_questions": [
+        {
+            "question_id": "HR_SIM_001",
+            "question": "Tell me about yourself.",
+            "category": "self_introduction"
+        },
+        {
+            "question_id": "HR_SIM_002",
+            "question": "What are your strengths?",
+            "category": "strengths"
+        },
+        {
+            "question_id": "HR_SIM_003",
+            "question": "Describe a challenging situation you faced and how you handled it.",
+            "category": "problem_solving"
+        },
+        {
+            "question_id": "HR_SIM_004",
+            "question": "Why are you interested in this role?",
+            "category": "career_goals"
+        }
+    ],
+
+    "candidate_profiles": [
+        {
+            "candidate_id": "SIM_CONFIDENT_001",
+            "candidate_type": "confident",
+            "responses": [
+                "I am a software developer with experience in Python and backend development. I enjoy solving technical problems and working with teams.",
+                "My strengths are communication, problem solving, adaptability, and learning new technologies quickly.",
+                "In one project, we faced a deadline issue because of a technical problem. I identified the issue, discussed possible solutions with the team, and helped implement the solution before the deadline.",
+                "I am interested in this role because it matches my technical skills and gives me an opportunity to contribute to real projects."
+            ]
+        },
+
+        {
+            "candidate_id": "SIM_HESITANT_001",
+            "candidate_type": "hesitant",
+            "responses": [
+                "Um... I am a software developer. I have worked with Python... and some backend technologies.",
+                "I think my strengths are... maybe communication and learning. I am not completely sure.",
+                "There was a problem in a project. I was... not sure initially what to do. Then I discussed it with my team and we solved it.",
+                "I am interested because... I think the role is related to my skills and I would like to learn more."
+            ]
+        },
+
+        {
+            "candidate_id": "SIM_INEXPERIENCED_001",
+            "candidate_type": "inexperienced",
+            "responses": [
+                "I recently completed my studies and I am looking for an opportunity to start my career in software development. I have worked on academic projects.",
+                "My strengths are willingness to learn, teamwork, and dedication.",
+                "During my academic project, we had a problem with our application. I discussed it with my team members, searched for a solution, and tested the changes until the problem was resolved.",
+                "I am interested in this role because it will allow me to apply what I learned and develop my professional skills."
+            ]
+        },
+
+        {
+            "candidate_id": "SIM_OVERQUALIFIED_001",
+            "candidate_type": "overqualified",
+            "responses": [
+                "I am a senior software professional with several years of experience in backend development, architecture, team leadership, and system design.",
+                "My strengths include system architecture, technical leadership, problem solving, mentoring, and project management.",
+                "In a previous project, we experienced a major scalability problem. I analyzed the architecture, identified the bottleneck, redesigned the affected component, and coordinated the implementation with the team.",
+                "I am interested in this role because I believe my experience can help the organization solve complex technical problems and improve development processes."
+            ]
+        }
+    ]
+}

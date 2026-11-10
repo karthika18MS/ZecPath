@@ -1,0 +1,758 @@
+{
+    "engine": "ZecPath Day 63 eligibility using the existing Day 21 decision engine",
+    "source_file": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\ats_scoring_results.json",
+    "generated_at": "2026-11-07T23:13:09.812608+05:30",
+    "total_candidates": 10,
+    "eligible": 3,
+    "review": 2,
+    "rejected": 3,
+    "blocked": 2,
+    "errors": 0,
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "target_role": "MERN Stack Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Eligible",
+            "ats_score": 97.58,
+            "required_skills": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JavaScript"
+            ],
+            "matched_skills": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JavaScript"
+            ],
+            "missing_skills": [],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": true,
+                    "required": [
+                        "react.js",
+                        "node.js",
+                        "express.js",
+                        "mongodb",
+                        "javascript"
+                    ],
+                    "matched": [
+                        "express.js",
+                        "javascript",
+                        "mongodb",
+                        "node.js",
+                        "react.js"
+                    ],
+                    "missing": [],
+                    "status": "All mandatory skills are satisfied."
+                },
+                "experience": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 3.0,
+                    "minimum_years": 2.0,
+                    "maximum_years": 4.0,
+                    "status": "Experience requirement satisfied."
+                },
+                "location": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [],
+                    "status": "No location restriction configured."
+                },
+                "availability": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": null,
+                    "status": "No availability restriction configured."
+                }
+            },
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "default_rules + job_id: JD001",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "experience": {
+                    "min_years": 2,
+                    "max_years": 4
+                },
+                "location": {
+                    "allowed": []
+                },
+                "availability": {
+                    "max_days": null
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "target_role": "Python Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Review",
+            "ats_score": 95.95,
+            "required_skills": [
+                "Python",
+                "Django",
+                "SQL"
+            ],
+            "matched_skills": [
+                "Python",
+                "Django",
+                "SQL"
+            ],
+            "missing_skills": [],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": true,
+                    "required": [
+                        "python",
+                        "django",
+                        "sql"
+                    ],
+                    "matched": [
+                        "django",
+                        "python",
+                        "sql"
+                    ],
+                    "missing": [],
+                    "status": "All mandatory skills are satisfied."
+                },
+                "experience": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 2.0,
+                    "minimum_years": 1.0,
+                    "maximum_years": 3.0,
+                    "status": "Experience requirement satisfied."
+                },
+                "location": {
+                    "passed": null,
+                    "evaluation_status": "NOT_EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [
+                        "kochi",
+                        "thiruvananthapuram"
+                    ],
+                    "status": "Candidate location unavailable; manual review required."
+                },
+                "availability": {
+                    "passed": null,
+                    "evaluation_status": "NOT_EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": 30,
+                    "status": "Candidate availability information unavailable; manual review required."
+                }
+            },
+            "reason": "Required information is unavailable for: location, availability.",
+            "failed_rules": [],
+            "rule_source": "role: python_developer + job_id: JD002",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "experience": {
+                    "min_years": 1,
+                    "max_years": 3
+                },
+                "location": {
+                    "allowed": [
+                        "kochi",
+                        "thiruvananthapuram"
+                    ]
+                },
+                "availability": {
+                    "max_days": 30
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "target_role": "MERN Stack Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Rejected",
+            "ats_score": 54.58,
+            "required_skills": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JavaScript"
+            ],
+            "matched_skills": [
+                "React.js",
+                "JavaScript"
+            ],
+            "missing_skills": [
+                "Node.js",
+                "Express.js",
+                "MongoDB"
+            ],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": false,
+                    "required": [
+                        "react.js",
+                        "node.js",
+                        "express.js",
+                        "mongodb",
+                        "javascript"
+                    ],
+                    "matched": [
+                        "javascript",
+                        "react.js"
+                    ],
+                    "missing": [
+                        "node.js",
+                        "express.js",
+                        "mongodb"
+                    ],
+                    "status": "Mandatory skill requirement not met."
+                },
+                "experience": {
+                    "passed": false,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 1.0,
+                    "minimum_years": 2.0,
+                    "maximum_years": 4.0,
+                    "status": "Candidate has less experience than required."
+                },
+                "location": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [],
+                    "status": "No location restriction configured."
+                },
+                "availability": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": null,
+                    "status": "No availability restriction configured."
+                }
+            },
+            "reason": "ATS score is below the review cutoff. Mandatory skill requirements are not met. Experience requirement is not met.",
+            "failed_rules": [
+                "ats_score",
+                "mandatory_skills",
+                "experience"
+            ],
+            "rule_source": "default_rules + job_id: JD001",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "experience": {
+                    "min_years": 2,
+                    "max_years": 4
+                },
+                "location": {
+                    "allowed": []
+                },
+                "availability": {
+                    "max_days": null
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "target_role": "Java Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Rejected",
+            "ats_score": 56.44,
+            "required_skills": [
+                "Java",
+                "Spring Boot",
+                "SQL"
+            ],
+            "matched_skills": [
+                "Java",
+                "SQL"
+            ],
+            "missing_skills": [
+                "Spring Boot"
+            ],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": false,
+                    "required": [
+                        "java",
+                        "spring boot",
+                        "sql"
+                    ],
+                    "matched": [
+                        "java",
+                        "sql"
+                    ],
+                    "missing": [
+                        "spring boot"
+                    ],
+                    "status": "Mandatory skill requirement not met."
+                },
+                "experience": {
+                    "passed": false,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 0.0,
+                    "minimum_years": 3.0,
+                    "maximum_years": 6.0,
+                    "status": "Candidate has less experience than required."
+                },
+                "location": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [],
+                    "status": "No location restriction configured."
+                },
+                "availability": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": null,
+                    "status": "No availability restriction configured."
+                }
+            },
+            "reason": "ATS score is below the review cutoff. Mandatory skill requirements are not met. Experience requirement is not met.",
+            "failed_rules": [
+                "ats_score",
+                "mandatory_skills",
+                "experience"
+            ],
+            "rule_source": "default_rules + job_id: JD003",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "experience": {
+                    "min_years": 3,
+                    "max_years": 6
+                },
+                "location": {
+                    "allowed": []
+                },
+                "availability": {
+                    "max_days": null
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "target_role": "Java Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Eligible",
+            "ats_score": 96.17,
+            "required_skills": [
+                "Java",
+                "Spring Boot",
+                "SQL"
+            ],
+            "matched_skills": [
+                "Java",
+                "Spring Boot",
+                "SQL"
+            ],
+            "missing_skills": [],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": true,
+                    "required": [
+                        "java",
+                        "spring boot",
+                        "sql"
+                    ],
+                    "matched": [
+                        "java",
+                        "spring boot",
+                        "sql"
+                    ],
+                    "missing": [],
+                    "status": "All mandatory skills are satisfied."
+                },
+                "experience": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 6.0,
+                    "minimum_years": 3.0,
+                    "maximum_years": 6.0,
+                    "status": "Experience requirement satisfied."
+                },
+                "location": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [],
+                    "status": "No location restriction configured."
+                },
+                "availability": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": null,
+                    "status": "No availability restriction configured."
+                }
+            },
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "default_rules + job_id: JD003",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "Java",
+                    "Spring Boot",
+                    "SQL"
+                ],
+                "experience": {
+                    "min_years": 3,
+                    "max_years": 6
+                },
+                "location": {
+                    "allowed": []
+                },
+                "availability": {
+                    "max_days": null
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "target_role": "Python Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Review",
+            "ats_score": 94.8,
+            "required_skills": [
+                "Python",
+                "Django",
+                "SQL"
+            ],
+            "matched_skills": [
+                "Python",
+                "Django",
+                "SQL"
+            ],
+            "missing_skills": [],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": true,
+                    "required": [
+                        "python",
+                        "django",
+                        "sql"
+                    ],
+                    "matched": [
+                        "django",
+                        "python",
+                        "sql"
+                    ],
+                    "missing": [],
+                    "status": "All mandatory skills are satisfied."
+                },
+                "experience": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 3.0,
+                    "minimum_years": 1.0,
+                    "maximum_years": 3.0,
+                    "status": "Experience requirement satisfied."
+                },
+                "location": {
+                    "passed": null,
+                    "evaluation_status": "NOT_EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [
+                        "kochi",
+                        "thiruvananthapuram"
+                    ],
+                    "status": "Candidate location unavailable; manual review required."
+                },
+                "availability": {
+                    "passed": null,
+                    "evaluation_status": "NOT_EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": 30,
+                    "status": "Candidate availability information unavailable; manual review required."
+                }
+            },
+            "reason": "Required information is unavailable for: location, availability.",
+            "failed_rules": [],
+            "rule_source": "role: python_developer + job_id: JD002",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "experience": {
+                    "min_years": 1,
+                    "max_years": 3
+                },
+                "location": {
+                    "allowed": [
+                        "kochi",
+                        "thiruvananthapuram"
+                    ]
+                },
+                "availability": {
+                    "max_days": 30
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "ats_scoring_status": "BLOCKED",
+            "eligibility_status": "BLOCKED",
+            "ats_score": null,
+            "reason": "No completed Day63 ATS result; eligibility was not evaluated.",
+            "failed_rules": []
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "target_role": "Python Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Rejected",
+            "ats_score": 79.53,
+            "required_skills": [
+                "Python",
+                "Django",
+                "SQL"
+            ],
+            "matched_skills": [
+                "Python",
+                "SQL"
+            ],
+            "missing_skills": [
+                "Django"
+            ],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": false,
+                    "required": [
+                        "python",
+                        "django",
+                        "sql"
+                    ],
+                    "matched": [
+                        "python",
+                        "sql"
+                    ],
+                    "missing": [
+                        "django"
+                    ],
+                    "status": "Mandatory skill requirement not met."
+                },
+                "experience": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 1.0,
+                    "minimum_years": 1.0,
+                    "maximum_years": 3.0,
+                    "status": "Experience requirement satisfied."
+                },
+                "location": {
+                    "passed": null,
+                    "evaluation_status": "NOT_EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [
+                        "kochi",
+                        "thiruvananthapuram"
+                    ],
+                    "status": "Candidate location unavailable; manual review required."
+                },
+                "availability": {
+                    "passed": null,
+                    "evaluation_status": "NOT_EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": 30,
+                    "status": "Candidate availability information unavailable; manual review required."
+                }
+            },
+            "reason": "Mandatory skill requirements are not met.",
+            "failed_rules": [
+                "mandatory_skills"
+            ],
+            "rule_source": "role: python_developer + job_id: JD002",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "experience": {
+                    "min_years": 1,
+                    "max_years": 3
+                },
+                "location": {
+                    "allowed": [
+                        "kochi",
+                        "thiruvananthapuram"
+                    ]
+                },
+                "availability": {
+                    "max_days": 30
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "target_role": "MERN Stack Developer",
+            "ats_scoring_status": "COMPLETED",
+            "eligibility_status": "Eligible",
+            "ats_score": 95.08,
+            "required_skills": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JavaScript"
+            ],
+            "matched_skills": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JavaScript"
+            ],
+            "missing_skills": [],
+            "rule_checks": {
+                "mandatory_skills": {
+                    "passed": true,
+                    "required": [
+                        "react.js",
+                        "node.js",
+                        "express.js",
+                        "mongodb",
+                        "javascript"
+                    ],
+                    "matched": [
+                        "express.js",
+                        "javascript",
+                        "mongodb",
+                        "node.js",
+                        "react.js"
+                    ],
+                    "missing": [],
+                    "status": "All mandatory skills are satisfied."
+                },
+                "experience": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_years": 2.0,
+                    "minimum_years": 2.0,
+                    "maximum_years": 4.0,
+                    "status": "Experience requirement satisfied."
+                },
+                "location": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_location": null,
+                    "allowed_locations": [],
+                    "status": "No location restriction configured."
+                },
+                "availability": {
+                    "passed": true,
+                    "evaluation_status": "EVALUATED",
+                    "candidate_notice_period_days": null,
+                    "maximum_allowed_days": null,
+                    "status": "No availability restriction configured."
+                }
+            },
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "default_rules + job_id: JD001",
+            "applied_rules": {
+                "ats": {
+                    "eligible_min": 75,
+                    "review_min": 60
+                },
+                "mandatory_skills": [
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "JavaScript"
+                ],
+                "experience": {
+                    "min_years": 2,
+                    "max_years": 4
+                },
+                "location": {
+                    "allowed": []
+                },
+                "availability": {
+                    "max_days": null
+                }
+            }
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "ats_scoring_status": "BLOCKED",
+            "eligibility_status": "BLOCKED",
+            "ats_score": null,
+            "reason": "No completed Day63 ATS result; eligibility was not evaluated.",
+            "failed_rules": []
+        }
+    ],
+    "errors_detail": [],
+    "notes": [
+        "Day63 ATS scores and Day18 weights are consumed without recalculation.",
+        "Each candidate's mandatory skill list comes from their Day63 JD skill_details.",
+        "Missing mandatory skills retain the existing Day21 hard-rejection behavior.",
+        "Blocked Day63 candidates remain blocked and receive no eligibility score."
+    ]
+}

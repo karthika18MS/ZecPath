@@ -1,0 +1,25 @@
+{
+    "service": "ZecPath Day 60 Optimized AI Services",
+    "timestamp_utc": "2026-10-14T15:18:48.639223+00:00",
+    "status": "PASS",
+    "embedding_shape": [
+        3,
+        384
+    ],
+    "metrics": {
+        "item_count": 3,
+        "batch_size": 8,
+        "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+        "model_load_seconds": 11.978304,
+        "inference_seconds": 0.048181,
+        "total_seconds": 12.026484,
+        "items_per_second": 62.266,
+        "cache_enabled": false
+    },
+    "cache_info": {
+        "hits": 0,
+        "misses": 0,
+        "maxsize": 4096,
+        "currsize": 0
+    }
+}

@@ -1,0 +1,101 @@
+
+======================================================================
+                    AI SCREENING REPORT
+======================================================================
+Candidate ID : sample_candidate_003
+Job ID       : JOB_BACKEND_001
+======================================================================
+
+
+1. SCREENING SCORE
+----------------------------------------------------------------------
+Final Screening Score : 48.0/100
+
+Average Parameter Scores:
+  Clarity       : 7.0/10
+  Relevance     : 3.0/10
+  Completeness  : 2.5/10
+  Consistency   : 7.0/10
+
+Screening Summary:
+  Total Questions      : 5
+  Answered Questions   : 5
+  No Response          : 0
+  Off-topic Responses  : 2
+
+2. KEY ANSWERS
+----------------------------------------------------------------------
+
+Candidate Response:
+  I really enjoy working with technology and I am looking for a good opportunity.
+
+3. RECRUITER HIGHLIGHTS
+----------------------------------------------------------------------
+
+Skill Confirmations:
+  - None identified
+
+Salary Expectation:
+  Not provided
+
+Availability:
+  Not provided
+
+4. STRENGTHS
+----------------------------------------------------------------------
+  + Response was understandable.
+  + Positive communication tone detected.
+
+5. RISKS
+----------------------------------------------------------------------
+  ! Response was off-topic.
+  ! Required experience information was not provided.
+  ! Two off-topic responses detected during screening.
+
+6. MISSING DATA
+----------------------------------------------------------------------
+  - Years of backend experience
+  - Backend development domain
+  - Technical skills
+
+7. COMMUNICATION SUMMARY
+----------------------------------------------------------------------
+  Confidence               : 60/100 (moderate)
+  Clarity                  : 80/100 (strong)
+  Engagement               : 50/100 (needs_improvement)
+  Consistency              : 100/100 (strong)
+  Communication Strength   : 72.5/100 (moderate)
+
+8. BEHAVIORAL / RESPONSE SIGNALS
+----------------------------------------------------------------------
+  Hesitation Count       : 0
+  Uncertainty Count     : 0
+  Response Word Count   : 15
+  Response Pace         : normal
+  Sentiment             : positive
+  Sentiment Score       : 100.0
+  Contradiction Detected: False
+
+9. QUESTION-WISE EVALUATION
+----------------------------------------------------------------------
+
+Question 1:
+  Question ID : BACKEND_EXP_003
+  Question    : How many years of backend development experience do you have?
+  Category    : experience
+  Score       : 35.0/100
+  Status      : off_topic
+  Intent      : off_topic
+  Off-topic   : True
+  Strengths:
+    + Response was understandable.
+  Weaknesses:
+    - Response did not answer the experience question.
+    - Experience duration was not provided.
+
+======================================================================
+10. REPORT INFORMATION
+----------------------------------------------------------------------
+Answer Status : off_topic
+Created At   : 2026-09-09T06:10:00+00:00
+======================================================================

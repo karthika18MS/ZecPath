@@ -1,0 +1,58 @@
+============================================================================
+ZECPath - RECRUITER CANDIDATE REPORT
+============================================================================
+
+1. CANDIDATE OVERVIEW
+----------------------------------------------------------------------------
+Candidate ID          : CAND002
+Job ID                : JD002
+Unified Score         : 80.82/100
+Assessment Coverage   : 100.00%
+Scoring Status        : COMPLETED
+ATS Eligibility       : REVIEW
+Final Decision        : MANUAL_REVIEW
+
+2. ASSESSMENT BREAKDOWN
+----------------------------------------------------------------------------
+Assessment                  Score               Status
+----------------------------------------------------------------------------
+ATS Screening               95.95/100           COMPLETED
+HR Interview                84.10/100           COMPLETED
+Aptitude Assessment         75.81/100           COMPLETED
+Technical Interview         63.43/100           COMPLETED
+Machine Test                88.60/100           COMPLETED
+
+3. ASSESSMENT COMPLETENESS
+----------------------------------------------------------------------------
+Available Rounds : ats, hr, aptitude, technical, machine_test
+Missing Rounds   : None
+Coverage         : 100.00%
+
+4. FINAL DECISION
+----------------------------------------------------------------------------
+Decision : MANUAL_REVIEW
+
+This candidate requires manual recruiter review. Inspect the assessment results and ATS eligibility before deciding whether to proceed.
+
+5. SUGGESTED RECRUITER ACTION
+----------------------------------------------------------------------------
+Manually inspect the assessment scores, missing information, and ATS eligibility. Record the review outcome.
+
+Human review required: YES
+
+6. DATA PROVENANCE
+----------------------------------------------------------------------------
+Dataset Type       : DEMO_DATASET
+Simulated Rounds   : Aptitude Assessment, Technical Interview, Machine Test
+Unknown Provenance : ATS Screening, HR Interview
+
+7. WARNINGS
+----------------------------------------------------------------------------
+[!] Simulated assessment data detected: Aptitude Assessment, Technical Interview, Machine Test
+[!] Provenance is not specified for: ATS Screening, HR Interview
+[!] This report uses a demo dataset and is not suitable for real hiring decisions.
+[!] Recruiters must independently verify candidate information and assessment evidence before making hiring decisions.
+
+============================================================================
+END OF REPORT
+============================================================================

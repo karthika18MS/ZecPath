@@ -1,0 +1,89 @@
+{
+    "name": "Candidate 009",
+    "job_titles": [
+        "python developer"
+    ],
+    "skills": [
+        "candidate screening",
+        "django",
+        "express.js",
+        "git",
+        "mongodb",
+        "node.js",
+        "object oriented programming",
+        "postgresql",
+        "problem solving",
+        "python",
+        "react",
+        "rest api",
+        "sql",
+        "testing"
+    ],
+    "degrees": [
+        "mca"
+    ],
+    "experience_years": null,
+    "years": [
+        2024,
+        2026
+    ],
+    "projects": [
+        "Resume Screening System",
+        "Developed a resume screening application using Python.",
+        "Implemented text processing and skill matching.",
+        "Used Python and SQL for application development.",
+        "Wedding Service Integration System",
+        "Developed a web application using React, Node.js,",
+        "Express.js, and MongoDB.",
+        "Implemented REST APIs and database integration.",
+        "INTERNSHIP:",
+        "Python Development Intern",
+        "ABC Technologies",
+        "3 months",
+        "Worked with Python and REST API development.",
+        "Performed debugging and testing of backend applications."
+    ],
+    "sections": {
+        "summary": [
+            "Recent MCA graduate seeking an entry-level Python Developer",
+            "position with strong programming fundamentals and practical",
+            "academic project experience."
+        ],
+        "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "REST API",
+            "Object Oriented Programming",
+            "Django",
+            "Problem Solving",
+            "PostgreSQL",
+            "MongoDB"
+        ],
+        "education": [
+            "Master of Computer Applications",
+            "Computer Science",
+            "2024 - 2026"
+        ],
+        "projects": [
+            "Resume Screening System",
+            "Developed a resume screening application using Python.",
+            "Implemented text processing and skill matching.",
+            "Used Python and SQL for application development.",
+            "Wedding Service Integration System",
+            "Developed a web application using React, Node.js,",
+            "Express.js, and MongoDB.",
+            "Implemented REST APIs and database integration.",
+            "INTERNSHIP:",
+            "Python Development Intern",
+            "ABC Technologies",
+            "3 months",
+            "Worked with Python and REST API development.",
+            "Performed debugging and testing of backend applications."
+        ],
+        "certifications": [
+            "Python Programming",
+            "SQL Fundamentals"
+        ]
+    }
+}

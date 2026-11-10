@@ -1,0 +1,71 @@
+JOB ID: JD003
+
+JOB TITLE: Java Developer
+
+COMPANY: ZecPath Technologies
+
+JOB LOCATION: Kochi, Kerala, India
+
+EMPLOYMENT TYPE: Full-Time
+
+EXPERIENCE REQUIRED: 3–6 Years
+
+JOB DESCRIPTION:
+
+We are looking for an experienced Java Developer to develop, maintain and optimize enterprise-level applications. The candidate should have strong knowledge of Java programming, Spring Boot, SQL and backend application development.
+
+The selected candidate will work on application development, REST API integration, database management and microservices-based architecture.
+
+KEY RESPONSIBILITIES:
+
+1. Develop backend applications using Java.
+2. Build enterprise applications using Spring Boot.
+3. Design and develop RESTful APIs.
+4. Implement business logic and application services.
+5. Work with SQL databases such as MySQL and PostgreSQL.
+6. Develop and maintain microservices.
+7. Perform application debugging and troubleshooting.
+8. Write reusable and maintainable code.
+9. Participate in code reviews and technical discussions.
+10. Collaborate with frontend developers, QA engineers and project teams.
+
+MANDATORY SKILLS:
+
+- Java
+- Spring Boot
+- SQL
+
+PREFERRED SKILLS:
+
+- Spring MVC
+- Hibernate
+- Microservices
+- REST API Development
+- MySQL
+- PostgreSQL
+- Oracle
+- Maven
+- Git
+- Jenkins
+- JUnit
+
+EDUCATIONAL QUALIFICATION:
+
+- BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field.
+
+EXPERIENCE REQUIREMENT:
+
+- Minimum: 3 years
+- Maximum: 6 years
+
+ADDITIONAL REQUIREMENTS:
+
+- Strong understanding of Object-Oriented Programming.
+- Knowledge of backend application architecture.
+- Good analytical and problem-solving skills.
+- Ability to work with development teams.
+- Good communication and collaboration skills.
+
+JOB SUMMARY:
+
+The ideal candidate should have strong Java development experience and practical knowledge of Spring Boot, SQL databases and enterprise application development.

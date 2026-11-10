@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND008",
+  "job_id": "JD002",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What is Python?",
+      "answer": "Python is a programming language. It is used for software development and automation."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is a function in Python?",
+      "answer": "A function is a block of code that performs a task. We can define it using def."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you find an error in your Python program?",
+      "answer": "I would check the error message and try to find the line that has the problem. I would correct it and run the program again."
+    }
+  ]
+}

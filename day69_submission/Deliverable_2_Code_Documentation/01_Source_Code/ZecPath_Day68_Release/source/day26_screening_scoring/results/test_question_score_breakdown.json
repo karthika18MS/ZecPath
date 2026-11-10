@@ -1,0 +1,109 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "total_questions": 4,
+    "question_scores": [
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_EXP_001",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "scores": {
+                "clarity": 9,
+                "relevance": 10,
+                "completeness": 10,
+                "consistency": 9
+            },
+            "weighted_score": 9.5,
+            "normalized_score": 95.0,
+            "answer_status": "valid",
+            "intent": "experience",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer is clear and easy to understand.",
+                    "Answer directly addresses the question."
+                ],
+                "weaknesses": []
+            },
+            "created_at": "2026-09-07T05:27:58.147441+00:00"
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_SKILLS_001",
+            "question": "Which technical skills do you have?",
+            "question_category": "skills",
+            "scores": {
+                "clarity": 9,
+                "relevance": 10,
+                "completeness": 10,
+                "consistency": 9
+            },
+            "weighted_score": 9.5,
+            "normalized_score": 95.0,
+            "answer_status": "valid",
+            "intent": "skills",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [
+                    "Answer directly addresses the question."
+                ],
+                "weaknesses": []
+            },
+            "created_at": "2026-09-07T05:27:58.147456+00:00"
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_EXP_001",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "scores": {
+                "clarity": 2,
+                "relevance": 1,
+                "completeness": 1,
+                "consistency": 3
+            },
+            "weighted_score": 1.75,
+            "normalized_score": 17.5,
+            "answer_status": "valid",
+            "intent": "off_topic",
+            "off_topic": true,
+            "explanation": {
+                "strengths": [],
+                "weaknesses": [
+                    "Answer does not address the screening question."
+                ]
+            },
+            "created_at": "2026-09-07T05:27:58.147462+00:00"
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question_id": "BACKEND_EXP_001",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "scores": {
+                "clarity": 0,
+                "relevance": 0,
+                "completeness": 0,
+                "consistency": 0
+            },
+            "weighted_score": 0.0,
+            "normalized_score": 0.0,
+            "answer_status": "no_response",
+            "intent": "no_response",
+            "off_topic": false,
+            "explanation": {
+                "strengths": [],
+                "weaknesses": [
+                    "No meaningful answer was provided."
+                ]
+            },
+            "created_at": "2026-09-07T05:27:58.147466+00:00"
+        }
+    ],
+    "created_at": "2026-09-07T05:27:58.147471+00:00"
+}

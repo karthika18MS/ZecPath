@@ -1,0 +1,37 @@
+NAME: Candidate 009
+CAREER OBJECTIVE:
+Recent MCA graduate seeking an entry-level Python Developer
+position with strong programming fundamentals and practical
+academic project experience.
+SKILLS:
+Python
+SQL
+Git
+REST API
+Object Oriented Programming
+Django
+Problem Solving
+PostgreSQL
+MongoDB
+EDUCATION:
+Master of Computer Applications
+Computer Science
+2024 - 2026
+PROJECTS:
+Resume Screening System
+Developed a resume screening application using Python.
+Implemented text processing and skill matching.
+Used Python and SQL for application development.
+Wedding Service Integration System
+Developed a web application using React, Node.js,
+Express.js, and MongoDB.
+Implemented REST APIs and database integration.
+INTERNSHIP:
+Python Development Intern
+ABC Technologies
+3 months
+Worked with Python and REST API development.
+Performed debugging and testing of backend applications.
+CERTIFICATIONS:
+Python Programming
+SQL Fundamentals

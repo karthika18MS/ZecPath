@@ -1,0 +1,155 @@
+{
+  "title": "Decision AI / Cross-Round API",
+  "description": "Proposed request and response schema for combining available validated evaluation scores.",
+  "request": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "job_id",
+      "round_scores",
+      "weights"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "job_id": {
+        "type": "string"
+      },
+      "round_scores": {
+        "type": "object",
+        "properties": {
+          "ats": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "hr": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "aptitude": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "ats",
+          "hr",
+          "aptitude"
+        ],
+        "additionalProperties": false
+      },
+      "weights": {
+        "type": "object",
+        "required": [
+          "ats",
+          "hr",
+          "aptitude"
+        ],
+        "properties": {
+          "ats": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "hr": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "aptitude": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  },
+  "success_response": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "job_id",
+      "status",
+      "round_scores"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "job_id": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "COMPLETE",
+          "INCOMPLETE"
+        ]
+      },
+      "round_scores": {
+        "type": "object"
+      },
+      "cross_round_score": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "minimum": 0,
+        "maximum": 100
+      },
+      "missing_rounds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  },
+  "error_response": {
+    "type": "object",
+    "required": [
+      "status",
+      "error"
+    ],
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "FAILED"
+        ]
+      },
+      "error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

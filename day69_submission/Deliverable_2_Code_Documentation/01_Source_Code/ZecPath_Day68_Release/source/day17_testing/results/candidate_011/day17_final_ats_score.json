@@ -1,0 +1,30 @@
+{
+    "candidate_id": "candidate_011",
+    "target_role": "Senior Python Developer",
+    "final_ats_score": 91.56,
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "components": {
+        "skill_match": {
+            "score": 86.67,
+            "weight": 0.35,
+            "contribution": 30.33
+        },
+        "experience_relevance": {
+            "score": 100.0,
+            "weight": 0.25,
+            "contribution": 25.0
+        },
+        "education_alignment": {
+            "score": 100.0,
+            "weight": 0.15,
+            "contribution": 15.0
+        },
+        "semantic_similarity": {
+            "score": 84.91,
+            "weight": 0.25,
+            "contribution": 21.23
+        }
+    }
+}

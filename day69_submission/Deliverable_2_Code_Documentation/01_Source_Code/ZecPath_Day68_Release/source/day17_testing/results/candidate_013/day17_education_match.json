@@ -1,0 +1,23 @@
+{
+    "candidate_id": "candidate_013",
+    "target_role": "Python Developer",
+    "candidate_education": {
+        "degrees": [],
+        "fields": [
+            "marketing"
+        ]
+    },
+    "job_description_education": {
+        "required_degrees": [],
+        "required_fields": [
+            "computer science",
+            "computer applications",
+            "information technology",
+            "engineering"
+        ]
+    },
+    "degree_match": false,
+    "field_match": false,
+    "education_score": 50.0,
+    "education_status": "Education Partially Aligned"
+}

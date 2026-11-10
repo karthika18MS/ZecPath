@@ -1,0 +1,45 @@
+{
+    "candidate_id": "candidate_010",
+    "target_role": "Fresher Data Analyst",
+    "normalized_role": "fresher data analyst",
+    "skill_match_score": 100.0,
+    "matching_status": "Excellent Skill Match",
+    "required_skills": [
+        "data visualization",
+        "data analysis",
+        "statistics",
+        "power bi",
+        "python",
+        "pandas",
+        "numpy",
+        "excel",
+        "sql"
+    ],
+    "resume_skills": [
+        "data visualization",
+        "machine learning",
+        "data analysis",
+        "statistics",
+        "power bi",
+        "python",
+        "pandas",
+        "numpy",
+        "excel",
+        "sql"
+    ],
+    "matched_skills": [
+        "data visualization",
+        "data analysis",
+        "statistics",
+        "power bi",
+        "python",
+        "pandas",
+        "numpy",
+        "excel",
+        "sql"
+    ],
+    "missing_skills": [],
+    "total_required_skills": 9,
+    "total_matched_skills": 9,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

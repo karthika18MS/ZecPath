@@ -1,0 +1,187 @@
+{
+    "project": "ZecPath",
+    "day": 56,
+    "report_type": "System Performance Analysis",
+    "generated_at_utc": "2026-10-13T09:31:57.214733+00:00",
+    "candidate_id": "candidate_006",
+    "target_role": "Backend Developer",
+    "source_report": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day56_full_system_simulation\\results\\end_to_end_test_report.json",
+    "performance_metrics": {
+        "total_execution_time_seconds": 53.072,
+        "total_time_source": "End-to-end report summary",
+        "sum_of_stage_times_seconds": 53.0457,
+        "average_stage_time_seconds": 4.4205,
+        "number_of_stages_measured": 12,
+        "number_of_failed_stages": 0,
+        "failed_stages": [],
+        "slow_stages": [
+            {
+                "stage": "Day 18 optimized ATS batch",
+                "execution_time_seconds": 25.9294,
+                "status": "PASS",
+                "demo_data_used": false,
+                "internal_batch_processing_time_seconds": 3.1666,
+                "model_load_time_seconds": 10.42,
+                "time_percentage": 48.88
+            },
+            {
+                "stage": "Optimized semantic matching batch",
+                "execution_time_seconds": 25.7279,
+                "status": "PASS",
+                "demo_data_used": false,
+                "model_load_time_seconds": 9.51,
+                "internal_total_elapsed_time_seconds": 13.59,
+                "time_percentage": 48.5
+            }
+        ],
+        "slowest_stages": [
+            {
+                "stage": "Day 18 optimized ATS batch",
+                "execution_time_seconds": 25.9294,
+                "status": "PASS",
+                "demo_data_used": false,
+                "internal_batch_processing_time_seconds": 3.1666,
+                "model_load_time_seconds": 10.42,
+                "time_percentage": 48.88
+            },
+            {
+                "stage": "Optimized semantic matching batch",
+                "execution_time_seconds": 25.7279,
+                "status": "PASS",
+                "demo_data_used": false,
+                "model_load_time_seconds": 9.51,
+                "internal_total_elapsed_time_seconds": 13.59,
+                "time_percentage": 48.5
+            },
+            {
+                "stage": "Resume extraction and input validation",
+                "execution_time_seconds": 0.4033,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.76
+            },
+            {
+                "stage": "Day 21 eligibility engine",
+                "execution_time_seconds": 0.2341,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.44
+            },
+            {
+                "stage": "Day 41 cross-round scoring",
+                "execution_time_seconds": 0.1044,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.2
+            }
+        ],
+        "slowest_two_stages_percentage": 97.38,
+        "stage_timings": [
+            {
+                "stage": "Resume extraction and input validation",
+                "execution_time_seconds": 0.4033,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.76
+            },
+            {
+                "stage": "Skill matching",
+                "execution_time_seconds": 0.0883,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.17
+            },
+            {
+                "stage": "Optimized semantic matching batch",
+                "execution_time_seconds": 25.7279,
+                "status": "PASS",
+                "demo_data_used": false,
+                "model_load_time_seconds": 9.51,
+                "internal_total_elapsed_time_seconds": 13.59,
+                "time_percentage": 48.5
+            },
+            {
+                "stage": "Experience matching",
+                "execution_time_seconds": 0.0993,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.19
+            },
+            {
+                "stage": "Education matching",
+                "execution_time_seconds": 0.0914,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.17
+            },
+            {
+                "stage": "Final ATS scoring",
+                "execution_time_seconds": 0.0893,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.17
+            },
+            {
+                "stage": "Day 18 optimized ATS batch",
+                "execution_time_seconds": 25.9294,
+                "status": "PASS",
+                "demo_data_used": false,
+                "internal_batch_processing_time_seconds": 3.1666,
+                "model_load_time_seconds": 10.42,
+                "time_percentage": 48.88
+            },
+            {
+                "stage": "Day 21 eligibility engine",
+                "execution_time_seconds": 0.2341,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.44
+            },
+            {
+                "stage": "Day 37 HR interview scoring - demonstration data",
+                "execution_time_seconds": 0.0966,
+                "status": "PASS",
+                "demo_data_used": true,
+                "time_percentage": 0.18
+            },
+            {
+                "stage": "Day 38 logical reasoning - demonstration data",
+                "execution_time_seconds": 0.0989,
+                "status": "PASS",
+                "demo_data_used": true,
+                "time_percentage": 0.19
+            },
+            {
+                "stage": "Day 38 scenario evaluation - demonstration data",
+                "execution_time_seconds": 0.0828,
+                "status": "PASS",
+                "demo_data_used": true,
+                "time_percentage": 0.16
+            },
+            {
+                "stage": "Day 41 cross-round scoring",
+                "execution_time_seconds": 0.1044,
+                "status": "PASS",
+                "demo_data_used": false,
+                "time_percentage": 0.2
+            }
+        ]
+    },
+    "recommendations": [
+        "Investigate 'Day 18 optimized ATS batch', which took 25.9294 seconds. Profile model initialization, inference, file access, and external calls before making changes.",
+        "For the optimized ATS batch, compare process startup time with actual batch-processing time. Measure per-candidate latency separately.",
+        "For semantic matching, measure model loading and inference separately. Reuse the loaded model where appropriate instead of initializing it for each task.",
+        "For the optimized ATS batch, compare process startup time with actual batch-processing time. Measure per-candidate latency separately.",
+        "Repeat the test several times under consistent conditions and calculate minimum, average, and maximum execution times.",
+        "Compare runs using equivalent inputs, hardware, model versions, and cache conditions.",
+        "Measure complete workflow time separately from individual stage timings because their totals may differ.",
+        "Treat these timings as performance observations, not evidence of hiring accuracy or model fairness."
+    ],
+    "limitations": [
+        "This report analyzes one recorded test run.",
+        "Stage timings may vary due to model loading, caching, network activity, and system conditions.",
+        "Stages taking five seconds or more are flagged for investigation, not automatically classified as failures.",
+        "Performance timing does not establish AI assessment accuracy.",
+        "Repeated controlled runs are required for reliable benchmarks."
+    ]
+}

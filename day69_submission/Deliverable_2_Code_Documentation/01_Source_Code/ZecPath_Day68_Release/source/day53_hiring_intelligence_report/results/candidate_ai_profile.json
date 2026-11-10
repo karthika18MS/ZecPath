@@ -1,0 +1,297 @@
+{
+    "report_title": "ZecPath Full Candidate AI Profile",
+    "report_version": "1.1",
+    "report_type": "DEMO_ONLY",
+    "generated_at_utc": "2026-10-10T05:05:32.100864+00:00",
+    "candidate_information": {
+        "candidate_id": "candidate_006",
+        "job_id": "JOB_BACKEND_001",
+        "target_role": "Backend Developer"
+    },
+    "executive_summary": {
+        "hiring_fit_score": 89.82,
+        "final_recommendation": "Hold / Review",
+        "confidence_score": 60.0,
+        "confidence_interpretation": "Data-completeness indicator, not a probability of hiring success.",
+        "human_review_required": true,
+        "automated_hiring_action_taken": false
+    },
+    "performance_summary": {
+        "ats": {
+            "score": 90.1,
+            "status": "AVAILABLE",
+            "source": "Day 18 ATS report"
+        },
+        "screening": {
+            "score": 95.0,
+            "status": "AVAILABLE",
+            "source": "Day 32 screening report"
+        },
+        "hr_interview": {
+            "score": 91.47,
+            "status": "AVAILABLE",
+            "source": "Day 37 HR interview report"
+        },
+        "technical_interview": {
+            "score": 81.25,
+            "status": "AVAILABLE",
+            "source": "Day 47 technical evaluation",
+            "data_type": "REVIEWER_SCORED_TEST_INPUT"
+        },
+        "machine_test": {
+            "score": 94.0,
+            "status": "AVAILABLE",
+            "source": "Day 50 machine-test report",
+            "data_type": "TEST_INPUT"
+        },
+        "hiring_fit": {
+            "score": 89.82,
+            "status": "AVAILABLE",
+            "source": "Day 51 unified candidate score",
+            "data_type": "DEMO_ONLY"
+        }
+    },
+    "ats_profile": {
+        "matching_status": "Excellent Match",
+        "shortlisting_status": "Shortlisted",
+        "required_skills": [
+            "aws",
+            "ci/cd",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "linux",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api",
+            "sql"
+        ],
+        "matched_skills": [
+            "aws",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "linux",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api"
+        ],
+        "missing_skill_matches": [
+            "ci/cd",
+            "sql"
+        ],
+        "experience_details": {
+            "score": 100.0,
+            "candidate_experience_years": 3.0,
+            "minimum_required_years": 1.0,
+            "maximum_required_years": 4.0,
+            "status": "Experience Fully Meets Requirement"
+        },
+        "education_details": {
+            "score": 100.0,
+            "candidate_degrees": [
+                "mca"
+            ],
+            "candidate_fields": [
+                "computer applications",
+                "computer science",
+                "management"
+            ],
+            "required_degrees": [],
+            "required_fields": [
+                "computer applications",
+                "computer science",
+                "engineering",
+                "information technology"
+            ],
+            "degree_match": false,
+            "field_match": true,
+            "status": "Education Field Requirement Met"
+        }
+    },
+    "screening_insights": {
+        "total_questions": 4,
+        "successfully_processed": 4,
+        "edge_cases_handled": 0,
+        "final_screening_score": 95.0,
+        "score_scale": "0-100",
+        "average_communication": {
+            "confidence": 96.25,
+            "clarity": 100.0,
+            "engagement": 73.75,
+            "consistency": 100.0,
+            "communication_strength": 92.5
+        }
+    },
+    "hr_insights": {
+        "parameter_averages": {
+            "answer_relevance": 93.75,
+            "communication": 89.62,
+            "confidence": 81.25,
+            "consistency": 98.75
+        },
+        "total_questions": 4
+    },
+    "technical_performance": {
+        "evaluation_summary": {
+            "total_questions": 1,
+            "overall_technical_score": 81.25,
+            "score_category": "strong"
+        },
+        "data_type": "REVIEWER_SCORED_TEST_INPUT"
+    },
+    "machine_test_performance": {
+        "machine_test_score": 94.0,
+        "test_results": {
+            "total_tests": 3,
+            "passed_tests": 3,
+            "failed_tests": 0,
+            "test_pass_rate": 100.0
+        },
+        "data_type": "TEST_INPUT"
+    },
+    "strengths": [
+        {
+            "area": "Skill matching",
+            "evidence": "ATS skill-matching score: 84.62/100."
+        },
+        {
+            "area": "Matched technical skills",
+            "evidence": "11 of 13 listed required skills were matched by the ATS source."
+        },
+        {
+            "area": "Experience alignment",
+            "evidence": "Source-reported experience alignment: 100.00/100."
+        },
+        {
+            "area": "Education alignment",
+            "evidence": "Source-reported education alignment: 100.00/100."
+        },
+        {
+            "area": "Technical assessment",
+            "evidence": "Source-reported technical score: 81.25/100.",
+            "data_type": "REVIEWER_SCORED_TEST_INPUT"
+        }
+    ],
+    "improvement_areas": [
+        {
+            "area": "Skills not matched by ATS",
+            "evidence": [
+                "ci/cd",
+                "sql"
+            ],
+            "note": "Confirm relevance to the job and verify the resume before interpreting a missing match as a missing skill."
+        }
+    ],
+    "behavioral_observations": {
+        "source": "Day 32 screening behavioral indicators",
+        "observations": [
+            {
+                "question_id": "BACKEND_EXP_001",
+                "question_category": "experience",
+                "hesitation_count": 0,
+                "uncertainty_count": 0,
+                "contradiction_detected": false,
+                "pace": "normal",
+                "interpretation_limit": "These are recorded response indicators, not proof of character, honesty, or job performance."
+            },
+            {
+                "question_id": "BACKEND_SKILLS_001",
+                "question_category": "skills",
+                "hesitation_count": 0,
+                "uncertainty_count": 0,
+                "contradiction_detected": false,
+                "pace": "slow",
+                "interpretation_limit": "These are recorded response indicators, not proof of character, honesty, or job performance."
+            },
+            {
+                "question_id": "BACKEND_AVAILABILITY_001",
+                "question_category": "availability",
+                "hesitation_count": 0,
+                "uncertainty_count": 0,
+                "contradiction_detected": false,
+                "pace": "slow",
+                "interpretation_limit": "These are recorded response indicators, not proof of character, honesty, or job performance."
+            },
+            {
+                "question_id": "BACKEND_SALARY_001",
+                "question_category": "salary",
+                "hesitation_count": 0,
+                "uncertainty_count": 0,
+                "contradiction_detected": false,
+                "pace": "slow",
+                "interpretation_limit": "These are recorded response indicators, not proof of character, honesty, or job performance."
+            }
+        ],
+        "interpretation_note": "Do not infer personality, integrity, or suitability from hesitation, speech pace, sentiment, or confidence signals alone."
+    },
+    "risk_indicators": {
+        "explicit_risk_flags": [],
+        "indicators": [
+            {
+                "type": "DEMO_DATA",
+                "description": "machine_test is marked as demo data in the evaluation source.",
+                "status": "NOT_VERIFIED"
+            },
+            {
+                "type": "DEMO_DATA",
+                "description": "technical_interview is marked as demo data in the evaluation source.",
+                "status": "NOT_VERIFIED"
+            },
+            {
+                "type": "MISSING_INFORMATION",
+                "description": "Eligibility status was not provided.",
+                "status": "REQUIRES_REVIEW"
+            }
+        ],
+        "eligibility_status": "NOT_PROVIDED",
+        "demo_rounds": [
+            "machine_test",
+            "technical_interview"
+        ],
+        "behavior": {},
+        "integrity": {}
+    },
+    "final_recommendation_details": {
+        "decision": "Hold / Review",
+        "reasons": [
+            "Demo data is present in: machine_test, technical_interview",
+            "Eligibility status was not provided.",
+            "Confidence indicator is below the configured threshold.",
+            "The score meets the selection threshold, but one or more safeguards require review."
+        ],
+        "decision_policy": "Score thresholds combined with eligibility, confidence, risk, and data-quality safeguards.",
+        "score_based_decision": null,
+        "rules_applied": [],
+        "score_thresholds": {
+            "selected_minimum_score": 80.0,
+            "review_minimum_score": 60.0,
+            "require_verified_data_for_selection": true,
+            "review_if_demo_data": true,
+            "review_if_risk_flags": true,
+            "review_if_low_confidence": true,
+            "minimum_confidence_for_selection": 80.0
+        },
+        "explainability": {}
+    },
+    "report_quality": {
+        "source_report_status": "SUCCESS",
+        "all_configured_sources_available": true,
+        "demo_data_present": true,
+        "verified_hiring_decision": false,
+        "limitations": [
+            "Scores are copied from their source reports.",
+            "Demo data is not verified assessment evidence.",
+            "Source availability does not prove independent verification.",
+            "Behavioral observations are not proof of character or integrity.",
+            "Missing information is not treated as evidence of poor performance.",
+            "The profile supports human review and does not itself make an automated hiring decision."
+        ]
+    }
+}

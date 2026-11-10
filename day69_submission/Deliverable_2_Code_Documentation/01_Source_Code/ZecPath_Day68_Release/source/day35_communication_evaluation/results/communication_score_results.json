@@ -1,0 +1,15 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "HR_TEAM_001",
+    "response": "During my final-year project, I worked with three team members. First, I handled the backend development using Python and Django. Then, I coordinated with the frontend team to integrate the APIs. Finally, we successfully completed the project together.",
+    "word_count": 39,
+    "fluency_score": 90.0,
+    "grammar_score": 95.0,
+    "vocabulary_score": 85.0,
+    "clarity_score": 90.0,
+    "structure_score": 100,
+    "filler_word_count": 0,
+    "filler_words": [],
+    "communication_score": 91.75,
+    "score_range": "0-100"
+}

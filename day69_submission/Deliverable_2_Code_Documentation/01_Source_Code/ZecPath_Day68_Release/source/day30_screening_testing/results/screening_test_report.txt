@@ -1,0 +1,69 @@
+============================================================
+SCREENING SYSTEM TEST REPORT
+============================================================
+
+OBJECTIVE
+------------------------------------------------------------
+To validate screening system performance and identify areas for optimization.
+
+TEST SUMMARY
+------------------------------------------------------------
+Total test cases       : 10
+Matched cases          : 7
+Mismatched cases      : 3
+Human-AI agreement     : 70.0%
+
+TEST RESULTS
+------------------------------------------------------------
+SC001 - Strong valid experience response : PASS
+  Human judgment : Valid response
+  Expected action : next_question
+  AI action       : next_question
+SC002 - Vague experience response : PASS
+  Human judgment : Needs more information
+  Expected action : follow_up
+  AI action       : follow_up
+SC003 - Candidate gives no response : PASS
+  Human judgment : Retry required
+  Expected action : retry
+  AI action       : retry
+SC004 - Confused candidate response : REVIEW
+  Human judgment : Clarification required
+  Expected action : clarification
+  AI action       : next_question
+SC005 - Off-topic candidate response : REVIEW
+  Human judgment : Off-topic response
+  Expected action : redirect
+  AI action       : next_question
+SC006 - Repeated candidate answer : PASS
+  Human judgment : Additional information required
+  Expected action : follow_up
+  AI action       : follow_up
+SC007 - Relevant but incomplete skills response : PASS
+  Human judgment : Valid but limited response
+  Expected action : next_question
+  AI action       : next_question
+SC008 - Salary response : PASS
+  Human judgment : Valid salary response
+  Expected action : next_question
+  AI action       : next_question
+SC009 - Availability response : PASS
+  Human judgment : Valid availability response
+  Expected action : next_question
+  AI action       : next_question
+SC010 - Irrelevant response to skills question : REVIEW
+  Human judgment : Off-topic response
+  Expected action : redirect
+  AI action       : next_question
+
+IDENTIFIED ISSUES
+------------------------------------------------------------
+- SC004: Confused candidate response
+- SC005: Off-topic candidate response
+- SC010: Irrelevant response to skills question
+
+CONCLUSION
+------------------------------------------------------------
+The screening system requires optimization for the identified mismatched cases.
+
+Report generated at: 2026-09-11T05:34:48.613895+00:00

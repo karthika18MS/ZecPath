@@ -1,0 +1,18 @@
+{
+    "evaluation_type": "DEMO",
+    "total_records": 5,
+    "correct_predictions": 4,
+    "incorrect_predictions": 1,
+    "accuracy_percent": 80.0,
+    "false_positives": 0,
+    "false_negatives": 1,
+    "mismatches": [
+        {
+            "row": 3,
+            "actual": "SELECTED",
+            "predicted": "HOLD / REVIEW"
+        }
+    ],
+    "processing_time_seconds": 1e-05,
+    "note": "False positives and false negatives treat SELECTED as the positive class. Accuracy is meaningful only when actual labels are verified."
+}

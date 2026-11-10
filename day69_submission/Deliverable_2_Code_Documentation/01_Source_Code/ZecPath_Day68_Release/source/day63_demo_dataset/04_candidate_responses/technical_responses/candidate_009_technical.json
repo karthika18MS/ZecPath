@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND009",
+  "job_id": "JD001",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What is the virtual DOM in React?",
+      "answer": "The virtual DOM is a lightweight representation of the real DOM. React uses it to identify changes and update the necessary parts of the user interface."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is the difference between GET and POST requests?",
+      "answer": "GET is generally used to retrieve information from a server. POST is used to submit data to the server, such as when creating a new record."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you handle a form submission error in React?",
+      "answer": "I would validate the form before submitting it. I would send the data to the backend and check the response. If an error occurs, I would display a meaningful message to the user and allow them to correct the input."
+    }
+  ]
+}

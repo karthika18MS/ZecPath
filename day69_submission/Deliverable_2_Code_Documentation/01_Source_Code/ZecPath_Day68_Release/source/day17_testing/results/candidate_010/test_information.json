@@ -1,0 +1,8 @@
+{
+    "candidate_id": "candidate_010",
+    "target_role": "Fresher Data Analyst",
+    "resume_file": "day17_testing\\resumes\\candidate_010.docx",
+    "job_description_file": "day17_testing\\job_descriptions\\fresher_data_analyst.txt",
+    "resume_extraction": "SUCCESS",
+    "job_description_loading": "SUCCESS"
+}

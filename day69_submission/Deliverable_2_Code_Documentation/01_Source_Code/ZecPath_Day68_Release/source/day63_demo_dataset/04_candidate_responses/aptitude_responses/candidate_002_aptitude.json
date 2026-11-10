@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND002",
+  "job_id": "JD002",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+      "answer": "Ten developers will take 5 days because the number of developers is doubled.",
+      "expected_answer": "5 days"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 3, 6, 9, 12. What is the next number?",
+      "answer": "15. The numbers increase by 3.",
+      "expected_answer": "15"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "Your Python application produces an unexpected error. What would you do?",
+      "answer": "I would check the error message and identify the line where the error occurs. Then I would debug the code and search for a solution if needed."
+    }
+  ]
+}

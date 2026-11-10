@@ -53,3 +53,24 @@ structured_academic_profile.json
 structured_experience.json
 structured_skills.json
 shortlisted_candidates.json
+# Recursive Python cache files
+**/__pycache__/
+*.py[cod]
+
+# Temporary files
+*.tmp
+
+# Empty accidental root-level file
+/0
+
+# Duplicate Day 69 package copies (keep original folders)
+/Day69_Extracted/
+/day68_release/
+/ZecPath_Day69_Deliverable2_Code_Documentation.zip
+
+# Nested Day 68 release archive - retain locally, exclude from Git
+/day69_submission/Deliverable_2_Code_Documentation/01_Source_Code/ZecPath_Day68_Release/ZecPath_Day68_v0.1.0-rc1.zip
+
+# Accidental empty file and duplicate README in Day 69 release source
+/day69_submission/Deliverable_2_Code_Documentation/01_Source_Code/ZecPath_Day68_Release/source/0
+/day69_submission/Deliverable_2_Code_Documentation/01_Source_Code/ZecPath_Day68_Release/source/READme.md

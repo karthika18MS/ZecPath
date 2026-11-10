@@ -1,0 +1,28 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "question_id": "BACKEND_EXP_001",
+    "question": "How many years of backend development experience do you have?",
+    "question_category": "experience",
+    "scores": {
+        "clarity": 9,
+        "relevance": 10,
+        "completeness": 10,
+        "consistency": 9
+    },
+    "weighted_score": 9.5,
+    "normalized_score": 95.0,
+    "answer_status": "valid",
+    "intent": "experience",
+    "off_topic": false,
+    "explanation": {
+        "strengths": [
+            "Answer is clear and easy to understand.",
+            "Answer directly addresses the question.",
+            "Required information is sufficiently provided.",
+            "Answer information is consistent."
+        ],
+        "weaknesses": []
+    },
+    "created_at": "2026-09-07T05:27:38.527094+00:00"
+}

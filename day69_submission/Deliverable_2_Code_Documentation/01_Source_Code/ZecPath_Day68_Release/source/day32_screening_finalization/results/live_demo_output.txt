@@ -1,0 +1,23 @@
+ZecPath AI Screening System — LIVE DEMO
+===========================================================================
+Candidate: candidate_006
+Job: JOB_BACKEND_001
+Total Questions: 4
+Successfully Processed: 4
+Edge Cases Handled: 0
+Final Screening Score: 95.0/100
+
+Average Communication
+---------------------------------------------------------------------------
+confidence: 96.25
+clarity: 100.0
+engagement: 73.75
+consistency: 100.0
+communication_strength: 92.5
+
+Question Results
+---------------------------------------------------------------------------
+BACKEND_EXP_001: score=95.0, action=next_question
+BACKEND_SKILLS_001: score=95.0, action=next_question
+BACKEND_AVAILABILITY_001: score=95.0, action=next_question
+BACKEND_SALARY_001: score=95.0, action=next_question

@@ -1,0 +1,142 @@
+{
+    "module": "ZecPath Reusable End-to-End Simulation",
+    "dataset": {
+        "dataset_name": "day63_demo_dataset",
+        "dataset_type": "DEMO_DATASET",
+        "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset"
+    },
+    "dataset_validation": {
+        "validation_status": "INCOMPLETE",
+        "validation_report": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\dataset_validation_report.json"
+    },
+    "pipeline_status": "SUCCESS",
+    "generated_at": "2026-11-07T17:43:12.142656+00:00",
+    "execution_time_seconds": 17.896,
+    "execution_configuration": {
+        "timeout_seconds": 900,
+        "continue_on_stage_failure": false,
+        "validate_outputs": true
+    },
+    "statistics": {
+        "total_stages": 12,
+        "executed_stages": 12,
+        "successful_stages": 12,
+        "failed_stages": 0,
+        "skipped_stages": 0
+    },
+    "stage_results": {
+        "ATS_INPUT": {
+            "stage_name": "ATS_INPUT",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\ats_input_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\ats_input_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.713,
+            "return_code": 0,
+            "error": null
+        },
+        "ATS_SCORING": {
+            "stage_name": "ATS_SCORING",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\ats_scoring_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\ats_scoring_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 14.527,
+            "return_code": 0,
+            "error": null
+        },
+        "ATS": {
+            "stage_name": "ATS",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\ats_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\ats_pipeline_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.325,
+            "return_code": 0,
+            "error": null
+        },
+        "HR": {
+            "stage_name": "HR",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\hr_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\hr_pipeline_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.317,
+            "return_code": 0,
+            "error": null
+        },
+        "APTITUDE": {
+            "stage_name": "APTITUDE",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\aptitude_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\aptitude_pipeline_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.344,
+            "return_code": 0,
+            "error": null
+        },
+        "TECHNICAL": {
+            "stage_name": "TECHNICAL",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\technical_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\technical_pipeline_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.338,
+            "return_code": 0,
+            "error": null
+        },
+        "MACHINE_TEST": {
+            "stage_name": "MACHINE_TEST",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\machine_test_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\machine_test_pipeline_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.333,
+            "return_code": 0,
+            "error": null
+        },
+        "CROSS_ROUND": {
+            "stage_name": "CROSS_ROUND",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\cross_round_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\cross_round_pipeline_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.316,
+            "return_code": 0,
+            "error": null
+        },
+        "FINAL_DECISION": {
+            "stage_name": "FINAL_DECISION",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\pipeline\\final_decision_pipeline.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\final_decision_pipeline_results.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.156,
+            "return_code": 0,
+            "error": null
+        },
+        "CANDIDATE_REPORT": {
+            "stage_name": "CANDIDATE_REPORT",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\reporting\\candidate_report.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\candidate_results",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.165,
+            "return_code": 0,
+            "error": null
+        },
+        "BATCH_REPORT": {
+            "stage_name": "BATCH_REPORT",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\reporting\\batch_report.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\batch_report.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.163,
+            "return_code": 0,
+            "error": null
+        },
+        "PERFORMANCE_REPORT": {
+            "stage_name": "PERFORMANCE_REPORT",
+            "script": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\reporting\\performance_report.py",
+            "expected_output": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\performance_report.json",
+            "status": "SUCCESS",
+            "execution_time_seconds": 0.16,
+            "return_code": 0,
+            "error": null
+        }
+    },
+    "data_quality_notice": {
+        "dataset_type": "DEMO_DATASET",
+        "is_verified_real_hiring_evaluation": false,
+        "notice": "This simulation uses demonstration data. HR, aptitude, technical and machine-test outputs include simulated assessment results. Machine-test execution and human review are illustrative. Results must not be treated as verified real hiring decisions."
+    }
+}

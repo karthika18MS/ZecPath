@@ -1,0 +1,83 @@
+{
+    "engine": "ZecPath Cross-Round Aggregation Engine",
+    "engine_version": "1.0",
+    "report_type": "DEMO_ONLY",
+    "aggregation_status": "SUCCESS",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "normalized_score_scale": "0-100",
+    "round_weights": {
+        "ats": 0.15,
+        "screening": 0.1,
+        "hr_interview": 0.2,
+        "technical_interview": 0.25,
+        "machine_test": 0.3
+    },
+    "round_breakdown": {
+        "ats": {
+            "normalized_score": 90.1,
+            "weight": 0.15,
+            "weight_percentage": 15.0,
+            "weighted_contribution": 13.515,
+            "source_status": "SOURCE_SCORE",
+            "data_type": "SOURCE_REPORTED",
+            "is_demo_data": false,
+            "explanation": "90.10 x 0.15 = 13.5150"
+        },
+        "screening": {
+            "normalized_score": 95.0,
+            "weight": 0.1,
+            "weight_percentage": 10.0,
+            "weighted_contribution": 9.5,
+            "source_status": "SOURCE_SCORE",
+            "data_type": "SOURCE_REPORTED",
+            "is_demo_data": false,
+            "explanation": "95.00 x 0.10 = 9.5000"
+        },
+        "hr_interview": {
+            "normalized_score": 91.47,
+            "weight": 0.2,
+            "weight_percentage": 20.0,
+            "weighted_contribution": 18.294,
+            "source_status": "SOURCE_SCORE",
+            "data_type": "SOURCE_REPORTED",
+            "is_demo_data": false,
+            "explanation": "91.47 x 0.20 = 18.2940"
+        },
+        "technical_interview": {
+            "normalized_score": 81.25,
+            "weight": 0.25,
+            "weight_percentage": 25.0,
+            "weighted_contribution": 20.3125,
+            "source_status": "DEMO_SOURCE",
+            "data_type": "DEMO_ONLY",
+            "is_demo_data": true,
+            "explanation": "81.25 x 0.25 = 20.3125"
+        },
+        "machine_test": {
+            "normalized_score": 94.0,
+            "weight": 0.3,
+            "weight_percentage": 30.0,
+            "weighted_contribution": 28.2,
+            "source_status": "DEMO_SOURCE",
+            "data_type": "DEMO_ONLY",
+            "is_demo_data": true,
+            "explanation": "94.00 x 0.30 = 28.2000"
+        }
+    },
+    "total_weight_percentage": 100.0,
+    "hiring_fit_score": 89.82,
+    "verified_hiring_fit_status": "NOT_EVALUATED",
+    "demo_rounds": [
+        "technical_interview",
+        "machine_test"
+    ],
+    "transparency": {
+        "normalization_method": "Validate scores on a common 0-100 scale and round to two decimal places.",
+        "aggregation_method": "Weighted sum of normalized round scores.",
+        "formula": "Hiring Fit Score = sum(normalized score x round weight)",
+        "demo_data_used": true,
+        "verified_decision_made": false
+    },
+    "generated_at_utc": "2026-10-09T11:41:01.135583+00:00"
+}

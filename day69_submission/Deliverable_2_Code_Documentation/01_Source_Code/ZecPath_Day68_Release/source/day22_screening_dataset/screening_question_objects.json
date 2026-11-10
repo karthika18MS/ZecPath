@@ -1,0 +1,1498 @@
+{
+  "dataset_name": "ZecPath AI Conversation-Ready Screening Questions",
+  "dataset_version": "1.0",
+  "language_config": {
+    "default_language": "en",
+    "supported_languages": [
+      "en"
+    ],
+    "fallback_language": "en"
+  },
+  "conversation_config": {
+    "allow_follow_up": true,
+    "default_max_follow_ups": 1,
+    "stop_after_mandatory_questions": true
+  },
+  "questions": [
+    {
+      "question_id": "BACKEND_INTRO_001",
+      "role": "backend_developer",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you briefly introduce yourself and describe your current role?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "BACKEND_EDU_001",
+      "role": "backend_developer",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "BACKEND_EXP_001",
+      "role": "backend_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "How many years of backend development experience do you have?"
+      },
+      "expected_answer": {
+        "type": "number",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "BACKEND_EXP_002",
+      "role": "backend_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "Can you describe your most recent backend development experience?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "BACKEND_SKILL_001",
+      "role": "backend_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "Which backend technologies and programming languages have you worked with?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "BACKEND_SKILL_002",
+      "role": "backend_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "Have you worked with Python, FastAPI, Git, Docker, or cloud technologies?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "BACKEND_LOC_001",
+      "role": "backend_developer",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "BACKEND_LOC_002",
+      "role": "backend_developer",
+      "category": "location",
+      "prompt": {
+        "en": "Are you comfortable working from the required location for this position?"
+      },
+      "expected_answer": {
+        "type": "yes_no",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "BACKEND_SAL_001",
+      "role": "backend_developer",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations for this position?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "BACKEND_NOTICE_001",
+      "role": "backend_developer",
+      "category": "notice_period",
+      "prompt": {
+        "en": "What is your current notice period?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_INTRO_001",
+      "role": "senior_backend_developer",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you briefly introduce yourself and summarize your professional background?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_EDU_001",
+      "role": "senior_backend_developer",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_EXP_001",
+      "role": "senior_backend_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "How many years of professional backend development experience do you have?"
+      },
+      "expected_answer": {
+        "type": "number",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_EXP_002",
+      "role": "senior_backend_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "What has been your most significant backend development project?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_SKILL_001",
+      "role": "senior_backend_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "Which backend technologies, frameworks, databases, and cloud platforms have you worked with?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_SKILL_002",
+      "role": "senior_backend_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "How have you used Python, FastAPI, Docker, AWS, and Git in your projects?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_LOC_001",
+      "role": "senior_backend_developer",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_LOC_002",
+      "role": "senior_backend_developer",
+      "category": "location",
+      "prompt": {
+        "en": "Are you comfortable working from the required location?"
+      },
+      "expected_answer": {
+        "type": "yes_no",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_SAL_001",
+      "role": "senior_backend_developer",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations for this position?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "SENIOR_BACKEND_NOTICE_001",
+      "role": "senior_backend_developer",
+      "category": "notice_period",
+      "prompt": {
+        "en": "What is your current notice period and when can you join?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "PYTHON_INTRO_001",
+      "role": "python_developer",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you briefly introduce yourself and your Python development background?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "PYTHON_EDU_001",
+      "role": "python_developer",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "PYTHON_EXP_001",
+      "role": "python_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "How many years of Python development experience do you have?"
+      },
+      "expected_answer": {
+        "type": "number",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "PYTHON_EXP_002",
+      "role": "python_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "Can you describe a recent project where you used Python?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "PYTHON_SKILL_001",
+      "role": "python_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "Which Python libraries, frameworks, and development tools have you used?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "PYTHON_SKILL_002",
+      "role": "python_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "How have you used Git in your development projects?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "PYTHON_LOC_001",
+      "role": "python_developer",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "PYTHON_SAL_001",
+      "role": "python_developer",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "PYTHON_NOTICE_001",
+      "role": "python_developer",
+      "category": "notice_period",
+      "prompt": {
+        "en": "What is your current notice period?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_INTRO_001",
+      "role": "senior_python_developer",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you introduce yourself and summarize your Python development experience?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_EDU_001",
+      "role": "senior_python_developer",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_EXP_001",
+      "role": "senior_python_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "How many years of professional Python development experience do you have?"
+      },
+      "expected_answer": {
+        "type": "number",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_EXP_002",
+      "role": "senior_python_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "Can you describe a major project where you used Python and Django?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_SKILL_001",
+      "role": "senior_python_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "Which Python frameworks, libraries, databases, and development tools have you used?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_SKILL_002",
+      "role": "senior_python_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "How have you used Python, Django, and Git in production or project environments?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_LOC_001",
+      "role": "senior_python_developer",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_SAL_001",
+      "role": "senior_python_developer",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "SENIOR_PYTHON_NOTICE_001",
+      "role": "senior_python_developer",
+      "category": "notice_period",
+      "prompt": {
+        "en": "What is your notice period and when can you join?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_INTRO_001",
+      "role": "fresher_python_developer",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you briefly introduce yourself and your interest in Python development?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_EDU_001",
+      "role": "fresher_python_developer",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification and what did you specialize in?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_EXP_001",
+      "role": "fresher_python_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "Do you have any internship, academic, or project experience related to Python?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_EXP_002",
+      "role": "fresher_python_developer",
+      "category": "experience",
+      "prompt": {
+        "en": "Can you describe a Python project you have worked on?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_SKILL_001",
+      "role": "fresher_python_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "Which Python programming concepts, libraries, or tools are you familiar with?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_SKILL_002",
+      "role": "fresher_python_developer",
+      "category": "skills",
+      "prompt": {
+        "en": "Have you used Git in any academic or personal project?"
+      },
+      "expected_answer": {
+        "type": "yes_no",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_LOC_001",
+      "role": "fresher_python_developer",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_SAL_001",
+      "role": "fresher_python_developer",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "FRESHER_PYTHON_NOTICE_001",
+      "role": "fresher_python_developer",
+      "category": "notice_period",
+      "prompt": {
+        "en": "If selected, when would you be available to join?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_INTRO_001",
+      "role": "fresher_data_analyst",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you briefly introduce yourself and explain your interest in data analytics?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_EDU_001",
+      "role": "fresher_data_analyst",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_EXP_001",
+      "role": "fresher_data_analyst",
+      "category": "experience",
+      "prompt": {
+        "en": "Do you have any internship, academic, or project experience in data analysis?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_EXP_002",
+      "role": "fresher_data_analyst",
+      "category": "experience",
+      "prompt": {
+        "en": "Can you describe a data analysis project you have worked on?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_SKILL_001",
+      "role": "fresher_data_analyst",
+      "category": "skills",
+      "prompt": {
+        "en": "What experience do you have with Python, SQL, and Excel?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_SKILL_002",
+      "role": "fresher_data_analyst",
+      "category": "skills",
+      "prompt": {
+        "en": "Which data analysis or visualization tools have you used?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_LOC_001",
+      "role": "fresher_data_analyst",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_SAL_001",
+      "role": "fresher_data_analyst",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "DATA_ANALYST_NOTICE_001",
+      "role": "fresher_data_analyst",
+      "category": "notice_period",
+      "prompt": {
+        "en": "When would you be available to join?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "HR_INTRO_001",
+      "role": "hr_executive",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you briefly introduce yourself and describe your HR background?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "HR_EDU_001",
+      "role": "hr_executive",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "HR_EXP_001",
+      "role": "hr_executive",
+      "category": "experience",
+      "prompt": {
+        "en": "How many years of HR or recruitment experience do you have?"
+      },
+      "expected_answer": {
+        "type": "number",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "HR_EXP_002",
+      "role": "hr_executive",
+      "category": "experience",
+      "prompt": {
+        "en": "Can you describe your recent experience in recruitment or employee management?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "HR_SKILL_001",
+      "role": "hr_executive",
+      "category": "skills",
+      "prompt": {
+        "en": "What recruitment tools, HR systems, or sourcing platforms have you used?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "HR_SKILL_002",
+      "role": "hr_executive",
+      "category": "skills",
+      "prompt": {
+        "en": "How do you communicate with candidates and hiring managers during recruitment?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "HR_LOC_001",
+      "role": "hr_executive",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "HR_SAL_001",
+      "role": "hr_executive",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "HR_NOTICE_001",
+      "role": "hr_executive",
+      "category": "notice_period",
+      "prompt": {
+        "en": "What is your current notice period?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "MARKETING_INTRO_001",
+      "role": "marketing_executive",
+      "category": "introduction",
+      "prompt": {
+        "en": "Can you briefly introduce yourself and describe your marketing background?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "low"
+      }
+    },
+    {
+      "question_id": "MARKETING_EDU_001",
+      "role": "marketing_executive",
+      "category": "education",
+      "prompt": {
+        "en": "What is your highest educational qualification?"
+      },
+      "expected_answer": {
+        "type": "single_value",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "MARKETING_EXP_001",
+      "role": "marketing_executive",
+      "category": "experience",
+      "prompt": {
+        "en": "How many years of marketing experience do you have?"
+      },
+      "expected_answer": {
+        "type": "number",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "MARKETING_EXP_002",
+      "role": "marketing_executive",
+      "category": "experience",
+      "prompt": {
+        "en": "Can you describe a recent marketing campaign or project you worked on?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "MARKETING_SKILL_001",
+      "role": "marketing_executive",
+      "category": "skills",
+      "prompt": {
+        "en": "Which marketing channels, tools, and platforms have you worked with?"
+      },
+      "expected_answer": {
+        "type": "list",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "MARKETING_SKILL_002",
+      "role": "marketing_executive",
+      "category": "skills",
+      "prompt": {
+        "en": "How do you measure the success of a marketing campaign?"
+      },
+      "expected_answer": {
+        "type": "free_text",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "MARKETING_LOC_001",
+      "role": "marketing_executive",
+      "category": "location",
+      "prompt": {
+        "en": "Where are you currently located?"
+      },
+      "expected_answer": {
+        "type": "location",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": false,
+        "max_follow_ups": 0,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    },
+    {
+      "question_id": "MARKETING_SAL_001",
+      "role": "marketing_executive",
+      "category": "salary",
+      "prompt": {
+        "en": "What are your salary expectations?"
+      },
+      "expected_answer": {
+        "type": "salary",
+        "required": false
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": false
+      },
+      "evaluation": {
+        "scoring_importance": "medium"
+      }
+    },
+    {
+      "question_id": "MARKETING_NOTICE_001",
+      "role": "marketing_executive",
+      "category": "notice_period",
+      "prompt": {
+        "en": "What is your current notice period?"
+      },
+      "expected_answer": {
+        "type": "duration",
+        "required": true
+      },
+      "conversation": {
+        "allow_follow_up": true,
+        "max_follow_ups": 1,
+        "follow_up_if_missing": true
+      },
+      "evaluation": {
+        "scoring_importance": "high"
+      }
+    }
+  ]
+}

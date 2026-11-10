@@ -1,0 +1,33 @@
+{
+  "candidate_id": "CAND009",
+  "candidate_name": "Anjali Krishna",
+  "job_id": "JD001",
+  "target_role": "MERN Stack Developer",
+  "experience_years": 2,
+  "education": "BCA",
+  "skills": [
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "HTML",
+    "CSS",
+    "REST APIs"
+  ],
+  "resume_file": "candidate_009_resume.pdf",
+  "resume_quality": "average",
+  "candidate_type": "experienced",
+  "strengths": [
+    "Communication",
+    "Team Collaboration",
+    "Presentation Skills"
+  ],
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

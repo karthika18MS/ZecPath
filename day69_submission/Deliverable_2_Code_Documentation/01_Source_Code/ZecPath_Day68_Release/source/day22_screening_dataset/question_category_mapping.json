@@ -1,0 +1,80 @@
+{
+  "dataset_name": "ZecPath HR Screening Question Category Mapping",
+  "dataset_version": "1.0",
+  "categories": {
+    "introduction": {
+      "description": "Collects the candidate's basic introduction and professional background.",
+      "purpose": "Understand the candidate's overall background and communication.",
+      "expected_answer_types": [
+        "free_text"
+      ],
+      "default_mandatory": true,
+      "default_scoring_importance": "low"
+    },
+
+    "education": {
+      "description": "Collects the candidate's educational qualifications and academic background.",
+      "purpose": "Verify educational background relevant to the role.",
+      "expected_answer_types": [
+        "single_value",
+        "free_text"
+      ],
+      "default_mandatory": true,
+      "default_scoring_importance": "medium"
+    },
+
+    "experience": {
+      "description": "Collects professional, internship, academic, or project experience relevant to the role.",
+      "purpose": "Evaluate the candidate's relevant experience and practical exposure.",
+      "expected_answer_types": [
+        "number",
+        "free_text"
+      ],
+      "default_mandatory": true,
+      "default_scoring_importance": "high"
+    },
+
+    "skills": {
+      "description": "Collects technical, professional, and role-specific skills.",
+      "purpose": "Evaluate whether the candidate has the skills required for the position.",
+      "expected_answer_types": [
+        "list",
+        "free_text",
+        "yes_no"
+      ],
+      "default_mandatory": true,
+      "default_scoring_importance": "high"
+    },
+
+    "location": {
+      "description": "Collects the candidate's current location and willingness to work from the required location.",
+      "purpose": "Determine whether the candidate satisfies location requirements.",
+      "expected_answer_types": [
+        "location",
+        "yes_no"
+      ],
+      "default_mandatory": true,
+      "default_scoring_importance": "high"
+    },
+
+    "salary": {
+      "description": "Collects the candidate's expected salary or compensation expectations.",
+      "purpose": "Understand whether the candidate's expectations are compatible with the position.",
+      "expected_answer_types": [
+        "salary"
+      ],
+      "default_mandatory": false,
+      "default_scoring_importance": "medium"
+    },
+
+    "notice_period": {
+      "description": "Collects the candidate's current notice period and availability to join.",
+      "purpose": "Determine when the candidate can become available for the position.",
+      "expected_answer_types": [
+        "duration"
+      ],
+      "default_mandatory": true,
+      "default_scoring_importance": "high"
+    }
+  }
+}

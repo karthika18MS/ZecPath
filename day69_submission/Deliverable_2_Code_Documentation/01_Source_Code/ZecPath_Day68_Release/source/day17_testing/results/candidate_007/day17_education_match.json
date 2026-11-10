@@ -1,0 +1,24 @@
+{
+    "candidate_id": "candidate_007",
+    "target_role": "HR Executive",
+    "candidate_education": {
+        "degrees": [
+            "mba"
+        ],
+        "fields": [
+            "business administration",
+            "human resources"
+        ]
+    },
+    "job_description_education": {
+        "required_degrees": [],
+        "required_fields": [
+            "business administration",
+            "human resources"
+        ]
+    },
+    "degree_match": false,
+    "field_match": true,
+    "education_score": 100.0,
+    "education_status": "Education Field Requirement Met"
+}

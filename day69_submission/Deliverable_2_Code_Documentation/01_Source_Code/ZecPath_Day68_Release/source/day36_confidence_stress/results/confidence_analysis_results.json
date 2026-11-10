@@ -1,0 +1,39 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "HR_TEAM_001",
+    "response": "I think I worked on a backend project. I, I developed the APIs using Python and Django. Maybe I can explain more about the project.",
+    "word_count": 25,
+    "duration_seconds": 45,
+    "words_per_minute": 33.33,
+    "pace": "slow",
+    "hesitation": {
+        "hesitation_detected": true,
+        "hesitation_count": 2,
+        "hesitation_patterns": [
+            "i think",
+            "maybe"
+        ]
+    },
+    "uncertainty": {
+        "uncertainty_detected": false,
+        "uncertainty_count": 0,
+        "uncertainty_patterns": []
+    },
+    "repetition": {
+        "repetition_detected": true,
+        "repetition_count": 1,
+        "repeated_words": [
+            "i"
+        ]
+    },
+    "long_pauses": {
+        "long_pause_detected": true,
+        "long_pause_count": 2,
+        "long_pause_durations": [
+            2.8,
+            3.2
+        ]
+    },
+    "confidence_score": 70,
+    "confidence_level": "moderate"
+}

@@ -1,0 +1,158 @@
+{
+    "module": "ZecPath Day 65 Unified Score Consistency",
+    "source_file": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\cross_round_scoring_results.json",
+    "formula": "Weighted normalized score using available rounds",
+    "tolerance": 0.01,
+    "summary": {
+        "total_candidates": 10,
+        "passed": 10,
+        "failed": 0,
+        "errors": 0,
+        "overall_status": "PASS"
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "actual_score": 83.08,
+            "expected_score": 83.08,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND002",
+            "actual_score": 80.82,
+            "expected_score": 80.82,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND003",
+            "actual_score": 64.74,
+            "expected_score": 64.74,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND004",
+            "actual_score": 70.91,
+            "expected_score": 70.91,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND005",
+            "actual_score": 84.99,
+            "expected_score": 84.99,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND006",
+            "actual_score": 82.07,
+            "expected_score": 82.07,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND007",
+            "actual_score": 74.72,
+            "expected_score": 74.72,
+            "score_difference": 0.0,
+            "available_weight": 0.85,
+            "available_rounds": [
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND008",
+            "actual_score": 63.45,
+            "expected_score": 63.45,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND009",
+            "actual_score": 80.67,
+            "expected_score": 80.67,
+            "score_difference": 0.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "status": "PASS"
+        },
+        {
+            "candidate_id": "CAND010",
+            "actual_score": null,
+            "expected_score": null,
+            "score_difference": null,
+            "available_weight": 0.0,
+            "available_rounds": [],
+            "status": "PASS"
+        }
+    ]
+}

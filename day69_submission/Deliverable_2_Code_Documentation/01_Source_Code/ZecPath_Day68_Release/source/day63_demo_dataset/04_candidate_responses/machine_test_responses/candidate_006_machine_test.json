@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND006",
+    "job_id": "JD002",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.065275+05:30",
+    "task": {
+        "task_id": "PYTHON_TASK_006",
+        "title": "Python Candidate Matching",
+        "requirements": [
+            "Compare candidate skills",
+            "Match required job skills",
+            "Calculate matching percentage",
+            "Handle missing skills"
+        ],
+        "candidate_code": "\ndef calculate_skill_match(candidate_skills, required_skills):\n\n    candidate_skills = {\n        skill.lower() for skill in candidate_skills\n    }\n\n    required_skills = {\n        skill.lower() for skill in required_skills\n    }\n\n    if not required_skills:\n        return 0\n\n    matched = candidate_skills.intersection(\n        required_skills\n    )\n\n    percentage = (\n        len(matched) / len(required_skills)\n    ) * 100\n\n    return round(percentage, 2)\n\n\ncandidate = [\"Python\", \"Django\", \"SQL\"]\nrequired = [\"Python\", \"Django\", \"SQL\", \"Git\"]\n\nprint(calculate_skill_match(candidate, required))\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 8,
+            "failed_tests": 2,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 90,
+            "code_quality": 88,
+            "readability": 86,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

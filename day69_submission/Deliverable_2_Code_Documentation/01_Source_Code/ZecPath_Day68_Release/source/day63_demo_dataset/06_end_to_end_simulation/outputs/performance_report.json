@@ -1,0 +1,92 @@
+{
+    "module": "ZecPath Day 63 Performance Reporting",
+    "dataset_name": "day63_demo_dataset",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "report_type": "PIPELINE_PERFORMANCE_REPORT",
+    "generated_at": "2026-11-07T17:43:12.127518+00:00",
+    "pipeline_status": "SUCCESS",
+    "overall_performance": {
+        "total_pipelines": 7,
+        "successful_pipelines": 7,
+        "failed_pipelines": 0,
+        "unavailable_pipelines": 0,
+        "other_status_pipelines": 0,
+        "known_execution_time_count": 7,
+        "total_reported_execution_time_seconds": 0.985,
+        "total_known_validation_errors": 0,
+        "pipelines_with_execution_time": 7,
+        "pipelines_with_validation_metrics": 6
+    },
+    "pipeline_details": [
+        {
+            "pipeline_name": "ATS",
+            "output_file": "ats_pipeline_results.json",
+            "status": "SUCCESS",
+            "candidate_count": 10,
+            "execution_time_seconds": 0.16,
+            "validation_errors": null,
+            "output_exists": true
+        },
+        {
+            "pipeline_name": "HR",
+            "output_file": "hr_pipeline_results.json",
+            "status": "SUCCESS",
+            "candidate_count": 10,
+            "execution_time_seconds": 0.154,
+            "validation_errors": 0,
+            "output_exists": true
+        },
+        {
+            "pipeline_name": "APTITUDE",
+            "output_file": "aptitude_pipeline_results.json",
+            "status": "SUCCESS",
+            "candidate_count": 10,
+            "execution_time_seconds": 0.177,
+            "validation_errors": 0,
+            "output_exists": true
+        },
+        {
+            "pipeline_name": "TECHNICAL",
+            "output_file": "technical_pipeline_results.json",
+            "status": "SUCCESS",
+            "candidate_count": 10,
+            "execution_time_seconds": 0.172,
+            "validation_errors": 0,
+            "output_exists": true
+        },
+        {
+            "pipeline_name": "MACHINE_TEST",
+            "output_file": "machine_test_pipeline_results.json",
+            "status": "SUCCESS",
+            "candidate_count": 10,
+            "execution_time_seconds": 0.164,
+            "validation_errors": 0,
+            "output_exists": true
+        },
+        {
+            "pipeline_name": "CROSS_ROUND",
+            "output_file": "cross_round_pipeline_results.json",
+            "status": "SUCCESS",
+            "candidate_count": 10,
+            "execution_time_seconds": 0.156,
+            "validation_errors": 0,
+            "output_exists": true
+        },
+        {
+            "pipeline_name": "FINAL_DECISION",
+            "output_file": "final_decision_pipeline_results.json",
+            "status": "SUCCESS",
+            "candidate_count": 10,
+            "execution_time_seconds": 0.002,
+            "validation_errors": 0,
+            "output_exists": true
+        }
+    ],
+    "measurement_notes": {
+        "execution_time": "Uses execution_time_seconds recorded by each pipeline. Missing timings are not estimated.",
+        "validation_errors": "Counts are taken from each pipeline output when available. Missing validation metrics are not assumed to be zero.",
+        "dataset_type": "DEMO_DATASET",
+        "hiring_evaluation_verified": false,
+        "notice": "This report monitors demo pipeline execution. It does not establish the accuracy of assessment scores or verify real candidate performance."
+    }
+}

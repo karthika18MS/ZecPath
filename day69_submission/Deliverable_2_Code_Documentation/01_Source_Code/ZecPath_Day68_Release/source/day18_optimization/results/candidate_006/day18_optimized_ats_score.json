@@ -1,0 +1,196 @@
+{
+    "candidate_id": "candidate_006",
+    "target_role": "Backend Developer",
+    "job_description": "backend_developer.txt",
+    "engine": "ZecPath Day 18 Optimized ATS Engine",
+    "pipeline_status": "SUCCESS",
+    "scores": {
+        "skill_matching": 84.62,
+        "experience_relevance": 100.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 81.93,
+        "final_ats_score": 90.1
+    },
+    "weights": {
+        "skill_matching": 0.35,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "excluded_components": [],
+    "contributions": {
+        "skill_matching": 29.62,
+        "experience_relevance": 25.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 20.48
+    },
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "manual_review": {
+        "review_required": false,
+        "review_status": "NOT_REQUIRED",
+        "review_reason": null
+    },
+    "skill_details": {
+        "score": 84.62,
+        "required_skills": [
+            "aws",
+            "ci/cd",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "linux",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api",
+            "sql"
+        ],
+        "matched_skills": [
+            "aws",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "linux",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api"
+        ],
+        "missing_skills": [
+            "ci/cd",
+            "sql"
+        ],
+        "total_required_skills": 13,
+        "total_matched_skills": 11,
+        "source": "Day 17 validated skill matcher"
+    },
+    "experience_details": {
+        "score": 100.0,
+        "candidate_experience_years": 3.0,
+        "minimum_required_years": 1.0,
+        "maximum_required_years": 4.0,
+        "is_applicable": true,
+        "status": "Experience Fully Meets Requirement"
+    },
+    "education_details": {
+        "score": 100.0,
+        "candidate_degrees": [
+            "mca"
+        ],
+        "candidate_fields": [
+            "computer applications",
+            "computer science",
+            "management"
+        ],
+        "required_degrees": [],
+        "required_fields": [
+            "computer applications",
+            "computer science",
+            "engineering",
+            "information technology"
+        ],
+        "degree_match": false,
+        "field_match": true,
+        "status": "Education Field Requirement Met"
+    },
+    "semantic_details": {
+        "score": 81.93,
+        "raw_score": 0.8193,
+        "embedding_length": 384,
+        "model_access_time_seconds": 7.934511
+    },
+    "entity_detection": {
+        "name": "Candidate 006",
+        "job_titles": [
+            "backend developer"
+        ],
+        "skills": [
+            "aws",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "linux",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api",
+            "testing"
+        ],
+        "degrees": [
+            "mca"
+        ],
+        "experience_years": 3.0,
+        "years": [
+            2023,
+            2026
+        ],
+        "projects": [
+            "E-Commerce Backend API",
+            "Developed REST APIs using Python and FastAPI.",
+            "Implemented authentication, product management,",
+            "order processing, and database integration."
+        ],
+        "sections": {
+            "summary": [
+                "Backend Developer with 3 years of experience developing",
+                "server-side applications and REST APIs using Python."
+            ],
+            "skills": [
+                "Python",
+                "FastAPI",
+                "Django",
+                "REST API",
+                "PostgreSQL",
+                "MongoDB",
+                "Git",
+                "Docker",
+                "Linux",
+                "AWS",
+                "Redis"
+            ],
+            "experience": [
+                "Backend Developer",
+                "ABC Technologies",
+                "2023 - 2026",
+                "Developed REST APIs using Python and FastAPI.",
+                "Built backend services using Django.",
+                "Worked with PostgreSQL and MongoDB databases.",
+                "Created Docker-based development environments.",
+                "Used Git for source code management.",
+                "Implemented API testing and debugging.",
+                "Deployed backend services on AWS.",
+                "Worked with Redis for caching."
+            ],
+            "education": [
+                "Master of Computer Applications",
+                "Computer Science"
+            ],
+            "projects": [
+                "E-Commerce Backend API",
+                "Developed REST APIs using Python and FastAPI.",
+                "Implemented authentication, product management,",
+                "order processing, and database integration."
+            ]
+        }
+    },
+    "semantic_input": "Validated Day 17 cleaned resume",
+    "performance": {
+        "extraction_time_seconds": 0.138722,
+        "cleaning_time_seconds": 0.002715,
+        "entity_detection_time_seconds": 0.035995,
+        "skill_matching_time_seconds": 0.109869,
+        "semantic_processing_time_seconds": 10.210639,
+        "semantic_model_access_time_seconds": 7.934511,
+        "unaccounted_pipeline_time_seconds": 0.015586,
+        "total_pipeline_time_seconds": 10.513526,
+        "output_save_time_seconds": 0.001955
+    }
+}

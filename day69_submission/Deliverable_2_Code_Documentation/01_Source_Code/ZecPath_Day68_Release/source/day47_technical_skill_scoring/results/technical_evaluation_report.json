@@ -1,0 +1,463 @@
+{
+    "report_metadata": {
+        "report_name": "ZecPath Day 47 Technical Evaluation Report",
+        "generated_at": "2026-10-06T12:32:49",
+        "data_type": "DEMO / SAMPLE DATA",
+        "report_status": "SUCCESS"
+    },
+    "candidate_information": {
+        "candidate_id": "candidate_006",
+        "job_id": "JOB_BACKEND_001"
+    },
+    "evaluation_summary": {
+        "total_questions": 5,
+        "total_skills": 5,
+        "overall_technical_score": 85.47,
+        "overall_score_category": "strong"
+    },
+    "skill_wise_evaluation": {
+        "JavaScript": {
+            "skill_score": 84.3,
+            "category": "strong",
+            "question_count": 1,
+            "parameter_averages": {
+                "accuracy": 90.0,
+                "depth": 82.0,
+                "logical_reasoning": 80.0,
+                "real_world_applicability": 78.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 90.0
+            },
+            "weakest_parameter": {
+                "parameter": "real_world_applicability",
+                "score": 78.0
+            },
+            "question_details": [
+                {
+                    "question_number": 1,
+                    "question_id": "TECH_JS_001",
+                    "question_text": "What is the difference between let, const and var in JavaScript?",
+                    "skill": "JavaScript",
+                    "question_type": "conceptual",
+                    "difficulty": "basic",
+                    "technical_score": 84.3,
+                    "answer_depth": "basic",
+                    "score_category": "strong",
+                    "parameter_scores": {
+                        "accuracy": 90.0,
+                        "depth": 82.0,
+                        "logical_reasoning": 80.0,
+                        "real_world_applicability": 78.0
+                    },
+                    "strongest_parameter": {
+                        "parameter": "accuracy",
+                        "score": 90.0
+                    },
+                    "weakest_parameter": {
+                        "parameter": "real_world_applicability",
+                        "score": 78.0
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 84.30. The strongest parameter was accuracy (90.00), while the weakest parameter was real_world_applicability (78.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ]
+        },
+        "React": {
+            "skill_score": 85.3,
+            "category": "strong",
+            "question_count": 1,
+            "parameter_averages": {
+                "accuracy": 88.0,
+                "depth": 84.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 86.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 88.0
+            },
+            "weakest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 82.0
+            },
+            "question_details": [
+                {
+                    "question_number": 2,
+                    "question_id": "TECH_REACT_001",
+                    "question_text": "How have you used React components and state management in a project?",
+                    "skill": "React",
+                    "question_type": "experience_based",
+                    "difficulty": "intermediate",
+                    "technical_score": 85.3,
+                    "answer_depth": "deep",
+                    "score_category": "strong",
+                    "parameter_scores": {
+                        "accuracy": 88.0,
+                        "depth": 84.0,
+                        "logical_reasoning": 82.0,
+                        "real_world_applicability": 86.0
+                    },
+                    "strongest_parameter": {
+                        "parameter": "accuracy",
+                        "score": 88.0
+                    },
+                    "weakest_parameter": {
+                        "parameter": "logical_reasoning",
+                        "score": 82.0
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 85.30. The strongest parameter was accuracy (88.00), while the weakest parameter was logical_reasoning (82.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ]
+        },
+        "Node.js": {
+            "skill_score": 85.3,
+            "category": "strong",
+            "question_count": 1,
+            "parameter_averages": {
+                "accuracy": 90.0,
+                "depth": 84.0,
+                "logical_reasoning": 86.0,
+                "real_world_applicability": 80.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 90.0
+            },
+            "weakest_parameter": {
+                "parameter": "real_world_applicability",
+                "score": 80.0
+            },
+            "question_details": [
+                {
+                    "question_number": 3,
+                    "question_id": "TECH_NODE_001",
+                    "question_text": "How would you improve the performance of a Node.js API when the number of users increases?",
+                    "skill": "Node.js",
+                    "question_type": "scenario_based",
+                    "difficulty": "advanced",
+                    "technical_score": 85.3,
+                    "answer_depth": "deep",
+                    "score_category": "strong",
+                    "parameter_scores": {
+                        "accuracy": 90.0,
+                        "depth": 84.0,
+                        "logical_reasoning": 86.0,
+                        "real_world_applicability": 80.0
+                    },
+                    "strongest_parameter": {
+                        "parameter": "accuracy",
+                        "score": 90.0
+                    },
+                    "weakest_parameter": {
+                        "parameter": "real_world_applicability",
+                        "score": 80.0
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 85.30. The strongest parameter was accuracy (90.00), while the weakest parameter was real_world_applicability (80.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ]
+        },
+        "Express.js": {
+            "skill_score": 86.8,
+            "category": "strong",
+            "question_count": 1,
+            "parameter_averages": {
+                "accuracy": 91.0,
+                "depth": 85.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 84.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 91.0
+            },
+            "weakest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 82.0
+            },
+            "question_details": [
+                {
+                    "question_number": 4,
+                    "question_id": "TECH_EXPRESS_001",
+                    "question_text": "What is middleware in Express.js and why is it useful?",
+                    "skill": "Express.js",
+                    "question_type": "conceptual",
+                    "difficulty": "intermediate",
+                    "technical_score": 86.8,
+                    "answer_depth": "moderate",
+                    "score_category": "strong",
+                    "parameter_scores": {
+                        "accuracy": 91.0,
+                        "depth": 85.0,
+                        "logical_reasoning": 82.0,
+                        "real_world_applicability": 84.0
+                    },
+                    "strongest_parameter": {
+                        "parameter": "accuracy",
+                        "score": 91.0
+                    },
+                    "weakest_parameter": {
+                        "parameter": "logical_reasoning",
+                        "score": 82.0
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 86.80. The strongest parameter was accuracy (91.00), while the weakest parameter was logical_reasoning (82.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ]
+        },
+        "MongoDB": {
+            "skill_score": 85.65,
+            "category": "strong",
+            "question_count": 1,
+            "parameter_averages": {
+                "accuracy": 87.0,
+                "depth": 82.0,
+                "logical_reasoning": 88.0,
+                "real_world_applicability": 85.0
+            },
+            "strongest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 88.0
+            },
+            "weakest_parameter": {
+                "parameter": "depth",
+                "score": 82.0
+            },
+            "question_details": [
+                {
+                    "question_number": 5,
+                    "question_id": "TECH_MONGO_001",
+                    "question_text": "A MongoDB query is becoming slow as the collection grows. How would you investigate and improve it?",
+                    "skill": "MongoDB",
+                    "question_type": "scenario_based",
+                    "difficulty": "intermediate",
+                    "technical_score": 85.65,
+                    "answer_depth": "deep",
+                    "score_category": "strong",
+                    "parameter_scores": {
+                        "accuracy": 87.0,
+                        "depth": 82.0,
+                        "logical_reasoning": 88.0,
+                        "real_world_applicability": 85.0
+                    },
+                    "strongest_parameter": {
+                        "parameter": "logical_reasoning",
+                        "score": 88.0
+                    },
+                    "weakest_parameter": {
+                        "parameter": "depth",
+                        "score": 82.0
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 85.65. The strongest parameter was logical_reasoning (88.00), while the weakest parameter was depth (82.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ]
+        }
+    },
+    "parameter_wise_summary": {
+        "accuracy": 89.2,
+        "depth": 83.4,
+        "logical_reasoning": 83.6,
+        "real_world_applicability": 82.6
+    },
+    "question_wise_evaluation": [
+        {
+            "question_number": 1,
+            "question_id": "TECH_JS_001",
+            "question_text": "What is the difference between let, const and var in JavaScript?",
+            "skill": "JavaScript",
+            "question_type": "conceptual",
+            "difficulty": "basic",
+            "technical_score": 84.3,
+            "answer_depth": "basic",
+            "score_category": "strong",
+            "parameter_scores": {
+                "accuracy": 90.0,
+                "depth": 82.0,
+                "logical_reasoning": 80.0,
+                "real_world_applicability": 78.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 90.0
+            },
+            "weakest_parameter": {
+                "parameter": "real_world_applicability",
+                "score": 78.0
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 84.30. The strongest parameter was accuracy (90.00), while the weakest parameter was real_world_applicability (78.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "question_number": 2,
+            "question_id": "TECH_REACT_001",
+            "question_text": "How have you used React components and state management in a project?",
+            "skill": "React",
+            "question_type": "experience_based",
+            "difficulty": "intermediate",
+            "technical_score": 85.3,
+            "answer_depth": "deep",
+            "score_category": "strong",
+            "parameter_scores": {
+                "accuracy": 88.0,
+                "depth": 84.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 86.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 88.0
+            },
+            "weakest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 82.0
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 85.30. The strongest parameter was accuracy (88.00), while the weakest parameter was logical_reasoning (82.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "question_number": 3,
+            "question_id": "TECH_NODE_001",
+            "question_text": "How would you improve the performance of a Node.js API when the number of users increases?",
+            "skill": "Node.js",
+            "question_type": "scenario_based",
+            "difficulty": "advanced",
+            "technical_score": 85.3,
+            "answer_depth": "deep",
+            "score_category": "strong",
+            "parameter_scores": {
+                "accuracy": 90.0,
+                "depth": 84.0,
+                "logical_reasoning": 86.0,
+                "real_world_applicability": 80.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 90.0
+            },
+            "weakest_parameter": {
+                "parameter": "real_world_applicability",
+                "score": 80.0
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 85.30. The strongest parameter was accuracy (90.00), while the weakest parameter was real_world_applicability (80.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "question_number": 4,
+            "question_id": "TECH_EXPRESS_001",
+            "question_text": "What is middleware in Express.js and why is it useful?",
+            "skill": "Express.js",
+            "question_type": "conceptual",
+            "difficulty": "intermediate",
+            "technical_score": 86.8,
+            "answer_depth": "moderate",
+            "score_category": "strong",
+            "parameter_scores": {
+                "accuracy": 91.0,
+                "depth": 85.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 84.0
+            },
+            "strongest_parameter": {
+                "parameter": "accuracy",
+                "score": 91.0
+            },
+            "weakest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 82.0
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 86.80. The strongest parameter was accuracy (91.00), while the weakest parameter was logical_reasoning (82.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "question_number": 5,
+            "question_id": "TECH_MONGO_001",
+            "question_text": "A MongoDB query is becoming slow as the collection grows. How would you investigate and improve it?",
+            "skill": "MongoDB",
+            "question_type": "scenario_based",
+            "difficulty": "intermediate",
+            "technical_score": 85.65,
+            "answer_depth": "deep",
+            "score_category": "strong",
+            "parameter_scores": {
+                "accuracy": 87.0,
+                "depth": 82.0,
+                "logical_reasoning": 88.0,
+                "real_world_applicability": 85.0
+            },
+            "strongest_parameter": {
+                "parameter": "logical_reasoning",
+                "score": 88.0
+            },
+            "weakest_parameter": {
+                "parameter": "depth",
+                "score": 82.0
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 85.65. The strongest parameter was logical_reasoning (88.00), while the weakest parameter was depth (82.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        }
+    ],
+    "final_evaluation": {
+        "overall_technical_score": 85.47,
+        "overall_score_category": "strong",
+        "strong_skills": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ],
+        "skills_needing_improvement": [],
+        "evaluation_basis": [
+            "Accuracy of answer",
+            "Depth of explanation",
+            "Logical reasoning",
+            "Real-world applicability"
+        ],
+        "strengths": [
+            "JavaScript demonstrates strong technical performance (84.3/100).",
+            "React demonstrates strong technical performance (85.3/100).",
+            "Node.js demonstrates strong technical performance (85.3/100).",
+            "Express.js demonstrates strong technical performance (86.8/100).",
+            "MongoDB demonstrates strong technical performance (85.65/100).",
+            "Accuracy is the strongest overall parameter with an average score of 89.2/100."
+        ],
+        "areas_for_improvement": [
+            "Real World Applicability is the lowest overall parameter with an average score of 82.6/100."
+        ]
+    },
+    "explainability": {
+        "scoring_method": "Each skill score is the average of the normalized technical scores of questions belonging to that skill. The overall technical skill score is the average of the skill scores.",
+        "parameter_summary": {
+            "accuracy": 89.2,
+            "depth": 83.4,
+            "logical_reasoning": 83.6,
+            "real_world_applicability": 82.6
+        },
+        "interpretation": "The candidate achieved an overall technical score of 85.47/100. The evaluation category is 'strong'.",
+        "data_note": "This evaluation is generated from DEMO / SAMPLE technical interview data for system demonstration and validation. It is not a real candidate interview."
+    }
+}

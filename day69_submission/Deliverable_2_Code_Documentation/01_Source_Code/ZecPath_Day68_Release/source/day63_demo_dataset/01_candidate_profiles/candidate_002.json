@@ -1,0 +1,28 @@
+{
+  "candidate_id": "CAND002",
+  "candidate_name": "Rahul Menon",
+  "job_id": "JD002",
+  "target_role": "Python Developer",
+  "experience_years": 2,
+  "education": "BCA",
+  "skills": [
+    "Python",
+    "Django",
+    "SQL",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git"
+  ],
+  "resume_file": "candidate_002_resume.pdf",
+  "resume_quality": "average",
+  "candidate_type": "experienced",
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

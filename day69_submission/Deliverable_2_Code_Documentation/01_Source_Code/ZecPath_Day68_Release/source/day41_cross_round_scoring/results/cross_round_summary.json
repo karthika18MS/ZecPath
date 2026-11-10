@@ -1,0 +1,108 @@
+[
+    {
+        "candidate_id": "candidate_006",
+        "status": "Complete",
+        "round_scores": {
+            "ats": 90.1,
+            "hr": 91.47,
+            "aptitude": 88.33
+        },
+        "weights": {
+            "ats": 0.3,
+            "hr": 0.3,
+            "aptitude": 0.4
+        },
+        "cross_round_score": 89.8
+    },
+    {
+        "candidate_id": "candidate_007",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "HR",
+            "Aptitude"
+        ],
+        "round_scores": {
+            "ats": 89.33,
+            "hr": null,
+            "aptitude": null
+        }
+    },
+    {
+        "candidate_id": "candidate_008",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "HR",
+            "Aptitude"
+        ],
+        "round_scores": {
+            "ats": 92.54,
+            "hr": null,
+            "aptitude": null
+        }
+    },
+    {
+        "candidate_id": "candidate_009",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "HR",
+            "Aptitude"
+        ],
+        "round_scores": {
+            "ats": 91.92,
+            "hr": null,
+            "aptitude": null
+        }
+    },
+    {
+        "candidate_id": "candidate_010",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "HR",
+            "Aptitude"
+        ],
+        "round_scores": {
+            "ats": 93.27,
+            "hr": null,
+            "aptitude": null
+        }
+    },
+    {
+        "candidate_id": "candidate_011",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "HR",
+            "Aptitude"
+        ],
+        "round_scores": {
+            "ats": 91.56,
+            "hr": null,
+            "aptitude": null
+        }
+    },
+    {
+        "candidate_id": "candidate_012",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "HR",
+            "Aptitude"
+        ],
+        "round_scores": {
+            "ats": 94.29,
+            "hr": null,
+            "aptitude": null
+        }
+    },
+    {
+        "candidate_id": "candidate_013",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "HR",
+            "Aptitude"
+        ],
+        "round_scores": {
+            "ats": 37.9,
+            "hr": null,
+            "aptitude": null
+        }
+    }
+]

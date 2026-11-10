@@ -1,0 +1,58 @@
+==========================================================================================
+ZECPath - RECRUITER BATCH SUMMARY
+==========================================================================================
+
+Generated at: 2026-11-08T07:04:49.546758+00:00
+Dataset type: DEMO_DATASET
+
+BATCH OVERVIEW
+------------------------------------------------------------------------------------------
+Reports loaded: 10
+Failed reports: 0
+Candidates with scores: 9
+Candidates without scores: 1
+Average unified score: 76.16
+Highest unified score: 84.99
+Lowest unified score: 63.45
+
+FINAL DECISION COUNTS
+------------------------------------------------------------------------------------------
+ELIGIBLE_FOR_NEXT_STAGE: 3
+MANUAL_REVIEW: 2
+NOT_ELIGIBLE: 3
+BLOCKED_PENDING_ATS: 2
+
+SCORING STATUS COUNTS
+------------------------------------------------------------------------------------------
+COMPLETED: 8
+INCOMPLETE: 1
+NO_SCORES_AVAILABLE: 1
+
+CANDIDATE OVERVIEW
+------------------------------------------------------------------------------------------
+Candidate     Job      Score        Coverage     Decision
+------------------------------------------------------------------------------------------
+CAND001       JD001    83.08        100.00       ELIGIBLE_FOR_NEXT_STAGE
+CAND002       JD002    80.82        100.00       MANUAL_REVIEW
+CAND003       JD001    64.74        100.00       NOT_ELIGIBLE
+CAND004       JD003    70.91        100.00       NOT_ELIGIBLE
+CAND005       JD003    84.99        100.00       ELIGIBLE_FOR_NEXT_STAGE
+CAND006       JD002    82.07        100.00       MANUAL_REVIEW
+CAND007       JD001    74.72        85.00        BLOCKED_PENDING_ATS
+    Missing assessments: ats
+CAND008       JD002    63.45        100.00       NOT_ELIGIBLE
+CAND009       JD001    80.67        100.00       ELIGIBLE_FOR_NEXT_STAGE
+CAND010       JD003    N/A          0.00         BLOCKED_PENDING_ATS
+    Missing assessments: ats, hr, aptitude, technical, machine_test
+
+REPORT LOADING ERRORS
+------------------------------------------------------------------------------------------
+No report loading errors.
+
+IMPORTANT NOTICE
+------------------------------------------------------------------------------------------
+This is a demo dataset. Some assessment results are simulated and some assessment provenance is unknown. This summary is not suitable for real hiring decisions.
+
+==========================================================================================
+END OF BATCH SUMMARY
+==========================================================================================

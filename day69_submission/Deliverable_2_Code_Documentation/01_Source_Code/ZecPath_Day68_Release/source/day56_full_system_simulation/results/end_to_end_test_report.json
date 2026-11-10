@@ -1,0 +1,310 @@
+{
+    "report_title": "ZecPath Day 56 - End-to-End AI Test Report",
+    "candidate_id": "candidate_006",
+    "target_role": "Backend Developer",
+    "generated_at_utc": "2026-10-13T09:31:55.025783+00:00",
+    "overall_status": "PASS_WITH_DEMO_DATA",
+    "test_scope": "Candidate-specific pipeline execution, output validation, and demonstration assessment scoring",
+    "full_pipeline_execution_attempted": true,
+    "human_vs_ai_comparison_performed": false,
+    "demo_data_used": true,
+    "input_validation": [
+        {
+            "check": "Candidate resume",
+            "path": "day17_testing\\resumes\\candidate_006.docx",
+            "status": "PASS",
+            "details": "Resume exists."
+        },
+        {
+            "check": "Job description",
+            "path": "day17_testing\\job_descriptions\\backend_developer.txt",
+            "status": "PASS",
+            "details": "Job description exists."
+        }
+    ],
+    "execution_results": [
+        {
+            "stage": "Resume extraction and input validation",
+            "command": "C:\\Python313\\python.exe -m day17_testing.run_day17_test candidate_006 Backend Developer",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.4033,
+            "demo_data_used": false,
+            "stdout": "\n==============================================\n       ZecPath DAY 17 INPUT VALIDATION\n==============================================\n\nCandidate ID     : candidate_006\nResume           : day17_testing\\resumes\\candidate_006.docx\nTarget Role      : Backend Developer\nJob Description  : day17_testing\\job_descriptions\\backend_developer.txt\n\n----------------------------------------------\nSTEP 1: RESUME EXTRACTION\n----------------------------------------------\n\nResume extraction successful.\n\n----------------------------------------------\nSTEP 2: JOB DESCRIPTION\n----------------------------------------------\n\nJob description loaded successfully.\n\n==============================================\n       DAY 17 INPUT VALIDATION RESULT\n==============================================\n\nCandidate: candidate_006\nTarget Role: Backend Developer\nResume extraction: SUCCESS\nJob description loading: SUCCESS\n\nFiles saved in:\nday17_testing\\results\\candidate_006\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Skill matching",
+            "command": "C:\\Python313\\python.exe -m day17_testing.day17_skill_matching candidate_006 Backend Developer",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.0883,
+            "demo_data_used": false,
+            "stdout": "\n==============================================\n       ZecPath DAY 17 SKILL MATCHING\n==============================================\n\nCandidate ID : candidate_006\nTarget Role  : Backend Developer\n\nSkill Match Score: 84.62%\nStatus: Excellent Skill Match\n\n----------------------------------------------\nREQUIRED SKILLS\n----------------------------------------------\n• postgresql\n• rest api\n• fastapi\n• mongodb\n• python\n• django\n• docker\n• linux\n• redis\n• ci/cd\n• sql\n• git\n• aws\n\n----------------------------------------------\nMATCHED SKILLS\n----------------------------------------------\n[MATCHED] postgresql\n[MATCHED] rest api\n[MATCHED] fastapi\n[MATCHED] mongodb\n[MATCHED] python\n[MATCHED] django\n[MATCHED] docker\n[MATCHED] linux\n[MATCHED] redis\n[MATCHED] git\n[MATCHED] aws\n\n----------------------------------------------\nMISSING SKILLS\n----------------------------------------------\n[MISSING] ci/cd\n[MISSING] sql\n\nSkill matching report saved to:\nday17_testing\\results\\candidate_006\\day17_skill_match.json\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Optimized semantic matching batch",
+            "command": "C:\\Python313\\python.exe -m day17_testing.day17_semantic_batch candidate_006 Backend Developer",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 25.7279,
+            "demo_data_used": false,
+            "stdout": "=================================================================\nZecPath Day 57 - Optimized Batch Semantic Matching\nCandidates configured: 8\n=================================================================\n\nPreparing: candidate_006 - Backend Developer\n\nPreparing: candidate_007 - HR Executive\n\nPreparing: candidate_008 - Marketing Executive\n\nPreparing: candidate_009 - Fresher Python Developer\n\nPreparing: candidate_010 - Fresher Data Analyst\n\nPreparing: candidate_011 - Senior Python Developer\n\nPreparing: candidate_012 - Senior Backend Developer\n\nPreparing: candidate_013 - Python Developer\n\nLoading model: all-MiniLM-L6-v2\nModel load time: 9.51 seconds\n\nCandidate: candidate_006\nSemantic score: 0.8193\nSemantic percentage: 81.93%\nStatus: Very Strong Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_006\\day17_semantic_similarity.json\nProcessing time: 0.13 seconds\n\nCandidate: candidate_007\nSemantic score: 0.8532\nSemantic percentage: 85.32%\nStatus: Very Strong Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_007\\day17_semantic_similarity.json\nProcessing time: 0.08 seconds\n\nCandidate: candidate_008\nSemantic score: 0.8290\nSemantic percentage: 82.90%\nStatus: Very Strong Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_008\\day17_semantic_similarity.json\nProcessing time: 0.09 seconds\n\nCandidate: candidate_009\nSemantic score: 0.8517\nSemantic percentage: 85.17%\nStatus: Very Strong Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_009\\day17_semantic_similarity.json\nProcessing time: 0.08 seconds\n\nCandidate: candidate_010\nSemantic score: 0.7308\nSemantic percentage: 73.08%\nStatus: Strong Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_010\\day17_semantic_similarity.json\nProcessing time: 0.08 seconds\n\nCandidate: candidate_011\nSemantic score: 0.8491\nSemantic percentage: 84.91%\nStatus: Very Strong Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_011\\day17_semantic_similarity.json\nProcessing time: 0.10 seconds\n\nCandidate: candidate_012\nSemantic score: 0.8648\nSemantic percentage: 86.48%\nStatus: Very Strong Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_012\\day17_semantic_similarity.json\nProcessing time: 0.10 seconds\n\nCandidate: candidate_013\nSemantic score: 0.2159\nSemantic percentage: 21.59%\nStatus: Low Semantic Match\nSaved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day17_testing\\results\\candidate_013\\day17_semantic_similarity.json\nProcessing time: 0.09 seconds\n\n=================================================================\nBATCH SUMMARY\nConfigured: 8\nPrepared: 8\nSuccessful: 8\nFailed: 0\nModel load time: 9.51 seconds\nTotal elapsed: 13.59 seconds\n=================================================================\n",
+            "stderr": "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n\nLoading weights:   0%|          | 0/103 [00:00<?, ?it/s]\nLoading weights: 100%|██████████| 103/103 [00:00<00:00, 3545.68it/s]\n"
+        },
+        {
+            "stage": "Experience matching",
+            "command": "C:\\Python313\\python.exe -m day17_testing.day17_experience candidate_006 Backend Developer",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.0993,
+            "demo_data_used": false,
+            "stdout": "\n==============================================\n       ZecPath DAY 17 EXPERIENCE MATCHING\n==============================================\n\nCandidate ID: candidate_006\nTarget Role : Backend Developer\n\nCandidate Experience:\n3.00 years\n\nJob Description Requirement:\n1-4 years\n\nExperience Relevance Score: 100.00%\nExperience Status: Experience Fully Meets Requirement\n\nExperience matching result saved to:\nday17_testing\\results\\candidate_006\\day17_experience_match.json\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Education matching",
+            "command": "C:\\Python313\\python.exe -m day17_testing.day17_education candidate_006 Backend Developer",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.0914,
+            "demo_data_used": false,
+            "stdout": "\n==============================================\n       ZecPath DAY 17 EDUCATION MATCHING\n==============================================\n\nCandidate ID: candidate_006\nTarget Role : Backend Developer\n\nCandidate Degrees:\n• mca\n\nCandidate Education Fields:\n• computer science\n• computer applications\n\nJob Description Education Requirements:\n\nDegrees:\nNo specific degree detected.\n\nEducation Fields:\n• computer science\n• computer applications\n• information technology\n• engineering\n\nEducation Alignment Score: 100.00%\nEducation Status: Education Field Requirement Met\n\nEducation matching result saved to:\nday17_testing\\results\\candidate_006\\day17_education_match.json\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Final ATS scoring",
+            "command": "C:\\Python313\\python.exe -m day17_testing.day17_final_scoring candidate_006 Backend Developer",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.0893,
+            "demo_data_used": false,
+            "stdout": "\n==============================================\n       ZecPath DAY 17 FINAL ATS SCORING\n==============================================\n\nCandidate ID: candidate_006\nTarget Role : Backend Developer\n\n----------------------------------------------\nATS COMPONENT SCORES\n----------------------------------------------\nSkill Matching         : 84.62%\nExperience Relevance   : 100.00%\nEducation Alignment    : 100.00%\nSemantic Similarity    : 81.93%\n\n----------------------------------------------\nWEIGHTS\n----------------------------------------------\nSkill Matching         : 35%\nExperience Relevance   : 25%\nEducation Alignment    : 15%\nSemantic Similarity    : 25%\n\n----------------------------------------------\nWEIGHTED CONTRIBUTIONS\n----------------------------------------------\nSkill Contribution       : 29.62\nExperience Contribution  : 25.00\nEducation Contribution   : 15.00\nSemantic Contribution    : 20.48\n\n==============================================\nFINAL ATS SCORE: 90.10%\n==============================================\n\nMatching Status: Excellent Match\nShortlisting Status: Shortlisted\nRecommendation: Recommended for Interview\n\nFinal ATS result saved to:\nday17_testing\\results\\candidate_006\\day17_final_ats_score.json\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Day 18 optimized ATS batch",
+            "command": "C:\\Python313\\python.exe -m day18_optimization.day18_batch_runner",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 25.9294,
+            "demo_data_used": false,
+            "stdout": "############################################\n\nCandidate : candidate_013\nRole      : Python Developer\nJD        : python_developer.txt\n\n======================================================================\n       ZecPath DAY 18 OPTIMIZED ATS ENGINE\n======================================================================\n\nCandidate ID : candidate_013\nTarget Role  : Python Developer\n\n--------------------------------------------------\nSTEP 1: OPTIMIZED TEXT EXTRACTION\n--------------------------------------------------\nExtraction Time: 0.004243 seconds\nCharacters: 581\nWords: 76\n\n--------------------------------------------------\nSTEP 2: NOISY TEXT CLEANING\n--------------------------------------------------\nCleaning Time: 0.000399 seconds\n\n--------------------------------------------------\nSTEP 3: ENTITY DETECTION\n--------------------------------------------------\nEntity Detection Time: 0.005673 seconds\nDetected Resume Skills: 0\nDetected JD Skills: 16\n\n--------------------------------------------------\nSTEP 4: SKILL MATCHING\n--------------------------------------------------\n\nSkill Match Score: 0.00%\n\nRequired Skills:\n• aws\n• django\n• docker\n• fastapi\n• git\n• linux\n• mongodb\n• postgresql\n• pytest\n• python\n• rest api\n• sql\n\nMatched Skills:\nNo matching skills.\n\nMissing Skills:\n[MISSING] aws\n[MISSING] django\n[MISSING] docker\n[MISSING] fastapi\n[MISSING] git\n[MISSING] linux\n[MISSING] mongodb\n[MISSING] postgresql\n[MISSING] pytest\n[MISSING] python\n[MISSING] rest api\n[MISSING] sql\n\n--------------------------------------------------\nSTEP 5: EXPERIENCE MATCHING\n--------------------------------------------------\nExperience Score: 100.00%\nStatus: Experience Meets Requirement\n\n--------------------------------------------------\nSTEP 6: EDUCATION MATCHING\n--------------------------------------------------\nEducation Score: 50.00%\nStatus: Education Partially Aligned\n\n--------------------------------------------------\nSTEP 7: SEMANTIC MATCHING\n--------------------------------------------------\nSemantic Score: 21.59%\nSemantic Time: 0.086451 seconds\n\n--------------------------------------------------\nSTEP 8: FINAL ATS SCORE\n--------------------------------------------------\n\nATS COMPONENT SCORES\nSkill Matching         : 0.00%\nExperience Relevance   : 100.00%\nEducation Alignment    : 50.00%\nSemantic Similarity    : 21.59%\n\nWEIGHTS\nSkill Matching         : 35%\nExperience Relevance   : 25%\nEducation Alignment    : 15%\nSemantic Similarity    : 25%\n\nWEIGHTED CONTRIBUTIONS\nSkill Contribution       : 0.00\nExperience Contribution  : 25.00\nEducation Contribution   : 7.50\nSemantic Contribution    : 5.40\n\nFINAL ATS SCORE: 37.90%\nMatching Status: Low Match\nShortlisting Status: Not Shortlisted\nRecommendation: Not Recommended\n\nPERFORMANCE\nExtraction Time        : 0.004243 sec\nCleaning Time          : 0.000399 sec\nEntity Detection       : 0.005673 sec\nSkill Matching         : 0.084606 sec\nSemantic Processing    : 0.086451 sec\nTotal Pipeline Time    : 0.187272 sec\nModel Access Time       : 0.000002 sec\nOutput Save Time        : 0.002342 sec\nUnaccounted Pipeline    : 0.005899 sec\n\nOptimized ATS result saved to:\nC:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_013\\day18_optimized_ats_score.json\n\nEntity result saved to:\nC:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\candidate_013\\day18_entities.json\n\n----------------------------------------------------------------------\nBATCH RESULT\n----------------------------------------------------------------------\nSkill Matching       : 0.00%\nExperience           : 100.00%\nEducation            : 50.00%\nSemantic Similarity  : 21.59%\nFinal ATS            : 37.90%\nCandidate Time       : 0.395654 sec\n\n======================================================================\n       ZecPath DAY 18 BATCH SUMMARY\n======================================================================\n\nModel                    : all-MiniLM-L6-v2\nModel Loaded Once        : YES\nCandidates Processed     : 8\nSuccessful               : 8\nFailed                   : 0\n\nPERFORMANCE\nInitial Model Load       : 10.419992 sec\nTotal Batch Time         : 3.166582 sec\nAverage Candidate Time  : 0.395739 sec\nAverage Semantic Time   : 0.076375 sec\nFastest Candidate       : 0.355738 sec\nSlowest Candidate       : 0.527571 sec\n\nFINAL ATS RESULTS\n\ncandidate_006 | Skill: 84.62% | Semantic: 81.93% | Final: 90.10%\ncandidate_007 | Skill: 80.00% | Semantic: 85.32% | Final: 89.33%\ncandidate_008 | Skill: 90.91% | Semantic: 82.90% | Final: 92.54%\ncandidate_009 | Skill: 87.50% | Semantic: 85.17% | Final: 91.92%\ncandidate_010 | Skill: 100.00% | Semantic: 73.08% | Final: 93.27%\ncandidate_011 | Skill: 86.67% | Semantic: 84.91% | Final: 91.56%\ncandidate_012 | Skill: 93.33% | Semantic: 86.48% | Final: 94.29%\ncandidate_013 | Skill: 0.00% | Semantic: 21.59% | Final: 37.90%\n\nBatch summary saved to:\nC:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results\\day18_batch_summary.json\n\nMODEL REUSE TEST COMPLETED SUCCESSFULLY.\n\n",
+            "stderr": "Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n\nLoading weights:   0%|          | 0/103 [00:00<?, ?it/s]\nLoading weights: 100%|██████████| 103/103 [00:00<00:00, 4566.30it/s]\n"
+        },
+        {
+            "stage": "Day 21 eligibility engine",
+            "command": "C:\\Python313\\python.exe -m eligibility_engine.run_eligibility",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.2341,
+            "demo_data_used": false,
+            "stdout": "idate ID : candidate_007\nTarget Role  : HR Executive\nRule Source  : role: hr_executive\nATS Score    : 89.33\nEligibility  : Eligible\nReason       : Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.\nFailed Rules : None\nResult saved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\candidate_007\\eligibility_result.json\n\n--------------------------------------------------------------------------------\nProcessing: candidate_008\nCandidate ID : candidate_008\nTarget Role  : Marketing Executive\nRule Source  : role: marketing_executive\nATS Score    : 92.54\nEligibility  : Eligible\nReason       : Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.\nFailed Rules : None\nResult saved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\candidate_008\\eligibility_result.json\n\n--------------------------------------------------------------------------------\nProcessing: candidate_009\nCandidate ID : candidate_009\nTarget Role  : Fresher Python Developer\nRule Source  : role: fresher_python_developer\nATS Score    : 91.92\nEligibility  : Eligible\nReason       : Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.\nFailed Rules : None\nResult saved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\candidate_009\\eligibility_result.json\n\n--------------------------------------------------------------------------------\nProcessing: candidate_010\nCandidate ID : candidate_010\nTarget Role  : Fresher Data Analyst\nRule Source  : role: fresher_data_analyst\nATS Score    : 93.27\nEligibility  : Eligible\nReason       : Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.\nFailed Rules : None\nResult saved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\candidate_010\\eligibility_result.json\n\n--------------------------------------------------------------------------------\nProcessing: candidate_011\nCandidate ID : candidate_011\nTarget Role  : Senior Python Developer\nRule Source  : role: senior_python_developer\nATS Score    : 91.56\nEligibility  : Eligible\nReason       : Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.\nFailed Rules : None\nResult saved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\candidate_011\\eligibility_result.json\n\n--------------------------------------------------------------------------------\nProcessing: candidate_012\nCandidate ID : candidate_012\nTarget Role  : Senior Backend Developer\nRule Source  : role: senior_backend_developer\nATS Score    : 94.29\nEligibility  : Eligible\nReason       : Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.\nFailed Rules : None\nResult saved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\candidate_012\\eligibility_result.json\n\n--------------------------------------------------------------------------------\nProcessing: candidate_013\nCandidate ID : candidate_013\nTarget Role  : Python Developer\nRule Source  : role: python_developer\nATS Score    : 37.90\nEligibility  : Rejected\nReason       : ATS score is below the review cutoff. Mandatory skill requirements are not met.\nFailed Rules : ats_score, mandatory_skills\nResult saved: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\candidate_013\\eligibility_result.json\n\n\n================================================================================\n             DAY 21 ELIGIBILITY SUMMARY\n================================================================================\n\nCandidate         Role                          ATS       Decision    \n--------------------------------------------------------------------------------\ncandidate_006     Backend Developer             90.10     Eligible    \ncandidate_007     HR Executive                  89.33     Eligible    \ncandidate_008     Marketing Executive           92.54     Eligible    \ncandidate_009     Fresher Python Developer      91.92     Eligible    \ncandidate_010     Fresher Data Analyst          93.27     Eligible    \ncandidate_011     Senior Python Developer       91.56     Eligible    \ncandidate_012     Senior Backend Developer      94.29     Eligible    \ncandidate_013     Python Developer              37.90     Rejected    \n--------------------------------------------------------------------------------\nTotal Candidates : 8\nSuccessful       : 8\nFailed           : 0\nEligible         : 7\nReview           : 0\nRejected         : 1\n\nSummary saved to:\nC:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\results\\day21_eligibility_summary.json\n\n================================================================================\nDay 21 eligibility evaluation completed.\n================================================================================\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Day 37 HR interview scoring - demonstration data",
+            "command": "C:\\Python313\\python.exe -m day37_hr_interview_scoring.hr_interview_scoring_engine",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.0966,
+            "demo_data_used": true,
+            "stdout": "DAY 37 — HR INTERVIEW SCORING ENGINE\n=======================================================\nCandidate: candidate_006\nJob ID: JOB_BACKEND_001\nTotal Questions: 4\n\nScoring Weights:\nAnswer Relevance: 30.0%\nCommunication: 25.0%\nConfidence: 20.0%\nConsistency: 25.0%\n\nParameter Averages:\nAnswer Relevance: 93.75\nCommunication: 89.62\nConfidence: 81.25\nConsistency: 98.75\n\nQuestion Scores:\nHR_SELF_001 → 88.94/100\nHR_TEAM_001 → 92.44/100\nHR_GOALS_001 → 89.0/100\nHR_AVAILABILITY_001 → 95.5/100\n\nFinal HR Interview Score: 91.47/100\nSaved Result: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day37_hr_interview_scoring\\results\\hr_interview_score.json\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Day 38 logical reasoning - demonstration data",
+            "command": "C:\\Python313\\python.exe C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day38_aptitude_logic\\logical_reasoning_scorer.py",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.0989,
+            "demo_data_used": true,
+            "stdout": "DAY 38 — LOGICAL REASONING SCORING\n-----------------------------------\nCandidate: candidate_006\nQuestion ID: APT_LOGIC_003\nDifficulty: medium\n\nParameter Scores:\nProblem Understanding: 90\nReasoning: 85\nDecision Quality: 85\nExplanation Clarity: 90\nConclusion: 85\n\nWeighted Contributions:\nProblem Understanding: 18.0\nReasoning: 25.5\nDecision Quality: 17.0\nExplanation Clarity: 13.5\nConclusion: 12.75\n\nLogical Reasoning Score: 86.75/100\n\nSaved Result: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day38_aptitude_logic\\results\\logical_reasoning_results.json\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Day 38 scenario evaluation - demonstration data",
+            "command": "C:\\Python313\\python.exe C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day38_aptitude_logic\\scenario_evaluation.py",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.0828,
+            "demo_data_used": true,
+            "stdout": "DAY 38 — SCENARIO EVALUATION FRAMEWORK\n---------------------------------------\nCandidate: candidate_006\nScenario ID: APT_SCENARIO_003\nResponse Status: valid\n\nParameter Scores:\nSituation Understanding: 90\nProblem Identification: 90\nDecision Making: 88\nProblem Solving: 92\nCommunication Clarity: 90\nOutcome Awareness: 88\n\nWeighted Contributions:\nSituation Understanding: 13.5\nProblem Identification: 13.5\nDecision Making: 17.6\nProblem Solving: 23.0\nCommunication Clarity: 13.5\nOutcome Awareness: 8.8\n\nScenario Evaluation Score: 89.9/100\nEvaluation Level: strong\n\nSaved Result: C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day38_aptitude_logic\\results\\scenario_evaluation_results.json\n",
+            "stderr": ""
+        },
+        {
+            "stage": "Day 41 cross-round scoring",
+            "command": "C:\\Python313\\python.exe -m day41_cross_round_scoring.run_cross_round",
+            "execution_status": "PASS",
+            "return_code": 0,
+            "execution_time_seconds": 0.1044,
+            "demo_data_used": false,
+            "stdout": "===========================================================================\n       ZecPath DAY 41 - CROSS-ROUND SCORING SYSTEM\n===========================================================================\n\nRound weights:\nATS        : 30%\nHR         : 30%\nAptitude   : 40%\n\nLoading real round results...\n\nATS candidates found       : 8\nHR candidates found        : 1\nAptitude candidates found : 1\n\nTotal unique candidates   : 8\n\n---------------------------------------------------------------------------\nProcessing: candidate_006\nATS       : 90.10\nHR        : 91.47\nAptitude  : 88.33\nFinal Score: 89.80\n---------------------------------------------------------------------------\nProcessing: candidate_007\nStatus : Incomplete\nMissing: HR, Aptitude\n---------------------------------------------------------------------------\nProcessing: candidate_008\nStatus : Incomplete\nMissing: HR, Aptitude\n---------------------------------------------------------------------------\nProcessing: candidate_009\nStatus : Incomplete\nMissing: HR, Aptitude\n---------------------------------------------------------------------------\nProcessing: candidate_010\nStatus : Incomplete\nMissing: HR, Aptitude\n---------------------------------------------------------------------------\nProcessing: candidate_011\nStatus : Incomplete\nMissing: HR, Aptitude\n---------------------------------------------------------------------------\nProcessing: candidate_012\nStatus : Incomplete\nMissing: HR, Aptitude\n---------------------------------------------------------------------------\nProcessing: candidate_013\nStatus : Incomplete\nMissing: HR, Aptitude\n\n===========================================================================\nCross-round scoring completed.\n\nComplete candidates   : 1\nIncomplete candidates : 7\n\nSummary saved to:\nC:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day41_cross_round_scoring\\results\\cross_round_summary.json\n===========================================================================\n",
+            "stderr": ""
+        }
+    ],
+    "output_validation": [
+        {
+            "check": "Day 17 semantic matching output",
+            "path": "day17_testing\\results\\candidate_006\\day17_semantic_similarity.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        },
+        {
+            "check": "Day 17 final ATS output",
+            "path": "day17_testing\\results\\candidate_006\\day17_final_ats_score.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        },
+        {
+            "check": "Day 18 optimized ATS output",
+            "path": "day18_optimization\\results\\candidate_006\\day18_optimized_ats_score.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        },
+        {
+            "check": "Eligibility output",
+            "path": "eligibility_engine\\results\\candidate_006\\eligibility_result.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        },
+        {
+            "check": "HR interview output",
+            "path": "day37_hr_interview_scoring\\results\\hr_interview_score.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        },
+        {
+            "check": "Logical reasoning output",
+            "path": "day38_aptitude_logic\\results\\logical_reasoning_results.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        },
+        {
+            "check": "Scenario evaluation output",
+            "path": "day38_aptitude_logic\\results\\scenario_evaluation_results.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        },
+        {
+            "check": "Cross-round output",
+            "path": "day41_cross_round_scoring\\results\\candidate_006\\cross_round_score.json",
+            "status": "PASS",
+            "details": "JSON file exists and is readable."
+        }
+    ],
+    "score_validation": [
+        {
+            "check": "Day 17 semantic similarity score",
+            "path": "day17_testing\\results\\candidate_006\\day17_semantic_similarity.json",
+            "status": "PASS",
+            "details": "Numeric score verified: 0.82",
+            "score": 0.82
+        },
+        {
+            "check": "Day 17 final ATS score",
+            "path": "day17_testing\\results\\candidate_006\\day17_final_ats_score.json",
+            "status": "PASS",
+            "details": "Numeric score verified: 90.1",
+            "score": 90.1
+        },
+        {
+            "check": "Day 18 optimized ATS score",
+            "path": "day18_optimization\\results\\candidate_006\\day18_optimized_ats_score.json",
+            "status": "PASS",
+            "details": "Numeric score verified: 90.1",
+            "score": 90.1
+        },
+        {
+            "check": "HR interview score",
+            "path": "day37_hr_interview_scoring\\results\\hr_interview_score.json",
+            "status": "PASS",
+            "details": "Numeric score verified: 91.47",
+            "score": 91.47
+        },
+        {
+            "check": "Logical reasoning score",
+            "path": "day38_aptitude_logic\\results\\logical_reasoning_results.json",
+            "status": "PASS",
+            "details": "Numeric score verified: 86.75",
+            "score": 86.75
+        },
+        {
+            "check": "Scenario evaluation score",
+            "path": "day38_aptitude_logic\\results\\scenario_evaluation_results.json",
+            "status": "PASS",
+            "details": "Numeric score verified: 89.9",
+            "score": 89.9
+        },
+        {
+            "check": "Cross-round score",
+            "path": "day41_cross_round_scoring\\results\\candidate_006\\cross_round_score.json",
+            "status": "PASS",
+            "details": "Numeric score verified: 89.8",
+            "score": 89.8
+        }
+    ],
+    "candidate_identity_checks": [
+        {
+            "assessment": "Day 17 semantic matching",
+            "path": "day17_testing\\results\\candidate_006\\day17_semantic_similarity.json",
+            "expected_candidate_id": "candidate_006",
+            "actual_candidate_id": "candidate_006",
+            "status": "PASS"
+        },
+        {
+            "assessment": "HR interview",
+            "path": "day37_hr_interview_scoring\\results\\hr_interview_score.json",
+            "expected_candidate_id": "candidate_006",
+            "actual_candidate_id": "candidate_006",
+            "status": "PASS"
+        },
+        {
+            "assessment": "Logical reasoning",
+            "path": "day38_aptitude_logic\\results\\logical_reasoning_results.json",
+            "expected_candidate_id": "candidate_006",
+            "actual_candidate_id": "candidate_006",
+            "status": "PASS"
+        },
+        {
+            "assessment": "Scenario evaluation",
+            "path": "day38_aptitude_logic\\results\\scenario_evaluation_results.json",
+            "expected_candidate_id": "candidate_006",
+            "actual_candidate_id": "candidate_006",
+            "status": "PASS"
+        }
+    ],
+    "scores_found": {
+        "Semantic similarity": 0.82,
+        "ATS": 90.1,
+        "Optimized ATS": 90.1,
+        "HR interview": 91.47,
+        "Logical reasoning": 86.75,
+        "Scenario evaluation": 89.9,
+        "Cross-round": 89.8
+    },
+    "eligibility_decision": "Eligible",
+    "cross_round_status": "Complete",
+    "summary": {
+        "stages_attempted": 12,
+        "stages_passed": 12,
+        "stages_failed": 0,
+        "output_checks_passed": 8,
+        "output_checks_failed": 0,
+        "score_checks_passed": 7,
+        "score_checks_failed": 0,
+        "identity_checks_passed": 4,
+        "identity_checks_failed": 0,
+        "total_execution_time_seconds": 53.072
+    },
+    "limitations": [
+        "The Day 18 batch and eligibility runners process multiple candidates.",
+        "HR, logical reasoning, and scenario assessment use demonstration inputs.",
+        "A valid output does not by itself prove that the scoring result is accurate.",
+        "Human-versus-AI comparison has not been performed.",
+        "The optimized semantic batch processes configured candidates in one run; its stage time is the batch process duration.",
+        "Model loading and network activity may affect execution time.",
+        "Final hiring decisions require appropriate human review."
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "candidate_id": "CAND001",
+  "candidate_name": "Arun Kumar",
+  "job_id": "JD001",
+  "target_role": "MERN Stack Developer",
+  "experience_years": 3,
+  "education": "MCA",
+  "skills": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "REST APIs",
+    "JWT Authentication",
+    "Git"
+  ],
+  "resume_file": "candidate_001_resume.pdf",
+  "resume_quality": "excellent",
+  "candidate_type": "experienced",
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

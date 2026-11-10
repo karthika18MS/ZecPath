@@ -1,0 +1,29 @@
+{
+  "candidate_id": "CAND010",
+  "candidate_name": "Sandeep Kumar",
+  "job_id": "JD003",
+  "target_role": "Java Developer",
+  "experience_years": 2,
+  "education": "MCA",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "SQL",
+    "MySQL",
+    "REST APIs",
+    "HTML",
+    "CSS",
+    "Git"
+  ],
+  "resume_file": "candidate_010_resume.pdf",
+  "resume_quality": "average",
+  "candidate_type": "experienced",
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "not_provided",
+    "aptitude": "not_provided",
+    "technical": "not_provided"
+  },
+  "scenario": "Incomplete candidate assessment data for testing missing-stage handling"
+}

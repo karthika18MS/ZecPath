@@ -1,0 +1,46 @@
+NAME: Candidate 012
+PROFESSIONAL SUMMARY:
+Senior Backend Developer with 6 years of experience
+building scalable APIs, microservices, and cloud-based
+backend applications.
+SKILLS:
+Python
+FastAPI
+Django
+REST API
+PostgreSQL
+MongoDB
+Docker
+Kubernetes
+AWS
+Microservices
+System Design
+Git
+Redis
+CI/CD
+Linux
+Cloud Architecture
+PROFESSIONAL EXPERIENCE:
+Senior Backend Developer
+XYZ Technologies
+2020 - 2026
+Designed and developed backend services using Python.
+Built REST APIs using FastAPI and Django.
+Designed PostgreSQL and MongoDB databases.
+Developed microservices-based applications.
+Deployed backend services on AWS.
+Used Docker and Kubernetes for container orchestration.
+Implemented CI/CD pipelines.
+Used Redis for caching.
+Performed code reviews.
+Mentored junior developers.
+Designed scalable backend architecture.
+Resolved production issues.
+EDUCATION:
+Bachelor of Technology
+Computer Science and Engineering
+PROJECT:
+Cloud-Based Order Management System
+Designed and implemented a scalable backend using
+Python, FastAPI, PostgreSQL, Redis, Docker,
+Kubernetes, and AWS.

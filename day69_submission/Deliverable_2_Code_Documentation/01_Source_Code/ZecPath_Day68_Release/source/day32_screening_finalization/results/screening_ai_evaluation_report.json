@@ -1,0 +1,103 @@
+{
+    "report_title": "ZecPath AI Screening Evaluation Report",
+    "day": 32,
+    "evaluation_type": "Final Integrated Screening System",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "overall_evaluation": {
+        "final_screening_score": 95.0,
+        "system_status": "Excellent",
+        "overall_result": "Successfully evaluated"
+    },
+    "question_processing": {
+        "total_questions": 4,
+        "successfully_processed": 4,
+        "processing_success_rate": 100.0
+    },
+    "screening_score_evaluation": {
+        "question_scores": [
+            95.0,
+            95.0,
+            95.0,
+            95.0
+        ],
+        "questions_with_scores": 4,
+        "average_question_score": 95.0,
+        "final_screening_score": 95.0
+    },
+    "communication_evaluation": {
+        "confidence": 96.25,
+        "clarity": 100.0,
+        "engagement": 73.75,
+        "consistency": 100.0,
+        "communication_strength": 92.5
+    },
+    "conversation_flow_evaluation": {
+        "total_conversation_decisions": 4,
+        "actions": [
+            "next_question",
+            "next_question",
+            "next_question",
+            "next_question"
+        ],
+        "action_counts": {
+            "next_question": 4
+        },
+        "all_decisions_available": true
+    },
+    "edge_case_evaluation": {
+        "edge_cases_handled": 0,
+        "edge_case_free_demo": true
+    },
+    "candidate_information_extraction": {
+        "skills": [
+            "Django",
+            "Docker",
+            "PostgreSQL",
+            "Python"
+        ],
+        "skill_count": 4,
+        "experience_years": 3,
+        "experience_domain": "backend development",
+        "availability": {
+            "status": "immediate",
+            "days": 0
+        },
+        "salary_amount": 600000,
+        "salary_currency": "INR",
+        "salary_period": "annual"
+    },
+    "system_reliability": {
+        "processing_success_rate": 100.0,
+        "processing_status": "Excellent",
+        "all_conversation_decisions_available": true,
+        "edge_case_count": 0
+    },
+    "strengths": [
+        "High screening question processing reliability.",
+        "Strong final screening score for the evaluated candidate.",
+        "Strong overall communication quality.",
+        "Strong confidence indicator.",
+        "Clear candidate responses.",
+        "Conversation flow produced a decision for every response.",
+        "Relevant candidate skills were successfully extracted."
+    ],
+    "limitations": [
+        "The evaluation is based on the available Day 32 screening scenario.",
+        "The current sentiment analysis uses a rule-based baseline.",
+        "Contradiction detection is currently limited and should be expanded for production use.",
+        "Edge-case evaluation depends on configured thresholds and supported detection patterns.",
+        "A single candidate scenario is not sufficient to establish production-level model accuracy.",
+        "Human recruiter evaluation should be added for larger-scale validation."
+    ],
+    "recommendations": [
+        "Expand evaluation using multiple candidates and job roles.",
+        "Compare AI screening scores with recruiter assessments.",
+        "Improve multilingual and accent-aware speech processing.",
+        "Expand contradiction detection across multiple candidate answers.",
+        "Improve adaptive follow-up question generation.",
+        "Calibrate screening scores using a larger validation dataset.",
+        "Add production monitoring and evaluation metrics."
+    ],
+    "conclusion": "The Day 32 integrated ZecPath AI screening pipeline successfully processes candidate responses, generates structured screening scores, evaluates communication indicators, performs candidate information extraction, and produces conversation decisions. The current implementation provides a strong foundation for further multi-candidate validation and production development."
+}

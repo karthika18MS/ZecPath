@@ -1,0 +1,54 @@
+JOB TITLE: Senior Python Developer
+
+JOB SUMMARY:
+
+We are looking for a Senior Python Developer to design,
+develop, and maintain scalable backend systems and lead
+technical implementation.
+
+REQUIRED SKILLS:
+
+Python
+Django
+FastAPI
+REST API
+PostgreSQL
+MongoDB
+AWS
+Docker
+Kubernetes
+Git
+Microservices
+System Design
+
+PREFERRED SKILLS:
+
+Redis
+CI/CD
+Linux
+AWS Lambda
+Unit Testing
+Team Leadership
+
+EDUCATION:
+
+Bachelor's or Master's degree in Computer Science,
+Computer Applications, Information Technology,
+or a related field.
+
+EXPERIENCE:
+
+5+ years of professional backend development experience.
+
+RESPONSIBILITIES:
+
+Design scalable backend systems.
+Develop REST APIs and microservices.
+Lead technical implementation.
+Design database architecture.
+Deploy applications using AWS.
+Work with Docker and Kubernetes.
+Perform code reviews.
+Mentor junior developers.
+Troubleshoot production issues.
+Participate in system design decisions.

@@ -1,0 +1,50 @@
+{
+    "candidate_id": "candidate_008",
+    "target_role": "Marketing Executive",
+    "normalized_role": "marketing executive",
+    "skill_match_score": 90.91,
+    "matching_status": "Excellent Skill Match",
+    "required_skills": [
+        "digital marketing",
+        "content marketing",
+        "brand management",
+        "content creation",
+        "google analytics",
+        "email marketing",
+        "market research",
+        "communication",
+        "social media",
+        "marketing",
+        "seo"
+    ],
+    "resume_skills": [
+        "digital marketing",
+        "content marketing",
+        "content creation",
+        "google analytics",
+        "email marketing",
+        "market research",
+        "communication",
+        "social media",
+        "marketing",
+        "seo"
+    ],
+    "matched_skills": [
+        "digital marketing",
+        "content marketing",
+        "content creation",
+        "google analytics",
+        "email marketing",
+        "market research",
+        "communication",
+        "social media",
+        "marketing",
+        "seo"
+    ],
+    "missing_skills": [
+        "brand management"
+    ],
+    "total_required_skills": 11,
+    "total_matched_skills": 10,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

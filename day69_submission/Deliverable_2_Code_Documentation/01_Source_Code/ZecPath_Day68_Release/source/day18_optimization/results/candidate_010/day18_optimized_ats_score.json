@@ -1,0 +1,191 @@
+{
+    "candidate_id": "candidate_010",
+    "target_role": "Fresher Data Analyst",
+    "job_description": "fresher_data_analyst.txt",
+    "engine": "ZecPath Day 18 Optimized ATS Engine",
+    "pipeline_status": "SUCCESS",
+    "scores": {
+        "skill_matching": 100.0,
+        "experience_relevance": null,
+        "education_alignment": 100.0,
+        "semantic_similarity": 73.08,
+        "final_ats_score": 91.03
+    },
+    "weights": {
+        "skill_matching": 0.466667,
+        "experience_relevance": 0.0,
+        "education_alignment": 0.2,
+        "semantic_similarity": 0.333333
+    },
+    "excluded_components": [
+        "experience_relevance"
+    ],
+    "contributions": {
+        "skill_matching": 46.67,
+        "experience_relevance": 0.0,
+        "education_alignment": 20.0,
+        "semantic_similarity": 24.36
+    },
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "manual_review": {
+        "review_required": false,
+        "review_status": "NOT_REQUIRED",
+        "review_reason": null
+    },
+    "skill_details": {
+        "score": 100.0,
+        "required_skills": [
+            "data analysis",
+            "data visualization",
+            "excel",
+            "numpy",
+            "pandas",
+            "power bi",
+            "python",
+            "sql",
+            "statistics"
+        ],
+        "matched_skills": [
+            "data analysis",
+            "data visualization",
+            "excel",
+            "numpy",
+            "pandas",
+            "power bi",
+            "python",
+            "sql",
+            "statistics"
+        ],
+        "missing_skills": [],
+        "total_required_skills": 9,
+        "total_matched_skills": 9,
+        "source": "Day 17 validated skill matcher"
+    },
+    "experience_details": {
+        "score": null,
+        "candidate_experience_years": null,
+        "minimum_required_years": null,
+        "maximum_required_years": null,
+        "is_applicable": false,
+        "status": "Not Applicable - Experience Requirement Not Specified"
+    },
+    "education_details": {
+        "score": 100.0,
+        "candidate_degrees": [
+            "mca"
+        ],
+        "candidate_fields": [
+            "computer applications",
+            "computer science",
+            "engineering",
+            "statistics"
+        ],
+        "required_degrees": [],
+        "required_fields": [
+            "computer science",
+            "data science",
+            "mathematics",
+            "statistics"
+        ],
+        "degree_match": false,
+        "field_match": true,
+        "status": "Education Field Requirement Met"
+    },
+    "semantic_details": {
+        "score": 73.08,
+        "raw_score": 0.7308,
+        "embedding_length": 384,
+        "model_access_time_seconds": 7.891325
+    },
+    "entity_detection": {
+        "name": "Candidate 010",
+        "job_titles": [],
+        "skills": [
+            "data analysis",
+            "data visualization",
+            "excel",
+            "machine learning",
+            "numpy",
+            "pandas",
+            "power bi",
+            "python",
+            "scikit-learn",
+            "sql",
+            "statistics"
+        ],
+        "degrees": [
+            "mca"
+        ],
+        "experience_years": null,
+        "years": [
+            2024,
+            2026
+        ],
+        "projects": [
+            "Customer Churn Analysis",
+            "Used Python, Pandas, and NumPy to clean and analyze",
+            "customer datasets.",
+            "Created visualizations using Matplotlib and Seaborn.",
+            "Used SQL for data extraction.",
+            "Customer Prediction Project",
+            "Built a machine learning model using Scikit-learn.",
+            "Performed data preprocessing, feature engineering,",
+            "and model evaluation."
+        ],
+        "sections": {
+            "summary": [
+                "Recent MCA graduate interested in data analysis and",
+                "machine learning with practical academic project experience."
+            ],
+            "skills": [
+                "Python",
+                "Pandas",
+                "NumPy",
+                "SQL",
+                "Excel",
+                "Data Cleaning",
+                "Data Visualization",
+                "Statistics",
+                "Matplotlib",
+                "Seaborn",
+                "Scikit-learn",
+                "Power BI"
+            ],
+            "education": [
+                "Master of Computer Applications",
+                "Computer Science",
+                "2024 - 2026"
+            ],
+            "projects": [
+                "Customer Churn Analysis",
+                "Used Python, Pandas, and NumPy to clean and analyze",
+                "customer datasets.",
+                "Created visualizations using Matplotlib and Seaborn.",
+                "Used SQL for data extraction.",
+                "Customer Prediction Project",
+                "Built a machine learning model using Scikit-learn.",
+                "Performed data preprocessing, feature engineering,",
+                "and model evaluation."
+            ],
+            "certifications": [
+                "Python for Data Analysis",
+                "SQL",
+                "Power BI"
+            ]
+        }
+    },
+    "semantic_input": "Validated Day 17 cleaned resume",
+    "performance": {
+        "extraction_time_seconds": 0.128533,
+        "cleaning_time_seconds": 0.002301,
+        "entity_detection_time_seconds": 0.038112,
+        "skill_matching_time_seconds": 0.109666,
+        "semantic_processing_time_seconds": 10.108992,
+        "semantic_model_access_time_seconds": 7.891325,
+        "unaccounted_pipeline_time_seconds": 0.013403,
+        "total_pipeline_time_seconds": 10.401008,
+        "output_save_time_seconds": 0.001546
+    }
+}

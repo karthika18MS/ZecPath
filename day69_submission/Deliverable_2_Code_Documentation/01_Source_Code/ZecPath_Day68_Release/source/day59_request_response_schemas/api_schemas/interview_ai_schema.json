@@ -1,0 +1,106 @@
+{
+  "title": "Interview AI API",
+  "description": "Proposed request and response schema for evaluating an interview answer.",
+  "request": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "question_id",
+      "question_text",
+      "answer_text"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "question_id": {
+        "type": "string"
+      },
+      "question_text": {
+        "type": "string",
+        "minLength": 1
+      },
+      "answer_text": {
+        "type": "string"
+      },
+      "interview_type": {
+        "type": "string",
+        "enum": [
+          "HR",
+          "TECHNICAL",
+          "LOGICAL_REASONING",
+          "SCENARIO"
+        ]
+      },
+      "scoring_criteria": {
+        "type": "object",
+        "description": "Optional documented scoring criteria"
+      }
+    },
+    "additionalProperties": false
+  },
+  "success_response": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "question_id",
+      "status"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "question_id": {
+        "type": "string"
+      },
+      "score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "parameter_scores": {
+        "type": "object"
+      },
+      "feedback": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "SUCCESS"
+        ]
+      }
+    },
+    "additionalProperties": false
+  },
+  "error_response": {
+    "type": "object",
+    "required": [
+      "status",
+      "error"
+    ],
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "FAILED"
+        ]
+      },
+      "error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

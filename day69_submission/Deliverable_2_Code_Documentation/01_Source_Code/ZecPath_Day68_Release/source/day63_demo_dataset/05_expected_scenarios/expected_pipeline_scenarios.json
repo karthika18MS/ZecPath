@@ -1,0 +1,232 @@
+{
+  "dataset_name": "ZecPath End-to-End Hiring Pipeline Scenarios",
+  "version": "1.0",
+  "pipeline_stages": [
+    "Resume Processing",
+    "ATS Matching",
+    "Candidate Screening",
+    "Eligibility Evaluation",
+    "HR Interview",
+    "Aptitude Assessment",
+    "Technical Interview",
+    "Cross-Round Evaluation"
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "PIPE001",
+      "scenario_name": "Strong Candidate Pipeline",
+      "candidate_id": "CAND001",
+      "job_id": "JD001",
+      "scenario_type": "successful_candidate",
+      "input_conditions": [
+        "Relevant MERN resume",
+        "All mandatory skills available",
+        "Relevant work experience",
+        "Completed HR responses",
+        "Completed aptitude responses",
+        "Completed technical responses"
+      ],
+      "expected_behavior": [
+        "Resume should be processed successfully.",
+        "ATS engine should calculate matching scores.",
+        "Screening should evaluate configured job requirements.",
+        "Eligibility engine should apply configured rules.",
+        "HR, aptitude and technical responses should be evaluated.",
+        "Cross-round evaluation should use available valid assessment results."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE002",
+      "scenario_name": "Average Candidate Evaluation",
+      "candidate_id": "CAND002",
+      "job_id": "JD002",
+      "scenario_type": "average_candidate",
+      "input_conditions": [
+        "Average-quality Python resume",
+        "Relevant Python and Django skills",
+        "Two years of experience",
+        "Completed assessment responses"
+      ],
+      "expected_behavior": [
+        "Resume processing should extract available information.",
+        "ATS should calculate matching scores.",
+        "Screening should check mandatory job requirements.",
+        "Interview modules should evaluate the supplied responses.",
+        "Final evaluation should reflect actual assessment results."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE003",
+      "scenario_name": "Weak Candidate Evaluation",
+      "candidate_id": "CAND003",
+      "job_id": "JD001",
+      "scenario_type": "weak_candidate",
+      "input_conditions": [
+        "Poor-quality resume",
+        "Missing mandatory MERN skills",
+        "Limited technical knowledge",
+        "Weak aptitude responses"
+      ],
+      "expected_behavior": [
+        "Resume processing should extract available information.",
+        "ATS should identify missing and matched skills.",
+        "Eligibility should apply configured mandatory-skill rules.",
+        "Interview modules should evaluate actual responses.",
+        "The system should not automatically assign scores based only on the candidate profile category."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE004",
+      "scenario_name": "Fresher Eligibility Evaluation",
+      "candidate_id": "CAND004",
+      "job_id": "JD003",
+      "scenario_type": "experience_mismatch",
+      "input_conditions": [
+        "Fresher candidate",
+        "Zero years of professional experience",
+        "Basic Java skills",
+        "Java academic projects",
+        "Job requires 3 to 6 years of experience"
+      ],
+      "expected_behavior": [
+        "Resume processor should extract education and skills.",
+        "ATS should compare the resume with the Java job description.",
+        "Eligibility engine should identify the experience mismatch.",
+        "Interview responses should be evaluated independently if supplied.",
+        "The system should apply the configured eligibility decision."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE005",
+      "scenario_name": "Experienced Candidate Evaluation",
+      "candidate_id": "CAND005",
+      "job_id": "JD003",
+      "scenario_type": "experienced_candidate",
+      "input_conditions": [
+        "Six years of Java development experience",
+        "Spring Boot and Microservices knowledge",
+        "Enterprise project experience",
+        "Completed assessment responses"
+      ],
+      "expected_behavior": [
+        "Resume processor should extract professional experience.",
+        "ATS should identify relevant Java skills.",
+        "Eligibility engine should check the configured experience range.",
+        "Technical interview should evaluate advanced Java knowledge.",
+        "Cross-round evaluation should combine valid available results."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE006",
+      "scenario_name": "AI and Python Specialist Evaluation",
+      "candidate_id": "CAND006",
+      "job_id": "JD002",
+      "scenario_type": "specialized_candidate",
+      "input_conditions": [
+        "Strong Python skills",
+        "Machine learning knowledge",
+        "NLP specialization",
+        "Three years of experience",
+        "Completed assessment responses"
+      ],
+      "expected_behavior": [
+        "Resume processor should extract Python and AI-related skills.",
+        "ATS should evaluate the candidate against Python job requirements.",
+        "Preferred skills should be considered according to the configured scoring rules.",
+        "Technical interview should evaluate Python and machine learning knowledge.",
+        "Final results should be based on actual engine outputs."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE007",
+      "scenario_name": "Missing Mandatory Skill Validation",
+      "candidate_id": "CAND007",
+      "job_id": "JD001",
+      "scenario_type": "mandatory_skill_gap",
+      "input_conditions": [
+        "React.js available",
+        "Node.js available",
+        "Express.js available",
+        "MongoDB missing",
+        "Completed assessment responses"
+      ],
+      "expected_behavior": [
+        "ATS should identify MongoDB as a missing mandatory skill.",
+        "Eligibility engine should apply the configured mandatory-skill rules.",
+        "The missing skill should be recorded in the evaluation output.",
+        "Other assessment results should remain independently available."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE008",
+      "scenario_name": "Poor Resume Evaluation",
+      "candidate_id": "CAND008",
+      "job_id": "JD002",
+      "scenario_type": "low_skill_match",
+      "input_conditions": [
+        "Poor-quality Python resume",
+        "Basic Python knowledge",
+        "Django missing",
+        "Limited project experience",
+        "Weak interview responses"
+      ],
+      "expected_behavior": [
+        "Resume processor should extract whatever valid information is available.",
+        "ATS should identify missing skills.",
+        "Eligibility engine should apply configured rules.",
+        "Interview scoring should evaluate the supplied responses.",
+        "The system should preserve the actual results and explanations."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE009",
+      "scenario_name": "Communication Versus Technical Evaluation",
+      "candidate_id": "CAND009",
+      "job_id": "JD001",
+      "scenario_type": "communication_strength",
+      "input_conditions": [
+        "Good communication skills",
+        "Two years of experience",
+        "Moderate MERN technical knowledge",
+        "Completed HR and technical responses"
+      ],
+      "expected_behavior": [
+        "HR engine should evaluate communication-related parameters.",
+        "Technical engine should evaluate technical knowledge separately.",
+        "A strong HR result should not automatically increase technical scores.",
+        "Cross-round evaluation should use the configured assessment weights."
+      ],
+      "expected_pipeline_status": "completed"
+    },
+    {
+      "scenario_id": "PIPE010",
+      "scenario_name": "Incomplete Assessment Handling",
+      "candidate_id": "CAND010",
+      "job_id": "JD003",
+      "scenario_type": "incomplete_pipeline",
+      "input_conditions": [
+        "Candidate profile available",
+        "Java resume not yet supplied",
+        "HR responses unavailable",
+        "Aptitude responses unavailable",
+        "Technical responses unavailable"
+      ],
+      "expected_behavior": [
+        "System should identify missing resume or assessment inputs.",
+        "Unavailable assessment scores should remain missing.",
+        "Cross-round engine should identify incomplete stages.",
+        "No artificial scores should be generated.",
+        "Candidate should be marked incomplete until required inputs are available."
+      ],
+      "expected_pipeline_status": "incomplete"
+    }
+  ]
+}

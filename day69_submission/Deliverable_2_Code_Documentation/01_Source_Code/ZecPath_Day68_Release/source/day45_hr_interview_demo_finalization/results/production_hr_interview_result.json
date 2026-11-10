@@ -1,0 +1,136 @@
+{
+    "system_name": "ZecPath Production-Ready HR Interview Module",
+    "system_version": "Day 45",
+    "candidate_information": {
+        "candidate_id": "candidate_006",
+        "job_id": "JOB_BACKEND_001"
+    },
+    "interview_summary": {
+        "total_questions": 4,
+        "question_text_available": 4,
+        "candidate_answers_available": 4,
+        "question_scores_available": 4,
+        "duplicate_questions": []
+    },
+    "questions": [
+        {
+            "question_id": "HR_SELF_001",
+            "question_text": "Can you introduce yourself and briefly describe your technical background?",
+            "candidate_answer": "I recently completed my MCA and have a background in software development. I have worked with Python, JavaScript, React, Node.js and databases. I am interested in backend development and enjoy solving technical problems and learning new technologies.",
+            "answer_relevance": 90.0,
+            "communication_score": 91.75,
+            "confidence_score": 70.0,
+            "consistency_score": 100.0,
+            "weighted_contribution": {
+                "answer_relevance": 27.0,
+                "communication": 22.94,
+                "confidence": 14.0,
+                "consistency": 25.0
+            },
+            "question_score": 88.94
+        },
+        {
+            "question_id": "HR_TEAM_001",
+            "question_text": "Tell me about a time when you worked as part of a team on a project.",
+            "candidate_answer": "During my academic project, I worked as part of a team where we divided the work into different modules. I was responsible for development-related tasks and coordinated with other team members when integrating the modules. We discussed issues regularly and worked together to complete the project on time.",
+            "answer_relevance": 95.0,
+            "communication_score": 91.75,
+            "confidence_score": 80.0,
+            "consistency_score": 100.0,
+            "weighted_contribution": {
+                "answer_relevance": 28.5,
+                "communication": 22.94,
+                "confidence": 16.0,
+                "consistency": 25.0
+            },
+            "question_score": 92.44
+        },
+        {
+            "question_id": "HR_GOALS_001",
+            "question_text": "What are your career goals for the next few years?",
+            "candidate_answer": "My goal is to build strong technical expertise and become a reliable software professional. I want to improve my development skills, work on real-world projects and gradually take more responsibility. I also want to keep learning new technologies that are useful for my role.",
+            "answer_relevance": 90.0,
+            "communication_score": 85.0,
+            "confidence_score": 85.0,
+            "consistency_score": 95.0,
+            "weighted_contribution": {
+                "answer_relevance": 27.0,
+                "communication": 21.25,
+                "confidence": 17.0,
+                "consistency": 23.75
+            },
+            "question_score": 89.0
+        },
+        {
+            "question_id": "HR_AVAILABILITY_001",
+            "question_text": "Are you comfortable with the job location, working hours and availability requirements of this position?",
+            "candidate_answer": "Yes, I am comfortable with the job requirements and working schedule. I am willing to adapt to the organization's working environment and can manage my time according to the responsibilities of the role.",
+            "answer_relevance": 100.0,
+            "communication_score": 90.0,
+            "confidence_score": 90.0,
+            "consistency_score": 100.0,
+            "weighted_contribution": {
+                "answer_relevance": 30.0,
+                "communication": 22.5,
+                "confidence": 18.0,
+                "consistency": 25.0
+            },
+            "question_score": 95.5
+        }
+    ],
+    "scoring_weights": {
+        "answer_relevance": 0.3,
+        "communication": 0.25,
+        "confidence": 0.2,
+        "consistency": 0.25
+    },
+    "parameter_scores": {
+        "answer_relevance": 93.75,
+        "communication": 89.62,
+        "confidence": 81.25,
+        "consistency": 98.75
+    },
+    "weighted_contributions": {
+        "answer_relevance": 28.12,
+        "communication": 22.41,
+        "confidence": 16.25,
+        "consistency": 24.69
+    },
+    "score_summary": {
+        "original_hr_score": 91.47,
+        "refined_hr_score": 91.47,
+        "final_hr_score": 91.47,
+        "score_difference": 0.0,
+        "score_range": "0-100"
+    },
+    "stability": {
+        "stable": true,
+        "errors": [],
+        "warnings": [],
+        "duplicate_questions": [],
+        "question_validation": {
+            "question_text_available": 4,
+            "candidate_answer_available": 4,
+            "response_status_available": 4,
+            "complete_questions": 4
+        }
+    },
+    "validation": {
+        "weights_valid": true,
+        "parameter_scores_valid": true,
+        "interview_structure_valid": true,
+        "stability_valid": true,
+        "refined_score_available": true
+    },
+    "explainability": {
+        "formula": "Final HR Score = (Answer Relevance × Weight) + (Communication × Weight) + (Confidence × Weight) + (Consistency × Weight)",
+        "score_source": "Day 42 refined scoring result",
+        "weighted_contributions": {
+            "answer_relevance": 28.12,
+            "communication": 22.41,
+            "confidence": 16.25,
+            "consistency": 24.69
+        }
+    },
+    "production_status": "PRODUCTION_READY"
+}

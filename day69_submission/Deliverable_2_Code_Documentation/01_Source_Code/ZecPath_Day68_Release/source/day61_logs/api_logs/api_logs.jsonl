@@ -1,0 +1,3 @@
+{"request_id":"REQ001","timestamp":"2026-11-06T10:30:00","endpoint":"/api/resume/upload","method":"POST","module_name":"RESUME_PROCESSING","status_code":200,"response_time_ms":850,"request_status":"SUCCESS","error_message":null}
+{"request_id":"REQ002","timestamp":"2026-11-06T10:32:00","endpoint":"/api/ats/score","method":"POST","module_name":"ATS_SCORING","status_code":200,"response_time_ms":1250,"request_status":"SUCCESS","error_message":null}
+{"request_id":"REQ003","timestamp":"2026-11-06T10:35:00","endpoint":"/api/interview/evaluate","method":"POST","module_name":"HR_INTERVIEW","status_code":500,"response_time_ms":3200,"request_status":"FAILED","error_message":"Interview evaluation failed"}

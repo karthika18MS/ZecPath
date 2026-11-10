@@ -1,0 +1,55 @@
+# venv/
+# __pycache__/
+# *.pyc
+# .env
+# logs/
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Uploaded/private resumes
+data/resumes/*
+candidates/*
+# Generated parser/scoring outputs
+output/
+extracted_resume.txt
+
+# Generated JSON results
+ats_score.json
+candidate_score.json
+confidence_scores.json
+education_relevance.json
+embeddings.json
+extracted_skills.json
+matching_report.json
+output.json
+output_sections.json
+parsed_education.json
+parsed_experience.json
+ranked_candidate_output.json
+ranked_candidates.json
+relevance_scores.json
+similarity_score.json
+skill_match.json
+structured_academic_profile.json
+structured_experience.json
+structured_skills.json
+shortlisted_candidates.json

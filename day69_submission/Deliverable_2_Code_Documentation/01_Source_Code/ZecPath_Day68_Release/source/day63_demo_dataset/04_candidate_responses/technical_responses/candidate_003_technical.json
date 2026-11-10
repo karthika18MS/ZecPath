@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND003",
+  "job_id": "JD001",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What is React.js?",
+      "answer": "React is a JavaScript library used to create user interfaces. It uses components to build web pages."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is Node.js?",
+      "answer": "Node.js is used to run JavaScript outside the browser. I have basic knowledge about it."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you connect a React application to a backend API?",
+      "answer": "I would use fetch or Axios to send requests to the API. The response can be displayed in the React application."
+    }
+  ]
+}

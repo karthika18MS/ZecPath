@@ -1,0 +1,48 @@
+{
+    "candidate_id": "candidate_013",
+    "target_role": "Graphic Designer",
+    "normalized_role": "graphic designer",
+    "skill_match_score": 72.73,
+    "matching_status": "Good Skill Match",
+    "required_skills": [
+        "visual communication",
+        "adobe illustrator",
+        "adobe photoshop",
+        "graphic design",
+        "video editing",
+        "layout design",
+        "typography",
+        "ui design",
+        "branding",
+        "figma",
+        "canva"
+    ],
+    "resume_skills": [
+        "adobe illustrator",
+        "adobe photoshop",
+        "graphic design",
+        "video editing",
+        "ui design",
+        "branding",
+        "figma",
+        "canva"
+    ],
+    "matched_skills": [
+        "adobe illustrator",
+        "adobe photoshop",
+        "graphic design",
+        "video editing",
+        "ui design",
+        "branding",
+        "figma",
+        "canva"
+    ],
+    "missing_skills": [
+        "visual communication",
+        "layout design",
+        "typography"
+    ],
+    "total_required_skills": 11,
+    "total_matched_skills": 8,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

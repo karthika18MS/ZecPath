@@ -1,0 +1,44 @@
+JOB TITLE: Junior Data Analyst
+
+JOB SUMMARY:
+
+We are looking for a Junior Data Analyst or Fresher
+to support data analysis, reporting, and business insights.
+
+REQUIRED SKILLS:
+
+Python
+Pandas
+NumPy
+SQL
+Excel
+Data Cleaning
+Data Visualization
+Statistics
+
+PREFERRED SKILLS:
+
+Power BI
+Matplotlib
+Seaborn
+Scikit-learn
+
+EDUCATION:
+
+Bachelor's or Master's degree in Computer Science,
+Data Science, Statistics, Mathematics, or a related field.
+
+EXPERIENCE:
+
+Freshers and candidates with academic project experience
+are encouraged to apply.
+
+RESPONSIBILITIES:
+
+Clean and preprocess datasets.
+Perform exploratory data analysis.
+Create reports and visualizations.
+Write SQL queries.
+Analyze business data.
+Prepare dashboards.
+Communicate analytical findings.

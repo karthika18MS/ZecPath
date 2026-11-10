@@ -1,0 +1,292 @@
+{
+    "engine": "ZecPath Day 47 Technical Scoring Engine",
+    "data_type": "DEMO_SAMPLE_DATA",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "evaluation_summary": {
+        "total_questions": 5,
+        "total_skills": 5,
+        "skills_evaluated": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ],
+        "overall_technical_score": 85.47,
+        "overall_score_category": "strong"
+    },
+    "question_wise_scores": [
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question": {
+                "question_id": "TECH_JS_001",
+                "question_text": "What is the difference between let, const and var in JavaScript?",
+                "skill_domain": "JavaScript",
+                "question_type": "conceptual",
+                "difficulty": "basic"
+            },
+            "candidate_answer": "let and const are block scoped. const cannot be reassigned after declaration, while let can be reassigned. var is function scoped and has different hoisting behavior.",
+            "answer_analysis": {
+                "depth_classification": "basic",
+                "word_count": 26,
+                "depth_indicators": [],
+                "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+            },
+            "parameter_scores": {
+                "accuracy": 90.0,
+                "depth": 82.0,
+                "logical_reasoning": 80.0,
+                "real_world_applicability": 78.0
+            },
+            "scoring_weights": {
+                "accuracy": 0.4,
+                "depth": 0.3,
+                "logical_reasoning": 0.15,
+                "real_world_applicability": 0.15
+            },
+            "weighted_contributions": {
+                "accuracy": 36.0,
+                "depth": 24.6,
+                "logical_reasoning": 12.0,
+                "real_world_applicability": 11.7
+            },
+            "score_summary": {
+                "original_score": 84.3,
+                "difficulty_normalized_score": 84.3,
+                "score_category": "strong"
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 84.30. The strongest parameter was accuracy (90.00), while the weakest parameter was real_world_applicability (78.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question": {
+                "question_id": "TECH_REACT_001",
+                "question_text": "How have you used React components and state management in a project?",
+                "skill_domain": "React",
+                "question_type": "experience_based",
+                "difficulty": "intermediate"
+            },
+            "candidate_answer": "In a project, I used reusable React components to separate the user interface into smaller modules. I used state to manage changing data and passed data between components using props. For larger sections of the application, I organized state carefully so that components remained reusable. This helped make the application easier to maintain and test.",
+            "answer_analysis": {
+                "depth_classification": "deep",
+                "word_count": 55,
+                "depth_indicators": [
+                    "project",
+                    "application",
+                    "used",
+                    "component",
+                    "state"
+                ],
+                "depth_explanation": "Answer demonstrates detailed technical understanding with supporting explanation and practical context."
+            },
+            "parameter_scores": {
+                "accuracy": 88.0,
+                "depth": 84.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 86.0
+            },
+            "scoring_weights": {
+                "accuracy": 0.3,
+                "depth": 0.25,
+                "logical_reasoning": 0.2,
+                "real_world_applicability": 0.25
+            },
+            "weighted_contributions": {
+                "accuracy": 26.4,
+                "depth": 21.0,
+                "logical_reasoning": 16.4,
+                "real_world_applicability": 21.5
+            },
+            "score_summary": {
+                "original_score": 85.3,
+                "difficulty_normalized_score": 85.3,
+                "score_category": "strong"
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 85.30. The strongest parameter was accuracy (88.00), while the weakest parameter was logical_reasoning (82.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question": {
+                "question_id": "TECH_NODE_001",
+                "question_text": "How would you improve the performance of a Node.js API when the number of users increases?",
+                "skill_domain": "Node.js",
+                "question_type": "scenario_based",
+                "difficulty": "advanced"
+            },
+            "candidate_answer": "I would first identify the performance bottleneck using monitoring and profiling tools. I would check database queries, API response time and CPU usage. Database queries can be optimized using indexes and efficient queries. I would also use caching where appropriate and consider asynchronous processing for time-consuming operations. In a production system, load balancing and horizontal scaling can be used when traffic increases. I would monitor the system after optimization to verify the improvement.",
+            "answer_analysis": {
+                "depth_classification": "deep",
+                "word_count": 73,
+                "depth_indicators": [
+                    "process",
+                    "production",
+                    "used",
+                    "api",
+                    "database",
+                    "performance",
+                    "optimization",
+                    "index"
+                ],
+                "depth_explanation": "Answer demonstrates detailed technical understanding with supporting explanation and practical context."
+            },
+            "parameter_scores": {
+                "accuracy": 90.0,
+                "depth": 84.0,
+                "logical_reasoning": 86.0,
+                "real_world_applicability": 80.0
+            },
+            "scoring_weights": {
+                "accuracy": 0.25,
+                "depth": 0.25,
+                "logical_reasoning": 0.3,
+                "real_world_applicability": 0.2
+            },
+            "weighted_contributions": {
+                "accuracy": 22.5,
+                "depth": 21.0,
+                "logical_reasoning": 25.8,
+                "real_world_applicability": 16.0
+            },
+            "score_summary": {
+                "original_score": 85.3,
+                "difficulty_normalized_score": 85.3,
+                "score_category": "strong"
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 85.30. The strongest parameter was accuracy (90.00), while the weakest parameter was real_world_applicability (80.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question": {
+                "question_id": "TECH_EXPRESS_001",
+                "question_text": "What is middleware in Express.js and why is it useful?",
+                "skill_domain": "Express.js",
+                "question_type": "conceptual",
+                "difficulty": "intermediate"
+            },
+            "candidate_answer": "Middleware functions execute during the request and response cycle. They can inspect requests, modify request or response objects, perform authentication, log requests, handle errors, and pass control to the next middleware or route.",
+            "answer_analysis": {
+                "depth_classification": "moderate",
+                "word_count": 33,
+                "depth_indicators": [
+                    "authentication",
+                    "middleware"
+                ],
+                "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+            },
+            "parameter_scores": {
+                "accuracy": 91.0,
+                "depth": 85.0,
+                "logical_reasoning": 82.0,
+                "real_world_applicability": 84.0
+            },
+            "scoring_weights": {
+                "accuracy": 0.4,
+                "depth": 0.3,
+                "logical_reasoning": 0.15,
+                "real_world_applicability": 0.15
+            },
+            "weighted_contributions": {
+                "accuracy": 36.4,
+                "depth": 25.5,
+                "logical_reasoning": 12.3,
+                "real_world_applicability": 12.6
+            },
+            "score_summary": {
+                "original_score": 86.8,
+                "difficulty_normalized_score": 86.8,
+                "score_category": "strong"
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 86.80. The strongest parameter was accuracy (91.00), while the weakest parameter was logical_reasoning (82.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        },
+        {
+            "candidate_id": "candidate_006",
+            "job_id": "JOB_BACKEND_001",
+            "question": {
+                "question_id": "TECH_MONGO_001",
+                "question_text": "A MongoDB query is becoming slow as the collection grows. How would you investigate and improve it?",
+                "skill_domain": "MongoDB",
+                "question_type": "scenario_based",
+                "difficulty": "intermediate"
+            },
+            "candidate_answer": "I would inspect the query execution plan to understand how MongoDB is searching the collection. I would check whether suitable indexes exist for the fields used in filtering or sorting. I would also review the query structure and avoid retrieving unnecessary fields. After making changes, I would test the query again and compare performance.",
+            "answer_analysis": {
+                "depth_classification": "deep",
+                "word_count": 54,
+                "depth_indicators": [
+                    "how",
+                    "used",
+                    "performance",
+                    "query",
+                    "index"
+                ],
+                "depth_explanation": "Answer demonstrates detailed technical understanding with supporting explanation and practical context."
+            },
+            "parameter_scores": {
+                "accuracy": 87.0,
+                "depth": 82.0,
+                "logical_reasoning": 88.0,
+                "real_world_applicability": 85.0
+            },
+            "scoring_weights": {
+                "accuracy": 0.25,
+                "depth": 0.25,
+                "logical_reasoning": 0.3,
+                "real_world_applicability": 0.2
+            },
+            "weighted_contributions": {
+                "accuracy": 21.75,
+                "depth": 20.5,
+                "logical_reasoning": 26.4,
+                "real_world_applicability": 17.0
+            },
+            "score_summary": {
+                "original_score": 85.65,
+                "difficulty_normalized_score": 85.65,
+                "score_category": "strong"
+            },
+            "explainability": {
+                "explanation": "The candidate received a technical score of 85.65. The strongest parameter was logical_reasoning (88.00), while the weakest parameter was depth (82.00). The answer was classified as deep. Answer demonstrates detailed technical understanding with supporting explanation and practical context.",
+                "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+            }
+        }
+    ],
+    "scoring_parameters": [
+        "accuracy",
+        "depth",
+        "logical_reasoning",
+        "real_world_applicability"
+    ],
+    "answer_depth_levels": [
+        "shallow",
+        "basic",
+        "moderate",
+        "deep"
+    ],
+    "difficulty_levels": [
+        "basic",
+        "intermediate",
+        "advanced"
+    ],
+    "explainability": {
+        "scoring_formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight",
+        "description": "Each technical answer is evaluated using question-type-specific weights. The resulting score is normalized to a 0-100 scale and accompanied by answer-depth and scoring explanations."
+    },
+    "overall_status": "SUCCESS"
+}

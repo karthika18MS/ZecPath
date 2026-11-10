@@ -1,0 +1,99 @@
+{
+  "title": "Screening AI API",
+  "description": "Proposed request and response schema for applying configured candidate eligibility rules.",
+  "request": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "job_id",
+      "ats_score",
+      "rules"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "job_id": {
+        "type": "string"
+      },
+      "ats_score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "rules": {
+        "type": "object",
+        "description": "Configured criteria such as minimum ATS score, mandatory skills, and experience requirements"
+      }
+    },
+    "additionalProperties": false
+  },
+  "success_response": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "job_id",
+      "eligibility_status",
+      "status"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "job_id": {
+        "type": "string"
+      },
+      "eligibility_status": {
+        "type": "string",
+        "enum": [
+          "ELIGIBLE",
+          "REVIEW",
+          "REJECTED"
+        ]
+      },
+      "reasons": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "SUCCESS"
+        ]
+      }
+    },
+    "additionalProperties": false
+  },
+  "error_response": {
+    "type": "object",
+    "required": [
+      "status",
+      "error"
+    ],
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "FAILED"
+        ]
+      },
+      "error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

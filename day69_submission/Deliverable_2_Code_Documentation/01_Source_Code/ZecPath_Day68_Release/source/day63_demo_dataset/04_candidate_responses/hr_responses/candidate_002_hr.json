@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND002",
+    "job_id": "JD002",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "My name is Rahul Menon. I have two years of experience in Python development. I know Python, Django and SQL. I worked on student management and library management projects.",
+            "answer_relevance": 88,
+            "communication_score": 86,
+            "confidence_score": 85,
+            "consistency_score": 88
+        },
+        {
+            "question_id": "HR002",
+            "question": "What are your strengths?",
+            "answer": "My strengths are hard work, teamwork and willingness to learn. I try to complete the assigned work on time.",
+            "answer_relevance": 82,
+            "communication_score": 86,
+            "confidence_score": 84,
+            "consistency_score": 85
+        },
+        {
+            "question_id": "HR003",
+            "question": "How do you handle a difficult task?",
+            "answer": "I try to understand the task and search for solutions. If I cannot solve it, I ask my senior developer for help.",
+            "answer_relevance": 80,
+            "communication_score": 82,
+            "confidence_score": 80,
+            "consistency_score": 83
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

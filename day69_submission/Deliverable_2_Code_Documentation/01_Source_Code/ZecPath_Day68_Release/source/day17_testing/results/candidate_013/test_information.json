@@ -1,0 +1,8 @@
+{
+    "candidate_id": "candidate_013",
+    "target_role": "Python Developer",
+    "resume_file": "day17_testing\\resumes\\candidate_013.docx",
+    "job_description_file": "day17_testing\\job_descriptions\\python_developer.txt",
+    "resume_extraction": "SUCCESS",
+    "job_description_loading": "SUCCESS"
+}

@@ -1,0 +1,70 @@
+JOB ID: JD002
+
+JOB TITLE: Python Developer
+
+COMPANY: ZecPath Technologies
+
+JOB LOCATION: Thiruvananthapuram, Kerala, India
+
+EMPLOYMENT TYPE: Full-Time
+
+EXPERIENCE REQUIRED: 1–3 Years
+
+JOB DESCRIPTION:
+
+We are seeking a Python Developer with knowledge of Python programming, Django framework and database management. The candidate will be responsible for developing backend applications, integrating APIs and implementing software solutions.
+
+Candidates with knowledge of data processing and machine learning concepts will be preferred.
+
+KEY RESPONSIBILITIES:
+
+1. Develop backend applications using Python.
+2. Build web applications using Django.
+3. Design and integrate RESTful APIs.
+4. Work with SQL databases.
+5. Write reusable and maintainable Python code.
+6. Perform debugging and software testing.
+7. Process and manage application data.
+8. Collaborate with frontend developers and other team members.
+9. Identify and resolve technical issues.
+10. Maintain application documentation.
+
+MANDATORY SKILLS:
+
+- Python
+- Django
+- SQL
+
+PREFERRED SKILLS:
+
+- Flask
+- REST API Development
+- MySQL
+- PostgreSQL
+- Pandas
+- NumPy
+- Scikit-learn
+- Git
+- Data Processing
+- Machine Learning Fundamentals
+
+EDUCATIONAL QUALIFICATION:
+
+- BCA, BSc Computer Science, MCA, BTech or an equivalent qualification in Computer Science or a related field.
+
+EXPERIENCE REQUIREMENT:
+
+- Minimum: 1 year
+- Maximum: 3 years
+
+ADDITIONAL REQUIREMENTS:
+
+- Good understanding of programming concepts.
+- Basic knowledge of database design.
+- Problem-solving and analytical skills.
+- Ability to work in a collaborative development environment.
+- Willingness to learn new technologies.
+
+JOB SUMMARY:
+
+The ideal candidate should have practical Python development knowledge and the ability to develop backend applications using Django and SQL databases.

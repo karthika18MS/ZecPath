@@ -1,0 +1,11 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "HR_TEAM_001",
+    "original_question": "Tell me about your teamwork experience.",
+    "candidate_answer": "I worked with a team.",
+    "answer_status": "vague",
+    "follow_up_eligible": true,
+    "follow_up_count": 0,
+    "adaptive_question_type": "clarification",
+    "adaptive_question": "Could you please explain that in a little more detail?"
+}

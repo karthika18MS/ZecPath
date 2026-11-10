@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND008",
+    "job_id": "JD002",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "My name is Manu. I completed BCA. I know basic Python and SQL.",
+            "answer_relevance": 65,
+            "communication_score": 70,
+            "confidence_score": 66,
+            "consistency_score": 68
+        },
+        {
+            "question_id": "HR002",
+            "question": "What do you do when you make a mistake?",
+            "answer": "I try to correct the mistake and continue my work.",
+            "answer_relevance": 55,
+            "communication_score": 62,
+            "confidence_score": 58,
+            "consistency_score": 60
+        },
+        {
+            "question_id": "HR003",
+            "question": "Why should we hire you?",
+            "answer": "I am interested in programming. I will work hard and learn new things.",
+            "answer_relevance": 60,
+            "communication_score": 65,
+            "confidence_score": 62,
+            "consistency_score": 63
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

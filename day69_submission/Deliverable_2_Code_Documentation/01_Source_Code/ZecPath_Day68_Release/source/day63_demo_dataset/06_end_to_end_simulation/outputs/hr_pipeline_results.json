@@ -1,0 +1,1411 @@
+{
+    "module": "ZecPath Reusable HR Pipeline",
+    "dataset": {
+        "dataset_name": "day63_demo_dataset",
+        "dataset_type": "DEMO_DATASET",
+        "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset"
+    },
+    "pipeline_status": "SUCCESS",
+    "generated_at": "2026-11-07T17:43:10.147887+00:00",
+    "execution_time_seconds": 0.1544,
+    "validation": {
+        "is_valid": true,
+        "total_validation_errors": 0,
+        "errors": [],
+        "warnings": []
+    },
+    "summary": {
+        "total_candidates": 10,
+        "completed": 9,
+        "pending_manual_evaluation": 0,
+        "incomplete": 1,
+        "invalid_data": 0,
+        "error": 0,
+        "scored_candidates": 9,
+        "average_hr_score": 83.13,
+        "highest_hr_score": 91.8,
+        "lowest_hr_score": 62.73
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 89.33,
+            "score_category": "strong",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 90.33,
+                "communication": 89.0,
+                "confidence": 87.0,
+                "consistency": 90.33
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "I am Arun Kumar, a MERN Stack Developer with three years of experience. I have worked with React.js, Node.js, Express.js and MongoDB. I have developed web applications, integrated REST APIs and implemented authentication features.",
+                    "answer_relevance": 92.0,
+                    "communication_score": 88.0,
+                    "confidence_score": 86.0,
+                    "consistency_score": 90.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.6,
+                        "communication": 22.0,
+                        "confidence": 17.2,
+                        "consistency": 22.5
+                    },
+                    "question_score": 89.3
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "How do you handle challenges while working in a team?",
+                    "candidate_answer": "I first understand the problem and discuss it with my team members. I divide the work into smaller tasks and communicate regularly. If I face a technical issue, I try to solve it independently before asking for assistance.",
+                    "answer_relevance": 88.0,
+                    "communication_score": 90.0,
+                    "confidence_score": 88.0,
+                    "consistency_score": 90.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 26.4,
+                        "communication": 22.5,
+                        "confidence": 17.6,
+                        "consistency": 22.5
+                    },
+                    "question_score": 89.0
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "Why should we hire you?",
+                    "candidate_answer": "I have practical experience in full-stack development and understand both frontend and backend technologies. I can contribute to application development, debugging and API integration. I am also comfortable working collaboratively.",
+                    "answer_relevance": 91.0,
+                    "communication_score": 89.0,
+                    "confidence_score": 87.0,
+                    "consistency_score": 91.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.3,
+                        "communication": 22.25,
+                        "confidence": 17.4,
+                        "consistency": 22.75
+                    },
+                    "question_score": 89.7
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND001",
+                    "job_id": "JD001"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 90.33,
+                    "communication": 89.0,
+                    "confidence": 87.0,
+                    "consistency": 90.33
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "I am Arun Kumar, a MERN Stack Developer with three years of experience. I have worked with React.js, Node.js, Express.js and MongoDB. I have developed web applications, integrated REST APIs and implemented authentication features.",
+                        "answer_relevance": 92.0,
+                        "communication_score": 88.0,
+                        "confidence_score": 86.0,
+                        "consistency_score": 90.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.6,
+                            "communication": 22.0,
+                            "confidence": 17.2,
+                            "consistency": 22.5
+                        },
+                        "question_score": 89.3
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "How do you handle challenges while working in a team?",
+                        "candidate_answer": "I first understand the problem and discuss it with my team members. I divide the work into smaller tasks and communicate regularly. If I face a technical issue, I try to solve it independently before asking for assistance.",
+                        "answer_relevance": 88.0,
+                        "communication_score": 90.0,
+                        "confidence_score": 88.0,
+                        "consistency_score": 90.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 26.4,
+                            "communication": 22.5,
+                            "confidence": 17.6,
+                            "consistency": 22.5
+                        },
+                        "question_score": 89.0
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "Why should we hire you?",
+                        "candidate_answer": "I have practical experience in full-stack development and understand both frontend and backend technologies. I can contribute to application development, debugging and API integration. I am also comfortable working collaboratively.",
+                        "answer_relevance": 91.0,
+                        "communication_score": 89.0,
+                        "confidence_score": 87.0,
+                        "consistency_score": 91.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.3,
+                            "communication": 22.25,
+                            "confidence": 17.4,
+                            "consistency": 22.75
+                        },
+                        "question_score": 89.7
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 89.33,
+                    "score_category": "strong"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_001_hr.json"
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 84.1,
+            "score_category": "strong",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 83.33,
+                "communication": 84.67,
+                "confidence": 83.0,
+                "consistency": 85.33
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "My name is Rahul Menon. I have two years of experience in Python development. I know Python, Django and SQL. I worked on student management and library management projects.",
+                    "answer_relevance": 88.0,
+                    "communication_score": 86.0,
+                    "confidence_score": 85.0,
+                    "consistency_score": 88.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 26.4,
+                        "communication": 21.5,
+                        "confidence": 17.0,
+                        "consistency": 22.0
+                    },
+                    "question_score": 86.9
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "What are your strengths?",
+                    "candidate_answer": "My strengths are hard work, teamwork and willingness to learn. I try to complete the assigned work on time.",
+                    "answer_relevance": 82.0,
+                    "communication_score": 86.0,
+                    "confidence_score": 84.0,
+                    "consistency_score": 85.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 24.6,
+                        "communication": 21.5,
+                        "confidence": 16.8,
+                        "consistency": 21.25
+                    },
+                    "question_score": 84.15
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "How do you handle a difficult task?",
+                    "candidate_answer": "I try to understand the task and search for solutions. If I cannot solve it, I ask my senior developer for help.",
+                    "answer_relevance": 80.0,
+                    "communication_score": 82.0,
+                    "confidence_score": 80.0,
+                    "consistency_score": 83.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 24.0,
+                        "communication": 20.5,
+                        "confidence": 16.0,
+                        "consistency": 20.75
+                    },
+                    "question_score": 81.25
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND002",
+                    "job_id": "JD002"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 83.33,
+                    "communication": 84.67,
+                    "confidence": 83.0,
+                    "consistency": 85.33
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "My name is Rahul Menon. I have two years of experience in Python development. I know Python, Django and SQL. I worked on student management and library management projects.",
+                        "answer_relevance": 88.0,
+                        "communication_score": 86.0,
+                        "confidence_score": 85.0,
+                        "consistency_score": 88.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 26.4,
+                            "communication": 21.5,
+                            "confidence": 17.0,
+                            "consistency": 22.0
+                        },
+                        "question_score": 86.9
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "What are your strengths?",
+                        "candidate_answer": "My strengths are hard work, teamwork and willingness to learn. I try to complete the assigned work on time.",
+                        "answer_relevance": 82.0,
+                        "communication_score": 86.0,
+                        "confidence_score": 84.0,
+                        "consistency_score": 85.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 24.6,
+                            "communication": 21.5,
+                            "confidence": 16.8,
+                            "consistency": 21.25
+                        },
+                        "question_score": 84.15
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "How do you handle a difficult task?",
+                        "candidate_answer": "I try to understand the task and search for solutions. If I cannot solve it, I ask my senior developer for help.",
+                        "answer_relevance": 80.0,
+                        "communication_score": 82.0,
+                        "confidence_score": 80.0,
+                        "consistency_score": 83.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 24.0,
+                            "communication": 20.5,
+                            "confidence": 16.0,
+                            "consistency": 20.75
+                        },
+                        "question_score": 81.25
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 84.1,
+                    "score_category": "strong"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_002_hr.json"
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 68.42,
+            "score_category": "moderate",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 66.67,
+                "communication": 70.67,
+                "confidence": 66.67,
+                "consistency": 69.67
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "My name is Vishnu. I studied BCA. I know HTML, CSS and basic JavaScript. I have worked on some simple websites.",
+                    "answer_relevance": 72.0,
+                    "communication_score": 75.0,
+                    "confidence_score": 70.0,
+                    "consistency_score": 74.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 21.6,
+                        "communication": 18.75,
+                        "confidence": 14.0,
+                        "consistency": 18.5
+                    },
+                    "question_score": 72.85
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "What are your strengths?",
+                    "candidate_answer": "I am hardworking and interested in learning programming.",
+                    "answer_relevance": 68.0,
+                    "communication_score": 72.0,
+                    "confidence_score": 68.0,
+                    "consistency_score": 70.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 20.4,
+                        "communication": 18.0,
+                        "confidence": 13.6,
+                        "consistency": 17.5
+                    },
+                    "question_score": 69.5
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "How do you handle a difficult task?",
+                    "candidate_answer": "I will try to do it. If I cannot do it, I will ask someone.",
+                    "answer_relevance": 60.0,
+                    "communication_score": 65.0,
+                    "confidence_score": 62.0,
+                    "consistency_score": 65.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 18.0,
+                        "communication": 16.25,
+                        "confidence": 12.4,
+                        "consistency": 16.25
+                    },
+                    "question_score": 62.9
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND003",
+                    "job_id": "JD001"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 66.67,
+                    "communication": 70.67,
+                    "confidence": 66.67,
+                    "consistency": 69.67
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "My name is Vishnu. I studied BCA. I know HTML, CSS and basic JavaScript. I have worked on some simple websites.",
+                        "answer_relevance": 72.0,
+                        "communication_score": 75.0,
+                        "confidence_score": 70.0,
+                        "consistency_score": 74.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 21.6,
+                            "communication": 18.75,
+                            "confidence": 14.0,
+                            "consistency": 18.5
+                        },
+                        "question_score": 72.85
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "What are your strengths?",
+                        "candidate_answer": "I am hardworking and interested in learning programming.",
+                        "answer_relevance": 68.0,
+                        "communication_score": 72.0,
+                        "confidence_score": 68.0,
+                        "consistency_score": 70.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 20.4,
+                            "communication": 18.0,
+                            "confidence": 13.6,
+                            "consistency": 17.5
+                        },
+                        "question_score": 69.5
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "How do you handle a difficult task?",
+                        "candidate_answer": "I will try to do it. If I cannot do it, I will ask someone.",
+                        "answer_relevance": 60.0,
+                        "communication_score": 65.0,
+                        "confidence_score": 62.0,
+                        "consistency_score": 65.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 18.0,
+                            "communication": 16.25,
+                            "confidence": 12.4,
+                            "consistency": 16.25
+                        },
+                        "question_score": 62.9
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 68.42,
+                    "score_category": "moderate"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_003_hr.json"
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 87.62,
+            "score_category": "strong",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 88.67,
+                "communication": 87.67,
+                "confidence": 84.67,
+                "consistency": 88.67
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "My name is Adithya. I recently completed my BCA. I have learned Java programming, object-oriented programming and SQL. I completed academic projects using Java and MySQL. I am looking for an opportunity to start my software development career.",
+                    "answer_relevance": 88.0,
+                    "communication_score": 85.0,
+                    "confidence_score": 82.0,
+                    "consistency_score": 88.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 26.4,
+                        "communication": 21.25,
+                        "confidence": 16.4,
+                        "consistency": 22.0
+                    },
+                    "question_score": 86.05
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "Why do you want to become a Java Developer?",
+                    "candidate_answer": "I am interested in Java because it is an object-oriented programming language. I enjoy solving programming problems and want to improve my backend development skills.",
+                    "answer_relevance": 86.0,
+                    "communication_score": 88.0,
+                    "confidence_score": 84.0,
+                    "consistency_score": 87.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 25.8,
+                        "communication": 22.0,
+                        "confidence": 16.8,
+                        "consistency": 21.75
+                    },
+                    "question_score": 86.35
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "How would you handle a task you have never done before?",
+                    "candidate_answer": "First, I would understand the requirement. Then I would research the concept, try a small implementation and test it. If I need help, I would discuss it with an experienced team member.",
+                    "answer_relevance": 92.0,
+                    "communication_score": 90.0,
+                    "confidence_score": 88.0,
+                    "consistency_score": 91.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.6,
+                        "communication": 22.5,
+                        "confidence": 17.6,
+                        "consistency": 22.75
+                    },
+                    "question_score": 90.45
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND004",
+                    "job_id": "JD003"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 88.67,
+                    "communication": 87.67,
+                    "confidence": 84.67,
+                    "consistency": 88.67
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "My name is Adithya. I recently completed my BCA. I have learned Java programming, object-oriented programming and SQL. I completed academic projects using Java and MySQL. I am looking for an opportunity to start my software development career.",
+                        "answer_relevance": 88.0,
+                        "communication_score": 85.0,
+                        "confidence_score": 82.0,
+                        "consistency_score": 88.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 26.4,
+                            "communication": 21.25,
+                            "confidence": 16.4,
+                            "consistency": 22.0
+                        },
+                        "question_score": 86.05
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "Why do you want to become a Java Developer?",
+                        "candidate_answer": "I am interested in Java because it is an object-oriented programming language. I enjoy solving programming problems and want to improve my backend development skills.",
+                        "answer_relevance": 86.0,
+                        "communication_score": 88.0,
+                        "confidence_score": 84.0,
+                        "consistency_score": 87.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 25.8,
+                            "communication": 22.0,
+                            "confidence": 16.8,
+                            "consistency": 21.75
+                        },
+                        "question_score": 86.35
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "How would you handle a task you have never done before?",
+                        "candidate_answer": "First, I would understand the requirement. Then I would research the concept, try a small implementation and test it. If I need help, I would discuss it with an experienced team member.",
+                        "answer_relevance": 92.0,
+                        "communication_score": 90.0,
+                        "confidence_score": 88.0,
+                        "consistency_score": 91.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.6,
+                            "communication": 22.5,
+                            "confidence": 17.6,
+                            "consistency": 22.75
+                        },
+                        "question_score": 90.45
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 87.62,
+                    "score_category": "strong"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_004_hr.json"
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 91.8,
+            "score_category": "strong",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 92.33,
+                "communication": 91.67,
+                "confidence": 89.67,
+                "consistency": 93.0
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "I am Rohit Krishnan, a Java Developer with six years of experience. I have worked with Java, Spring Boot, Hibernate, REST APIs and microservices. I have developed enterprise backend applications and worked with development and QA teams.",
+                    "answer_relevance": 94.0,
+                    "communication_score": 92.0,
+                    "confidence_score": 91.0,
+                    "consistency_score": 94.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 28.2,
+                        "communication": 23.0,
+                        "confidence": 18.2,
+                        "consistency": 23.5
+                    },
+                    "question_score": 92.9
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "Describe a challenging project you worked on.",
+                    "candidate_answer": "I worked on an enterprise employee management platform. One challenge was maintaining communication between different backend services. I analyzed the service interactions, improved API integration and worked with the team to resolve the issue.",
+                    "answer_relevance": 90.0,
+                    "communication_score": 91.0,
+                    "confidence_score": 88.0,
+                    "consistency_score": 92.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.0,
+                        "communication": 22.75,
+                        "confidence": 17.6,
+                        "consistency": 23.0
+                    },
+                    "question_score": 90.35
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "How do you support junior developers?",
+                    "candidate_answer": "I explain technical concepts, review their code and help them understand errors. I encourage them to investigate problems independently while providing guidance when needed.",
+                    "answer_relevance": 93.0,
+                    "communication_score": 92.0,
+                    "confidence_score": 90.0,
+                    "consistency_score": 93.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.9,
+                        "communication": 23.0,
+                        "confidence": 18.0,
+                        "consistency": 23.25
+                    },
+                    "question_score": 92.15
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND005",
+                    "job_id": "JD003"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 92.33,
+                    "communication": 91.67,
+                    "confidence": 89.67,
+                    "consistency": 93.0
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "I am Rohit Krishnan, a Java Developer with six years of experience. I have worked with Java, Spring Boot, Hibernate, REST APIs and microservices. I have developed enterprise backend applications and worked with development and QA teams.",
+                        "answer_relevance": 94.0,
+                        "communication_score": 92.0,
+                        "confidence_score": 91.0,
+                        "consistency_score": 94.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 28.2,
+                            "communication": 23.0,
+                            "confidence": 18.2,
+                            "consistency": 23.5
+                        },
+                        "question_score": 92.9
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "Describe a challenging project you worked on.",
+                        "candidate_answer": "I worked on an enterprise employee management platform. One challenge was maintaining communication between different backend services. I analyzed the service interactions, improved API integration and worked with the team to resolve the issue.",
+                        "answer_relevance": 90.0,
+                        "communication_score": 91.0,
+                        "confidence_score": 88.0,
+                        "consistency_score": 92.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.0,
+                            "communication": 22.75,
+                            "confidence": 17.6,
+                            "consistency": 23.0
+                        },
+                        "question_score": 90.35
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "How do you support junior developers?",
+                        "candidate_answer": "I explain technical concepts, review their code and help them understand errors. I encourage them to investigate problems independently while providing guidance when needed.",
+                        "answer_relevance": 93.0,
+                        "communication_score": 92.0,
+                        "confidence_score": 90.0,
+                        "consistency_score": 93.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.9,
+                            "communication": 23.0,
+                            "confidence": 18.0,
+                            "consistency": 23.25
+                        },
+                        "question_score": 92.15
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 91.8,
+                    "score_category": "strong"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_005_hr.json"
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 91.73,
+            "score_category": "strong",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 92.67,
+                "communication": 91.0,
+                "confidence": 89.67,
+                "consistency": 93.0
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "I am Priya Nair, a Python Developer with three years of experience. My main interests are Python development, data processing, machine learning and NLP. I have worked with Django, Pandas, NumPy and Scikit-learn.",
+                    "answer_relevance": 94.0,
+                    "communication_score": 91.0,
+                    "confidence_score": 90.0,
+                    "consistency_score": 94.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 28.2,
+                        "communication": 22.75,
+                        "confidence": 18.0,
+                        "consistency": 23.5
+                    },
+                    "question_score": 92.45
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "How do you approach a complex technical problem?",
+                    "candidate_answer": "I divide the problem into smaller components, identify the source of the issue and examine the available data. I test possible solutions and compare the results before selecting the most suitable approach.",
+                    "answer_relevance": 93.0,
+                    "communication_score": 92.0,
+                    "confidence_score": 90.0,
+                    "consistency_score": 93.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.9,
+                        "communication": 23.0,
+                        "confidence": 18.0,
+                        "consistency": 23.25
+                    },
+                    "question_score": 92.15
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "Why are you interested in this role?",
+                    "candidate_answer": "This role matches my Python development experience. I am particularly interested in backend development and intelligent applications. I believe I can contribute through my programming and analytical skills.",
+                    "answer_relevance": 91.0,
+                    "communication_score": 90.0,
+                    "confidence_score": 89.0,
+                    "consistency_score": 92.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.3,
+                        "communication": 22.5,
+                        "confidence": 17.8,
+                        "consistency": 23.0
+                    },
+                    "question_score": 90.6
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND006",
+                    "job_id": "JD002"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 92.67,
+                    "communication": 91.0,
+                    "confidence": 89.67,
+                    "consistency": 93.0
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "I am Priya Nair, a Python Developer with three years of experience. My main interests are Python development, data processing, machine learning and NLP. I have worked with Django, Pandas, NumPy and Scikit-learn.",
+                        "answer_relevance": 94.0,
+                        "communication_score": 91.0,
+                        "confidence_score": 90.0,
+                        "consistency_score": 94.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 28.2,
+                            "communication": 22.75,
+                            "confidence": 18.0,
+                            "consistency": 23.5
+                        },
+                        "question_score": 92.45
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "How do you approach a complex technical problem?",
+                        "candidate_answer": "I divide the problem into smaller components, identify the source of the issue and examine the available data. I test possible solutions and compare the results before selecting the most suitable approach.",
+                        "answer_relevance": 93.0,
+                        "communication_score": 92.0,
+                        "confidence_score": 90.0,
+                        "consistency_score": 93.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.9,
+                            "communication": 23.0,
+                            "confidence": 18.0,
+                            "consistency": 23.25
+                        },
+                        "question_score": 92.15
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "Why are you interested in this role?",
+                        "candidate_answer": "This role matches my Python development experience. I am particularly interested in backend development and intelligent applications. I believe I can contribute through my programming and analytical skills.",
+                        "answer_relevance": 91.0,
+                        "communication_score": 90.0,
+                        "confidence_score": 89.0,
+                        "consistency_score": 92.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.3,
+                            "communication": 22.5,
+                            "confidence": 17.8,
+                            "consistency": 23.0
+                        },
+                        "question_score": 90.6
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 91.73,
+                    "score_category": "strong"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_006_hr.json"
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 82.82,
+            "score_category": "strong",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 82.33,
+                "communication": 83.33,
+                "confidence": 81.0,
+                "consistency": 84.33
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "My name is Nikhil Raj. I completed MCA and have two years of experience in web development. I have worked with React, Node.js and Express.js.",
+                    "answer_relevance": 85.0,
+                    "communication_score": 84.0,
+                    "confidence_score": 82.0,
+                    "consistency_score": 86.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 25.5,
+                        "communication": 21.0,
+                        "confidence": 16.4,
+                        "consistency": 21.5
+                    },
+                    "question_score": 84.4
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "How do you work with a development team?",
+                    "candidate_answer": "I communicate with team members, understand assigned tasks and complete my work. I also participate in discussions when problems occur.",
+                    "answer_relevance": 82.0,
+                    "communication_score": 84.0,
+                    "confidence_score": 81.0,
+                    "consistency_score": 84.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 24.6,
+                        "communication": 21.0,
+                        "confidence": 16.2,
+                        "consistency": 21.0
+                    },
+                    "question_score": 82.8
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "What is one area you want to improve?",
+                    "candidate_answer": "I want to improve my database knowledge and learn more about backend development.",
+                    "answer_relevance": 80.0,
+                    "communication_score": 82.0,
+                    "confidence_score": 80.0,
+                    "consistency_score": 83.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 24.0,
+                        "communication": 20.5,
+                        "confidence": 16.0,
+                        "consistency": 20.75
+                    },
+                    "question_score": 81.25
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND007",
+                    "job_id": "JD001"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 82.33,
+                    "communication": 83.33,
+                    "confidence": 81.0,
+                    "consistency": 84.33
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "My name is Nikhil Raj. I completed MCA and have two years of experience in web development. I have worked with React, Node.js and Express.js.",
+                        "answer_relevance": 85.0,
+                        "communication_score": 84.0,
+                        "confidence_score": 82.0,
+                        "consistency_score": 86.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 25.5,
+                            "communication": 21.0,
+                            "confidence": 16.4,
+                            "consistency": 21.5
+                        },
+                        "question_score": 84.4
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "How do you work with a development team?",
+                        "candidate_answer": "I communicate with team members, understand assigned tasks and complete my work. I also participate in discussions when problems occur.",
+                        "answer_relevance": 82.0,
+                        "communication_score": 84.0,
+                        "confidence_score": 81.0,
+                        "consistency_score": 84.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 24.6,
+                            "communication": 21.0,
+                            "confidence": 16.2,
+                            "consistency": 21.0
+                        },
+                        "question_score": 82.8
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "What is one area you want to improve?",
+                        "candidate_answer": "I want to improve my database knowledge and learn more about backend development.",
+                        "answer_relevance": 80.0,
+                        "communication_score": 82.0,
+                        "confidence_score": 80.0,
+                        "consistency_score": 83.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 24.0,
+                            "communication": 20.5,
+                            "confidence": 16.0,
+                            "consistency": 20.75
+                        },
+                        "question_score": 81.25
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 82.82,
+                    "score_category": "strong"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_007_hr.json"
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 62.73,
+            "score_category": "moderate",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 60.0,
+                "communication": 65.67,
+                "confidence": 62.0,
+                "consistency": 63.67
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "My name is Manu. I completed BCA. I know basic Python and SQL.",
+                    "answer_relevance": 65.0,
+                    "communication_score": 70.0,
+                    "confidence_score": 66.0,
+                    "consistency_score": 68.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 19.5,
+                        "communication": 17.5,
+                        "confidence": 13.2,
+                        "consistency": 17.0
+                    },
+                    "question_score": 67.2
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "What do you do when you make a mistake?",
+                    "candidate_answer": "I try to correct the mistake and continue my work.",
+                    "answer_relevance": 55.0,
+                    "communication_score": 62.0,
+                    "confidence_score": 58.0,
+                    "consistency_score": 60.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 16.5,
+                        "communication": 15.5,
+                        "confidence": 11.6,
+                        "consistency": 15.0
+                    },
+                    "question_score": 58.6
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "Why should we hire you?",
+                    "candidate_answer": "I am interested in programming. I will work hard and learn new things.",
+                    "answer_relevance": 60.0,
+                    "communication_score": 65.0,
+                    "confidence_score": 62.0,
+                    "consistency_score": 63.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 18.0,
+                        "communication": 16.25,
+                        "confidence": 12.4,
+                        "consistency": 15.75
+                    },
+                    "question_score": 62.4
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND008",
+                    "job_id": "JD002"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 60.0,
+                    "communication": 65.67,
+                    "confidence": 62.0,
+                    "consistency": 63.67
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "My name is Manu. I completed BCA. I know basic Python and SQL.",
+                        "answer_relevance": 65.0,
+                        "communication_score": 70.0,
+                        "confidence_score": 66.0,
+                        "consistency_score": 68.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 19.5,
+                            "communication": 17.5,
+                            "confidence": 13.2,
+                            "consistency": 17.0
+                        },
+                        "question_score": 67.2
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "What do you do when you make a mistake?",
+                        "candidate_answer": "I try to correct the mistake and continue my work.",
+                        "answer_relevance": 55.0,
+                        "communication_score": 62.0,
+                        "confidence_score": 58.0,
+                        "consistency_score": 60.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 16.5,
+                            "communication": 15.5,
+                            "confidence": 11.6,
+                            "consistency": 15.0
+                        },
+                        "question_score": 58.6
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "Why should we hire you?",
+                        "candidate_answer": "I am interested in programming. I will work hard and learn new things.",
+                        "answer_relevance": 60.0,
+                        "communication_score": 65.0,
+                        "confidence_score": 62.0,
+                        "consistency_score": 63.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 18.0,
+                            "communication": 16.25,
+                            "confidence": 12.4,
+                            "consistency": 15.75
+                        },
+                        "question_score": 62.4
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 62.73,
+                    "score_category": "moderate"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_008_hr.json"
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "status": "COMPLETED",
+            "total_questions": 3,
+            "hr_score": 89.58,
+            "score_category": "strong",
+            "scoring_weights": {
+                "answer_relevance": 0.3,
+                "communication": 0.25,
+                "confidence": 0.2,
+                "consistency": 0.25
+            },
+            "parameter_averages": {
+                "answer_relevance": 89.0,
+                "communication": 91.33,
+                "confidence": 87.33,
+                "consistency": 90.33
+            },
+            "question_scores": [
+                {
+                    "question_id": "HR001",
+                    "question_text": "Tell me about yourself.",
+                    "candidate_answer": "I am Anjali Krishna, a Junior Full Stack Developer with two years of experience. I have worked with JavaScript, React.js and basic backend technologies. I enjoy collaborating with teams and communicating technical ideas clearly.",
+                    "answer_relevance": 88.0,
+                    "communication_score": 91.0,
+                    "confidence_score": 87.0,
+                    "consistency_score": 90.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 26.4,
+                        "communication": 22.75,
+                        "confidence": 17.4,
+                        "consistency": 22.5
+                    },
+                    "question_score": 89.05
+                },
+                {
+                    "question_id": "HR002",
+                    "question_text": "How do you handle disagreements with colleagues?",
+                    "candidate_answer": "I listen to the other person's perspective and explain my opinion with reasons. I focus on finding a solution that supports the project rather than making the discussion personal.",
+                    "answer_relevance": 90.0,
+                    "communication_score": 92.0,
+                    "confidence_score": 88.0,
+                    "consistency_score": 91.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 27.0,
+                        "communication": 23.0,
+                        "confidence": 17.6,
+                        "consistency": 22.75
+                    },
+                    "question_score": 90.35
+                },
+                {
+                    "question_id": "HR003",
+                    "question_text": "What motivates you at work?",
+                    "candidate_answer": "Learning new technologies, solving problems and completing useful features motivate me. I also enjoy receiving feedback and improving my work.",
+                    "answer_relevance": 89.0,
+                    "communication_score": 91.0,
+                    "confidence_score": 87.0,
+                    "consistency_score": 90.0,
+                    "weighted_contribution": {
+                        "answer_relevance": 26.7,
+                        "communication": 22.75,
+                        "confidence": 17.4,
+                        "consistency": 22.5
+                    },
+                    "question_score": 89.35
+                }
+            ],
+            "candidate_hr_report": {
+                "candidate_information": {
+                    "candidate_id": "CAND009",
+                    "job_id": "JD001"
+                },
+                "interview_summary": {
+                    "total_questions": 3,
+                    "score_range": "0-100"
+                },
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_scores": {
+                    "answer_relevance": 89.0,
+                    "communication": 91.33,
+                    "confidence": 87.33,
+                    "consistency": 90.33
+                },
+                "question_score_breakdown": [
+                    {
+                        "question_id": "HR001",
+                        "question_text": "Tell me about yourself.",
+                        "candidate_answer": "I am Anjali Krishna, a Junior Full Stack Developer with two years of experience. I have worked with JavaScript, React.js and basic backend technologies. I enjoy collaborating with teams and communicating technical ideas clearly.",
+                        "answer_relevance": 88.0,
+                        "communication_score": 91.0,
+                        "confidence_score": 87.0,
+                        "consistency_score": 90.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 26.4,
+                            "communication": 22.75,
+                            "confidence": 17.4,
+                            "consistency": 22.5
+                        },
+                        "question_score": 89.05
+                    },
+                    {
+                        "question_id": "HR002",
+                        "question_text": "How do you handle disagreements with colleagues?",
+                        "candidate_answer": "I listen to the other person's perspective and explain my opinion with reasons. I focus on finding a solution that supports the project rather than making the discussion personal.",
+                        "answer_relevance": 90.0,
+                        "communication_score": 92.0,
+                        "confidence_score": 88.0,
+                        "consistency_score": 91.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.0,
+                            "communication": 23.0,
+                            "confidence": 17.6,
+                            "consistency": 22.75
+                        },
+                        "question_score": 90.35
+                    },
+                    {
+                        "question_id": "HR003",
+                        "question_text": "What motivates you at work?",
+                        "candidate_answer": "Learning new technologies, solving problems and completing useful features motivate me. I also enjoy receiving feedback and improving my work.",
+                        "answer_relevance": 89.0,
+                        "communication_score": 91.0,
+                        "confidence_score": 87.0,
+                        "consistency_score": 90.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 26.7,
+                            "communication": 22.75,
+                            "confidence": 17.4,
+                            "consistency": 22.5
+                        },
+                        "question_score": 89.35
+                    }
+                ],
+                "final_evaluation": {
+                    "final_hr_interview_score": 89.58,
+                    "score_category": "strong"
+                },
+                "explainability": {
+                    "method": "Weighted average of answer relevance, communication, confidence, and consistency.",
+                    "normalization": "Average question score normalized to a 0-100 scale",
+                    "question_level_traceability": "Each question score is linked to its question text and candidate answer."
+                }
+            },
+            "source_file": "candidate_009_hr.json"
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "status": "INCOMPLETE",
+            "hr_score": null,
+            "reason": "HR interview response is not completed.",
+            "source_file": "candidate_010_hr.json"
+        }
+    ],
+    "data_provenance": {
+        "source": "HR adapter output",
+        "provenance_note": "Original HR result fields are preserved. No additional claim about real or simulated evaluation is inferred by this pipeline."
+    }
+}

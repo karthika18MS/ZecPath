@@ -1,0 +1,42 @@
+{
+    "evaluation_type": "Manual Reference Evaluation",
+    "description": "Reference scores created for controlled evaluation of the Day 40 HR interview simulation.",
+    "candidates": {
+        "SIM_CONFIDENT_001": {
+            "candidate_type": "confident",
+            "relevance": 94,
+            "communication": 85,
+            "confidence": 92,
+            "consistency": 98,
+            "logical_reasoning": 94,
+            "scenario": 94
+        },
+        "SIM_HESITANT_001": {
+            "candidate_type": "hesitant",
+            "relevance": 88,
+            "communication": 75,
+            "confidence": 70,
+            "consistency": 96,
+            "logical_reasoning": 72,
+            "scenario": 78
+        },
+        "SIM_INEXPERIENCED_001": {
+            "candidate_type": "inexperienced",
+            "relevance": 90,
+            "communication": 82,
+            "confidence": 88,
+            "consistency": 97,
+            "logical_reasoning": 90,
+            "scenario": 92
+        },
+        "SIM_OVERQUALIFIED_001": {
+            "candidate_type": "overqualified",
+            "relevance": 90,
+            "communication": 80,
+            "confidence": 90,
+            "consistency": 96,
+            "logical_reasoning": 84,
+            "scenario": 82
+        }
+    }
+}

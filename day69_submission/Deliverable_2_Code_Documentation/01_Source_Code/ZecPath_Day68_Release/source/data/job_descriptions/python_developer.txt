@@ -1,0 +1,80 @@
+Python Developer
+
+Job Description
+
+We are looking for a Python Developer to join our software development team and build reliable, scalable, and maintainable backend applications.
+
+Responsibilities
+
+• Develop backend applications using Python.
+• Design and build REST APIs using Django REST Framework or FastAPI.
+• Develop scalable web services and backend components.
+• Work with SQL and MongoDB databases.
+• Design and optimize database queries.
+• Write clean, reusable, maintainable, and efficient code.
+• Develop and integrate REST APIs.
+• Debug and troubleshoot backend applications.
+• Write unit tests and integration tests.
+• Optimize application performance.
+• Collaborate with frontend developers and cross-functional teams.
+• Use Git and GitHub for version control.
+• Participate in Agile and Scrum development.
+• Perform code reviews.
+• Implement proper error handling and logging.
+• Work with Linux-based development environments.
+• Deploy and maintain backend applications.
+• Participate in CI/CD processes.
+
+Required Skills
+
+• Python
+• Object-Oriented Programming
+• Django
+• Django REST Framework
+• FastAPI
+• REST API
+• Backend Development
+• SQL
+• MySQL
+• MongoDB
+• Database Design
+• ORM
+• Git
+• GitHub
+• Linux
+• Unit Testing
+• Debugging
+• Error Handling
+• Logging
+• Agile
+• Scrum
+• Problem Solving
+• Communication
+
+Preferred Skills
+
+• Docker
+• Kubernetes
+• AWS
+• CI/CD
+• PostgreSQL
+• Redis
+• Celery
+• RabbitMQ
+• Nginx
+• PyTest
+• JWT
+• OAuth 2.0
+• Swagger
+• OpenAPI
+• Microservices
+• System Design
+• Cloud Computing
+
+Education
+
+Bachelor's Degree in Computer Science, Computer Applications, Information Technology, Software Engineering, or a related field.
+
+Experience
+
+2+ years of experience in Python backend development.

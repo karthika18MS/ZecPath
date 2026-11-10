@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND005",
+    "job_id": "JD003",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "I am Rohit Krishnan, a Java Developer with six years of experience. I have worked with Java, Spring Boot, Hibernate, REST APIs and microservices. I have developed enterprise backend applications and worked with development and QA teams.",
+            "answer_relevance": 94,
+            "communication_score": 92,
+            "confidence_score": 91,
+            "consistency_score": 94
+        },
+        {
+            "question_id": "HR002",
+            "question": "Describe a challenging project you worked on.",
+            "answer": "I worked on an enterprise employee management platform. One challenge was maintaining communication between different backend services. I analyzed the service interactions, improved API integration and worked with the team to resolve the issue.",
+            "answer_relevance": 90,
+            "communication_score": 91,
+            "confidence_score": 88,
+            "consistency_score": 92
+        },
+        {
+            "question_id": "HR003",
+            "question": "How do you support junior developers?",
+            "answer": "I explain technical concepts, review their code and help them understand errors. I encourage them to investigate problems independently while providing guidance when needed.",
+            "answer_relevance": 93,
+            "communication_score": 92,
+            "confidence_score": 90,
+            "consistency_score": 93
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

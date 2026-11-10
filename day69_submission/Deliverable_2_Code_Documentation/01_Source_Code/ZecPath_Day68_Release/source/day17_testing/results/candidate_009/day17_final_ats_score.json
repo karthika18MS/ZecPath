@@ -1,0 +1,30 @@
+{
+    "candidate_id": "candidate_009",
+    "target_role": "Fresher Python Developer",
+    "final_ats_score": 91.92,
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "components": {
+        "skill_match": {
+            "score": 87.5,
+            "weight": 0.35,
+            "contribution": 30.62
+        },
+        "experience_relevance": {
+            "score": 100.0,
+            "weight": 0.25,
+            "contribution": 25.0
+        },
+        "education_alignment": {
+            "score": 100.0,
+            "weight": 0.15,
+            "contribution": 15.0
+        },
+        "semantic_similarity": {
+            "score": 85.17,
+            "weight": 0.25,
+            "contribution": 21.29
+        }
+    }
+}

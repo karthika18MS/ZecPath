@@ -1,0 +1,22 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "target_role": "Backend Developer",
+    "round_scores": {
+        "ats": 90.1,
+        "screening": 95.0,
+        "hr": 91.47
+    },
+    "weights": {
+        "ats": 0.4,
+        "screening": 0.3,
+        "hr": 0.3
+    },
+    "weighted_contributions": {
+        "ats": 36.04,
+        "screening": 28.5,
+        "hr": 27.44
+    },
+    "hiring_fit_percentage": 91.98,
+    "status": "Calculated"
+}

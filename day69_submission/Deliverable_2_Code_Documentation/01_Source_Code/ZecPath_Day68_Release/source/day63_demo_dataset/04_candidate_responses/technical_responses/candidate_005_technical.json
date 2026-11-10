@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND005",
+  "job_id": "JD003",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "Explain dependency injection in Spring Boot.",
+      "answer": "Dependency injection is a design pattern in which the Spring IoC container manages object creation and provides dependencies to required components. Constructor injection is generally preferred because it supports immutability and easier unit testing."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What are microservices?",
+      "answer": "Microservices architecture divides an application into independently deployable services. Each service handles a specific business capability and communicates through defined interfaces such as REST APIs or messaging systems."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you handle a failure between two microservices?",
+      "answer": "I would examine service logs, distributed tracing and communication failures. I would apply appropriate timeouts and retries with backoff. For operations requiring reliability, I would consider circuit breakers and message-based communication. I would also ensure that failures are monitored and handled without creating inconsistent business transactions."
+    }
+  ]
+}

@@ -1,0 +1,1544 @@
+{
+    "engine": "ZecPath Configurable Technical Adapter",
+    "dataset": "day63_demo_dataset",
+    "dataset_type": "DEMO_DATASET",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+    "pipeline_status": "SUCCESS",
+    "scoring_mode": "DEMO",
+    "is_simulated": true,
+    "score_source": "SIMULATED_HEURISTIC_DEMO",
+    "generated_at": "2026-11-07T23:13:10.813157+05:30",
+    "scoring_policy": {
+        "original_day47_weights_used": true,
+        "simulated_scores_used": true,
+        "human_review_required": false,
+        "demo_score_warning": "Demo parameter scores are generated using answer-length and keyword heuristics. They do not verify factual correctness and must not be used as genuine hiring decisions."
+    },
+    "summary": {
+        "total_candidates": 10,
+        "completed": 9,
+        "pending_review": 0,
+        "not_provided": 1,
+        "invalid_data": 0,
+        "average_technical_score": 62.35,
+        "file_errors": 0
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 67.48,
+            "score_category": "good",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 3,
+                "skills_evaluated": [
+                    "React",
+                    "Express.js",
+                    "JavaScript"
+                ],
+                "overall_technical_score": 67.48,
+                "overall_score_category": "good"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND001",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What is the difference between React state and props?",
+                        "skill_domain": "React",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Props are read-only values passed from a parent component to a child component. State is data managed inside a component and can change during its lifecycle. When state changes, React can re-render the component.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 34,
+                        "depth_indicators": [
+                            "component",
+                            "state"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 72.9,
+                        "depth": 69.3,
+                        "logical_reasoning": 61.8,
+                        "real_world_applicability": 56.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 29.16,
+                        "depth": 20.79,
+                        "logical_reasoning": 9.27,
+                        "real_world_applicability": 8.4
+                    },
+                    "score_summary": {
+                        "original_score": 67.62,
+                        "difficulty_normalized_score": 67.62,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 67.62. The strongest parameter was accuracy (72.90), while the weakest parameter was real_world_applicability (56.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND001",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is middleware in Express.js?",
+                        "skill_domain": "Express.js",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Middleware is a function that executes during the request-response cycle. It can access the request and response objects, perform operations such as authentication and logging, and pass control using next().",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 30,
+                        "depth_indicators": [
+                            "authentication",
+                            "middleware"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 69.5,
+                        "depth": 64.5,
+                        "logical_reasoning": 61.0,
+                        "real_world_applicability": 54.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 27.8,
+                        "depth": 19.35,
+                        "logical_reasoning": 9.15,
+                        "real_world_applicability": 8.1
+                    },
+                    "score_summary": {
+                        "original_score": 64.4,
+                        "difficulty_normalized_score": 64.4,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 64.40. The strongest parameter was accuracy (69.50), while the weakest parameter was real_world_applicability (54.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND001",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you implement authentication in a MERN application?",
+                        "skill_domain": "JavaScript",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would create a registration and login API using Node.js and Express.js. Passwords would be hashed before storing them in MongoDB. After successful login, the server would generate a JWT token. Protected routes would use authentication middleware to verify the token.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 41,
+                        "depth_indicators": [
+                            "api",
+                            "authentication",
+                            "middleware"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 79.35,
+                        "depth": 78.45,
+                        "logical_reasoning": 63.2,
+                        "real_world_applicability": 60.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 19.84,
+                        "depth": 19.61,
+                        "logical_reasoning": 18.96,
+                        "real_world_applicability": 12.0
+                    },
+                    "score_summary": {
+                        "original_score": 70.41,
+                        "difficulty_normalized_score": 70.41,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 70.41. The strongest parameter was accuracy (79.35), while the weakest parameter was real_world_applicability (60.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_001_technical.json"
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 63.43,
+            "score_category": "good",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 3,
+                "skills_evaluated": [
+                    "Python",
+                    "Django",
+                    "SQL"
+                ],
+                "overall_technical_score": 63.43,
+                "overall_score_category": "good"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND002",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What are the main features of Python?",
+                        "skill_domain": "Python",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Python is an interpreted, high-level programming language. It has simple syntax, supports object-oriented programming and provides many libraries.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 18,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 63.3,
+                        "depth": 56.1,
+                        "logical_reasoning": 58.6,
+                        "real_world_applicability": 52.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 25.32,
+                        "depth": 16.83,
+                        "logical_reasoning": 8.79,
+                        "real_world_applicability": 7.8
+                    },
+                    "score_summary": {
+                        "original_score": 58.74,
+                        "difficulty_normalized_score": 58.74,
+                        "score_category": "basic"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 58.74. The strongest parameter was accuracy (63.30), while the weakest parameter was real_world_applicability (52.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND002",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is Django?",
+                        "skill_domain": "Django",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Django is a Python web framework used to develop web applications. It provides features such as URL routing, database integration and an admin interface.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 24,
+                        "depth_indicators": [
+                            "application",
+                            "used",
+                            "database"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 69.4,
+                        "depth": 64.8,
+                        "logical_reasoning": 59.8,
+                        "real_world_applicability": 68.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 27.76,
+                        "depth": 19.44,
+                        "logical_reasoning": 8.97,
+                        "real_world_applicability": 10.2
+                    },
+                    "score_summary": {
+                        "original_score": 66.37,
+                        "difficulty_normalized_score": 66.37,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 66.37. The strongest parameter was accuracy (69.40), while the weakest parameter was logical_reasoning (59.80). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND002",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you retrieve employee records from a database?",
+                        "skill_domain": "SQL",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would connect the application to the database and execute a SELECT query to retrieve employee records. In Django, I could also use the ORM to access the records.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 29,
+                        "depth_indicators": [
+                            "application",
+                            "database",
+                            "query"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 71.15,
+                        "depth": 67.05,
+                        "logical_reasoning": 60.8,
+                        "real_world_applicability": 62.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 17.79,
+                        "depth": 16.76,
+                        "logical_reasoning": 18.24,
+                        "real_world_applicability": 12.4
+                    },
+                    "score_summary": {
+                        "original_score": 65.19,
+                        "difficulty_normalized_score": 65.19,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 65.19. The strongest parameter was accuracy (71.15), while the weakest parameter was logical_reasoning (60.80). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_002_technical.json"
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 61.84,
+            "score_category": "good",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 2,
+                "skills_evaluated": [
+                    "React",
+                    "Node.js"
+                ],
+                "overall_technical_score": 61.84,
+                "overall_score_category": "good"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND003",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What is React.js?",
+                        "skill_domain": "React",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "React is a JavaScript library used to create user interfaces. It uses components to build web pages.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 17,
+                        "depth_indicators": [
+                            "used",
+                            "component"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 66.95,
+                        "depth": 61.65,
+                        "logical_reasoning": 58.4,
+                        "real_world_applicability": 62.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 26.78,
+                        "depth": 18.49,
+                        "logical_reasoning": 8.76,
+                        "real_world_applicability": 9.3
+                    },
+                    "score_summary": {
+                        "original_score": 63.33,
+                        "difficulty_normalized_score": 63.33,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 63.33. The strongest parameter was accuracy (66.95), while the weakest parameter was logical_reasoning (58.40). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND003",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is Node.js?",
+                        "skill_domain": "Node.js",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Node.js is used to run JavaScript outside the browser. I have basic knowledge about it.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 15,
+                        "depth_indicators": [
+                            "used"
+                        ],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 64.25,
+                        "depth": 57.75,
+                        "logical_reasoning": 58.0,
+                        "real_world_applicability": 60.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 25.7,
+                        "depth": 17.32,
+                        "logical_reasoning": 8.7,
+                        "real_world_applicability": 9.0
+                    },
+                    "score_summary": {
+                        "original_score": 60.72,
+                        "difficulty_normalized_score": 60.72,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 60.72. The strongest parameter was accuracy (64.25), while the weakest parameter was depth (57.75). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND003",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you connect a React application to a backend API?",
+                        "skill_domain": "React",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would use fetch or Axios to send requests to the API. The response can be displayed in the React application.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 21,
+                        "depth_indicators": [
+                            "application",
+                            "api"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 66.35,
+                        "depth": 60.45,
+                        "logical_reasoning": 59.2,
+                        "real_world_applicability": 60.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 16.59,
+                        "depth": 15.11,
+                        "logical_reasoning": 17.76,
+                        "real_world_applicability": 12.0
+                    },
+                    "score_summary": {
+                        "original_score": 61.46,
+                        "difficulty_normalized_score": 61.46,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 61.46. The strongest parameter was accuracy (66.35), while the weakest parameter was logical_reasoning (59.20). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_003_technical.json"
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 59.78,
+            "score_category": "basic",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 1,
+                "skills_evaluated": [
+                    "Java"
+                ],
+                "overall_technical_score": 59.78,
+                "overall_score_category": "basic"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND004",
+                    "job_id": "JD003",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What is object-oriented programming?",
+                        "skill_domain": "Java",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Object-oriented programming is a programming approach based on classes and objects. Its main concepts include encapsulation, inheritance, polymorphism and abstraction.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 20,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 62.0,
+                        "depth": 54.0,
+                        "logical_reasoning": 64.0,
+                        "real_world_applicability": 50.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 24.8,
+                        "depth": 16.2,
+                        "logical_reasoning": 9.6,
+                        "real_world_applicability": 7.5
+                    },
+                    "score_summary": {
+                        "original_score": 58.1,
+                        "difficulty_normalized_score": 58.1,
+                        "score_category": "basic"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 58.10. The strongest parameter was logical_reasoning (64.00), while the weakest parameter was real_world_applicability (50.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND004",
+                    "job_id": "JD003",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is the difference between an interface and an abstract class in Java?",
+                        "skill_domain": "Java",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "An interface defines a contract that implementing classes must follow. An abstract class can contain both abstract and implemented methods and can maintain instance state.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 25,
+                        "depth_indicators": [
+                            "implemented",
+                            "state"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 65.75,
+                        "depth": 59.25,
+                        "logical_reasoning": 60.0,
+                        "real_world_applicability": 58.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 26.3,
+                        "depth": 17.77,
+                        "logical_reasoning": 9.0,
+                        "real_world_applicability": 8.7
+                    },
+                    "score_summary": {
+                        "original_score": 61.77,
+                        "difficulty_normalized_score": 61.77,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 61.77. The strongest parameter was accuracy (65.75), while the weakest parameter was real_world_applicability (58.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND004",
+                    "job_id": "JD003",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you handle an exception in Java?",
+                        "skill_domain": "Java",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would use try and catch blocks to handle exceptions. The finally block can be used for cleanup operations. I would also use appropriate exception types.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 26,
+                        "depth_indicators": [
+                            "used"
+                        ],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 64.1,
+                        "depth": 56.7,
+                        "logical_reasoning": 60.2,
+                        "real_world_applicability": 56.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 16.02,
+                        "depth": 14.18,
+                        "logical_reasoning": 18.06,
+                        "real_world_applicability": 11.2
+                    },
+                    "score_summary": {
+                        "original_score": 59.46,
+                        "difficulty_normalized_score": 59.46,
+                        "score_category": "basic"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 59.46. The strongest parameter was accuracy (64.10), while the weakest parameter was real_world_applicability (56.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_004_technical.json"
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 64.47,
+            "score_category": "good",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 1,
+                "skills_evaluated": [
+                    "Spring Boot"
+                ],
+                "overall_technical_score": 64.47,
+                "overall_score_category": "good"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND005",
+                    "job_id": "JD003",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "Explain dependency injection in Spring Boot.",
+                        "skill_domain": "Spring Boot",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Dependency injection is a design pattern in which the Spring IoC container manages object creation and provides dependencies to required components. Constructor injection is generally preferred because it supports immutability and easier unit testing.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 34,
+                        "depth_indicators": [
+                            "because",
+                            "testing",
+                            "component"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 70.9,
+                        "depth": 66.3,
+                        "logical_reasoning": 66.8,
+                        "real_world_applicability": 60.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 28.36,
+                        "depth": 19.89,
+                        "logical_reasoning": 10.02,
+                        "real_world_applicability": 9.0
+                    },
+                    "score_summary": {
+                        "original_score": 67.27,
+                        "difficulty_normalized_score": 67.27,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 67.27. The strongest parameter was accuracy (70.90), while the weakest parameter was real_world_applicability (60.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND005",
+                    "job_id": "JD003",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What are microservices?",
+                        "skill_domain": "Spring Boot",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Microservices architecture divides an application into independently deployable services. Each service handles a specific business capability and communicates through defined interfaces such as REST APIs or messaging systems.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 28,
+                        "depth_indicators": [
+                            "application",
+                            "api",
+                            "architecture"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 66.8,
+                        "depth": 60.6,
+                        "logical_reasoning": 60.6,
+                        "real_world_applicability": 58.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 26.72,
+                        "depth": 18.18,
+                        "logical_reasoning": 9.09,
+                        "real_world_applicability": 8.7
+                    },
+                    "score_summary": {
+                        "original_score": 62.69,
+                        "difficulty_normalized_score": 62.69,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 62.69. The strongest parameter was accuracy (66.80), while the weakest parameter was real_world_applicability (58.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND005",
+                    "job_id": "JD003",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you handle a failure between two microservices?",
+                        "skill_domain": "Spring Boot",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would examine service logs, distributed tracing and communication failures. I would apply appropriate timeouts and retries with backoff. For operations requiring reliability, I would consider circuit breakers and message-based communication. I would also ensure that failures are monitored and handled without creating inconsistent business transactions.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 46,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 71.1,
+                        "depth": 65.7,
+                        "logical_reasoning": 64.2,
+                        "real_world_applicability": 50.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 17.77,
+                        "depth": 16.43,
+                        "logical_reasoning": 19.26,
+                        "real_world_applicability": 10.0
+                    },
+                    "score_summary": {
+                        "original_score": 63.46,
+                        "difficulty_normalized_score": 63.46,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 63.46. The strongest parameter was accuracy (71.10), while the weakest parameter was real_world_applicability (50.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_005_technical.json"
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 62.66,
+            "score_category": "good",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 1,
+                "skills_evaluated": [
+                    "Python"
+                ],
+                "overall_technical_score": 62.66,
+                "overall_score_category": "good"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND006",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What is the difference between a Python list and a tuple?",
+                        "skill_domain": "Python",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "A list is mutable, meaning its elements can be modified after creation. A tuple is immutable. Lists are generally used for collections that need modification, while tuples are useful for fixed collections.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 32,
+                        "depth_indicators": [
+                            "used"
+                        ],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 66.2,
+                        "depth": 59.4,
+                        "logical_reasoning": 61.4,
+                        "real_world_applicability": 56.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 26.48,
+                        "depth": 17.82,
+                        "logical_reasoning": 9.21,
+                        "real_world_applicability": 8.4
+                    },
+                    "score_summary": {
+                        "original_score": 61.91,
+                        "difficulty_normalized_score": 61.91,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 61.91. The strongest parameter was accuracy (66.20), while the weakest parameter was real_world_applicability (56.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND006",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is the purpose of Pandas in Python?",
+                        "skill_domain": "Python",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Pandas is a data analysis library that provides Series and DataFrame structures. It is useful for loading, cleaning, transforming and analyzing structured data.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 23,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 63.05,
+                        "depth": 55.35,
+                        "logical_reasoning": 59.6,
+                        "real_world_applicability": 50.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 25.22,
+                        "depth": 16.61,
+                        "logical_reasoning": 8.94,
+                        "real_world_applicability": 7.5
+                    },
+                    "score_summary": {
+                        "original_score": 58.27,
+                        "difficulty_normalized_score": 58.27,
+                        "score_category": "basic"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 58.27. The strongest parameter was accuracy (63.05), while the weakest parameter was real_world_applicability (50.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND006",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you build a machine learning workflow for predicting candidate-job matching?",
+                        "skill_domain": "Python",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would first collect candidate and job description data. Then I would clean the text, extract relevant features and represent skills using suitable numerical techniques. I would train and validate a model using appropriate evaluation metrics. Finally, I would integrate the model into a Python API and monitor its predictions.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 50,
+                        "depth_indicators": [
+                            "api"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 76.5,
+                        "depth": 73.5,
+                        "logical_reasoning": 65.0,
+                        "real_world_applicability": 54.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 19.12,
+                        "depth": 18.38,
+                        "logical_reasoning": 19.5,
+                        "real_world_applicability": 10.8
+                    },
+                    "score_summary": {
+                        "original_score": 67.8,
+                        "difficulty_normalized_score": 67.8,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 67.80. The strongest parameter was accuracy (76.50), while the weakest parameter was real_world_applicability (54.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_006_technical.json"
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 62.93,
+            "score_category": "good",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 2,
+                "skills_evaluated": [
+                    "React",
+                    "Node.js"
+                ],
+                "overall_technical_score": 62.93,
+                "overall_score_category": "good"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND007",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What are React components?",
+                        "skill_domain": "React",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Components are reusable parts of a React user interface. They help divide the application into smaller and manageable sections.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 19,
+                        "depth_indicators": [
+                            "application",
+                            "component"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 65.65,
+                        "depth": 59.55,
+                        "logical_reasoning": 58.8,
+                        "real_world_applicability": 60.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 26.26,
+                        "depth": 17.86,
+                        "logical_reasoning": 8.82,
+                        "real_world_applicability": 9.0
+                    },
+                    "score_summary": {
+                        "original_score": 61.94,
+                        "difficulty_normalized_score": 61.94,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 61.94. The strongest parameter was accuracy (65.65), while the weakest parameter was logical_reasoning (58.80). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND007",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is a REST API?",
+                        "skill_domain": "Node.js",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "A REST API allows applications to communicate over HTTP. It uses methods such as GET, POST, PUT and DELETE to perform operations on resources.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 24,
+                        "depth_indicators": [
+                            "application",
+                            "api"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 65.4,
+                        "depth": 58.8,
+                        "logical_reasoning": 59.8,
+                        "real_world_applicability": 58.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 26.16,
+                        "depth": 17.64,
+                        "logical_reasoning": 8.97,
+                        "real_world_applicability": 8.7
+                    },
+                    "score_summary": {
+                        "original_score": 61.47,
+                        "difficulty_normalized_score": 61.47,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 61.47. The strongest parameter was accuracy (65.40), while the weakest parameter was real_world_applicability (58.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND007",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you store data submitted through a React form?",
+                        "skill_domain": "React",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would collect the form values using React state and send them to a backend API. The backend would validate the input and save it to the database.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 28,
+                        "depth_indicators": [
+                            "api",
+                            "database",
+                            "state"
+                        ],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 72.8,
+                        "depth": 69.6,
+                        "logical_reasoning": 60.6,
+                        "real_world_applicability": 58.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 18.2,
+                        "depth": 17.4,
+                        "logical_reasoning": 18.18,
+                        "real_world_applicability": 11.6
+                    },
+                    "score_summary": {
+                        "original_score": 65.38,
+                        "difficulty_normalized_score": 65.38,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 65.38. The strongest parameter was accuracy (72.80), while the weakest parameter was real_world_applicability (58.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_007_technical.json"
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 57.52,
+            "score_category": "basic",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 1,
+                "skills_evaluated": [
+                    "Python"
+                ],
+                "overall_technical_score": 57.52,
+                "overall_score_category": "basic"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND008",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What is Python?",
+                        "skill_domain": "Python",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "Python is a programming language. It is used for software development and automation.",
+                    "answer_analysis": {
+                        "depth_classification": "shallow",
+                        "word_count": 13,
+                        "depth_indicators": [
+                            "used"
+                        ],
+                        "depth_explanation": "Answer contains limited explanation and technical depth."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 61.55,
+                        "depth": 53.85,
+                        "logical_reasoning": 57.6,
+                        "real_world_applicability": 58.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 24.62,
+                        "depth": 16.16,
+                        "logical_reasoning": 8.64,
+                        "real_world_applicability": 8.7
+                    },
+                    "score_summary": {
+                        "original_score": 58.12,
+                        "difficulty_normalized_score": 58.12,
+                        "score_category": "basic"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 58.12. The strongest parameter was accuracy (61.55), while the weakest parameter was depth (53.85). The answer was classified as shallow. Answer contains limited explanation and technical depth.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND008",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is a function in Python?",
+                        "skill_domain": "Python",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "A function is a block of code that performs a task. We can define it using def.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 17,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 60.95,
+                        "depth": 52.65,
+                        "logical_reasoning": 58.4,
+                        "real_world_applicability": 50.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 24.38,
+                        "depth": 15.79,
+                        "logical_reasoning": 8.76,
+                        "real_world_applicability": 7.5
+                    },
+                    "score_summary": {
+                        "original_score": 56.43,
+                        "difficulty_normalized_score": 56.43,
+                        "score_category": "basic"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 56.43. The strongest parameter was accuracy (60.95), while the weakest parameter was real_world_applicability (50.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND008",
+                    "job_id": "JD002",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you find an error in your Python program?",
+                        "skill_domain": "Python",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would check the error message and try to find the line that has the problem. I would correct it and run the program again.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 25,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 63.75,
+                        "depth": 56.25,
+                        "logical_reasoning": 60.0,
+                        "real_world_applicability": 50.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 15.94,
+                        "depth": 14.06,
+                        "logical_reasoning": 18.0,
+                        "real_world_applicability": 10.0
+                    },
+                    "score_summary": {
+                        "original_score": 58.0,
+                        "difficulty_normalized_score": 58.0,
+                        "score_category": "basic"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 58.00. The strongest parameter was accuracy (63.75), while the weakest parameter was real_world_applicability (50.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_008_technical.json"
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "score_status": "SCORED",
+            "technical_score": 61.05,
+            "score_category": "good",
+            "total_questions": 3,
+            "scoring_engine": "ZecPath Day 47 Technical Scoring Engine",
+            "scoring_mode": "DEMO",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "evaluation_summary": {
+                "total_questions": 3,
+                "total_skills": 2,
+                "skills_evaluated": [
+                    "React",
+                    "Express.js"
+                ],
+                "overall_technical_score": 61.05,
+                "overall_score_category": "good"
+            },
+            "question_wise_scores": [
+                {
+                    "candidate_id": "CAND009",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH001",
+                        "question_text": "What is the virtual DOM in React?",
+                        "skill_domain": "React",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "The virtual DOM is a lightweight representation of the real DOM. React uses it to identify changes and update the necessary parts of the user interface.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 26,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 66.1,
+                        "depth": 59.7,
+                        "logical_reasoning": 60.2,
+                        "real_world_applicability": 52.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 26.44,
+                        "depth": 17.91,
+                        "logical_reasoning": 9.03,
+                        "real_world_applicability": 7.8
+                    },
+                    "score_summary": {
+                        "original_score": 61.18,
+                        "difficulty_normalized_score": 61.18,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 61.18. The strongest parameter was accuracy (66.10), while the weakest parameter was real_world_applicability (52.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND009",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH002",
+                        "question_text": "What is the difference between GET and POST requests?",
+                        "skill_domain": "Express.js",
+                        "question_type": "conceptual",
+                        "difficulty": "basic"
+                    },
+                    "candidate_answer": "GET is generally used to retrieve information from a server. POST is used to submit data to the server, such as when creating a new record.",
+                    "answer_analysis": {
+                        "depth_classification": "basic",
+                        "word_count": 26,
+                        "depth_indicators": [
+                            "used"
+                        ],
+                        "depth_explanation": "Answer demonstrates basic technical understanding with limited supporting detail."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 64.1,
+                        "depth": 56.7,
+                        "logical_reasoning": 60.2,
+                        "real_world_applicability": 56.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.4,
+                        "depth": 0.3,
+                        "logical_reasoning": 0.15,
+                        "real_world_applicability": 0.15
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 25.64,
+                        "depth": 17.01,
+                        "logical_reasoning": 9.03,
+                        "real_world_applicability": 8.4
+                    },
+                    "score_summary": {
+                        "original_score": 60.08,
+                        "difficulty_normalized_score": 60.08,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 60.08. The strongest parameter was accuracy (64.10), while the weakest parameter was real_world_applicability (56.00). The answer was classified as basic. Answer demonstrates basic technical understanding with limited supporting detail.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                },
+                {
+                    "candidate_id": "CAND009",
+                    "job_id": "JD001",
+                    "question": {
+                        "question_id": "TECH003",
+                        "question_text": "How would you handle a form submission error in React?",
+                        "skill_domain": "React",
+                        "question_type": "scenario_based",
+                        "difficulty": "intermediate"
+                    },
+                    "candidate_answer": "I would validate the form before submitting it. I would send the data to the backend and check the response. If an error occurs, I would display a meaningful message to the user and allow them to correct the input.",
+                    "answer_analysis": {
+                        "depth_classification": "moderate",
+                        "word_count": 40,
+                        "depth_indicators": [],
+                        "depth_explanation": "Answer provides reasonable technical explanation and supporting details."
+                    },
+                    "parameter_scores": {
+                        "accuracy": 69.0,
+                        "depth": 63.0,
+                        "logical_reasoning": 63.0,
+                        "real_world_applicability": 50.0
+                    },
+                    "scoring_weights": {
+                        "accuracy": 0.25,
+                        "depth": 0.25,
+                        "logical_reasoning": 0.3,
+                        "real_world_applicability": 0.2
+                    },
+                    "weighted_contributions": {
+                        "accuracy": 17.25,
+                        "depth": 15.75,
+                        "logical_reasoning": 18.9,
+                        "real_world_applicability": 10.0
+                    },
+                    "score_summary": {
+                        "original_score": 61.9,
+                        "difficulty_normalized_score": 61.9,
+                        "score_category": "good"
+                    },
+                    "explainability": {
+                        "explanation": "The candidate received a technical score of 61.90. The strongest parameter was accuracy (69.00), while the weakest parameter was real_world_applicability (50.00). The answer was classified as moderate. Answer provides reasonable technical explanation and supporting details.",
+                        "formula": "Accuracy × Weight + Depth × Weight + Logical Reasoning × Weight + Real-World Applicability × Weight"
+                    }
+                }
+            ],
+            "source_file": "candidate_009_technical.json"
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "assessment_status": "NOT_PROVIDED",
+            "technical_score": null,
+            "score_status": "NOT_SCORED",
+            "total_questions": 0,
+            "question_wise_scores": [],
+            "source_file": "candidate_010_technical.json"
+        }
+    ],
+    "file_errors": []
+}

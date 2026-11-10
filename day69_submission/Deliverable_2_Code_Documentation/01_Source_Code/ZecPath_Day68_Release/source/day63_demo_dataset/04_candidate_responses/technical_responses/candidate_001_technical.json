@@ -1,0 +1,26 @@
+{
+  "candidate_id": "CAND001",
+  "job_id": "JD001",
+  "assessment_type": "TECHNICAL",
+  "response_status": "completed",
+  "questions": [
+    {
+      "question_id": "TECH001",
+      "question_type": "conceptual",
+      "question": "What is the difference between React state and props?",
+      "answer": "Props are read-only values passed from a parent component to a child component. State is data managed inside a component and can change during its lifecycle. When state changes, React can re-render the component."
+    },
+    {
+      "question_id": "TECH002",
+      "question_type": "conceptual",
+      "question": "What is middleware in Express.js?",
+      "answer": "Middleware is a function that executes during the request-response cycle. It can access the request and response objects, perform operations such as authentication and logging, and pass control using next()."
+    },
+    {
+      "question_id": "TECH003",
+      "question_type": "scenario",
+      "question": "How would you implement authentication in a MERN application?",
+      "answer": "I would create a registration and login API using Node.js and Express.js. Passwords would be hashed before storing them in MongoDB. After successful login, the server would generate a JWT token. Protected routes would use authentication middleware to verify the token."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+    "candidate_id": "candidate_008",
+    "target_role": "Marketing Executive",
+    "job_description": "marketing_executive.txt",
+    "engine": "ZecPath Day 18 Optimized ATS Engine",
+    "pipeline_status": "SUCCESS",
+    "scores": {
+        "skill_matching": 90.91,
+        "experience_relevance": 100.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 82.9,
+        "final_ats_score": 92.54
+    },
+    "weights": {
+        "skill_matching": 0.35,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "excluded_components": [],
+    "contributions": {
+        "skill_matching": 31.82,
+        "experience_relevance": 25.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 20.73
+    },
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "manual_review": {
+        "review_required": false,
+        "review_status": "NOT_REQUIRED",
+        "review_reason": null
+    },
+    "skill_details": {
+        "score": 90.91,
+        "required_skills": [
+            "brand management",
+            "communication",
+            "content creation",
+            "content marketing",
+            "digital marketing",
+            "email marketing",
+            "google analytics",
+            "market research",
+            "marketing",
+            "seo",
+            "social media"
+        ],
+        "matched_skills": [
+            "communication",
+            "content creation",
+            "content marketing",
+            "digital marketing",
+            "email marketing",
+            "google analytics",
+            "market research",
+            "marketing",
+            "seo",
+            "social media"
+        ],
+        "missing_skills": [
+            "brand management"
+        ],
+        "total_required_skills": 11,
+        "total_matched_skills": 10,
+        "source": "Day 17 validated skill matcher"
+    },
+    "experience_details": {
+        "score": 100.0,
+        "candidate_experience_years": 2.0,
+        "minimum_required_years": 1.0,
+        "maximum_required_years": 3.0,
+        "is_applicable": true,
+        "status": "Experience Fully Meets Requirement"
+    },
+    "education_details": {
+        "score": 100.0,
+        "candidate_degrees": [
+            "mba"
+        ],
+        "candidate_fields": [
+            "business administration",
+            "management",
+            "marketing"
+        ],
+        "required_degrees": [],
+        "required_fields": [
+            "business administration",
+            "management",
+            "marketing"
+        ],
+        "degree_match": false,
+        "field_match": true,
+        "status": "Education Field Requirement Met"
+    },
+    "semantic_details": {
+        "score": 82.9,
+        "raw_score": 0.829,
+        "embedding_length": 384,
+        "model_access_time_seconds": 8.482387
+    },
+    "entity_detection": {
+        "name": "Candidate 008",
+        "job_titles": [
+            "marketing executive"
+        ],
+        "skills": [
+            "campaign management",
+            "canva",
+            "communication",
+            "content creation",
+            "content marketing",
+            "digital marketing",
+            "email marketing",
+            "excel",
+            "google ads",
+            "google analytics",
+            "market research",
+            "seo",
+            "social media management",
+            "social media marketing"
+        ],
+        "degrees": [
+            "mba"
+        ],
+        "experience_years": 2.0,
+        "years": [
+            2024,
+            2026
+        ],
+        "projects": [],
+        "sections": {
+            "summary": [
+                "Marketing Executive with 2 years of experience in digital",
+                "marketing, social media management, content creation,",
+                "and campaign analysis."
+            ],
+            "skills": [
+                "Digital Marketing",
+                "Social Media Marketing",
+                "Content Marketing",
+                "Market Research",
+                "SEO",
+                "Google Analytics",
+                "Content Creation",
+                "Communication",
+                "Campaign Management",
+                "MS Excel",
+                "Google Ads",
+                "Email Marketing",
+                "Canva"
+            ],
+            "experience": [
+                "Marketing Executive",
+                "ABC Marketing Solutions",
+                "2024 - 2026",
+                "Managed social media marketing campaigns.",
+                "Created social media and website content.",
+                "Performed keyword research and SEO activities.",
+                "Used Google Analytics to monitor campaign performance.",
+                "Prepared monthly marketing reports.",
+                "Conducted market research and competitor analysis.",
+                "Created email marketing campaigns.",
+                "Used Canva for marketing materials.",
+                "Supported Google Ads campaigns."
+            ],
+            "education": [
+                "Master of Business Administration",
+                "Marketing",
+                "PROJECT:",
+                "Digital Marketing Campaign Analysis",
+                "Analyzed campaign performance using Google Analytics",
+                "and prepared recommendations for improving customer engagement."
+            ]
+        }
+    },
+    "semantic_input": "Validated Day 17 cleaned resume",
+    "performance": {
+        "extraction_time_seconds": 0.141681,
+        "cleaning_time_seconds": 0.003089,
+        "entity_detection_time_seconds": 0.03852,
+        "skill_matching_time_seconds": 0.114419,
+        "semantic_processing_time_seconds": 10.458979,
+        "semantic_model_access_time_seconds": 8.482387,
+        "unaccounted_pipeline_time_seconds": 0.015923,
+        "total_pipeline_time_seconds": 10.772611,
+        "output_save_time_seconds": 0.001448
+    }
+}

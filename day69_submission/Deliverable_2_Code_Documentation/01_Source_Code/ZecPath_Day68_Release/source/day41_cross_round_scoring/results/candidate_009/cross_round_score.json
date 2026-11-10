@@ -1,0 +1,13 @@
+{
+    "candidate_id": "candidate_009",
+    "status": "Incomplete",
+    "missing_rounds": [
+        "HR",
+        "Aptitude"
+    ],
+    "round_scores": {
+        "ats": 91.92,
+        "hr": null,
+        "aptitude": null
+    }
+}

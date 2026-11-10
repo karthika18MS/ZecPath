@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND008",
+    "job_id": "JD002",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.066668+05:30",
+    "task": {
+        "task_id": "PYTHON_TASK_008",
+        "title": "Python Data Filtering",
+        "requirements": [
+            "Filter records by department",
+            "Return matching employees",
+            "Handle empty records",
+            "Use reusable functions"
+        ],
+        "candidate_code": "\ndef filter_by_department(employees, department):\n\n    if not employees:\n        return []\n\n    result = []\n\n    for employee in employees:\n\n        if employee.get(\"department\") == department:\n            result.append(employee)\n\n    return result\n\n\nemployees = [\n    {\"name\": \"Anu\", \"department\": \"IT\"},\n    {\"name\": \"Ravi\", \"department\": \"HR\"},\n    {\"name\": \"Meera\", \"department\": \"IT\"}\n]\n\nprint(filter_by_department(employees, \"IT\"))\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 6,
+            "failed_tests": 4,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 75,
+            "code_quality": 72,
+            "readability": 78,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

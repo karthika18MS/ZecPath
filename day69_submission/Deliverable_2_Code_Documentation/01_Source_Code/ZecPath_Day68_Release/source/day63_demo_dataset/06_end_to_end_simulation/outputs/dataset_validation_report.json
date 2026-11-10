@@ -1,0 +1,484 @@
+{
+    "module": "ZecPath Dataset Schema Validation",
+    "dataset_name": "day63_demo_dataset",
+    "dataset_type": "DEMO_DATASET",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "validation_status": "INCOMPLETE",
+    "generated_at": "2026-11-07T17:42:54.276450+00:00",
+    "validation_result": {
+        "schema_name": "ZecPath Simulation Dataset Schema",
+        "schema_version": "1.1",
+        "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+        "directory_validation": {
+            "valid": true,
+            "missing_directories": []
+        },
+        "profile_validation": {
+            "total_profiles_checked": 10,
+            "valid_profiles": 10,
+            "invalid_profiles": 0,
+            "candidate_ids": [
+                "CAND001",
+                "CAND002",
+                "CAND003",
+                "CAND004",
+                "CAND005",
+                "CAND006",
+                "CAND007",
+                "CAND008",
+                "CAND009",
+                "CAND010"
+            ],
+            "candidate_numbers": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "results": [
+                {
+                    "file": "candidate_001.json",
+                    "candidate_id": "CAND001",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_002.json",
+                    "candidate_id": "CAND002",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_003.json",
+                    "candidate_id": "CAND003",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_004.json",
+                    "candidate_id": "CAND004",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_005.json",
+                    "candidate_id": "CAND005",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_006.json",
+                    "candidate_id": "CAND006",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_007.json",
+                    "candidate_id": "CAND007",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_008.json",
+                    "candidate_id": "CAND008",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_009.json",
+                    "candidate_id": "CAND009",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_010.json",
+                    "candidate_id": "CAND010",
+                    "valid": true,
+                    "errors": []
+                }
+            ]
+        },
+        "resume_validation": {
+            "total_resume_files": 8,
+            "valid_resume_files": 8,
+            "missing_resume_candidates": [
+                "CAND007",
+                "CAND010"
+            ],
+            "complete": false,
+            "files": [
+                {
+                    "file": "candidate_002_resume.pdf",
+                    "relative_path": "average\\candidate_002_resume.pdf",
+                    "candidate_number": 2,
+                    "valid_extension": true
+                },
+                {
+                    "file": "candidate_009_resume.pdf",
+                    "relative_path": "average\\candidate_009_resume.pdf",
+                    "candidate_number": 9,
+                    "valid_extension": true
+                },
+                {
+                    "file": "candidate_001_resume.pdf",
+                    "relative_path": "excellent\\candidate_001_resume.pdf",
+                    "candidate_number": 1,
+                    "valid_extension": true
+                },
+                {
+                    "file": "candidate_006_resume.pdf",
+                    "relative_path": "excellent\\candidate_006_resume.pdf",
+                    "candidate_number": 6,
+                    "valid_extension": true
+                },
+                {
+                    "file": "candidate_005_resume.pdf",
+                    "relative_path": "experienced\\candidate_005_resume.pdf",
+                    "candidate_number": 5,
+                    "valid_extension": true
+                },
+                {
+                    "file": "candidate_004_resume.pdf",
+                    "relative_path": "fresher\\candidate_004_resume.pdf",
+                    "candidate_number": 4,
+                    "valid_extension": true
+                },
+                {
+                    "file": "candidate_003_resume.pdf",
+                    "relative_path": "poor\\candidate_003_resume.pdf",
+                    "candidate_number": 3,
+                    "valid_extension": true
+                },
+                {
+                    "file": "candidate_008_resume.pdf",
+                    "relative_path": "poor\\candidate_008_resume.pdf",
+                    "candidate_number": 8,
+                    "valid_extension": true
+                }
+            ]
+        },
+        "job_description_validation": {
+            "total_files": 3,
+            "valid_files": 3,
+            "invalid_files": 0,
+            "required_files_present": true,
+            "results": [
+                {
+                    "file": "JD001_mern_developer.txt",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "file": "JD002_python_developer.txt",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "file": "JD003_java_developer.txt",
+                    "valid": true,
+                    "error": null
+                }
+            ]
+        },
+        "response_validation": {
+            "total_response_files": 39,
+            "valid_response_files": 39,
+            "invalid_response_files": 0,
+            "results": [
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_001_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_002_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_003_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_004_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_005_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_006_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_007_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_008_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_009_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "hr_responses",
+                    "file": "candidate_010_hr.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_001_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_002_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_003_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_004_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_005_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_006_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_007_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_008_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_009_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "aptitude_responses",
+                    "file": "candidate_010_aptitude.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_001_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_002_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_003_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_004_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_005_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_006_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_007_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_008_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_009_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "technical_responses",
+                    "file": "candidate_010_technical.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_001_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_002_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_003_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_004_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_005_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_006_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_007_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_008_machine_test.json",
+                    "valid": true,
+                    "error": null
+                },
+                {
+                    "folder": "machine_test_responses",
+                    "file": "candidate_009_machine_test.json",
+                    "valid": true,
+                    "error": null
+                }
+            ]
+        },
+        "machine_test_validation": {
+            "total_checked": 9,
+            "valid": 9,
+            "invalid": 0,
+            "results": [
+                {
+                    "file": "candidate_001_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_002_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_003_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_004_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_005_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_006_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_007_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_008_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                },
+                {
+                    "file": "candidate_009_machine_test.json",
+                    "valid": true,
+                    "errors": []
+                }
+            ]
+        },
+        "overall_valid": false
+    }
+}

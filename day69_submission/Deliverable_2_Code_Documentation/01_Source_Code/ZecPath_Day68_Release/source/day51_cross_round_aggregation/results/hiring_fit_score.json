@@ -1,0 +1,70 @@
+{
+    "engine": "ZecPath Day 51 Hiring Fit Calculator",
+    "report_type": "DEMO_ONLY",
+    "evaluation_status": "SUCCESS_DEMO",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "hiring_fit_score": 89.82,
+    "verified_hiring_fit_score": "NOT_EVALUATED",
+    "round_weights": {
+        "ats": 0.15,
+        "screening": 0.1,
+        "hr_interview": 0.2,
+        "technical_interview": 0.25,
+        "machine_test": 0.3
+    },
+    "round_results": [
+        {
+            "round": "ats",
+            "source_file": "day18_optimization\\results\\candidate_006\\day18_optimized_ats_score.json",
+            "score": 90.1,
+            "weight": 0.15,
+            "weighted_contribution": 13.515,
+            "status": "SOURCE_SCORE",
+            "data_type": "SOURCE_REPORTED",
+            "explanation": "Numeric score loaded from the source file."
+        },
+        {
+            "round": "screening",
+            "source_file": "day32_screening_finalization\\results\\final_screening_pipeline_result.json",
+            "score": 95.0,
+            "weight": 0.1,
+            "weighted_contribution": 9.5,
+            "status": "SOURCE_SCORE",
+            "data_type": "SOURCE_REPORTED",
+            "explanation": "Numeric score loaded from the source file."
+        },
+        {
+            "round": "hr_interview",
+            "source_file": "day37_hr_interview_scoring\\results\\hr_interview_score.json",
+            "score": 91.47,
+            "weight": 0.2,
+            "weighted_contribution": 18.294,
+            "status": "SOURCE_SCORE",
+            "data_type": "SOURCE_REPORTED",
+            "explanation": "Numeric score loaded from the source file."
+        },
+        {
+            "round": "technical_interview",
+            "source_file": "day47_technical_skill_scoring\\results\\candidate_technical_evaluation.json",
+            "score": 81.25,
+            "weight": 0.25,
+            "weighted_contribution": 20.3125,
+            "status": "DEMO_SOURCE",
+            "data_type": "DEMO_ONLY",
+            "explanation": "Numeric score loaded from a source labelled as test or demonstration data."
+        },
+        {
+            "round": "machine_test",
+            "source_file": "day50_machine_test_scoring\\results\\machine_test_score.json",
+            "score": 94.0,
+            "weight": 0.3,
+            "weighted_contribution": 28.2,
+            "status": "DEMO_SOURCE",
+            "data_type": "DEMO_ONLY",
+            "explanation": "Numeric score loaded from a source labelled as test or demonstration data."
+        }
+    ],
+    "score_interpretation": "Demonstration score using available source scores and configured demo fallback scores. Not a verified hiring decision.",
+    "generated_at_utc": "2026-10-09T11:36:58.282871+00:00"
+}

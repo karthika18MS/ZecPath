@@ -1,0 +1,30 @@
+{
+  "candidate_id": "CAND003",
+  "candidate_name": "Vishnu S",
+  "job_id": "JD001",
+  "target_role": "MERN Stack Developer",
+  "experience_years": 1,
+  "education": "BCA",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap",
+    "React.js"
+  ],
+  "resume_file": "candidate_003_resume.pdf",
+  "resume_quality": "poor",
+  "candidate_type": "junior",
+  "missing_mandatory_skills": [
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

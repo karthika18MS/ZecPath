@@ -1,0 +1,17 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "question_id": "BACKEND_EXP_001",
+    "question": "How many years of backend development experience do you have?",
+    "question_category": "experience",
+    "error_handling": {
+        "error_type": "no_response",
+        "action": "retry",
+        "retry_count": 1,
+        "requires_follow_up": false,
+        "screening_failed": false,
+        "message": "I didn't hear a response. Could you please answer the question?",
+        "reason": "No response was detected. The AI will politely retry the question."
+    },
+    "created_at": "2026-09-10T06:41:12.899282+00:00"
+}

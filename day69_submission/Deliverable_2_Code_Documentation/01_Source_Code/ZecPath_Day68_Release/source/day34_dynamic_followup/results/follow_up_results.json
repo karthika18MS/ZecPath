@@ -1,0 +1,13 @@
+{
+    "candidate_id": "candidate_006",
+    "question_id": "HR_TEAM_001",
+    "answer": "I worked with a team.",
+    "answer_status": "vague",
+    "follow_up_decision": {
+        "action": "clarification",
+        "follow_up_type": "clarification",
+        "follow_up_eligible": true,
+        "reason": "The candidate response is vague and needs more detail.",
+        "follow_up_count": 1
+    }
+}

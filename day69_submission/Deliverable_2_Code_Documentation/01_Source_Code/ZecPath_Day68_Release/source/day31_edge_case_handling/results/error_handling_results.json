@@ -1,0 +1,89 @@
+{
+    "report_type": "Error Handling Framework Results",
+    "framework": "Rule-Based Screening Error Handler",
+    "total_cases": 9,
+    "results": [
+        {
+            "status": "retry_required",
+            "action": "retry",
+            "error_type": "poor_audio",
+            "retry_count": 1,
+            "message": "I couldn't hear you clearly. Could you please repeat your answer?",
+            "created_at": "2026-09-12T05:58:15.483479Z",
+            "case_id": "ERROR_001"
+        },
+        {
+            "status": "retry_required",
+            "action": "retry",
+            "error_type": "missing_answer",
+            "retry_count": 1,
+            "message": "I didn't receive your answer. Could you please answer the question?",
+            "created_at": "2026-09-12T05:58:15.483660Z",
+            "case_id": "ERROR_002"
+        },
+        {
+            "status": "retry_required",
+            "action": "retry",
+            "error_type": "background_noise",
+            "retry_count": 1,
+            "message": "There seems to be some background noise. Could you please repeat your answer clearly?",
+            "created_at": "2026-09-12T05:58:15.483830Z",
+            "case_id": "ERROR_003"
+        },
+        {
+            "status": "clarification_required",
+            "action": "clarification",
+            "error_type": "language_mixing",
+            "retry_count": 0,
+            "message": "Could you please answer the question in English so I can understand your response clearly?",
+            "created_at": "2026-09-12T05:58:15.484023Z",
+            "case_id": "ERROR_004"
+        },
+        {
+            "status": "clarification_required",
+            "action": "clarification",
+            "error_type": "confused",
+            "retry_count": 0,
+            "message": "Let me clarify the question. Could you please answer it again?",
+            "created_at": "2026-09-12T05:58:15.484358Z",
+            "case_id": "ERROR_005"
+        },
+        {
+            "status": "follow_up_required",
+            "action": "follow_up",
+            "error_type": "vague",
+            "follow_up_count": 1,
+            "message": "Could you provide a little more detail about your answer?",
+            "created_at": "2026-09-12T05:58:15.484551Z",
+            "case_id": "ERROR_006"
+        },
+        {
+            "status": "follow_up_required",
+            "action": "follow_up",
+            "error_type": "repeated",
+            "follow_up_count": 1,
+            "message": "Could you provide a specific example or additional detail?",
+            "created_at": "2026-09-12T05:58:15.484989Z",
+            "case_id": "ERROR_007"
+        },
+        {
+            "status": "fallback_required",
+            "action": "fallback",
+            "error_type": "poor_audio",
+            "retry_count": 2,
+            "message": "We are having difficulty processing your response. We will continue with the screening process.",
+            "created_at": "2026-09-12T05:58:15.485185Z",
+            "case_id": "ERROR_008"
+        },
+        {
+            "status": "fallback_required",
+            "action": "fallback",
+            "error_type": "unknown",
+            "retry_count": 0,
+            "message": "We were unable to process that response. Let's continue with the screening.",
+            "created_at": "2026-09-12T05:58:15.485371Z",
+            "case_id": "ERROR_009"
+        }
+    ],
+    "created_at": "2026-09-12T05:58:15.486439Z"
+}

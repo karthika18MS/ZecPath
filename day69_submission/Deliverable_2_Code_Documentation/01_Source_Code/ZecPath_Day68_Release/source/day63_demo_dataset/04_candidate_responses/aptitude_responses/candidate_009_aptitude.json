@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND009",
+  "job_id": "JD001",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "If 15 employees complete 60 tasks equally, how many tasks does each employee complete?",
+      "answer": "Each employee completes 4 tasks because 60 divided by 15 equals 4.",
+      "expected_answer": "4 tasks"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 4, 8, 12, 16. What is the next number?",
+      "answer": "20. The sequence increases by 4.",
+      "expected_answer": "20"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "A teammate is unable to complete their assigned task before the deadline. What would you do?",
+      "answer": "I would first communicate with the teammate to understand the problem. Then I would discuss task priorities with the team and see whether we can redistribute some work. I would inform the project lead about the situation and help the team complete the important tasks on time."
+    }
+  ]
+}

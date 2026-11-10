@@ -1,0 +1,1 @@
+gtts 2.5.4 has requirement click<8.2,>=7.1, but you have click 8.4.2.

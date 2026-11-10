@@ -1,0 +1,7 @@
+{
+    "problem_understanding": 0.20,
+    "reasoning": 0.30,
+    "decision_quality": 0.20,
+    "explanation_clarity": 0.15,
+    "conclusion": 0.15
+}

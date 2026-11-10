@@ -1,0 +1,30 @@
+{
+    "candidate_id": "candidate_013",
+    "target_role": "Python Developer",
+    "final_ats_score": 37.9,
+    "matching_status": "Low Match",
+    "shortlisting_status": "Not Shortlisted",
+    "recommendation": "Not Recommended",
+    "components": {
+        "skill_match": {
+            "score": 0.0,
+            "weight": 0.35,
+            "contribution": 0.0
+        },
+        "experience_relevance": {
+            "score": 100.0,
+            "weight": 0.25,
+            "contribution": 25.0
+        },
+        "education_alignment": {
+            "score": 50.0,
+            "weight": 0.15,
+            "contribution": 7.5
+        },
+        "semantic_similarity": {
+            "score": 21.59,
+            "weight": 0.25,
+            "contribution": 5.4
+        }
+    }
+}

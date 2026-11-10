@@ -1,0 +1,109 @@
+{
+    "report_type": "Recruiter-Friendly Candidate Summary",
+    "generated_at": "2026-11-08T07:00:21.205978+00:00",
+    "candidate_information": {
+        "candidate_id": "CAND010",
+        "job_id": "JD003"
+    },
+    "recruiter_overview": {
+        "candidate_id": "CAND010",
+        "job_id": "JD003",
+        "unified_score": null,
+        "formatted_unified_score": "Not available",
+        "score_coverage": 0.0,
+        "formatted_coverage": "0.00%",
+        "scoring_status": "NO_SCORES_AVAILABLE",
+        "ats_eligibility": "BLOCKED",
+        "final_decision": "BLOCKED_PENDING_ATS"
+    },
+    "assessment_summary": [
+        {
+            "round": "ats",
+            "round_name": "ATS Screening",
+            "score": null,
+            "formatted_score": "Not available",
+            "assessment_status": "NOT_PROVIDED",
+            "is_simulated": null,
+            "score_source": null
+        },
+        {
+            "round": "hr",
+            "round_name": "HR Interview",
+            "score": null,
+            "formatted_score": "Not available",
+            "assessment_status": "INCOMPLETE",
+            "is_simulated": null,
+            "score_source": null
+        },
+        {
+            "round": "aptitude",
+            "round_name": "Aptitude Assessment",
+            "score": null,
+            "formatted_score": "Not available",
+            "assessment_status": "INCOMPLETE",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO"
+        },
+        {
+            "round": "technical",
+            "round_name": "Technical Interview",
+            "score": null,
+            "formatted_score": "Not available",
+            "assessment_status": "NOT_PROVIDED",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO"
+        },
+        {
+            "round": "machine_test",
+            "round_name": "Machine Test",
+            "score": null,
+            "formatted_score": "Not available",
+            "assessment_status": "NOT_PROVIDED",
+            "is_simulated": true,
+            "score_source": "NO_SUBMISSION_AVAILABLE"
+        }
+    ],
+    "overall_evaluation": {
+        "unified_score": null,
+        "score_coverage": 0.0,
+        "scoring_status": "NO_SCORES_AVAILABLE",
+        "available_rounds": [],
+        "missing_rounds": [
+            "ats",
+            "hr",
+            "aptitude",
+            "technical",
+            "machine_test"
+        ]
+    },
+    "ats_eligibility": "BLOCKED",
+    "final_decision": {
+        "status": "BLOCKED_PENDING_ATS",
+        "explanation": "Progress is blocked because ATS eligibility is missing or blocked. Do not use the unified score alone to advance this candidate."
+    },
+    "recruiter_action": {
+        "suggested_action": "Obtain or verify the candidate's ATS eligibility result before considering further progression.",
+        "requires_human_review": true
+    },
+    "data_provenance": {
+        "dataset_type": "DEMO_DATASET",
+        "simulated_assessments": [
+            "Aptitude Assessment",
+            "Technical Interview",
+            "Machine Test"
+        ],
+        "unknown_provenance_assessments": [
+            "ATS Screening",
+            "HR Interview"
+        ]
+    },
+    "warnings": [
+        "Missing assessments: ATS Screening, HR Interview, Aptitude Assessment, Technical Interview, Machine Test",
+        "Simulated assessment data detected: Aptitude Assessment, Technical Interview, Machine Test",
+        "Provenance is not specified for: ATS Screening, HR Interview",
+        "No unified score is available because no round scores were provided.",
+        "Assessment coverage is incomplete: 0.00%",
+        "This report uses a demo dataset and is not suitable for real hiring decisions.",
+        "Recruiters must independently verify candidate information and assessment evidence before making hiring decisions."
+    ]
+}

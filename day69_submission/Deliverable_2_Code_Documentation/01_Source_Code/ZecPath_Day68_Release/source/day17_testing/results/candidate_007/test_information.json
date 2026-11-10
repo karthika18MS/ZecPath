@@ -1,0 +1,8 @@
+{
+    "candidate_id": "candidate_007",
+    "target_role": "HR Executive",
+    "resume_file": "day17_testing\\resumes\\candidate_007.docx",
+    "job_description_file": "day17_testing\\job_descriptions\\hr_executive.txt",
+    "resume_extraction": "SUCCESS",
+    "job_description_loading": "SUCCESS"
+}

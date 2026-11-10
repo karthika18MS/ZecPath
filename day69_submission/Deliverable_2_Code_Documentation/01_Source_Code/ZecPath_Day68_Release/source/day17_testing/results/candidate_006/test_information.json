@@ -1,0 +1,8 @@
+{
+    "candidate_id": "candidate_006",
+    "target_role": "Backend Developer",
+    "resume_file": "day17_testing\\resumes\\candidate_006.docx",
+    "job_description_file": "day17_testing\\job_descriptions\\backend_developer.txt",
+    "resume_extraction": "SUCCESS",
+    "job_description_loading": "SUCCESS"
+}

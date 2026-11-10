@@ -1,0 +1,103 @@
+{
+    "report_type": "AI Screening Report",
+    "candidate_id": "sample_candidate_004",
+    "job_id": "JOB_BACKEND_001",
+    "question_context": {
+        "question_id": "BACKEND_EXP_004",
+        "question": "How many years of backend development experience do you have?",
+        "question_category": "experience"
+    },
+    "key_answers": {
+        "experience": {
+            "years": 3,
+            "months": null,
+            "domain": "backend development"
+        },
+        "response": "Um, I think I have maybe three years of backend development experience. I believe I worked mostly with Python."
+    },
+    "screening_evaluation": {
+        "final_screening_score": 70.0,
+        "score_scale": "0-100",
+        "average_scores": {
+            "clarity": 6.5,
+            "relevance": 9.0,
+            "completeness": 8.0,
+            "consistency": 7.0
+        },
+        "screening_summary": {
+            "total_questions": 5,
+            "answered_questions": 5,
+            "no_response_questions": 0,
+            "off_topic_questions": 0
+        }
+    },
+    "question_scores": [
+        {
+            "question_id": "BACKEND_EXP_004",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "normalized_score": 75.0,
+            "answer_status": "valid",
+            "intent": "experience",
+            "off_topic": false,
+            "strengths": [
+                "Relevant experience was provided.",
+                "Backend development domain was identified."
+            ],
+            "weaknesses": [
+                "Hesitation and uncertainty detected."
+            ]
+        }
+    ],
+    "strengths": [
+        "Relevant backend experience was provided.",
+        "Experience domain was identified.",
+        "Response remained relevant to the question."
+    ],
+    "risks": [
+        "Hesitation detected in response.",
+        "Uncertainty signals detected.",
+        "Communication confidence may require further evaluation."
+    ],
+    "missing_data": [],
+    "highlights": {
+        "salary_expectation": null,
+        "availability": null,
+        "skill_confirmations": [
+            "Python"
+        ]
+    },
+    "communication_summary": {
+        "confidence": {
+            "score": 60,
+            "level": "moderate"
+        },
+        "clarity": {
+            "score": 70,
+            "level": "moderate"
+        },
+        "engagement": {
+            "score": 75,
+            "level": "moderate"
+        },
+        "consistency": {
+            "score": 90,
+            "level": "strong"
+        },
+        "communication_strength": {
+            "score": 73.75,
+            "level": "moderate"
+        }
+    },
+    "behavioral_signals": {
+        "hesitation_count": 3,
+        "uncertainty_count": 2,
+        "response_word_count": 22,
+        "pace": "normal",
+        "sentiment": "neutral",
+        "sentiment_score": 50.0,
+        "contradiction_detected": false
+    },
+    "answer_status": "valid",
+    "created_at": "2026-09-09T06:15:00+00:00"
+}

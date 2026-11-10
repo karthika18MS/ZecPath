@@ -1,0 +1,42 @@
+{
+    "engine": "ZecPath Machine Test Evaluation Engine",
+    "data_type": "TEST_INPUT",
+    "generated_at": "2026-10-09T16:48:39.361386+05:30",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "task_id": "MT_PYTHON_001",
+    "task_title": "Python List Processing",
+    "evaluation_status": "SUCCESS",
+    "test_results": {
+        "total_tests": 3,
+        "passed_tests": 3,
+        "failed_tests": 0,
+        "test_pass_rate": 100.0
+    },
+    "scoring_weights": {
+        "test_pass_rate": 0.5,
+        "requirement_coverage": 0.2,
+        "code_quality": 0.2,
+        "readability": 0.1
+    },
+    "component_scores": {
+        "test_pass_rate": 100.0,
+        "requirement_coverage": 90,
+        "code_quality": 85,
+        "readability": 90
+    },
+    "weighted_contributions": {
+        "test_pass_rate": 50.0,
+        "requirement_coverage": 18.0,
+        "code_quality": 17.0,
+        "readability": 9.0
+    },
+    "machine_test_score": 94.0,
+    "score_category": "strong",
+    "requirements": [
+        "Remove duplicate values",
+        "Preserve the original order",
+        "Return the processed list"
+    ],
+    "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+}

@@ -1,0 +1,34 @@
+NAME: Candidate 007
+PROFESSIONAL SUMMARY:
+HR Executive with 2 years of experience in recruitment,
+employee onboarding, HR operations, and interview coordination.
+SKILLS:
+Recruitment
+Talent Acquisition
+Interview Coordination
+Employee Onboarding
+HR Operations
+Communication
+MS Excel
+HR Documentation
+Employee Relations
+HRMS
+PROFESSIONAL EXPERIENCE:
+HR Executive
+XYZ Solutions
+2024 - 2026
+Managed recruitment activities for technical and non-technical positions.
+Screened resumes and shortlisted candidates.
+Scheduled interviews with candidates and hiring managers.
+Coordinated employee onboarding activities.
+Maintained employee records and HR documentation.
+Prepared HR reports using Microsoft Excel.
+Supported employee engagement activities.
+Used HRMS for maintaining employee information.
+EDUCATION:
+Master of Business Administration
+Human Resources
+PROJECT:
+Employee Recruitment Management System
+Created a recruitment tracking process for managing
+candidate applications, interview schedules, and hiring status.

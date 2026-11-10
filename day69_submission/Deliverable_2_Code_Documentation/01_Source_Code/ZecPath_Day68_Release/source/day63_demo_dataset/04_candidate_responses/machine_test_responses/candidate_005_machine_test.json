@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND005",
+    "job_id": "JD003",
+    "assessment_type": "MACHINE_TEST",
+    "data_type": "SIMULATED_DEMO_DATA",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_INPUT",
+    "test_results_are_simulated": true,
+    "review_scores_are_simulated": true,
+    "generated_at": "2026-11-07T19:37:50.064280+05:30",
+    "task": {
+        "task_id": "JAVA_TASK_005",
+        "title": "Spring Boot REST Service",
+        "requirements": [
+            "Create REST endpoints",
+            "Implement employee service",
+            "Use dependency injection",
+            "Handle missing employee records"
+        ],
+        "candidate_code": "\n@Service\nclass EmployeeService {\n\n    private final EmployeeRepository repository;\n\n    public EmployeeService(EmployeeRepository repository) {\n        this.repository = repository;\n    }\n\n    public List<Employee> getEmployees() {\n        return repository.findAll();\n    }\n\n    public Optional<Employee> getEmployee(Long id) {\n        return repository.findById(id);\n    }\n}\n\n@RestController\n@RequestMapping(\"/employees\")\nclass EmployeeController {\n\n    private final EmployeeService service;\n\n    public EmployeeController(EmployeeService service) {\n        this.service = service;\n    }\n\n    @GetMapping\n    public List<Employee> getAll() {\n        return service.getEmployees();\n    }\n\n    @GetMapping(\"/{id}\")\n    public ResponseEntity<Employee> getOne(\n        @PathVariable Long id\n    ) {\n        return service.getEmployee(id)\n            .map(ResponseEntity::ok)\n            .orElse(ResponseEntity.notFound().build());\n    }\n}\n",
+        "test_results": {
+            "total_tests": 10,
+            "passed_tests": 9,
+            "failed_tests": 1,
+            "is_simulated": true,
+            "execution_status": "SIMULATED_NOT_EXECUTED"
+        },
+        "review_scores": {
+            "requirement_coverage": 94,
+            "code_quality": 92,
+            "readability": 90,
+            "is_simulated": true,
+            "review_status": "SIMULATED_NOT_HUMAN_REVIEWED"
+        }
+    }
+}

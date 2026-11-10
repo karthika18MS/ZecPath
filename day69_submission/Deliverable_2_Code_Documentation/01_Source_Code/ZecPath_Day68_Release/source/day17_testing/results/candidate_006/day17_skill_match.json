@@ -1,0 +1,55 @@
+{
+    "candidate_id": "candidate_006",
+    "target_role": "Backend Developer",
+    "normalized_role": "backend developer",
+    "skill_match_score": 84.62,
+    "matching_status": "Excellent Skill Match",
+    "required_skills": [
+        "postgresql",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "linux",
+        "redis",
+        "ci/cd",
+        "sql",
+        "git",
+        "aws"
+    ],
+    "resume_skills": [
+        "postgresql",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "linux",
+        "redis",
+        "git",
+        "aws"
+    ],
+    "matched_skills": [
+        "postgresql",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "linux",
+        "redis",
+        "git",
+        "aws"
+    ],
+    "missing_skills": [
+        "ci/cd",
+        "sql"
+    ],
+    "total_required_skills": 13,
+    "total_matched_skills": 11,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

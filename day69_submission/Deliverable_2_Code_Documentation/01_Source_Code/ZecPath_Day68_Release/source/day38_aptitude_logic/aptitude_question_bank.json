@@ -1,0 +1,177 @@
+{
+    "question_bank_name": "ZecPath Aptitude Question Bank",
+    "version": "1.0",
+    "description": "Structured question bank for logical reasoning and situational judgment evaluation in the ZecPath AI HR Interview system.",
+    "categories": [
+        "logical_reasoning",
+        "situational_judgment"
+    ],
+    "difficulty_levels": [
+        "easy",
+        "medium",
+        "hard"
+    ],
+    "questions": [
+        {
+            "question_id": "APT_LOGIC_001",
+            "category": "logical_reasoning",
+            "difficulty": "easy",
+            "question": "A team has 5 members. If each member works on one task, how many tasks can the team work on at the same time?",
+            "expected_answer_type": "logical_answer",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_LOGIC_002",
+            "category": "logical_reasoning",
+            "difficulty": "easy",
+            "question": "A project starts on Monday and has three consecutive working days of development. On which day does development finish?",
+            "expected_answer_type": "logical_answer",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_LOGIC_003",
+            "category": "logical_reasoning",
+            "difficulty": "medium",
+            "question": "A project has five tasks. Task A must be completed before Task B, and Task C must be completed before Task D. Which tasks can be started independently?",
+            "expected_answer_type": "reasoning",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_LOGIC_004",
+            "category": "logical_reasoning",
+            "difficulty": "medium",
+            "question": "A developer identifies three possible solutions to a technical problem. How would you decide which solution should be implemented?",
+            "expected_answer_type": "reasoning",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_LOGIC_005",
+            "category": "logical_reasoning",
+            "difficulty": "medium",
+            "question": "If all completed tasks must be reviewed before deployment, and Task A has not been reviewed, can Task A be deployed? Explain your reasoning.",
+            "expected_answer_type": "reasoning",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_LOGIC_006",
+            "category": "logical_reasoning",
+            "difficulty": "hard",
+            "question": "A project has four dependent tasks. Task B depends on Task A, Task C depends on Task B, and Task D depends on both Task B and Task C. Explain the correct order in which these tasks should be completed.",
+            "expected_answer_type": "reasoning",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_LOGIC_007",
+            "category": "logical_reasoning",
+            "difficulty": "hard",
+            "question": "You receive two possible solutions to the same problem. One solution is faster but less reliable, while the other is slower but more reliable. What factors would you consider before selecting a solution?",
+            "expected_answer_type": "decision_reasoning",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_LOGIC_008",
+            "category": "logical_reasoning",
+            "difficulty": "hard",
+            "question": "A production issue has three possible causes. How would you systematically identify the most likely cause before applying a solution?",
+            "expected_answer_type": "problem_solving",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+
+        {
+            "question_id": "APT_SCENARIO_001",
+            "category": "situational_judgment",
+            "difficulty": "easy",
+            "question": "A teammate asks for help with a task while you are completing your own work. What would you do?",
+            "expected_answer_type": "decision",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_SCENARIO_002",
+            "category": "situational_judgment",
+            "difficulty": "easy",
+            "question": "You realize that you made a small mistake in a task after submitting it. What would you do?",
+            "expected_answer_type": "decision",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_SCENARIO_003",
+            "category": "situational_judgment",
+            "difficulty": "medium",
+            "question": "A teammate introduces a bug shortly before an important project deadline. What would you do?",
+            "expected_answer_type": "problem_solving",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_SCENARIO_004",
+            "category": "situational_judgment",
+            "difficulty": "medium",
+            "question": "You are given a task with unclear requirements and a short deadline. How would you handle the situation?",
+            "expected_answer_type": "problem_solving",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_SCENARIO_005",
+            "category": "situational_judgment",
+            "difficulty": "medium",
+            "question": "Two team members disagree about the approach to a project task. You are asked to help resolve the disagreement. What would you do?",
+            "expected_answer_type": "decision_reasoning",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_SCENARIO_006",
+            "category": "situational_judgment",
+            "difficulty": "medium",
+            "question": "You discover that a task assigned to you cannot be completed within the estimated time. How would you respond?",
+            "expected_answer_type": "problem_solving",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_SCENARIO_007",
+            "category": "situational_judgment",
+            "difficulty": "hard",
+            "question": "Your team is close to completing a project when you discover a significant issue that may affect the final delivery. What steps would you take?",
+            "expected_answer_type": "problem_solving",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        },
+        {
+            "question_id": "APT_SCENARIO_008",
+            "category": "situational_judgment",
+            "difficulty": "hard",
+            "question": "You have two urgent tasks from different team members, and both cannot be completed at the same time. How would you decide which task to handle first?",
+            "expected_answer_type": "decision_reasoning",
+            "response_capture": true,
+            "scoring_enabled": true,
+            "mandatory": true
+        }
+    ]
+}

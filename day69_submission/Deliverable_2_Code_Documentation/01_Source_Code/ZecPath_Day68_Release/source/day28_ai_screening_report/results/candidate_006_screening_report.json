@@ -1,0 +1,99 @@
+{
+    "report_type": "AI Screening Report",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "question_context": {
+        "question_id": "BACKEND_EXP_001",
+        "question": "How many years of backend development experience do you have?",
+        "question_category": "experience"
+    },
+    "key_answers": {
+        "experience": {
+            "years": 3,
+            "months": null,
+            "domain": "backend development"
+        },
+        "response": "I have three years of backend development experience. I have worked with Python and Django."
+    },
+    "screening_evaluation": {
+        "final_screening_score": 92.5,
+        "score_scale": "0-100",
+        "average_scores": {
+            "clarity": 8.75,
+            "relevance": 9.75,
+            "completeness": 9.5,
+            "consistency": 9.0
+        },
+        "screening_summary": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "no_response_questions": 0,
+            "off_topic_questions": 0
+        }
+    },
+    "question_scores": [
+        {
+            "question_id": "BACKEND_EXP_001",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "normalized_score": 95.0,
+            "answer_status": "valid",
+            "intent": "experience",
+            "off_topic": false,
+            "strengths": [
+                "Clear response.",
+                "Relevant experience provided."
+            ],
+            "weaknesses": []
+        }
+    ],
+    "strengths": [
+        "Strong confidence communication indicator.",
+        "Strong clarity communication indicator.",
+        "Strong engagement communication indicator.",
+        "Strong consistency communication indicator."
+    ],
+    "risks": [],
+    "missing_data": [],
+    "highlights": {
+        "salary_expectation": null,
+        "availability": null,
+        "skill_confirmations": [
+            "Python",
+            "Django"
+        ]
+    },
+    "communication_summary": {
+        "confidence": {
+            "score": 100,
+            "level": "strong"
+        },
+        "clarity": {
+            "score": 100,
+            "level": "strong"
+        },
+        "engagement": {
+            "score": 90,
+            "level": "strong"
+        },
+        "consistency": {
+            "score": 100,
+            "level": "strong"
+        },
+        "communication_strength": {
+            "score": 97.5,
+            "level": "strong"
+        }
+    },
+    "behavioral_signals": {
+        "hesitation_count": 0,
+        "uncertainty_count": 0,
+        "response_word_count": 14,
+        "pace": "normal",
+        "sentiment": "positive",
+        "sentiment_score": 100.0,
+        "contradiction_detected": false
+    },
+    "answer_status": "valid",
+    "created_at": "2026-09-09T05:44:51.712291+00:00"
+}

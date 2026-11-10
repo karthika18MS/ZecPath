@@ -1,0 +1,45 @@
+JOB TITLE: Junior Python Developer
+
+JOB SUMMARY:
+
+We are looking for a Junior Python Developer or Fresher
+with strong programming fundamentals and an interest in
+backend application development.
+
+REQUIRED SKILLS:
+
+Python
+SQL
+Git
+REST API
+Object Oriented Programming
+Django
+Problem Solving
+
+PREFERRED SKILLS:
+
+FastAPI
+PostgreSQL
+MongoDB
+Docker
+
+EDUCATION:
+
+Bachelor's or Master's degree in Computer Science,
+Computer Applications, Information Technology,
+or a related field.
+
+EXPERIENCE:
+
+Freshers and candidates with internship or academic
+project experience are encouraged to apply.
+
+RESPONSIBILITIES:
+
+Develop Python applications.
+Build and test REST APIs.
+Work with databases.
+Write clean and maintainable code.
+Fix software defects.
+Participate in code reviews.
+Learn backend development technologies.

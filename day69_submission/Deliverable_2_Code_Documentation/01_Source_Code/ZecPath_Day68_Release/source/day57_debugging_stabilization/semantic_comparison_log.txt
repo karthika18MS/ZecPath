@@ -1,0 +1,75 @@
+===========================================================================
+ZecPath Day 57 - Semantic Score Comparison
+===========================================================================
+
+Candidate: candidate_006
+Old score: 0.8193 | New score: 0.8193
+Old percentage: 81.93% | New percentage: 81.93%
+Old status: Very Strong Semantic Match | New status: Very Strong Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+Candidate: candidate_007
+Old score: 0.8532 | New score: 0.8532
+Old percentage: 85.32% | New percentage: 85.32%
+Old status: Very Strong Semantic Match | New status: Very Strong Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+Candidate: candidate_008
+Old score: 0.8290 | New score: 0.8290
+Old percentage: 82.90% | New percentage: 82.90%
+Old status: Very Strong Semantic Match | New status: Very Strong Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+Candidate: candidate_009
+Old score: 0.8517 | New score: 0.8517
+Old percentage: 85.17% | New percentage: 85.17%
+Old status: Very Strong Semantic Match | New status: Very Strong Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+Candidate: candidate_010
+Old score: 0.7308 | New score: 0.7308
+Old percentage: 73.08% | New percentage: 73.08%
+Old status: Strong Semantic Match | New status: Strong Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+Candidate: candidate_011
+Old score: 0.8491 | New score: 0.8491
+Old percentage: 84.91% | New percentage: 84.91%
+Old status: Very Strong Semantic Match | New status: Very Strong Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+Candidate: candidate_012
+Old score: 0.8648 | New score: 0.8648
+Old percentage: 86.48% | New percentage: 86.48%
+Old status: Very Strong Semantic Match | New status: Very Strong Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+Candidate: candidate_013
+Old score: 0.2159 | New score: 0.2159
+Old percentage: 21.59% | New percentage: 21.59%
+Old status: Low Semantic Match | New status: Low Semantic Match
+Score difference: 0.0000
+Percentage difference: 0.00
+Result: PASS
+
+===========================================================================
+COMPARISON SUMMARY
+Total candidates: 8
+Passed: 8
+Failed: 0
+===========================================================================
+RESULT: PASS - all semantic outputs match the baseline.

@@ -1,0 +1,166 @@
+{
+    "candidate_id": "candidate_013",
+    "target_role": "Graphic Designer",
+    "job_description": "graphic_designer.txt",
+    "engine": "ZecPath Day 18 Optimized ATS Engine",
+    "pipeline_status": "SUCCESS",
+    "scores": {
+        "skill_matching": 72.73,
+        "experience_relevance": 100.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 78.21,
+        "final_ats_score": 85.01
+    },
+    "weights": {
+        "skill_matching": 0.35,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "excluded_components": [],
+    "contributions": {
+        "skill_matching": 25.46,
+        "experience_relevance": 25.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 19.55
+    },
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "manual_review": {
+        "review_required": false,
+        "review_status": "NOT_REQUIRED",
+        "review_reason": null
+    },
+    "skill_details": {
+        "score": 72.73,
+        "required_skills": [
+            "adobe illustrator",
+            "adobe photoshop",
+            "branding",
+            "canva",
+            "figma",
+            "graphic design",
+            "layout design",
+            "typography",
+            "ui design",
+            "video editing",
+            "visual communication"
+        ],
+        "matched_skills": [
+            "adobe illustrator",
+            "adobe photoshop",
+            "branding",
+            "canva",
+            "figma",
+            "graphic design",
+            "ui design",
+            "video editing"
+        ],
+        "missing_skills": [
+            "layout design",
+            "typography",
+            "visual communication"
+        ],
+        "total_required_skills": 11,
+        "total_matched_skills": 8,
+        "source": "Day 17 validated skill matcher"
+    },
+    "experience_details": {
+        "score": 100.0,
+        "candidate_experience_years": 4.0,
+        "minimum_required_years": 3.0,
+        "maximum_required_years": 5.0,
+        "is_applicable": true,
+        "status": "Experience Fully Meets Requirement"
+    },
+    "education_details": {
+        "score": 100.0,
+        "candidate_degrees": [],
+        "candidate_fields": [
+            "marketing"
+        ],
+        "required_degrees": [],
+        "required_fields": [
+            "marketing"
+        ],
+        "degree_match": false,
+        "field_match": true,
+        "status": "Education Field Requirement Met"
+    },
+    "semantic_details": {
+        "score": 78.21,
+        "raw_score": 0.7821,
+        "embedding_length": 384,
+        "model_access_time_seconds": 7.690153
+    },
+    "entity_detection": {
+        "name": "Candidate 013",
+        "job_titles": [
+            "graphic designer"
+        ],
+        "skills": [
+            "adobe illustrator",
+            "adobe photoshop",
+            "branding",
+            "canva",
+            "figma",
+            "graphic design",
+            "ui design",
+            "video editing"
+        ],
+        "degrees": [],
+        "experience_years": 4.0,
+        "years": [
+            2022,
+            2026
+        ],
+        "projects": [
+            "Brand Identity Design",
+            "Created complete visual identity packages for small businesses."
+        ],
+        "sections": {
+            "summary": [
+                "Graphic Designer with 4 years of experience creating",
+                "visual designs and marketing materials."
+            ],
+            "skills": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Figma",
+                "Canva",
+                "Graphic Design",
+                "UI Design",
+                "Branding",
+                "Video Editing"
+            ],
+            "experience": [
+                "Graphic Designer",
+                "Creative Studio",
+                "2022 - 2026",
+                "Created logos, posters, brochures, and social media designs.",
+                "Designed marketing materials.",
+                "Worked with clients to understand design requirements."
+            ],
+            "education": [
+                "Bachelor of Fine Arts"
+            ],
+            "projects": [
+                "Brand Identity Design",
+                "Created complete visual identity packages for small businesses."
+            ]
+        }
+    },
+    "semantic_input": "Validated Day 17 cleaned resume",
+    "performance": {
+        "extraction_time_seconds": 0.128562,
+        "cleaning_time_seconds": 0.002563,
+        "entity_detection_time_seconds": 0.038051,
+        "skill_matching_time_seconds": 0.116809,
+        "semantic_processing_time_seconds": 9.910902,
+        "semantic_model_access_time_seconds": 7.690153,
+        "unaccounted_pipeline_time_seconds": 0.019115,
+        "total_pipeline_time_seconds": 10.216002,
+        "output_save_time_seconds": 0.001389
+    }
+}

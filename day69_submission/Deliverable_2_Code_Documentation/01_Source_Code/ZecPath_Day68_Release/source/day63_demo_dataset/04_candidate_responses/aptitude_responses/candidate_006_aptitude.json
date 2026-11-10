@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND006",
+  "job_id": "JD002",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "If 20% of 500 records are incorrect, how many records are correct?",
+      "answer": "Twenty percent of 500 is 100 incorrect records. Therefore, 500 minus 100 equals 400 correct records.",
+      "expected_answer": "400 records"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 1, 4, 9, 16, 25. What is the next number?",
+      "answer": "36. These are square numbers: 1 squared, 2 squared, 3 squared, 4 squared and 5 squared. The next is 6 squared.",
+      "expected_answer": "36"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "A machine learning model produces inconsistent predictions. How would you investigate?",
+      "answer": "I would first check whether the input data is consistent and whether preprocessing is applied correctly. I would examine missing values, feature distributions and model parameters. I would compare training and validation performance and investigate data leakage or overfitting. Then I would test improvements using a separate validation dataset."
+    }
+  ]
+}

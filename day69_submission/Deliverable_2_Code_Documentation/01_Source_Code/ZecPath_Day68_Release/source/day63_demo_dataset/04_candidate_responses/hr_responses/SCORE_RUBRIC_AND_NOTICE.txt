@@ -1,0 +1,17 @@
+ZecPath Day63 HR Adapter — Demo Score Notice
+
+Fields added to each question (0–100):
+- answer_relevance: relevance to the question.
+- communication_score: clarity and structure.
+- confidence_score: confidence conveyed by the response wording.
+- consistency_score: internal coherence and consistency with stated experience/skills.
+
+IMPORTANT: All added values are SIMULATED DEMO SCORES based on the supplied answer text.
+They are not human-evaluator scores and must be reviewed/replaced with genuine evaluator
+scores before production use or any real hiring decision.
+
+CAND001–CAND009: three questions each, with all four score fields populated.
+CAND010: preserved as response_status=not_provided with an empty questions array.
+
+Day37 engine weights used by the adapter:
+answer_relevance 0.30; communication 0.25; confidence 0.20; consistency 0.25.

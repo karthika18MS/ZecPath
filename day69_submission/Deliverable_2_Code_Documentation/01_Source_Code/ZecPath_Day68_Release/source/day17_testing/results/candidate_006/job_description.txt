@@ -1,0 +1,48 @@
+JOB TITLE: Backend Developer
+
+JOB SUMMARY:
+
+We are looking for a Backend Developer responsible for designing,
+developing, testing, and maintaining reliable server-side applications
+and REST APIs.
+
+REQUIRED SKILLS:
+
+Python
+FastAPI
+Django
+REST API
+SQL
+PostgreSQL
+MongoDB
+Git
+Docker
+Linux
+
+PREFERRED SKILLS:
+
+AWS
+Microservices
+Redis
+CI/CD
+Unit Testing
+
+EDUCATION:
+
+Bachelor's or Master's degree in Computer Science,
+Computer Applications, Information Technology, or a related field.
+
+EXPERIENCE:
+
+1-4 years of backend development experience preferred.
+
+RESPONSIBILITIES:
+
+Develop and maintain backend applications.
+Design and implement REST APIs.
+Work with relational and NoSQL databases.
+Write clean and maintainable Python code.
+Debug and test backend applications.
+Use Git for version control.
+Work with Docker and Linux environments.
+Collaborate with frontend developers and other engineering teams.

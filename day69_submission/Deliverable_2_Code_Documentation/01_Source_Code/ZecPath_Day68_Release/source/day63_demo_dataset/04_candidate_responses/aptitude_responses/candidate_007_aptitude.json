@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND007",
+  "job_id": "JD001",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+      "answer": "5 days.",
+      "expected_answer": "5 days"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 10, 20, 30, 40. What is the next number?",
+      "answer": "50. Add 10 each time.",
+      "expected_answer": "50"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "An API is returning an error. What would you do?",
+      "answer": "I would check the API response and server logs. I would also check whether the request data is correct. If I cannot identify the issue, I would discuss it with the team."
+    }
+  ]
+}

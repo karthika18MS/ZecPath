@@ -1,0 +1,803 @@
+{
+    "module": "ZecPath Day 63 Cross-Round Scoring Engine",
+    "pipeline_status": "SUCCESS",
+    "generated_at": "2026-11-07T23:13:11.463083+05:30",
+    "dataset": {
+        "dataset_name": "day63_demo_dataset",
+        "dataset_type": "DEMO_DATASET",
+        "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset"
+    },
+    "scoring_method": "AVAILABLE_ROUNDS_WEIGHTED_NORMALIZATION",
+    "weights": {
+        "ats": 0.15,
+        "hr": 0.15,
+        "aptitude": 0.15,
+        "technical": 0.25,
+        "machine_test": 0.3
+    },
+    "missing_score_policy": "Calculate using available rounds, report score coverage, and mark incomplete.",
+    "eligibility_policy": "ATS eligibility remains separate from unified score.",
+    "score_range": {
+        "minimum": 0,
+        "maximum": 100
+    },
+    "pipeline_metadata": {
+        "ats": {
+            "pipeline_status": "SUCCESS",
+            "validation": {},
+            "is_simulated": null,
+            "score_source": null,
+            "candidate_records_loaded": 10
+        },
+        "hr": {
+            "pipeline_status": "SUCCESS",
+            "validation": {
+                "is_valid": true,
+                "total_validation_errors": 0,
+                "errors": [],
+                "warnings": []
+            },
+            "is_simulated": null,
+            "score_source": null,
+            "candidate_records_loaded": 10
+        },
+        "aptitude": {
+            "pipeline_status": "SUCCESS",
+            "validation": {
+                "status": "SUCCESS",
+                "is_valid": true,
+                "total_validation_errors": 0,
+                "errors": []
+            },
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "candidate_records_loaded": 10
+        },
+        "technical": {
+            "pipeline_status": "SUCCESS",
+            "validation": {
+                "is_valid": true,
+                "total_validation_errors": 0,
+                "errors": []
+            },
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO",
+            "candidate_records_loaded": 10
+        },
+        "machine_test": {
+            "pipeline_status": "SUCCESS",
+            "validation": {
+                "is_valid": true,
+                "total_validation_errors": 0,
+                "errors": []
+            },
+            "is_simulated": null,
+            "score_source": null,
+            "candidate_records_loaded": 10,
+            "scoring_policy": {
+                "test_pass_rate_weight": 0.5,
+                "requirement_coverage_weight": 0.2,
+                "code_quality_weight": 0.2,
+                "readability_weight": 0.1,
+                "human_review_required": true,
+                "test_execution_required": true,
+                "automatic_code_execution": false,
+                "test_results_are_simulated": true,
+                "review_scores_are_simulated": true,
+                "is_verified_real_candidate_result": false
+            },
+            "data_provenance": {
+                "data_type": "SIMULATED_DEMO_DATA",
+                "candidate_code": "Illustrative sample code, not actual candidate submissions.",
+                "test_results": "Illustrative values; test cases were not executed.",
+                "review_scores": "Illustrative values; no human review was performed.",
+                "hiring_use": "Demo testing only. Not suitable for real hiring decisions."
+            }
+        }
+    },
+    "input_warnings": [],
+    "summary": {
+        "total_candidates": 10,
+        "scored_candidates": 9,
+        "no_scores_available": 1,
+        "completed": 8,
+        "incomplete": 1,
+        "average_unified_score": 76.16,
+        "highest_unified_score": 84.99,
+        "lowest_unified_score": 63.45,
+        "scoring_status_counts": {
+            "COMPLETED": 8,
+            "INCOMPLETE": 1,
+            "NO_SCORES_AVAILABLE": 1
+        },
+        "final_decision_counts": {
+            "ELIGIBLE_FOR_NEXT_STAGE": 3,
+            "MANUAL_REVIEW": 2,
+            "NOT_ELIGIBLE": 3,
+            "BLOCKED_PENDING_ATS": 2
+        }
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 97.58,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 89.33,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 85.31,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 67.48,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 84.6,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 83.08,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "ELIGIBLE",
+            "final_decision": "ELIGIBLE_FOR_NEXT_STAGE"
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 95.95,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 84.1,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 75.81,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 63.43,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 88.6,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 80.82,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "REVIEW",
+            "final_decision": "MANUAL_REVIEW"
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 54.58,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 68.42,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 55.94,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 61.84,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 74.8,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 64.74,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "REJECTED",
+            "final_decision": "NOT_ELIGIBLE"
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 56.44,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 87.62,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 81.84,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 59.78,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 73.6,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 70.91,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "REJECTED",
+            "final_decision": "NOT_ELIGIBLE"
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 96.17,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 91.8,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 88.81,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 64.47,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 91.2,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 84.99,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "ELIGIBLE",
+            "final_decision": "ELIGIBLE_FOR_NEXT_STAGE"
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 94.8,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 91.73,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 87.76,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 62.66,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 84.2,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 82.07,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "REVIEW",
+            "final_decision": "MANUAL_REVIEW"
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": null,
+                    "assessment_status": "NOT_PROVIDED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 82.82,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 72.31,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 62.93,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 81.7,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 74.72,
+            "score_coverage": 85.0,
+            "available_weight": 0.85,
+            "available_rounds": [
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [
+                "ats"
+            ],
+            "scoring_status": "INCOMPLETE",
+            "ats_eligibility_status": "BLOCKED",
+            "final_decision": "BLOCKED_PENDING_ATS"
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 79.53,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 62.73,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 50.48,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 57.52,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 67.2,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 63.45,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "REJECTED",
+            "final_decision": "NOT_ELIGIBLE"
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": 95.08,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": 89.58,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": 84.6,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": 61.05,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": 83.4,
+                    "assessment_status": "COMPLETED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": 80.67,
+            "score_coverage": 100.0,
+            "available_weight": 1.0,
+            "available_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "missing_rounds": [],
+            "scoring_status": "COMPLETED",
+            "ats_eligibility_status": "ELIGIBLE",
+            "final_decision": "ELIGIBLE_FOR_NEXT_STAGE"
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "round_details": {
+                "ats": {
+                    "weight": 0.15,
+                    "score": null,
+                    "assessment_status": "NOT_PROVIDED",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "hr": {
+                    "weight": 0.15,
+                    "score": null,
+                    "assessment_status": "INCOMPLETE",
+                    "provenance": {
+                        "is_simulated": null,
+                        "score_source": null
+                    }
+                },
+                "aptitude": {
+                    "weight": 0.15,
+                    "score": null,
+                    "assessment_status": "INCOMPLETE",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "technical": {
+                    "weight": 0.25,
+                    "score": null,
+                    "assessment_status": "NOT_PROVIDED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "SIMULATED_HEURISTIC_DEMO"
+                    }
+                },
+                "machine_test": {
+                    "weight": 0.3,
+                    "score": null,
+                    "assessment_status": "NOT_PROVIDED",
+                    "provenance": {
+                        "is_simulated": true,
+                        "score_source": "NO_SUBMISSION_AVAILABLE",
+                        "test_results_are_simulated": true,
+                        "review_scores_are_simulated": true,
+                        "is_verified_real_candidate_result": false
+                    }
+                }
+            },
+            "unified_score": null,
+            "score_coverage": 0.0,
+            "available_weight": 0.0,
+            "available_rounds": [],
+            "missing_rounds": [
+                "ats",
+                "hr",
+                "aptitude",
+                "technical",
+                "machine_test"
+            ],
+            "scoring_status": "NO_SCORES_AVAILABLE",
+            "ats_eligibility_status": "BLOCKED",
+            "final_decision": "BLOCKED_PENDING_ATS"
+        }
+    ]
+}

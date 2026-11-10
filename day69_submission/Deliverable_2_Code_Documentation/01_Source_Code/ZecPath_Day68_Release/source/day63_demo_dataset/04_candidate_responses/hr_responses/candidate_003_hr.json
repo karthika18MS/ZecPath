@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND003",
+    "job_id": "JD001",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "My name is Vishnu. I studied BCA. I know HTML, CSS and basic JavaScript. I have worked on some simple websites.",
+            "answer_relevance": 72,
+            "communication_score": 75,
+            "confidence_score": 70,
+            "consistency_score": 74
+        },
+        {
+            "question_id": "HR002",
+            "question": "What are your strengths?",
+            "answer": "I am hardworking and interested in learning programming.",
+            "answer_relevance": 68,
+            "communication_score": 72,
+            "confidence_score": 68,
+            "consistency_score": 70
+        },
+        {
+            "question_id": "HR003",
+            "question": "How do you handle a difficult task?",
+            "answer": "I will try to do it. If I cannot do it, I will ask someone.",
+            "answer_relevance": 60,
+            "communication_score": 65,
+            "confidence_score": 62,
+            "consistency_score": 65
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

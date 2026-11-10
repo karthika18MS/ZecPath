@@ -1,0 +1,15 @@
+{
+    "candidate_id": "candidate_012",
+    "target_role": "Senior Backend Developer",
+    "candidate_experience": {
+        "years": 6.0,
+        "months": 72
+    },
+    "required_experience": {
+        "minimum_years": 5.0,
+        "maximum_years": null,
+        "requirement_type": "minimum"
+    },
+    "experience_score": 100.0,
+    "experience_status": "Experience Meets Minimum Requirement"
+}

@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND004",
+  "job_id": "JD003",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "If three machines produce 30 products in 5 hours, how many products will six machines produce in 5 hours?",
+      "answer": "Each machine produces 10 products in 5 hours. Six machines will produce 60 products.",
+      "expected_answer": "60 products"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 5, 10, 15, 20. What is the next number?",
+      "answer": "25. The difference between consecutive numbers is 5.",
+      "expected_answer": "25"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "You receive a programming task but do not understand the requirement. What would you do?",
+      "answer": "I would read the requirement carefully, identify what the program should do and ask questions to clarify anything I do not understand. Then I would create a small solution and test it."
+    }
+  ]
+}

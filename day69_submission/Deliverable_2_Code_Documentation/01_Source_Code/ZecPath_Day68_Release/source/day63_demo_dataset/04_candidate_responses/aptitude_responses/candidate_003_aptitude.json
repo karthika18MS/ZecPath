@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND003",
+  "job_id": "JD001",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+      "answer": "10 days because there are more developers working.",
+      "expected_answer": "5 days"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 2, 4, 8, 16. What is the next number?",
+      "answer": "20.",
+      "expected_answer": "32"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "Your website is not loading. What would you do?",
+      "answer": "I will refresh the page and check the internet connection. If it still does not work, I will ask a senior developer."
+    }
+  ]
+}

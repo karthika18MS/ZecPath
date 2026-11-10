@@ -1,0 +1,41 @@
+{
+    "engine": "ZecPath Candidate Technical Evaluator",
+    "data_type": "REVIEWER_SCORED_TEST_INPUT",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "generated_at": "2026-10-09T16:42:08.205194+05:30",
+    "evaluation_summary": {
+        "total_questions": 1,
+        "overall_technical_score": 81.25,
+        "score_category": "strong"
+    },
+    "question_results": [
+        {
+            "question_id": "TECH_PYTHON_001",
+            "skill_domain": "Python",
+            "question_text": "What is the difference between a list and a tuple in Python?",
+            "candidate_answer": "A list is mutable, so its elements can be changed after creation. A tuple is immutable, so its elements cannot be reassigned after creation. Lists are useful for collections that change, while tuples are useful for fixed collections of values.",
+            "answer_analysis": {
+                "classification": "moderate",
+                "word_count": 40,
+                "indicators": [],
+                "explanation": "Answer provides reasonable technical explanation and supporting details."
+            },
+            "parameter_scores": {
+                "accuracy": 85.0,
+                "depth": 80.0,
+                "logical_reasoning": 80.0,
+                "real_world_applicability": 75.0
+            },
+            "scoring_weights": {
+                "accuracy": 0.4,
+                "depth": 0.3,
+                "logical_reasoning": 0.15,
+                "real_world_applicability": 0.15
+            },
+            "technical_score": 81.25,
+            "score_category": "strong"
+        }
+    ],
+    "score_source": "Reviewer-provided parameter scores; not an automatic factual assessment of answer correctness."
+}

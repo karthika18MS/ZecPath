@@ -1,0 +1,16 @@
+{
+    "module": "ZecPath Day 63 Cross-Round Scoring",
+    "weights": {
+        "ats": 0.15,
+        "hr": 0.15,
+        "aptitude": 0.15,
+        "technical": 0.25,
+        "machine_test": 0.30
+    },
+    "missing_score_policy": "AVAILABLE_ROUNDS_NORMALIZATION",
+    "incomplete_status": "INCOMPLETE",
+    "complete_status": "COMPLETED",
+    "score_precision": 2,
+    "minimum_score": 0,
+    "maximum_score": 100
+}

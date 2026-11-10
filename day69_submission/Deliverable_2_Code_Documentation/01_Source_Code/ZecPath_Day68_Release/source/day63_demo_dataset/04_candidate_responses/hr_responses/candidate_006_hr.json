@@ -1,0 +1,36 @@
+{
+    "candidate_id": "CAND006",
+    "job_id": "JD002",
+    "assessment_type": "HR",
+    "response_status": "completed",
+    "questions": [
+        {
+            "question_id": "HR001",
+            "question": "Tell me about yourself.",
+            "answer": "I am Priya Nair, a Python Developer with three years of experience. My main interests are Python development, data processing, machine learning and NLP. I have worked with Django, Pandas, NumPy and Scikit-learn.",
+            "answer_relevance": 94,
+            "communication_score": 91,
+            "confidence_score": 90,
+            "consistency_score": 94
+        },
+        {
+            "question_id": "HR002",
+            "question": "How do you approach a complex technical problem?",
+            "answer": "I divide the problem into smaller components, identify the source of the issue and examine the available data. I test possible solutions and compare the results before selecting the most suitable approach.",
+            "answer_relevance": 93,
+            "communication_score": 92,
+            "confidence_score": 90,
+            "consistency_score": 93
+        },
+        {
+            "question_id": "HR003",
+            "question": "Why are you interested in this role?",
+            "answer": "This role matches my Python development experience. I am particularly interested in backend development and intelligent applications. I believe I can contribute through my programming and analytical skills.",
+            "answer_relevance": 91,
+            "communication_score": 90,
+            "confidence_score": 89,
+            "consistency_score": 92
+        }
+    ],
+    "manual_score_note": "DEMO ONLY: Suggested simulated scores derived from the supplied answer text. They were not entered or approved by a human evaluator. Replace with genuine evaluator-assigned scores before production or hiring decisions."
+}

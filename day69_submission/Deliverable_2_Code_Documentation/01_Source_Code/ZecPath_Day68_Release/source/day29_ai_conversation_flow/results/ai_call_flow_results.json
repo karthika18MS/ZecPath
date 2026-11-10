@@ -1,0 +1,16 @@
+{
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "question_id": "BACKEND_EXP_001",
+    "question": "How many years of backend development experience do you have?",
+    "question_category": "experience",
+    "answer_status": "valid",
+    "intent": "experience",
+    "response_type": "valid",
+    "decision": {
+        "action": "next_question",
+        "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+        "requires_follow_up": false
+    },
+    "next_prompt": "Continue to the next screening question."
+}

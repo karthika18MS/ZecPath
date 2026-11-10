@@ -1,0 +1,30 @@
+{
+    "parameter_scores": {
+        "answer_relevance": 93.75,
+        "communication": 89.62,
+        "confidence": 81.25,
+        "consistency": 98.75
+    },
+    "weights": {
+        "answer_relevance": 0.3,
+        "communication": 0.25,
+        "confidence": 0.2,
+        "consistency": 0.25
+    },
+    "weighted_contributions": {
+        "answer_relevance": 28.12,
+        "communication": 22.41,
+        "confidence": 16.25,
+        "consistency": 24.69
+    },
+    "refined_hr_score": 91.47,
+    "original_hr_score": 91.47,
+    "score_difference": 0.0,
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "question_count": 4,
+    "question_data_validation": {
+        "valid": true,
+        "message": "Day 37 question_text and candidate_answer are available."
+    }
+}

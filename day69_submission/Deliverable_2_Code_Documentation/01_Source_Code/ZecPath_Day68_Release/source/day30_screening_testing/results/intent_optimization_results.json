@@ -1,0 +1,44 @@
+{
+    "report_type": "Improved Intent Classification Results",
+    "improvement_focus": [
+        "Confusion detection",
+        "Off-topic detection",
+        "Question-category matching"
+    ],
+    "results": [
+        {
+            "test_id": "SC004",
+            "question_category": "experience",
+            "answer": "I'm not sure what you mean by backend development.",
+            "classification": {
+                "response_type": "confused",
+                "intent": "confused",
+                "confidence": 0.95,
+                "reason": "The response contains language indicating that the candidate does not understand the question."
+            }
+        },
+        {
+            "test_id": "SC005",
+            "question_category": "experience",
+            "answer": "I completed my MCA in 2024.",
+            "classification": {
+                "response_type": "off_topic",
+                "intent": "education",
+                "confidence": 0.9,
+                "reason": "The detected intent 'education' does not match the question category 'experience'."
+            }
+        },
+        {
+            "test_id": "SC010",
+            "question_category": "skills",
+            "answer": "I am currently living in Kerala.",
+            "classification": {
+                "response_type": "off_topic",
+                "intent": "location",
+                "confidence": 0.9,
+                "reason": "The detected intent 'location' does not match the question category 'skills'."
+            }
+        }
+    ],
+    "created_at": "2026-09-11T05:42:30.988811+00:00"
+}

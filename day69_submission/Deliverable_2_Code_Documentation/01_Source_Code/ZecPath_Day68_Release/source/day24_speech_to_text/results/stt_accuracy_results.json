@@ -1,0 +1,210 @@
+{
+    "report_name": "ZecPath STT Accuracy Test Report",
+    "report_version": "1.0",
+    "model": {
+        "name": "Faster-Whisper",
+        "model_size": "base",
+        "device": "CPU",
+        "compute_type": "int8"
+    },
+    "test_configuration": {
+        "total_test_cases": 12,
+        "accents": [
+            "indian",
+            "american",
+            "british"
+        ],
+        "noise_conditions": [
+            "clean",
+            "low_noise",
+            "medium_noise",
+            "high_noise"
+        ],
+        "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL."
+    },
+    "summary": {
+        "total_tests": 12,
+        "successful_tests": 12,
+        "skipped_tests": 0,
+        "failed_tests": 0,
+        "overall_average_accuracy_percent": 89.04
+    },
+    "accent_summary": {
+        "indian": {
+            "tests_completed": 4,
+            "average_accuracy_percent": 86.84
+        },
+        "american": {
+            "tests_completed": 4,
+            "average_accuracy_percent": 85.53
+        },
+        "british": {
+            "tests_completed": 4,
+            "average_accuracy_percent": 94.74
+        }
+    },
+    "noise_summary": {
+        "clean": {
+            "tests_completed": 3,
+            "average_accuracy_percent": 94.74
+        },
+        "low_noise": {
+            "tests_completed": 3,
+            "average_accuracy_percent": 94.74
+        },
+        "medium_noise": {
+            "tests_completed": 3,
+            "average_accuracy_percent": 91.23
+        },
+        "high_noise": {
+            "tests_completed": 3,
+            "average_accuracy_percent": 75.44
+        }
+    },
+    "test_results": [
+        {
+            "test_id": "indian_clean",
+            "accent": "indian",
+            "noise_level": "clean",
+            "audio_file": "indian_clean.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back-end development. I have worked with Python, Django, Fast API, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.9257,
+            "accuracy_percent": 94.74
+        },
+        {
+            "test_id": "indian_low_noise",
+            "accent": "indian",
+            "noise_level": "low_noise",
+            "audio_file": "indian_low_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back end development. I have worked with Python, Django, Fast API, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.8623,
+            "accuracy_percent": 89.47
+        },
+        {
+            "test_id": "indian_medium_noise",
+            "accent": "indian",
+            "noise_level": "medium_noise",
+            "audio_file": "indian_medium_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back-end development. I have worked with Python, Django, Fast API, Docker and post-crest QL.",
+            "language": "en",
+            "language_probability": 0.7981,
+            "accuracy_percent": 89.47
+        },
+        {
+            "test_id": "indian_high_noise",
+            "accent": "indian",
+            "noise_level": "high_noise",
+            "audio_file": "indian_high_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in battle and development. I have worked with Paltan, Jandos, Pastasia, Docker and Postgres series.",
+            "language": "en",
+            "language_probability": 0.3479,
+            "accuracy_percent": 73.68
+        },
+        {
+            "test_id": "american_clean",
+            "accent": "american",
+            "noise_level": "clean",
+            "audio_file": "american_clean.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back-end development. I have worked with Python, Django, Fast API, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.9798,
+            "accuracy_percent": 94.74
+        },
+        {
+            "test_id": "american_low_noise",
+            "accent": "american",
+            "noise_level": "low_noise",
+            "audio_file": "american_low_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.9771,
+            "accuracy_percent": 100.0
+        },
+        {
+            "test_id": "american_medium_noise",
+            "accent": "american",
+            "noise_level": "medium_noise",
+            "audio_file": "american_medium_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in backhand development. I have worked with Python, Django, Fast API, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.9856,
+            "accuracy_percent": 89.47
+        },
+        {
+            "test_id": "american_high_noise",
+            "accent": "american",
+            "noise_level": "high_noise",
+            "audio_file": "american_high_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in that kind of development. I've worked with Taitan, Gengho, Satsuki G.I, Doctor and PostgresOL.",
+            "language": "en",
+            "language_probability": 0.938,
+            "accuracy_percent": 57.89
+        },
+        {
+            "test_id": "british_clean",
+            "accent": "british",
+            "noise_level": "clean",
+            "audio_file": "british_clean.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back-end development. I have worked with Python, Django, Fast API, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.9966,
+            "accuracy_percent": 94.74
+        },
+        {
+            "test_id": "british_low_noise",
+            "accent": "british",
+            "noise_level": "low_noise",
+            "audio_file": "british_low_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back-end development. I have worked with Python, Django, East API, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.9939,
+            "accuracy_percent": 94.74
+        },
+        {
+            "test_id": "british_medium_noise",
+            "accent": "british",
+            "noise_level": "medium_noise",
+            "audio_file": "british_medium_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back-end development. I have worked with Python, Django, Fast API, Docker and PostgresQL.",
+            "language": "en",
+            "language_probability": 0.9808,
+            "accuracy_percent": 94.74
+        },
+        {
+            "test_id": "british_high_noise",
+            "accent": "british",
+            "noise_level": "high_noise",
+            "audio_file": "british_high_noise.wav",
+            "status": "success",
+            "reference_text": "I have three years of experience in backend development. I have worked with Python, Django, FastAPI, Docker and PostgreSQL.",
+            "transcribed_text": "I have three years of experience in back-end development. I have worked with Python, Django, Fast API, Docker and PostgreSQL.",
+            "language": "en",
+            "language_probability": 0.8659,
+            "accuracy_percent": 94.74
+        }
+    ]
+}

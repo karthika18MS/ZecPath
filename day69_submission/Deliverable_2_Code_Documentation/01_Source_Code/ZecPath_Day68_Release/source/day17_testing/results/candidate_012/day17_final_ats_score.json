@@ -1,0 +1,30 @@
+{
+    "candidate_id": "candidate_012",
+    "target_role": "Senior Backend Developer",
+    "final_ats_score": 94.29,
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "components": {
+        "skill_match": {
+            "score": 93.33,
+            "weight": 0.35,
+            "contribution": 32.67
+        },
+        "experience_relevance": {
+            "score": 100.0,
+            "weight": 0.25,
+            "contribution": 25.0
+        },
+        "education_alignment": {
+            "score": 100.0,
+            "weight": 0.15,
+            "contribution": 15.0
+        },
+        "semantic_similarity": {
+            "score": 86.48,
+            "weight": 0.25,
+            "contribution": 21.62
+        }
+    }
+}

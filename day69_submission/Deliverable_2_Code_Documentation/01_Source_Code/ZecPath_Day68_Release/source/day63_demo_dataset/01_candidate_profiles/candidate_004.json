@@ -1,0 +1,30 @@
+{
+  "candidate_id": "CAND004",
+  "candidate_name": "Adithya R",
+  "job_id": "JD003",
+  "target_role": "Java Developer",
+  "experience_years": 0,
+  "education": "BCA",
+  "skills": [
+    "Java",
+    "C",
+    "MySQL",
+    "SQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Object-Oriented Programming",
+    "DBMS"
+  ],
+  "resume_file": "candidate_004_resume.pdf",
+  "resume_quality": "average",
+  "candidate_type": "fresher",
+  "internship_experience": true,
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

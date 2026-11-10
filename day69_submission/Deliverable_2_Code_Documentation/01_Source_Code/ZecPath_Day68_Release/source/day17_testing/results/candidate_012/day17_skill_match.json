@@ -1,0 +1,62 @@
+{
+    "candidate_id": "candidate_012",
+    "target_role": "Senior Backend Developer",
+    "normalized_role": "senior backend developer",
+    "skill_match_score": 93.33,
+    "matching_status": "Excellent Skill Match",
+    "required_skills": [
+        "microservices",
+        "system design",
+        "postgresql",
+        "kubernetes",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "redis",
+        "linux",
+        "ci/cd",
+        "aws",
+        "git"
+    ],
+    "resume_skills": [
+        "microservices",
+        "system design",
+        "postgresql",
+        "kubernetes",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "redis",
+        "linux",
+        "aws",
+        "git"
+    ],
+    "matched_skills": [
+        "microservices",
+        "system design",
+        "postgresql",
+        "kubernetes",
+        "rest api",
+        "fastapi",
+        "mongodb",
+        "python",
+        "django",
+        "docker",
+        "redis",
+        "linux",
+        "aws",
+        "git"
+    ],
+    "missing_skills": [
+        "ci/cd"
+    ],
+    "total_required_skills": 15,
+    "total_matched_skills": 14,
+    "role_dictionary_source": "Day 17 Role-Specific Skill Dictionary"
+}

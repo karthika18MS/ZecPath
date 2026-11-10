@@ -1,0 +1,119 @@
+RAHUL SHARMA
+
+Email: rahul.sharma@gmail.com
+Phone: +91-9876543210
+Location: Kochi, Kerala
+LinkedIn: linkedin.com/in/rahulsharma
+GitHub: github.com/rahulsharma
+
+----------------------------------------------------
+PROFILE SUMMARY
+----------------------------------------------------
+
+Enthusiastic Software Engineer with over 2 years of experience in
+Python development, REST API development, and machine learning.
+Passionate about building scalable web applications and AI-powered
+solutions. Strong problem-solving and analytical skills with experience
+working in Agile development environments.
+
+----------------------------------------------------
+SKILLS
+----------------------------------------------------
+
+• Programming Languages: Python, Java
+• Web Technologies: HTML, CSS, JavaScript
+• Frameworks: Django, Flask, React
+• Databases: MySQL, MongoDB
+• Tools: Git,  VS Code
+• Creative skill:Video Editing
+• Soft Skills: Teamwork, Communication, Problem Solving
+• Cloud: AWS
+
+----------------------------------------------------
+EDUCATION
+----------------------------------------------------
+
+Master of Computer Applications (MCA)
+Federal Institute of Science and Technology (FISAT)
+KTU University
+2023 – 2025
+CGPA: 8.75
+
+Bachelor of Computer Applications (BCA)
+ABC College
+MG University
+2020 – 2023
+CGPA: 8.60
+
+----------------------------------------------------
+EXPERIENCE
+----------------------------------------------------
+
+Software Developer
+XYZ Technologies Pvt. Ltd.
+January 2023 – Present
+
+Responsibilities:
+• Developed RESTful APIs using Django REST Framework.
+• Built web applications using React and Django.
+• Integrated MongoDB and MySQL databases.
+• Collaborated with cross-functional teams.
+• Fixed bugs and improved application performance.
+
+Intern – Python Developer
+ABC Solutions
+June 2022 – December 2022
+
+Responsibilities:
+• Developed Python automation scripts.
+• Worked on data preprocessing using Pandas.
+• Assisted in testing web applications.
+
+----------------------------------------------------
+PROJECTS
+----------------------------------------------------
+
+AI-Powered Resume Screening System
+
+Description:
+Developed an ATS-based resume screening application using NLP
+techniques such as TF-IDF and Cosine Similarity to rank resumes
+against job descriptions.
+
+Technologies:
+Python, Flask, React, MongoDB, Scikit-learn
+
+----------------------------------------------------
+
+Employee Management System
+
+Description:
+Developed a web-based employee management application with CRUD
+operations and authentication.
+
+Technologies:
+Python, Django, SQLite
+
+----------------------------------------------------
+CERTIFICATIONS
+----------------------------------------------------
+
+• AWS Certified Cloud Practitioner
+• Python for Data Science – Coursera
+• MongoDB Basics – MongoDB University
+
+----------------------------------------------------
+ACHIEVEMENTS
+----------------------------------------------------
+
+• Winner of Inter-College Hackathon 2024
+• Published a research paper on AI-based Resume Screening
+• Completed 250+ coding problems on LeetCode
+
+----------------------------------------------------
+LANGUAGES
+----------------------------------------------------
+
+• English
+• Malayalam
+• Hindi

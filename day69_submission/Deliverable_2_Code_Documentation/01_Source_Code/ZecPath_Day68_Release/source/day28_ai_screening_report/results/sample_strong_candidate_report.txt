@@ -1,0 +1,107 @@
+
+======================================================================
+                    AI SCREENING REPORT
+======================================================================
+Candidate ID : sample_candidate_001
+Job ID       : JOB_BACKEND_001
+======================================================================
+
+
+1. SCREENING SCORE
+----------------------------------------------------------------------
+Final Screening Score : 94.5/100
+
+Average Parameter Scores:
+  Clarity       : 9.5/10
+  Relevance     : 9.75/10
+  Completeness  : 9.5/10
+  Consistency   : 9.5/10
+
+Screening Summary:
+  Total Questions      : 5
+  Answered Questions   : 5
+  No Response          : 0
+  Off-topic Responses  : 0
+
+2. KEY ANSWERS
+----------------------------------------------------------------------
+Experience:
+  Years  : 4
+  Months : None
+  Domain : backend development
+
+Candidate Response:
+  I have four years of backend development experience. I have worked extensively with Python, Django, FastAPI, PostgreSQL and Docker.
+
+3. RECRUITER HIGHLIGHTS
+----------------------------------------------------------------------
+
+Skill Confirmations:
+  - Python
+  - Django
+  - FastAPI
+  - PostgreSQL
+  - Docker
+
+Salary Expectation:
+  amount: 70000, currency: INR, period: month
+
+Availability:
+  Available immediately
+
+4. STRENGTHS
+----------------------------------------------------------------------
+  + Strong backend development experience.
+  + Multiple relevant technical skills confirmed.
+  + Strong confidence communication indicator.
+  + Strong clarity communication indicator.
+  + Strong consistency communication indicator.
+
+5. RISKS
+----------------------------------------------------------------------
+  No major risks identified.
+
+6. MISSING DATA
+----------------------------------------------------------------------
+  No missing data identified.
+
+7. COMMUNICATION SUMMARY
+----------------------------------------------------------------------
+  Confidence               : 95/100 (strong)
+  Clarity                  : 95/100 (strong)
+  Engagement               : 95/100 (strong)
+  Consistency              : 100/100 (strong)
+  Communication Strength   : 96.25/100 (strong)
+
+8. BEHAVIORAL / RESPONSE SIGNALS
+----------------------------------------------------------------------
+  Hesitation Count       : 0
+  Uncertainty Count     : 0
+  Response Word Count   : 25
+  Response Pace         : normal
+  Sentiment             : positive
+  Sentiment Score       : 100.0
+  Contradiction Detected: False
+
+9. QUESTION-WISE EVALUATION
+----------------------------------------------------------------------
+
+Question 1:
+  Question ID : BACKEND_EXP_001
+  Question    : How many years of backend development experience do you have?
+  Category    : experience
+  Score       : 95.0/100
+  Status      : valid
+  Intent      : experience
+  Off-topic   : False
+  Strengths:
+    + Clear response.
+    + Relevant experience provided.
+    + Specific technologies mentioned.
+
+======================================================================
+10. REPORT INFORMATION
+----------------------------------------------------------------------
+Answer Status : valid
+Created At   : 2026-09-09T06:00:00+00:00
+======================================================================

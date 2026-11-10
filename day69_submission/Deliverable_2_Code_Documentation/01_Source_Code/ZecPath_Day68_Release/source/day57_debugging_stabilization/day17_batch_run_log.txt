@@ -1,0 +1,1937 @@
+
+################################################################################
+#             ZecPath DAY 17 BATCH TESTING
+#             DAY 57 SEMANTIC OPTIMIZATION
+################################################################################
+
+Total Test Cases: 8
+
+================================================================================
+STARTING OPTIMIZED BATCH SEMANTIC MATCHING
+The semantic model should load once for this batch.
+================================================================================
+=================================================================
+ZecPath Day 57 - Optimized Batch Semantic Matching
+Candidates configured: 8
+=================================================================
+
+Preparing: candidate_006 - Backend Developer
+
+Preparing: candidate_007 - HR Executive
+
+Preparing: candidate_008 - Marketing Executive
+
+Preparing: candidate_009 - Fresher Python Developer
+
+Preparing: candidate_010 - Fresher Data Analyst
+
+Preparing: candidate_011 - Senior Python Developer
+
+Preparing: candidate_012 - Senior Backend Developer
+
+Preparing: candidate_013 - Python Developer
+
+Loading model: all-MiniLM-L6-v2
+Model load time: 11.67 seconds
+
+Candidate: candidate_006
+Semantic score: 0.8193
+Semantic percentage: 81.93%
+Status: Very Strong Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_006\day17_semantic_similarity.json
+Processing time: 0.11 seconds
+
+Candidate: candidate_007
+Semantic score: 0.8532
+Semantic percentage: 85.32%
+Status: Very Strong Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_007\day17_semantic_similarity.json
+Processing time: 0.07 seconds
+
+Candidate: candidate_008
+Semantic score: 0.8290
+Semantic percentage: 82.90%
+Status: Very Strong Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_008\day17_semantic_similarity.json
+Processing time: 0.07 seconds
+
+Candidate: candidate_009
+Semantic score: 0.8517
+Semantic percentage: 85.17%
+Status: Very Strong Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_009\day17_semantic_similarity.json
+Processing time: 0.06 seconds
+
+Candidate: candidate_010
+Semantic score: 0.7308
+Semantic percentage: 73.08%
+Status: Strong Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_010\day17_semantic_similarity.json
+Processing time: 0.06 seconds
+
+Candidate: candidate_011
+Semantic score: 0.8491
+Semantic percentage: 84.91%
+Status: Very Strong Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_011\day17_semantic_similarity.json
+Processing time: 0.08 seconds
+
+Candidate: candidate_012
+Semantic score: 0.8648
+Semantic percentage: 86.48%
+Status: Very Strong Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_012\day17_semantic_similarity.json
+Processing time: 0.08 seconds
+
+Candidate: candidate_013
+Semantic score: 0.2159
+Semantic percentage: 21.59%
+Status: Low Semantic Match
+Saved: C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\candidate_013\day17_semantic_similarity.json
+Processing time: 0.07 seconds
+
+=================================================================
+BATCH SUMMARY
+Configured: 8
+Prepared: 8
+Successful: 8
+Failed: 0
+Model load time: 11.67 seconds
+Total elapsed: 15.63 seconds
+=================================================================
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 4705.46it/s]
+
+
+Optimized semantic batch completed.
+
+
+################################################################################
+# Candidate ID : candidate_006
+# Target Role  : Backend Developer
+# Job File     : backend_developer.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_006
+Target Role: Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_006
+Resume           : day17_testing\resumes\candidate_006.docx
+Target Role      : Backend Developer
+Job Description  : day17_testing\job_descriptions\backend_developer.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_006
+Target Role: Backend Developer
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_006
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_006
+Target Role: Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_006
+Target Role  : Backend Developer
+
+Skill Match Score: 84.62%
+Status: Excellent Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ postgresql
+â€¢ rest api
+â€¢ fastapi
+â€¢ mongodb
+â€¢ python
+â€¢ django
+â€¢ docker
+â€¢ linux
+â€¢ redis
+â€¢ ci/cd
+â€¢ sql
+â€¢ git
+â€¢ aws
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+[MATCHED] postgresql
+[MATCHED] rest api
+[MATCHED] fastapi
+[MATCHED] mongodb
+[MATCHED] python
+[MATCHED] django
+[MATCHED] docker
+[MATCHED] linux
+[MATCHED] redis
+[MATCHED] git
+[MATCHED] aws
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+[MISSING] ci/cd
+[MISSING] sql
+
+Skill matching report saved to:
+day17_testing\results\candidate_006\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_006
+Target Role: Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_006
+Target Role : Backend Developer
+
+Candidate Experience:
+3.00 years
+
+Job Description Requirement:
+1-4 years
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Fully Meets Requirement
+
+Experience matching result saved to:
+day17_testing\results\candidate_006\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_006
+Target Role: Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_006
+Target Role : Backend Developer
+
+Candidate Degrees:
+• mca
+
+Candidate Education Fields:
+• computer science
+• computer applications
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• computer science
+• computer applications
+• information technology
+• engineering
+
+Education Alignment Score: 100.00%
+Education Status: Education Field Requirement Met
+
+Education matching result saved to:
+day17_testing\results\candidate_006\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_006
+Target Role: Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_006
+Target Role : Backend Developer
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 84.62%
+Experience Relevance   : 100.00%
+Education Alignment    : 100.00%
+Semantic Similarity    : 81.93%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 29.62
+Experience Contribution  : 25.00
+Education Contribution   : 15.00
+Semantic Contribution    : 20.48
+
+==============================================
+FINAL ATS SCORE: 90.10%
+==============================================
+
+Matching Status: Excellent Match
+Shortlisting Status: Shortlisted
+Recommendation: Recommended for Interview
+
+Final ATS result saved to:
+day17_testing\results\candidate_006\day17_final_ats_score.json
+
+
+
+################################################################################
+# Candidate ID : candidate_007
+# Target Role  : HR Executive
+# Job File     : hr_executive.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_007
+Target Role: HR Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_007
+Resume           : day17_testing\resumes\candidate_007.docx
+Target Role      : HR Executive
+Job Description  : day17_testing\job_descriptions\hr_executive.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_007
+Target Role: HR Executive
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_007
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_007
+Target Role: HR Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_007
+Target Role  : HR Executive
+
+Skill Match Score: 80.00%
+Status: Excellent Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ performance management
+â€¢ employee engagement
+â€¢ talent acquisition
+â€¢ employee relations
+â€¢ human resources
+â€¢ communication
+â€¢ recruitment
+â€¢ onboarding
+â€¢ payroll
+â€¢ hrms
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+[MATCHED] employee engagement
+[MATCHED] talent acquisition
+[MATCHED] employee relations
+[MATCHED] human resources
+[MATCHED] communication
+[MATCHED] recruitment
+[MATCHED] onboarding
+[MATCHED] hrms
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+[MISSING] performance management
+[MISSING] payroll
+
+Skill matching report saved to:
+day17_testing\results\candidate_007\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_007
+Target Role: HR Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_007
+Target Role : HR Executive
+
+Candidate Experience:
+2.00 years
+
+Job Description Requirement:
+1-3 years
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Fully Meets Requirement
+
+Experience matching result saved to:
+day17_testing\results\candidate_007\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_007
+Target Role: HR Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_007
+Target Role : HR Executive
+
+Candidate Degrees:
+• mba
+
+Candidate Education Fields:
+• business administration
+• human resources
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• business administration
+• human resources
+
+Education Alignment Score: 100.00%
+Education Status: Education Field Requirement Met
+
+Education matching result saved to:
+day17_testing\results\candidate_007\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_007
+Target Role: HR Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_007
+Target Role : HR Executive
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 80.00%
+Experience Relevance   : 100.00%
+Education Alignment    : 100.00%
+Semantic Similarity    : 85.32%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 28.00
+Experience Contribution  : 25.00
+Education Contribution   : 15.00
+Semantic Contribution    : 21.33
+
+==============================================
+FINAL ATS SCORE: 89.33%
+==============================================
+
+Matching Status: Excellent Match
+Shortlisting Status: Shortlisted
+Recommendation: Recommended for Interview
+
+Final ATS result saved to:
+day17_testing\results\candidate_007\day17_final_ats_score.json
+
+
+
+################################################################################
+# Candidate ID : candidate_008
+# Target Role  : Marketing Executive
+# Job File     : marketing_executive.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_008
+Target Role: Marketing Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_008
+Resume           : day17_testing\resumes\candidate_008.docx
+Target Role      : Marketing Executive
+Job Description  : day17_testing\job_descriptions\marketing_executive.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_008
+Target Role: Marketing Executive
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_008
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_008
+Target Role: Marketing Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_008
+Target Role  : Marketing Executive
+
+Skill Match Score: 90.91%
+Status: Excellent Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ digital marketing
+â€¢ content marketing
+â€¢ brand management
+â€¢ content creation
+â€¢ google analytics
+â€¢ email marketing
+â€¢ market research
+â€¢ communication
+â€¢ social media
+â€¢ marketing
+â€¢ seo
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+[MATCHED] digital marketing
+[MATCHED] content marketing
+[MATCHED] content creation
+[MATCHED] google analytics
+[MATCHED] email marketing
+[MATCHED] market research
+[MATCHED] communication
+[MATCHED] social media
+[MATCHED] marketing
+[MATCHED] seo
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+[MISSING] brand management
+
+Skill matching report saved to:
+day17_testing\results\candidate_008\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_008
+Target Role: Marketing Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_008
+Target Role : Marketing Executive
+
+Candidate Experience:
+2.00 years
+
+Job Description Requirement:
+1-3 years
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Fully Meets Requirement
+
+Experience matching result saved to:
+day17_testing\results\candidate_008\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_008
+Target Role: Marketing Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_008
+Target Role : Marketing Executive
+
+Candidate Degrees:
+• mba
+
+Candidate Education Fields:
+• business administration
+• marketing
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• business administration
+• marketing
+
+Education Alignment Score: 100.00%
+Education Status: Education Field Requirement Met
+
+Education matching result saved to:
+day17_testing\results\candidate_008\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_008
+Target Role: Marketing Executive
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_008
+Target Role : Marketing Executive
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 90.91%
+Experience Relevance   : 100.00%
+Education Alignment    : 100.00%
+Semantic Similarity    : 82.90%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 31.82
+Experience Contribution  : 25.00
+Education Contribution   : 15.00
+Semantic Contribution    : 20.73
+
+==============================================
+FINAL ATS SCORE: 92.54%
+==============================================
+
+Matching Status: Excellent Match
+Shortlisting Status: Shortlisted
+Recommendation: Recommended for Interview
+
+Final ATS result saved to:
+day17_testing\results\candidate_008\day17_final_ats_score.json
+
+
+
+################################################################################
+# Candidate ID : candidate_009
+# Target Role  : Fresher Python Developer
+# Job File     : fresher_python_developer.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_009
+Target Role: Fresher Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_009
+Resume           : day17_testing\resumes\candidate_009.docx
+Target Role      : Fresher Python Developer
+Job Description  : day17_testing\job_descriptions\fresher_python_developer.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_009
+Target Role: Fresher Python Developer
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_009
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_009
+Target Role: Fresher Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_009
+Target Role  : Fresher Python Developer
+
+Skill Match Score: 87.50%
+Status: Excellent Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ postgresql
+â€¢ rest api
+â€¢ fastapi
+â€¢ mongodb
+â€¢ python
+â€¢ django
+â€¢ sql
+â€¢ git
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+[MATCHED] postgresql
+[MATCHED] rest api
+[MATCHED] mongodb
+[MATCHED] python
+[MATCHED] django
+[MATCHED] sql
+[MATCHED] git
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+[MISSING] fastapi
+
+Skill matching report saved to:
+day17_testing\results\candidate_009\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_009
+Target Role: Fresher Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_009
+Target Role : Fresher Python Developer
+
+Candidate Experience:
+0.25 years
+
+Job Description Requirement:
+Not specified
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Requirement Not Specified
+
+Experience matching result saved to:
+day17_testing\results\candidate_009\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_009
+Target Role: Fresher Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_009
+Target Role : Fresher Python Developer
+
+Candidate Degrees:
+• mca
+
+Candidate Education Fields:
+• computer science
+• computer applications
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• computer science
+• computer applications
+• information technology
+• engineering
+
+Education Alignment Score: 100.00%
+Education Status: Education Field Requirement Met
+
+Education matching result saved to:
+day17_testing\results\candidate_009\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_009
+Target Role: Fresher Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_009
+Target Role : Fresher Python Developer
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 87.50%
+Experience Relevance   : 100.00%
+Education Alignment    : 100.00%
+Semantic Similarity    : 85.17%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 30.62
+Experience Contribution  : 25.00
+Education Contribution   : 15.00
+Semantic Contribution    : 21.29
+
+==============================================
+FINAL ATS SCORE: 91.92%
+==============================================
+
+Matching Status: Excellent Match
+Shortlisting Status: Shortlisted
+Recommendation: Recommended for Interview
+
+Final ATS result saved to:
+day17_testing\results\candidate_009\day17_final_ats_score.json
+
+
+
+################################################################################
+# Candidate ID : candidate_010
+# Target Role  : Fresher Data Analyst
+# Job File     : fresher_data_analyst.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_010
+Target Role: Fresher Data Analyst
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_010
+Resume           : day17_testing\resumes\candidate_010.docx
+Target Role      : Fresher Data Analyst
+Job Description  : day17_testing\job_descriptions\fresher_data_analyst.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_010
+Target Role: Fresher Data Analyst
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_010
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_010
+Target Role: Fresher Data Analyst
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_010
+Target Role  : Fresher Data Analyst
+
+Skill Match Score: 100.00%
+Status: Excellent Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ data visualization
+â€¢ data analysis
+â€¢ statistics
+â€¢ power bi
+â€¢ python
+â€¢ pandas
+â€¢ numpy
+â€¢ excel
+â€¢ sql
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+[MATCHED] data visualization
+[MATCHED] data analysis
+[MATCHED] statistics
+[MATCHED] power bi
+[MATCHED] python
+[MATCHED] pandas
+[MATCHED] numpy
+[MATCHED] excel
+[MATCHED] sql
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+No missing skills.
+
+Skill matching report saved to:
+day17_testing\results\candidate_010\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_010
+Target Role: Fresher Data Analyst
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_010
+Target Role : Fresher Data Analyst
+
+Candidate Experience:
+0.00 years
+
+Job Description Requirement:
+Not specified
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Requirement Not Specified
+
+Experience matching result saved to:
+day17_testing\results\candidate_010\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_010
+Target Role: Fresher Data Analyst
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_010
+Target Role : Fresher Data Analyst
+
+Candidate Degrees:
+• mca
+
+Candidate Education Fields:
+• computer science
+• computer applications
+• data science
+• statistics
+• engineering
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• computer science
+• data science
+• statistics
+
+Education Alignment Score: 100.00%
+Education Status: Education Field Requirement Met
+
+Education matching result saved to:
+day17_testing\results\candidate_010\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_010
+Target Role: Fresher Data Analyst
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_010
+Target Role : Fresher Data Analyst
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 100.00%
+Experience Relevance   : 100.00%
+Education Alignment    : 100.00%
+Semantic Similarity    : 73.08%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 35.00
+Experience Contribution  : 25.00
+Education Contribution   : 15.00
+Semantic Contribution    : 18.27
+
+==============================================
+FINAL ATS SCORE: 93.27%
+==============================================
+
+Matching Status: Excellent Match
+Shortlisting Status: Shortlisted
+Recommendation: Recommended for Interview
+
+Final ATS result saved to:
+day17_testing\results\candidate_010\day17_final_ats_score.json
+
+
+
+################################################################################
+# Candidate ID : candidate_011
+# Target Role  : Senior Python Developer
+# Job File     : senior_python_developer.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_011
+Target Role: Senior Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_011
+Resume           : day17_testing\resumes\candidate_011.docx
+Target Role      : Senior Python Developer
+Job Description  : day17_testing\job_descriptions\senior_python_developer.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_011
+Target Role: Senior Python Developer
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_011
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_011
+Target Role: Senior Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_011
+Target Role  : Senior Python Developer
+
+Skill Match Score: 86.67%
+Status: Excellent Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ microservices
+â€¢ system design
+â€¢ unit testing
+â€¢ postgresql
+â€¢ kubernetes
+â€¢ rest api
+â€¢ fastapi
+â€¢ mongodb
+â€¢ python
+â€¢ django
+â€¢ docker
+â€¢ redis
+â€¢ ci/cd
+â€¢ aws
+â€¢ git
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+[MATCHED] microservices
+[MATCHED] system design
+[MATCHED] postgresql
+[MATCHED] kubernetes
+[MATCHED] rest api
+[MATCHED] fastapi
+[MATCHED] mongodb
+[MATCHED] python
+[MATCHED] django
+[MATCHED] docker
+[MATCHED] redis
+[MATCHED] aws
+[MATCHED] git
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+[MISSING] unit testing
+[MISSING] ci/cd
+
+Skill matching report saved to:
+day17_testing\results\candidate_011\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_011
+Target Role: Senior Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_011
+Target Role : Senior Python Developer
+
+Candidate Experience:
+7.00 years
+
+Job Description Requirement:
+5+ years
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Meets Minimum Requirement
+
+Experience matching result saved to:
+day17_testing\results\candidate_011\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_011
+Target Role: Senior Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_011
+Target Role : Senior Python Developer
+
+Candidate Degrees:
+• mca
+
+Candidate Education Fields:
+• computer science
+• computer applications
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• computer science
+• computer applications
+• information technology
+• engineering
+
+Education Alignment Score: 100.00%
+Education Status: Education Field Requirement Met
+
+Education matching result saved to:
+day17_testing\results\candidate_011\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_011
+Target Role: Senior Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_011
+Target Role : Senior Python Developer
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 86.67%
+Experience Relevance   : 100.00%
+Education Alignment    : 100.00%
+Semantic Similarity    : 84.91%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 30.33
+Experience Contribution  : 25.00
+Education Contribution   : 15.00
+Semantic Contribution    : 21.23
+
+==============================================
+FINAL ATS SCORE: 91.56%
+==============================================
+
+Matching Status: Excellent Match
+Shortlisting Status: Shortlisted
+Recommendation: Recommended for Interview
+
+Final ATS result saved to:
+day17_testing\results\candidate_011\day17_final_ats_score.json
+
+
+
+################################################################################
+# Candidate ID : candidate_012
+# Target Role  : Senior Backend Developer
+# Job File     : senior_backend_developer.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_012
+Target Role: Senior Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_012
+Resume           : day17_testing\resumes\candidate_012.docx
+Target Role      : Senior Backend Developer
+Job Description  : day17_testing\job_descriptions\senior_backend_developer.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_012
+Target Role: Senior Backend Developer
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_012
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_012
+Target Role: Senior Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_012
+Target Role  : Senior Backend Developer
+
+Skill Match Score: 93.33%
+Status: Excellent Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ microservices
+â€¢ system design
+â€¢ postgresql
+â€¢ kubernetes
+â€¢ rest api
+â€¢ fastapi
+â€¢ mongodb
+â€¢ python
+â€¢ django
+â€¢ docker
+â€¢ redis
+â€¢ linux
+â€¢ ci/cd
+â€¢ aws
+â€¢ git
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+[MATCHED] microservices
+[MATCHED] system design
+[MATCHED] postgresql
+[MATCHED] kubernetes
+[MATCHED] rest api
+[MATCHED] fastapi
+[MATCHED] mongodb
+[MATCHED] python
+[MATCHED] django
+[MATCHED] docker
+[MATCHED] redis
+[MATCHED] linux
+[MATCHED] aws
+[MATCHED] git
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+[MISSING] ci/cd
+
+Skill matching report saved to:
+day17_testing\results\candidate_012\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_012
+Target Role: Senior Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_012
+Target Role : Senior Backend Developer
+
+Candidate Experience:
+6.00 years
+
+Job Description Requirement:
+5+ years
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Meets Minimum Requirement
+
+Experience matching result saved to:
+day17_testing\results\candidate_012\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_012
+Target Role: Senior Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_012
+Target Role : Senior Backend Developer
+
+Candidate Degrees:
+• btech
+
+Candidate Education Fields:
+• computer science
+• engineering
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• computer science
+• computer applications
+• information technology
+• engineering
+
+Education Alignment Score: 100.00%
+Education Status: Education Field Requirement Met
+
+Education matching result saved to:
+day17_testing\results\candidate_012\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_012
+Target Role: Senior Backend Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_012
+Target Role : Senior Backend Developer
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 93.33%
+Experience Relevance   : 100.00%
+Education Alignment    : 100.00%
+Semantic Similarity    : 86.48%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 32.67
+Experience Contribution  : 25.00
+Education Contribution   : 15.00
+Semantic Contribution    : 21.62
+
+==============================================
+FINAL ATS SCORE: 94.29%
+==============================================
+
+Matching Status: Excellent Match
+Shortlisting Status: Shortlisted
+Recommendation: Recommended for Interview
+
+Final ATS result saved to:
+day17_testing\results\candidate_012\day17_final_ats_score.json
+
+
+
+################################################################################
+# Candidate ID : candidate_013
+# Target Role  : Python Developer
+# Job File     : python_developer.txt
+################################################################################
+
+>>> STARTING Input Validation
+
+===========================================================================
+Running Module: day17_testing.run_day17_test
+Candidate: candidate_013
+Target Role: Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 INPUT VALIDATION
+==============================================
+
+Candidate ID     : candidate_013
+Resume           : day17_testing\resumes\candidate_013.docx
+Target Role      : Python Developer
+Job Description  : day17_testing\job_descriptions\python_developer.txt
+
+----------------------------------------------
+STEP 1: RESUME EXTRACTION
+----------------------------------------------
+
+Resume extraction successful.
+
+----------------------------------------------
+STEP 2: JOB DESCRIPTION
+----------------------------------------------
+
+Job description loaded successfully.
+
+==============================================
+       DAY 17 INPUT VALIDATION RESULT
+==============================================
+
+Candidate: candidate_013
+Target Role: Python Developer
+Resume extraction: SUCCESS
+Job description loading: SUCCESS
+
+Files saved in:
+day17_testing\results\candidate_013
+
+
+>>> STARTING Skill Matching
+
+===========================================================================
+Running Module: day17_testing.day17_skill_matching
+Candidate: candidate_013
+Target Role: Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 SKILL MATCHING
+==============================================
+
+Candidate ID : candidate_013
+Target Role  : Python Developer
+
+Skill Match Score: 0.00%
+Status: Low Skill Match
+
+----------------------------------------------
+REQUIRED SKILLS
+----------------------------------------------
+â€¢ postgresql
+â€¢ rest api
+â€¢ fastapi
+â€¢ mongodb
+â€¢ python
+â€¢ django
+â€¢ docker
+â€¢ pytest
+â€¢ linux
+â€¢ sql
+â€¢ git
+â€¢ aws
+
+----------------------------------------------
+MATCHED SKILLS
+----------------------------------------------
+No matching skills found.
+
+----------------------------------------------
+MISSING SKILLS
+----------------------------------------------
+[MISSING] postgresql
+[MISSING] rest api
+[MISSING] fastapi
+[MISSING] mongodb
+[MISSING] python
+[MISSING] django
+[MISSING] docker
+[MISSING] pytest
+[MISSING] linux
+[MISSING] sql
+[MISSING] git
+[MISSING] aws
+
+Skill matching report saved to:
+day17_testing\results\candidate_013\day17_skill_match.json
+
+
+>>> STARTING Experience Matching
+
+===========================================================================
+Running Module: day17_testing.day17_experience
+Candidate: candidate_013
+Target Role: Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EXPERIENCE MATCHING
+==============================================
+
+Candidate ID: candidate_013
+Target Role : Python Developer
+
+Candidate Experience:
+4.00 years
+
+Job Description Requirement:
+2+ years
+
+Experience Relevance Score: 100.00%
+Experience Status: Experience Meets Minimum Requirement
+
+Experience matching result saved to:
+day17_testing\results\candidate_013\day17_experience_match.json
+
+
+>>> STARTING Education Matching
+
+===========================================================================
+Running Module: day17_testing.day17_education
+Candidate: candidate_013
+Target Role: Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 EDUCATION MATCHING
+==============================================
+
+Candidate ID: candidate_013
+Target Role : Python Developer
+
+Candidate Degrees:
+No recognized degree found.
+
+Candidate Education Fields:
+• marketing
+
+Job Description Education Requirements:
+
+Degrees:
+No specific degree detected.
+
+Education Fields:
+• computer science
+• computer applications
+• information technology
+• engineering
+
+Education Alignment Score: 50.00%
+Education Status: Education Partially Aligned
+
+Education matching result saved to:
+day17_testing\results\candidate_013\day17_education_match.json
+
+
+>>> STARTING Final ATS Scoring
+
+===========================================================================
+Running Module: day17_testing.day17_final_scoring
+Candidate: candidate_013
+Target Role: Python Developer
+===========================================================================
+
+==============================================
+       ZecPath DAY 17 FINAL ATS SCORING
+==============================================
+
+Candidate ID: candidate_013
+Target Role : Python Developer
+
+----------------------------------------------
+ATS COMPONENT SCORES
+----------------------------------------------
+Skill Matching         : 0.00%
+Experience Relevance   : 100.00%
+Education Alignment    : 50.00%
+Semantic Similarity    : 21.59%
+
+----------------------------------------------
+WEIGHTS
+----------------------------------------------
+Skill Matching         : 35%
+Experience Relevance   : 25%
+Education Alignment    : 15%
+Semantic Similarity    : 25%
+
+----------------------------------------------
+WEIGHTED CONTRIBUTIONS
+----------------------------------------------
+Skill Contribution       : 0.00
+Experience Contribution  : 25.00
+Education Contribution   : 7.50
+Semantic Contribution    : 5.40
+
+==============================================
+FINAL ATS SCORE: 37.90%
+==============================================
+
+Matching Status: Low Match
+Shortlisting Status: Not Shortlisted
+Recommendation: Not Recommended
+
+Final ATS result saved to:
+day17_testing\results\candidate_013\day17_final_ats_score.json
+
+
+
+===============================================================================================
+                 ZecPath DAY 17 BATCH SUMMARY
+===============================================================================================
+
+Candidate       Target Role                     ATS Score   Status
+-----------------------------------------------------------------------------------------------
+candidate_006   Backend Developer               90.10%      SUCCESS
+candidate_007   HR Executive                    89.33%      SUCCESS
+candidate_008   Marketing Executive             92.54%      SUCCESS
+candidate_009   Fresher Python Developer        91.92%      SUCCESS
+candidate_010   Fresher Data Analyst            93.27%      SUCCESS
+candidate_011   Senior Python Developer         91.56%      SUCCESS
+candidate_012   Senior Backend Developer        94.29%      SUCCESS
+candidate_013   Python Developer                37.90%      SUCCESS
+
+
+Total Candidates : 8
+Successful Tests : 8
+Failed Tests     : 0
+
+Batch summary saved to:
+C:\Users\KARTHIKA M S\Desktop\ZecPath-AI\day17_testing\results\day17_batch_summary.json
+
+Day 17 batch testing completed.
+===============================================================================================

@@ -1,0 +1,31 @@
+{
+  "candidate_id": "CAND007",
+  "candidate_name": "Nikhil Raj",
+  "job_id": "JD001",
+  "target_role": "MERN Stack Developer",
+  "experience_years": 2,
+  "education": "MCA",
+  "skills": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "REST APIs",
+    "Git"
+  ],
+  "resume_file": "candidate_007_resume.pdf",
+  "resume_quality": "average",
+  "candidate_type": "experienced",
+  "missing_mandatory_skills": [
+    "MongoDB"
+  ],
+  "assessment_status": {
+    "ats": "pending",
+    "screening": "pending",
+    "hr": "pending",
+    "aptitude": "pending",
+    "technical": "pending"
+  }
+}

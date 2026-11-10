@@ -1,0 +1,13 @@
+filename,accent,noise_level,sample_rate,duration_seconds,target_snr_db,format,subtype
+american_clean.wav,american,clean,24000,10.15,,WAV,PCM_16
+american_high_noise.wav,american,high_noise,24000,10.15,0,WAV,PCM_16
+american_low_noise.wav,american,low_noise,24000,10.15,25,WAV,PCM_16
+american_medium_noise.wav,american,medium_noise,24000,10.15,12,WAV,PCM_16
+british_clean.wav,british,clean,24000,11.71,,WAV,PCM_16
+british_high_noise.wav,british,high_noise,24000,11.71,0,WAV,PCM_16
+british_low_noise.wav,british,low_noise,24000,11.71,25,WAV,PCM_16
+british_medium_noise.wav,british,medium_noise,24000,11.71,12,WAV,PCM_16
+indian_clean.wav,indian,clean,24000,10.94,,WAV,PCM_16
+indian_high_noise.wav,indian,high_noise,24000,10.94,0,WAV,PCM_16
+indian_low_noise.wav,indian,low_noise,24000,10.94,25,WAV,PCM_16
+indian_medium_noise.wav,indian,medium_noise,24000,10.94,12,WAV,PCM_16

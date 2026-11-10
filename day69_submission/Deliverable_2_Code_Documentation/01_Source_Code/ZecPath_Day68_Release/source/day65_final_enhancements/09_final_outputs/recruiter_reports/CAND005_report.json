@@ -1,0 +1,106 @@
+{
+    "report_type": "Recruiter-Friendly Candidate Summary",
+    "generated_at": "2026-11-08T07:00:21.199749+00:00",
+    "candidate_information": {
+        "candidate_id": "CAND005",
+        "job_id": "JD003"
+    },
+    "recruiter_overview": {
+        "candidate_id": "CAND005",
+        "job_id": "JD003",
+        "unified_score": 84.99,
+        "formatted_unified_score": "84.99/100",
+        "score_coverage": 100.0,
+        "formatted_coverage": "100.00%",
+        "scoring_status": "COMPLETED",
+        "ats_eligibility": "ELIGIBLE",
+        "final_decision": "ELIGIBLE_FOR_NEXT_STAGE"
+    },
+    "assessment_summary": [
+        {
+            "round": "ats",
+            "round_name": "ATS Screening",
+            "score": 96.17,
+            "formatted_score": "96.17/100",
+            "assessment_status": "COMPLETED",
+            "is_simulated": null,
+            "score_source": null
+        },
+        {
+            "round": "hr",
+            "round_name": "HR Interview",
+            "score": 91.8,
+            "formatted_score": "91.80/100",
+            "assessment_status": "COMPLETED",
+            "is_simulated": null,
+            "score_source": null
+        },
+        {
+            "round": "aptitude",
+            "round_name": "Aptitude Assessment",
+            "score": 88.81,
+            "formatted_score": "88.81/100",
+            "assessment_status": "COMPLETED",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO"
+        },
+        {
+            "round": "technical",
+            "round_name": "Technical Interview",
+            "score": 64.47,
+            "formatted_score": "64.47/100",
+            "assessment_status": "COMPLETED",
+            "is_simulated": true,
+            "score_source": "SIMULATED_HEURISTIC_DEMO"
+        },
+        {
+            "round": "machine_test",
+            "round_name": "Machine Test",
+            "score": 91.2,
+            "formatted_score": "91.20/100",
+            "assessment_status": "COMPLETED",
+            "is_simulated": true,
+            "score_source": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES"
+        }
+    ],
+    "overall_evaluation": {
+        "unified_score": 84.99,
+        "score_coverage": 100.0,
+        "scoring_status": "COMPLETED",
+        "available_rounds": [
+            "ats",
+            "hr",
+            "aptitude",
+            "technical",
+            "machine_test"
+        ],
+        "missing_rounds": []
+    },
+    "ats_eligibility": "ELIGIBLE",
+    "final_decision": {
+        "status": "ELIGIBLE_FOR_NEXT_STAGE",
+        "explanation": "The scoring engine marked this candidate eligible for the next stage. This is a system recommendation, not a final hiring decision."
+    },
+    "recruiter_action": {
+        "suggested_action": "Review the assessment evidence and data provenance. If verified and permitted by hiring policy, consider inviting the candidate to the next stage.",
+        "requires_human_review": true
+    },
+    "data_provenance": {
+        "dataset_type": "DEMO_DATASET",
+        "simulated_assessments": [
+            "Aptitude Assessment",
+            "Technical Interview",
+            "Machine Test"
+        ],
+        "unknown_provenance_assessments": [
+            "ATS Screening",
+            "HR Interview"
+        ]
+    },
+    "warnings": [
+        "Simulated assessment data detected: Aptitude Assessment, Technical Interview, Machine Test",
+        "Provenance is not specified for: ATS Screening, HR Interview",
+        "This report uses a demo dataset and is not suitable for real hiring decisions.",
+        "Recruiters must independently verify candidate information and assessment evidence before making hiring decisions."
+    ]
+}

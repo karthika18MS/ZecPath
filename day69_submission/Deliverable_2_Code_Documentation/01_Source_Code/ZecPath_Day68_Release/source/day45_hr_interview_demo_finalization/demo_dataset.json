@@ -1,0 +1,47 @@
+{
+    "dataset_name": "ZecPath Day 45 HR Interview Demo Dataset",
+    "dataset_purpose": "Demo input dataset for the final HR Interview AI system",
+    "source": "Updated Day 37 HR Interview Scoring output",
+    "candidate": {
+        "candidate_id": "candidate_006",
+        "job_id": "JOB_BACKEND_001"
+    },
+    "interview": {
+        "total_questions": 4,
+        "questions": [
+            {
+                "question_id": "HR_SELF_001",
+                "question_text": "Can you introduce yourself and briefly describe your technical background?",
+                "candidate_answer": "I recently completed my MCA and have a background in software development. I have worked with Python, JavaScript, React, Node.js and databases. I am interested in backend development and enjoy solving technical problems and learning new technologies."
+            },
+            {
+                "question_id": "HR_TEAM_001",
+                "question_text": "Tell me about a time when you worked as part of a team on a project.",
+                "candidate_answer": "During my academic project, I worked as part of a team where we divided the work into different modules. I was responsible for development-related tasks and coordinated with other team members when integrating the modules. We discussed issues regularly and worked together to complete the project on time."
+            },
+            {
+                "question_id": "HR_GOALS_001",
+                "question_text": "What are your career goals for the next few years?",
+                "candidate_answer": "My goal is to build strong technical expertise and become a reliable software professional. I want to improve my development skills, work on real-world projects and gradually take more responsibility. I also want to keep learning new technologies that are useful for my role."
+            },
+            {
+                "question_id": "HR_AVAILABILITY_001",
+                "question_text": "Are you comfortable with the job location, working hours and availability requirements of this position?",
+                "candidate_answer": "Yes, I am comfortable with the job requirements and working schedule. I am willing to adapt to the organization's working environment and can manage my time according to the responsibilities of the role."
+            }
+        ]
+    },
+    "parameter_scores": {
+        "answer_relevance": 93.75,
+        "communication": 89.62,
+        "confidence": 81.25,
+        "consistency": 98.75
+    },
+    "scoring_weights": {
+        "answer_relevance": 0.30,
+        "communication": 0.25,
+        "confidence": 0.20,
+        "consistency": 0.25
+    },
+    "expected_hr_score": 91.47
+}

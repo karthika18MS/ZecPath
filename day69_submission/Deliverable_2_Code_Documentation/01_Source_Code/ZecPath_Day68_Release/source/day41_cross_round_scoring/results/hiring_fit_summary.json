@@ -1,0 +1,122 @@
+[
+    {
+        "candidate_id": "candidate_006",
+        "job_id": "JOB_BACKEND_001",
+        "target_role": "Backend Developer",
+        "round_scores": {
+            "ats": 90.1,
+            "screening": 95.0,
+            "hr": 91.47
+        },
+        "weights": {
+            "ats": 0.4,
+            "screening": 0.3,
+            "hr": 0.3
+        },
+        "weighted_contributions": {
+            "ats": 36.04,
+            "screening": 28.5,
+            "hr": 27.44
+        },
+        "hiring_fit_percentage": 91.98,
+        "status": "Calculated"
+    },
+    {
+        "candidate_id": "candidate_007",
+        "target_role": "HR Executive",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "Screening",
+            "HR"
+        ],
+        "round_scores": {
+            "ats": 89.33,
+            "screening": null,
+            "hr": null
+        }
+    },
+    {
+        "candidate_id": "candidate_008",
+        "target_role": "Marketing Executive",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "Screening",
+            "HR"
+        ],
+        "round_scores": {
+            "ats": 92.54,
+            "screening": null,
+            "hr": null
+        }
+    },
+    {
+        "candidate_id": "candidate_009",
+        "target_role": "Fresher Python Developer",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "Screening",
+            "HR"
+        ],
+        "round_scores": {
+            "ats": 91.92,
+            "screening": null,
+            "hr": null
+        }
+    },
+    {
+        "candidate_id": "candidate_010",
+        "target_role": "Fresher Data Analyst",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "Screening",
+            "HR"
+        ],
+        "round_scores": {
+            "ats": 93.27,
+            "screening": null,
+            "hr": null
+        }
+    },
+    {
+        "candidate_id": "candidate_011",
+        "target_role": "Senior Python Developer",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "Screening",
+            "HR"
+        ],
+        "round_scores": {
+            "ats": 91.56,
+            "screening": null,
+            "hr": null
+        }
+    },
+    {
+        "candidate_id": "candidate_012",
+        "target_role": "Senior Backend Developer",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "Screening",
+            "HR"
+        ],
+        "round_scores": {
+            "ats": 94.29,
+            "screening": null,
+            "hr": null
+        }
+    },
+    {
+        "candidate_id": "candidate_013",
+        "target_role": "Python Developer",
+        "status": "Incomplete",
+        "missing_rounds": [
+            "Screening",
+            "HR"
+        ],
+        "round_scores": {
+            "ats": 37.9,
+            "screening": null,
+            "hr": null
+        }
+    }
+]

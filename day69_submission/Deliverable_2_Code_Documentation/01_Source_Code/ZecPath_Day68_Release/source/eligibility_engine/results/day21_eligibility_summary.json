@@ -1,0 +1,96 @@
+{
+    "engine": "ZecPath Day 21 Eligibility Decision Engine",
+    "rules_file": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\eligibility_engine\\eligibility_rules.json",
+    "day18_results_directory": "C:\\Users\\KARTHIKA M S\\Desktop\\ZecPath-AI\\day18_optimization\\results",
+    "total_candidates": 8,
+    "successful": 8,
+    "failed": 0,
+    "eligible": 7,
+    "review": 0,
+    "rejected": 1,
+    "results": [
+        {
+            "candidate_id": "candidate_006",
+            "target_role": "Backend Developer",
+            "job_description": "backend_developer.txt",
+            "ats_score": 90.1,
+            "eligibility": "Eligible",
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "role: backend_developer"
+        },
+        {
+            "candidate_id": "candidate_007",
+            "target_role": "HR Executive",
+            "job_description": "hr_executive.txt",
+            "ats_score": 89.33,
+            "eligibility": "Eligible",
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "role: hr_executive"
+        },
+        {
+            "candidate_id": "candidate_008",
+            "target_role": "Marketing Executive",
+            "job_description": "marketing_executive.txt",
+            "ats_score": 92.54,
+            "eligibility": "Eligible",
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "role: marketing_executive"
+        },
+        {
+            "candidate_id": "candidate_009",
+            "target_role": "Fresher Python Developer",
+            "job_description": "fresher_python_developer.txt",
+            "ats_score": 91.92,
+            "eligibility": "Eligible",
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "role: fresher_python_developer"
+        },
+        {
+            "candidate_id": "candidate_010",
+            "target_role": "Fresher Data Analyst",
+            "job_description": "fresher_data_analyst.txt",
+            "ats_score": 93.27,
+            "eligibility": "Eligible",
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "role: fresher_data_analyst"
+        },
+        {
+            "candidate_id": "candidate_011",
+            "target_role": "Senior Python Developer",
+            "job_description": "senior_python_developer.txt",
+            "ats_score": 91.56,
+            "eligibility": "Eligible",
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "role: senior_python_developer"
+        },
+        {
+            "candidate_id": "candidate_012",
+            "target_role": "Senior Backend Developer",
+            "job_description": "senior_backend_developer.txt",
+            "ats_score": 94.29,
+            "eligibility": "Eligible",
+            "reason": "Candidate satisfies all applicable recruiter-defined eligibility rules and meets the ATS eligibility cutoff.",
+            "failed_rules": [],
+            "rule_source": "role: senior_backend_developer"
+        },
+        {
+            "candidate_id": "candidate_013",
+            "target_role": "Python Developer",
+            "job_description": "python_developer.txt",
+            "ats_score": 37.9,
+            "eligibility": "Rejected",
+            "reason": "ATS score is below the review cutoff. Mandatory skill requirements are not met.",
+            "failed_rules": [
+                "ats_score",
+                "mandatory_skills"
+            ],
+            "rule_source": "role: python_developer"
+        }
+    ]
+}

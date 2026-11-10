@@ -1,0 +1,106 @@
+{
+    "module": "ZecPath Day 65 Score Validation",
+    "source_file": "D:\\ZecPath-AI\\day63_demo_dataset\\06_end_to_end_simulation\\outputs\\cross_round_scoring_results.json",
+    "weights_validation": {
+        "valid": true,
+        "total_weight": 1.0,
+        "errors": []
+    },
+    "candidate_validation": {
+        "valid": true,
+        "total_candidates": 10,
+        "valid_candidates": 10,
+        "invalid_candidates": 0,
+        "errors": [],
+        "results": [
+            {
+                "valid": true,
+                "candidate_id": "CAND001",
+                "job_id": "JD001",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND002",
+                "job_id": "JD002",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND003",
+                "job_id": "JD001",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND004",
+                "job_id": "JD003",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND005",
+                "job_id": "JD003",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND006",
+                "job_id": "JD002",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND007",
+                "job_id": "JD001",
+                "missing_rounds": [
+                    "ats"
+                ],
+                "expected_score_coverage": 85.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND008",
+                "job_id": "JD002",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND009",
+                "job_id": "JD001",
+                "missing_rounds": [],
+                "expected_score_coverage": 100.0,
+                "errors": []
+            },
+            {
+                "valid": true,
+                "candidate_id": "CAND010",
+                "job_id": "JD003",
+                "missing_rounds": [
+                    "ats",
+                    "hr",
+                    "aptitude",
+                    "technical",
+                    "machine_test"
+                ],
+                "expected_score_coverage": 0.0,
+                "errors": []
+            }
+        ]
+    }
+}

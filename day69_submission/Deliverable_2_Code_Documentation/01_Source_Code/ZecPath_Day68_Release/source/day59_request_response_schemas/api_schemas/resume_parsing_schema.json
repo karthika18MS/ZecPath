@@ -1,0 +1,86 @@
+{
+  "title": "Resume Parsing API",
+  "description": "Proposed request and response schema for extracting text from a candidate resume.",
+  "request": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "file_reference"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string",
+        "description": "Unique candidate identifier"
+      },
+      "file_reference": {
+        "type": "string",
+        "description": "Server-side reference to an uploaded resume"
+      },
+      "file_type": {
+        "type": "string",
+        "enum": [
+          "pdf",
+          "docx"
+        ],
+        "description": "Supported file type"
+      }
+    },
+    "additionalProperties": false
+  },
+  "success_response": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "status",
+      "extracted_text"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "SUCCESS"
+        ]
+      },
+      "extracted_text": {
+        "type": "string"
+      },
+      "request_id": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  },
+  "error_response": {
+    "type": "object",
+    "required": [
+      "status",
+      "error"
+    ],
+    "properties": {
+      "status": {
+        "type": "string",
+        "enum": [
+          "FAILED"
+        ]
+      },
+      "error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

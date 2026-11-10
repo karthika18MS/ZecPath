@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND005",
+  "job_id": "JD003",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "A team of four developers completes a task in 12 days. How many days will eight equally productive developers take?",
+      "answer": "The total work is 48 developer-days. Eight developers will require 6 days.",
+      "expected_answer": "6 days"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 2, 6, 12, 20, 30. What is the next number?",
+      "answer": "42. The differences are 4, 6, 8 and 10, so the next difference is 12.",
+      "expected_answer": "42"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "A production application fails after a new deployment. How would you respond?",
+      "answer": "I would first assess the impact and check monitoring alerts and application logs. I would identify the affected service and compare the latest deployment changes. If the issue affects users significantly, I would coordinate a rollback while investigating the root cause. After fixing it, I would test the solution and document the incident."
+    }
+  ]
+}

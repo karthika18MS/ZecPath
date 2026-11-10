@@ -1,0 +1,205 @@
+{
+    "candidate_id": "candidate_012",
+    "target_role": "Senior Backend Developer",
+    "job_description": "senior_backend_developer.txt",
+    "engine": "ZecPath Day 18 Optimized ATS Engine",
+    "pipeline_status": "SUCCESS",
+    "scores": {
+        "skill_matching": 93.33,
+        "experience_relevance": 100.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 86.48,
+        "final_ats_score": 94.29
+    },
+    "weights": {
+        "skill_matching": 0.35,
+        "experience_relevance": 0.25,
+        "education_alignment": 0.15,
+        "semantic_similarity": 0.25
+    },
+    "excluded_components": [],
+    "contributions": {
+        "skill_matching": 32.67,
+        "experience_relevance": 25.0,
+        "education_alignment": 15.0,
+        "semantic_similarity": 21.62
+    },
+    "matching_status": "Excellent Match",
+    "shortlisting_status": "Shortlisted",
+    "recommendation": "Recommended for Interview",
+    "manual_review": {
+        "review_required": false,
+        "review_status": "NOT_REQUIRED",
+        "review_reason": null
+    },
+    "skill_details": {
+        "score": 93.33,
+        "required_skills": [
+            "aws",
+            "ci/cd",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "kubernetes",
+            "linux",
+            "microservices",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api",
+            "system design"
+        ],
+        "matched_skills": [
+            "aws",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "kubernetes",
+            "linux",
+            "microservices",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api",
+            "system design"
+        ],
+        "missing_skills": [
+            "ci/cd"
+        ],
+        "total_required_skills": 15,
+        "total_matched_skills": 14,
+        "source": "Day 17 validated skill matcher"
+    },
+    "experience_details": {
+        "score": 100.0,
+        "candidate_experience_years": 6.0,
+        "minimum_required_years": 5.0,
+        "maximum_required_years": null,
+        "is_applicable": true,
+        "status": "Experience Meets Requirement"
+    },
+    "education_details": {
+        "score": 100.0,
+        "candidate_degrees": [
+            "btech"
+        ],
+        "candidate_fields": [
+            "computer science",
+            "engineering",
+            "management"
+        ],
+        "required_degrees": [],
+        "required_fields": [
+            "computer applications",
+            "computer science",
+            "information technology"
+        ],
+        "degree_match": false,
+        "field_match": true,
+        "status": "Education Field Requirement Met"
+    },
+    "semantic_details": {
+        "score": 86.48,
+        "raw_score": 0.8648,
+        "embedding_length": 384,
+        "model_access_time_seconds": 8.560759
+    },
+    "entity_detection": {
+        "name": "Candidate 012",
+        "job_titles": [
+            "senior backend developer",
+            "backend developer"
+        ],
+        "skills": [
+            "aws",
+            "ci/cd",
+            "django",
+            "docker",
+            "fastapi",
+            "git",
+            "linux",
+            "microservices",
+            "mongodb",
+            "postgresql",
+            "python",
+            "redis",
+            "rest api"
+        ],
+        "degrees": [
+            "btech"
+        ],
+        "experience_years": 6.0,
+        "years": [
+            2020,
+            2026
+        ],
+        "projects": [],
+        "sections": {
+            "summary": [
+                "Senior Backend Developer with 6 years of experience",
+                "building scalable APIs, microservices, and cloud-based",
+                "backend applications."
+            ],
+            "skills": [
+                "Python",
+                "FastAPI",
+                "Django",
+                "REST API",
+                "PostgreSQL",
+                "MongoDB",
+                "Docker",
+                "Kubernetes",
+                "AWS",
+                "Microservices",
+                "System Design",
+                "Git",
+                "Redis",
+                "CI/CD",
+                "Linux",
+                "Cloud Architecture"
+            ],
+            "experience": [
+                "Senior Backend Developer",
+                "XYZ Technologies",
+                "2020 - 2026",
+                "Designed and developed backend services using Python.",
+                "Built REST APIs using FastAPI and Django.",
+                "Designed PostgreSQL and MongoDB databases.",
+                "Developed microservices-based applications.",
+                "Deployed backend services on AWS.",
+                "Used Docker and Kubernetes for container orchestration.",
+                "Implemented CI/CD pipelines.",
+                "Used Redis for caching.",
+                "Performed code reviews.",
+                "Mentored junior developers.",
+                "Designed scalable backend architecture.",
+                "Resolved production issues."
+            ],
+            "education": [
+                "Bachelor of Technology",
+                "Computer Science and Engineering",
+                "PROJECT:",
+                "Cloud-Based Order Management System",
+                "Designed and implemented a scalable backend using",
+                "Python, FastAPI, PostgreSQL, Redis, Docker,",
+                "Kubernetes, and AWS."
+            ]
+        }
+    },
+    "semantic_input": "Validated Day 17 cleaned resume",
+    "performance": {
+        "extraction_time_seconds": 0.13912,
+        "cleaning_time_seconds": 0.002853,
+        "entity_detection_time_seconds": 0.039547,
+        "skill_matching_time_seconds": 0.106333,
+        "semantic_processing_time_seconds": 10.703487,
+        "semantic_model_access_time_seconds": 8.560759,
+        "unaccounted_pipeline_time_seconds": 0.016832,
+        "total_pipeline_time_seconds": 11.008173,
+        "output_save_time_seconds": 0.001564
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "candidate_id": "candidate_008",
+    "target_role": "Marketing Executive",
+    "resume_file": "day17_testing\\resumes\\candidate_008.docx",
+    "job_description_file": "day17_testing\\job_descriptions\\marketing_executive.txt",
+    "resume_extraction": "SUCCESS",
+    "job_description_loading": "SUCCESS"
+}

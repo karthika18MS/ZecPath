@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND001",
+  "job_id": "JD001",
+  "assessment_type": "APTITUDE",
+  "response_status": "completed",
+  "logical_reasoning": [
+    {
+      "question_id": "APT001",
+      "question": "Five developers complete a project in 10 days. How many days will ten developers take?",
+      "answer": "Assuming equal productivity, total work is 5 multiplied by 10, which is 50 developer-days. Ten developers will complete it in 5 days.",
+      "expected_answer": "5 days"
+    },
+    {
+      "question_id": "APT002",
+      "question": "A sequence is 2, 4, 8, 16. What is the next number?",
+      "answer": "32. Each number is multiplied by 2.",
+      "expected_answer": "32"
+    }
+  ],
+  "scenario_evaluation": [
+    {
+      "question_id": "SCN001",
+      "question": "Your application becomes slow after several users log in. What would you do?",
+      "answer": "I would first identify whether the issue is in the frontend, backend or database. I would inspect API response times, database queries and server logs. Then I would optimize the bottleneck and test the application under concurrent user load."
+    }
+  ]
+}

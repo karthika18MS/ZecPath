@@ -1,0 +1,225 @@
+{
+  "dataset_name": "ZecPath Demo Candidate Scenarios",
+  "version": "1.0",
+  "description": "Defines fictional candidate profiles and their intended testing scenarios for the ZecPath AI-powered hiring system.",
+  "candidates": [
+    {
+      "candidate_id": "CAND001",
+      "candidate_name": "Arun Kumar",
+      "job_id": "JD001",
+      "target_role": "MERN Stack Developer",
+      "scenario_type": "excellent_candidate",
+      "resume_quality": "excellent",
+      "experience_years": 3,
+      "expected_strengths": [
+        "Strong MERN stack knowledge",
+        "Practical full-stack development experience",
+        "REST API development",
+        "Good problem-solving skills",
+        "Strong communication"
+      ],
+      "expected_weaknesses": [],
+      "testing_purpose": "Test how the system processes a strong candidate with relevant skills and experience.",
+      "expected_pipeline_behavior": "Candidate should demonstrate strong alignment with the MERN job description and complete all assessment stages."
+    },
+    {
+      "candidate_id": "CAND002",
+      "candidate_name": "Rahul Menon",
+      "job_id": "JD002",
+      "target_role": "Python Developer",
+      "scenario_type": "average_candidate",
+      "resume_quality": "average",
+      "experience_years": 2,
+      "expected_strengths": [
+        "Python programming",
+        "Basic Django knowledge",
+        "SQL database knowledge",
+        "Basic backend development"
+      ],
+      "expected_weaknesses": [
+        "Limited advanced development experience",
+        "Moderate technical explanations"
+      ],
+      "testing_purpose": "Test a candidate with reasonable job-related skills but average technical and communication performance.",
+      "expected_pipeline_behavior": "System should evaluate the candidate based on actual skill matching and assessment responses."
+    },
+    {
+      "candidate_id": "CAND003",
+      "candidate_name": "Vishnu S",
+      "job_id": "JD001",
+      "target_role": "MERN Stack Developer",
+      "scenario_type": "weak_candidate",
+      "resume_quality": "poor",
+      "experience_years": 1,
+      "expected_strengths": [
+        "HTML",
+        "CSS",
+        "Basic JavaScript",
+        "Basic React.js"
+      ],
+      "expected_weaknesses": [
+        "Missing Node.js",
+        "Missing Express.js",
+        "Missing MongoDB",
+        "Weak technical explanations"
+      ],
+      "testing_purpose": "Test ATS matching and interview evaluation for a candidate with limited mandatory skills.",
+      "expected_pipeline_behavior": "System should identify missing skills and reflect the candidate's actual assessment performance."
+    },
+    {
+      "candidate_id": "CAND004",
+      "candidate_name": "Adithya R",
+      "job_id": "JD003",
+      "target_role": "Java Developer",
+      "scenario_type": "fresher_candidate",
+      "resume_quality": "average",
+      "experience_years": 0,
+      "expected_strengths": [
+        "Java fundamentals",
+        "Object-oriented programming",
+        "SQL basics",
+        "Academic project experience"
+      ],
+      "expected_weaknesses": [
+        "No full-time professional experience",
+        "Limited enterprise application experience",
+        "No Spring Boot experience listed"
+      ],
+      "testing_purpose": "Test how the system handles a fresher applying for a Java Developer position requiring 3 to 6 years of experience.",
+      "expected_pipeline_behavior": "System should identify the experience gap and evaluate the candidate according to the configured eligibility rules."
+    },
+    {
+      "candidate_id": "CAND005",
+      "candidate_name": "Rohit Krishnan",
+      "job_id": "JD003",
+      "target_role": "Java Developer",
+      "scenario_type": "experienced_candidate",
+      "resume_quality": "excellent",
+      "experience_years": 6,
+      "expected_strengths": [
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "Microservices",
+        "REST APIs",
+        "Enterprise application development"
+      ],
+      "expected_weaknesses": [],
+      "testing_purpose": "Test an experienced candidate with strong Java and enterprise development knowledge.",
+      "expected_pipeline_behavior": "System should recognize relevant experience and technical knowledge and process the candidate through all assessment stages."
+    },
+    {
+      "candidate_id": "CAND006",
+      "candidate_name": "Priya Nair",
+      "job_id": "JD002",
+      "target_role": "Python Developer",
+      "scenario_type": "strong_technical_candidate",
+      "resume_quality": "excellent",
+      "experience_years": 3,
+      "expected_strengths": [
+        "Python",
+        "Django",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Analytical reasoning"
+      ],
+      "expected_weaknesses": [],
+      "testing_purpose": "Test a Python candidate with additional AI, machine learning and NLP specialization.",
+      "expected_pipeline_behavior": "System should identify relevant Python skills and evaluate the candidate's additional technical specialization."
+    },
+    {
+      "candidate_id": "CAND007",
+      "candidate_name": "Nikhil Raj",
+      "job_id": "JD001",
+      "target_role": "MERN Stack Developer",
+      "scenario_type": "missing_mandatory_skill",
+      "resume_quality": "average",
+      "experience_years": 2,
+      "expected_strengths": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "REST APIs"
+      ],
+      "expected_weaknesses": [
+        "MongoDB is missing"
+      ],
+      "testing_purpose": "Test mandatory skill validation and candidate eligibility decisions.",
+      "expected_pipeline_behavior": "System should detect the missing MongoDB skill and apply the configured mandatory-skill eligibility rules."
+    },
+    {
+      "candidate_id": "CAND008",
+      "candidate_name": "Manu K",
+      "job_id": "JD002",
+      "target_role": "Python Developer",
+      "scenario_type": "poor_resume_candidate",
+      "resume_quality": "poor",
+      "experience_years": 1,
+      "expected_strengths": [
+        "Basic Python",
+        "HTML",
+        "CSS",
+        "Basic SQL"
+      ],
+      "expected_weaknesses": [
+        "Missing Django",
+        "Limited project experience",
+        "Basic technical knowledge",
+        "Weak aptitude responses"
+      ],
+      "testing_purpose": "Test ATS performance for a candidate with limited relevant skills and a weak resume.",
+      "expected_pipeline_behavior": "System should identify skill gaps and evaluate the candidate using the actual assessment results."
+    },
+    {
+      "candidate_id": "CAND009",
+      "candidate_name": "Anjali Krishna",
+      "job_id": "JD001",
+      "target_role": "MERN Stack Developer",
+      "scenario_type": "communication_focused_candidate",
+      "resume_quality": "average",
+      "experience_years": 2,
+      "expected_strengths": [
+        "JavaScript",
+        "React.js",
+        "Good communication",
+        "Team collaboration",
+        "Presentation skills"
+      ],
+      "expected_weaknesses": [
+        "Limited backend development depth",
+        "Basic MongoDB knowledge"
+      ],
+      "testing_purpose": "Test how the system evaluates communication skills alongside technical knowledge.",
+      "expected_pipeline_behavior": "System should evaluate HR performance separately from technical performance."
+    },
+    {
+      "candidate_id": "CAND010",
+      "candidate_name": "Sandeep Kumar",
+      "job_id": "JD003",
+      "target_role": "Java Developer",
+      "scenario_type": "incomplete_candidate",
+      "resume_quality": "average",
+      "experience_years": 2,
+      "expected_strengths": [
+        "Java",
+        "Spring Boot",
+        "SQL",
+        "REST APIs"
+      ],
+      "expected_weaknesses": [
+        "Experience below the job's minimum requirement"
+      ],
+      "missing_assessments": [
+        "HR",
+        "Aptitude",
+        "Technical"
+      ],
+      "testing_purpose": "Test incomplete assessment handling and missing-stage detection.",
+      "expected_pipeline_behavior": "System should preserve the candidate's incomplete status and must not generate fabricated assessment scores."
+    }
+  ]
+}

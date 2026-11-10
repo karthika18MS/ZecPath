@@ -1,0 +1,14 @@
+{
+    "success": false,
+    "reports_directory": "D:\\ZecPath-AI\\09_final_outputs\\recruiter_reports",
+    "total_files_found": 0,
+    "reports_loaded": 0,
+    "failed_reports": 1,
+    "reports": [],
+    "errors": [
+        {
+            "file": "D:\\ZecPath-AI\\09_final_outputs\\recruiter_reports",
+            "error": "Reports directory does not exist."
+        }
+    ]
+}

@@ -1,0 +1,1333 @@
+{
+    "report_title": "ZecPath Hiring Intelligence Report",
+    "report_version": "1.0",
+    "report_type": "DEMO_ONLY",
+    "report_status": "SUCCESS",
+    "generated_at_utc": "2026-10-10T04:58:33.538130+00:00",
+    "candidate_information": {
+        "candidate_id": "candidate_006",
+        "job_id": "JOB_BACKEND_001"
+    },
+    "source_summary": {
+        "total_sources": 7,
+        "available_sources": 7,
+        "missing_or_invalid_sources": [],
+        "source_status": {
+            "ats": "AVAILABLE",
+            "screening": "AVAILABLE",
+            "hr_interview": "AVAILABLE",
+            "technical_performance": "AVAILABLE",
+            "machine_test": "AVAILABLE",
+            "unified_candidate_score": "AVAILABLE",
+            "final_recommendation": "AVAILABLE"
+        }
+    },
+    "evaluation_sections": {
+        "ats": {
+            "source_name": "ats",
+            "source_file": "day18_optimization\\results\\candidate_006\\day18_optimized_ats_score.json",
+            "status": "AVAILABLE",
+            "data": {
+                "candidate_id": "candidate_006",
+                "target_role": "Backend Developer",
+                "job_description": "backend_developer.txt",
+                "engine": "ZecPath Day 18 Optimized ATS Engine",
+                "pipeline_status": "SUCCESS",
+                "scores": {
+                    "skill_matching": 84.62,
+                    "experience_relevance": 100.0,
+                    "education_alignment": 100.0,
+                    "semantic_similarity": 81.93,
+                    "final_ats_score": 90.1
+                },
+                "weights": {
+                    "skill_matching": 0.35,
+                    "experience_relevance": 0.25,
+                    "education_alignment": 0.15,
+                    "semantic_similarity": 0.25
+                },
+                "contributions": {
+                    "skill_matching": 29.62,
+                    "experience_relevance": 25.0,
+                    "education_alignment": 15.0,
+                    "semantic_similarity": 20.48
+                },
+                "matching_status": "Excellent Match",
+                "shortlisting_status": "Shortlisted",
+                "recommendation": "Recommended for Interview",
+                "skill_details": {
+                    "score": 84.62,
+                    "required_skills": [
+                        "aws",
+                        "ci/cd",
+                        "django",
+                        "docker",
+                        "fastapi",
+                        "git",
+                        "linux",
+                        "mongodb",
+                        "postgresql",
+                        "python",
+                        "redis",
+                        "rest api",
+                        "sql"
+                    ],
+                    "matched_skills": [
+                        "aws",
+                        "django",
+                        "docker",
+                        "fastapi",
+                        "git",
+                        "linux",
+                        "mongodb",
+                        "postgresql",
+                        "python",
+                        "redis",
+                        "rest api"
+                    ],
+                    "missing_skills": [
+                        "ci/cd",
+                        "sql"
+                    ],
+                    "total_required_skills": 13,
+                    "total_matched_skills": 11,
+                    "source": "Day 17 validated skill matcher"
+                },
+                "experience_details": {
+                    "score": 100.0,
+                    "candidate_experience_years": 3.0,
+                    "minimum_required_years": 1.0,
+                    "maximum_required_years": 4.0,
+                    "status": "Experience Fully Meets Requirement"
+                },
+                "education_details": {
+                    "score": 100.0,
+                    "candidate_degrees": [
+                        "mca"
+                    ],
+                    "candidate_fields": [
+                        "computer applications",
+                        "computer science",
+                        "management"
+                    ],
+                    "required_degrees": [],
+                    "required_fields": [
+                        "computer applications",
+                        "computer science",
+                        "engineering",
+                        "information technology"
+                    ],
+                    "degree_match": false,
+                    "field_match": true,
+                    "status": "Education Field Requirement Met"
+                },
+                "semantic_details": {
+                    "score": 81.93,
+                    "raw_score": 0.8193,
+                    "embedding_length": 384
+                },
+                "entity_detection": {
+                    "name": "Candidate 006",
+                    "job_titles": [
+                        "backend developer"
+                    ],
+                    "skills": [
+                        "aws",
+                        "django",
+                        "docker",
+                        "fastapi",
+                        "git",
+                        "linux",
+                        "mongodb",
+                        "postgresql",
+                        "python",
+                        "redis",
+                        "rest api",
+                        "testing"
+                    ],
+                    "degrees": [
+                        "mca"
+                    ],
+                    "experience_years": 3.0,
+                    "years": [
+                        2023,
+                        2026
+                    ],
+                    "projects": [
+                        "E-Commerce Backend API",
+                        "Developed REST APIs using Python and FastAPI.",
+                        "Implemented authentication, product management,",
+                        "order processing, and database integration."
+                    ],
+                    "sections": {
+                        "summary": [
+                            "Backend Developer with 3 years of experience developing",
+                            "server-side applications and REST APIs using Python."
+                        ],
+                        "skills": [
+                            "Python",
+                            "FastAPI",
+                            "Django",
+                            "REST API",
+                            "PostgreSQL",
+                            "MongoDB",
+                            "Git",
+                            "Docker",
+                            "Linux",
+                            "AWS",
+                            "Redis"
+                        ],
+                        "experience": [
+                            "Backend Developer",
+                            "ABC Technologies",
+                            "2023 - 2026",
+                            "Developed REST APIs using Python and FastAPI.",
+                            "Built backend services using Django.",
+                            "Worked with PostgreSQL and MongoDB databases.",
+                            "Created Docker-based development environments.",
+                            "Used Git for source code management.",
+                            "Implemented API testing and debugging.",
+                            "Deployed backend services on AWS.",
+                            "Worked with Redis for caching."
+                        ],
+                        "education": [
+                            "Master of Computer Applications",
+                            "Computer Science"
+                        ],
+                        "projects": [
+                            "E-Commerce Backend API",
+                            "Developed REST APIs using Python and FastAPI.",
+                            "Implemented authentication, product management,",
+                            "order processing, and database integration."
+                        ]
+                    }
+                },
+                "semantic_input": "Validated Day 17 cleaned resume",
+                "performance": {
+                    "extraction_time_seconds": 0.110731,
+                    "cleaning_time_seconds": 0.002395,
+                    "entity_detection_time_seconds": 0.016844,
+                    "skill_matching_time_seconds": 0.090391,
+                    "semantic_processing_time_seconds": 0.106684,
+                    "total_pipeline_time_seconds": 0.340149
+                }
+            },
+            "source_score": 90.1,
+            "source_decision": null
+        },
+        "screening": {
+            "source_name": "screening",
+            "source_file": "day32_screening_finalization\\results\\final_screening_pipeline_result.json",
+            "status": "AVAILABLE",
+            "data": {
+                "system": "ZecPath AI Screening System",
+                "pipeline_version": "Day 32",
+                "session_status": "completed",
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "screening_summary": {
+                    "total_questions": 4,
+                    "successfully_processed": 4,
+                    "edge_cases_handled": 0,
+                    "final_screening_score": 95.0,
+                    "score_scale": "0-100",
+                    "average_communication": {
+                        "confidence": 96.25,
+                        "clarity": 100.0,
+                        "engagement": 73.75,
+                        "consistency": 100.0,
+                        "communication_strength": 92.5
+                    }
+                },
+                "responses": [
+                    {
+                        "system": "ZecPath AI Screening System",
+                        "pipeline_version": "Day 32",
+                        "pipeline_status": "success",
+                        "candidate": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001"
+                        },
+                        "question": {
+                            "question_id": "BACKEND_EXP_001",
+                            "question": "How many years of backend development experience do you have?",
+                            "category": "experience"
+                        },
+                        "input": {
+                            "raw_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                            "normalized_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                            "duration_seconds": 8,
+                            "audio_quality": 1.0,
+                            "background_noise": 0.0
+                        },
+                        "edge_case_handling": {
+                            "status": "normal",
+                            "action": "continue",
+                            "result": {
+                                "status": "success",
+                                "action": "continue",
+                                "error_type": null,
+                                "retry_count": 0,
+                                "follow_up_count": 0,
+                                "message": "Input processed successfully.",
+                                "edge_case_detection": {
+                                    "status": "normal",
+                                    "primary_error": null,
+                                    "detected_errors": [],
+                                    "transcript": "I have three years of backend development experience. I have worked with Python and Django.",
+                                    "audio_quality": 1.0,
+                                    "background_noise": 0.0
+                                }
+                            }
+                        },
+                        "answer_understanding": {
+                            "intent": "experience",
+                            "answer_status": "valid",
+                            "off_topic": false,
+                            "confidence": 0.9167,
+                            "semantic_object": {
+                                "skills": [
+                                    "Python",
+                                    "Django"
+                                ],
+                                "experience": {
+                                    "years": 3,
+                                    "months": null,
+                                    "domain": "backend development"
+                                }
+                            }
+                        },
+                        "screening_scoring": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001",
+                            "question_id": "BACKEND_EXP_001",
+                            "question": "How many years of backend development experience do you have?",
+                            "question_category": "experience",
+                            "scores": {
+                                "clarity": 9,
+                                "relevance": 10,
+                                "completeness": 10,
+                                "consistency": 9
+                            },
+                            "weighted_score": 9.5,
+                            "normalized_score": 95.0,
+                            "answer_status": "valid",
+                            "intent": "experience",
+                            "off_topic": false,
+                            "explanation": {
+                                "strengths": [
+                                    "Answer is clear and easy to understand.",
+                                    "Answer directly addresses the question.",
+                                    "Required information is sufficiently provided.",
+                                    "Answer information is consistent."
+                                ],
+                                "weaknesses": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.880346+00:00"
+                        },
+                        "confidence_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_EXP_001",
+                            "raw_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                            "normalized_answer": "i have three years of backend development experience. i have worked with python and django.",
+                            "response_length": {
+                                "word_count": 15,
+                                "character_count": 91
+                            },
+                            "pace": {
+                                "duration_seconds": 8,
+                                "words_per_minute": 112.5,
+                                "classification": "normal"
+                            },
+                            "hesitation": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "uncertainty": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.880853+00:00"
+                        },
+                        "sentiment_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_EXP_001",
+                            "raw_answer": "I have three years of backend development experience. I have worked with Python and Django.",
+                            "normalized_answer": "i have three years of backend development experience. i have worked with python and django.",
+                            "sentiment_analysis": {
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "positive_count": 0,
+                                "negative_count": 0,
+                                "positive_words": [],
+                                "negative_words": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.880990+00:00"
+                        },
+                        "behavioral_indicators": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_EXP_001",
+                            "communication_indicators": {
+                                "confidence": {
+                                    "score": 100,
+                                    "level": "strong"
+                                },
+                                "clarity": {
+                                    "score": 100,
+                                    "level": "strong"
+                                },
+                                "engagement": {
+                                    "score": 80,
+                                    "level": "strong"
+                                },
+                                "consistency": {
+                                    "score": 100.0,
+                                    "level": "strong"
+                                },
+                                "communication_strength": {
+                                    "score": 95.0,
+                                    "level": "strong"
+                                }
+                            },
+                            "behavioral_signals": {
+                                "hesitation_count": 0,
+                                "uncertainty_count": 0,
+                                "response_word_count": 15,
+                                "pace": "normal",
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "contradiction_detected": false
+                            },
+                            "answer_status": "valid",
+                            "created_at": "2026-09-14T14:52:36.881017+00:00"
+                        },
+                        "conversation_flow": {
+                            "response_type": "valid",
+                            "action": "next_question",
+                            "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                            "next_prompt": "Continue to the next screening question."
+                        },
+                        "created_at": "2026-09-14T14:52:36.881026+00:00"
+                    },
+                    {
+                        "system": "ZecPath AI Screening System",
+                        "pipeline_version": "Day 32",
+                        "pipeline_status": "success",
+                        "candidate": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001"
+                        },
+                        "question": {
+                            "question_id": "BACKEND_SKILLS_001",
+                            "question": "What technical skills do you have?",
+                            "category": "skills"
+                        },
+                        "input": {
+                            "raw_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                            "normalized_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                            "duration_seconds": 9,
+                            "audio_quality": 1.0,
+                            "background_noise": 0.0
+                        },
+                        "edge_case_handling": {
+                            "status": "normal",
+                            "action": "continue",
+                            "result": {
+                                "status": "success",
+                                "action": "continue",
+                                "error_type": null,
+                                "retry_count": 0,
+                                "follow_up_count": 0,
+                                "message": "Input processed successfully.",
+                                "edge_case_detection": {
+                                    "status": "normal",
+                                    "primary_error": null,
+                                    "detected_errors": [],
+                                    "transcript": "I have worked with Python, Django, Docker and PostgreSQL.",
+                                    "audio_quality": 1.0,
+                                    "background_noise": 0.0
+                                }
+                            }
+                        },
+                        "answer_understanding": {
+                            "intent": "skills",
+                            "answer_status": "valid",
+                            "off_topic": false,
+                            "confidence": 0.9167,
+                            "semantic_object": {
+                                "skills": [
+                                    "Python",
+                                    "Django",
+                                    "Docker",
+                                    "PostgreSQL"
+                                ]
+                            }
+                        },
+                        "screening_scoring": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001",
+                            "question_id": "BACKEND_SKILLS_001",
+                            "question": "What technical skills do you have?",
+                            "question_category": "skills",
+                            "scores": {
+                                "clarity": 9,
+                                "relevance": 10,
+                                "completeness": 10,
+                                "consistency": 9
+                            },
+                            "weighted_score": 9.5,
+                            "normalized_score": 95.0,
+                            "answer_status": "valid",
+                            "intent": "skills",
+                            "off_topic": false,
+                            "explanation": {
+                                "strengths": [
+                                    "Answer is clear and easy to understand.",
+                                    "Answer directly addresses the question.",
+                                    "Required information is sufficiently provided.",
+                                    "Answer information is consistent."
+                                ],
+                                "weaknesses": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.882300+00:00"
+                        },
+                        "confidence_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_SKILLS_001",
+                            "raw_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                            "normalized_answer": "i have worked with python, django, docker and postgresql.",
+                            "response_length": {
+                                "word_count": 9,
+                                "character_count": 57
+                            },
+                            "pace": {
+                                "duration_seconds": 9,
+                                "words_per_minute": 60.0,
+                                "classification": "slow"
+                            },
+                            "hesitation": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "uncertainty": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.882405+00:00"
+                        },
+                        "sentiment_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_SKILLS_001",
+                            "raw_answer": "I have worked with Python, Django, Docker and PostgreSQL.",
+                            "normalized_answer": "i have worked with python, django, docker and postgresql.",
+                            "sentiment_analysis": {
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "positive_count": 0,
+                                "negative_count": 0,
+                                "positive_words": [],
+                                "negative_words": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.882454+00:00"
+                        },
+                        "behavioral_indicators": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_SKILLS_001",
+                            "communication_indicators": {
+                                "confidence": {
+                                    "score": 95,
+                                    "level": "strong"
+                                },
+                                "clarity": {
+                                    "score": 100,
+                                    "level": "strong"
+                                },
+                                "engagement": {
+                                    "score": 75,
+                                    "level": "moderate"
+                                },
+                                "consistency": {
+                                    "score": 100.0,
+                                    "level": "strong"
+                                },
+                                "communication_strength": {
+                                    "score": 92.5,
+                                    "level": "strong"
+                                }
+                            },
+                            "behavioral_signals": {
+                                "hesitation_count": 0,
+                                "uncertainty_count": 0,
+                                "response_word_count": 9,
+                                "pace": "slow",
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "contradiction_detected": false
+                            },
+                            "answer_status": "valid",
+                            "created_at": "2026-09-14T14:52:36.882473+00:00"
+                        },
+                        "conversation_flow": {
+                            "response_type": "valid",
+                            "action": "next_question",
+                            "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                            "next_prompt": "Continue to the next screening question."
+                        },
+                        "created_at": "2026-09-14T14:52:36.882479+00:00"
+                    },
+                    {
+                        "system": "ZecPath AI Screening System",
+                        "pipeline_version": "Day 32",
+                        "pipeline_status": "success",
+                        "candidate": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001"
+                        },
+                        "question": {
+                            "question_id": "BACKEND_AVAILABILITY_001",
+                            "question": "When would you be available to join?",
+                            "category": "availability"
+                        },
+                        "input": {
+                            "raw_answer": "I can join immediately.",
+                            "normalized_answer": "I can join immediately.",
+                            "duration_seconds": 5,
+                            "audio_quality": 1.0,
+                            "background_noise": 0.0
+                        },
+                        "edge_case_handling": {
+                            "status": "normal",
+                            "action": "continue",
+                            "result": {
+                                "status": "success",
+                                "action": "continue",
+                                "error_type": null,
+                                "retry_count": 0,
+                                "follow_up_count": 0,
+                                "message": "Input processed successfully.",
+                                "edge_case_detection": {
+                                    "status": "normal",
+                                    "primary_error": null,
+                                    "detected_errors": [],
+                                    "transcript": "I can join immediately.",
+                                    "audio_quality": 1.0,
+                                    "background_noise": 0.0
+                                }
+                            }
+                        },
+                        "answer_understanding": {
+                            "intent": "availability",
+                            "answer_status": "valid",
+                            "off_topic": false,
+                            "confidence": 0.9167,
+                            "semantic_object": {
+                                "availability": {
+                                    "status": "immediate",
+                                    "days": 0
+                                }
+                            }
+                        },
+                        "screening_scoring": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001",
+                            "question_id": "BACKEND_AVAILABILITY_001",
+                            "question": "When would you be available to join?",
+                            "question_category": "availability",
+                            "scores": {
+                                "clarity": 9,
+                                "relevance": 10,
+                                "completeness": 10,
+                                "consistency": 9
+                            },
+                            "weighted_score": 9.5,
+                            "normalized_score": 95.0,
+                            "answer_status": "valid",
+                            "intent": "availability",
+                            "off_topic": false,
+                            "explanation": {
+                                "strengths": [
+                                    "Answer is clear and easy to understand.",
+                                    "Answer directly addresses the question.",
+                                    "Required information is sufficiently provided.",
+                                    "Answer information is consistent."
+                                ],
+                                "weaknesses": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.882758+00:00"
+                        },
+                        "confidence_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_AVAILABILITY_001",
+                            "raw_answer": "I can join immediately.",
+                            "normalized_answer": "i can join immediately.",
+                            "response_length": {
+                                "word_count": 4,
+                                "character_count": 23
+                            },
+                            "pace": {
+                                "duration_seconds": 5,
+                                "words_per_minute": 48.0,
+                                "classification": "slow"
+                            },
+                            "hesitation": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "uncertainty": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.882835+00:00"
+                        },
+                        "sentiment_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_AVAILABILITY_001",
+                            "raw_answer": "I can join immediately.",
+                            "normalized_answer": "i can join immediately.",
+                            "sentiment_analysis": {
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "positive_count": 0,
+                                "negative_count": 0,
+                                "positive_words": [],
+                                "negative_words": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.882863+00:00"
+                        },
+                        "behavioral_indicators": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_AVAILABILITY_001",
+                            "communication_indicators": {
+                                "confidence": {
+                                    "score": 95,
+                                    "level": "strong"
+                                },
+                                "clarity": {
+                                    "score": 100,
+                                    "level": "strong"
+                                },
+                                "engagement": {
+                                    "score": 70,
+                                    "level": "moderate"
+                                },
+                                "consistency": {
+                                    "score": 100.0,
+                                    "level": "strong"
+                                },
+                                "communication_strength": {
+                                    "score": 91.25,
+                                    "level": "strong"
+                                }
+                            },
+                            "behavioral_signals": {
+                                "hesitation_count": 0,
+                                "uncertainty_count": 0,
+                                "response_word_count": 4,
+                                "pace": "slow",
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "contradiction_detected": false
+                            },
+                            "answer_status": "valid",
+                            "created_at": "2026-09-14T14:52:36.882879+00:00"
+                        },
+                        "conversation_flow": {
+                            "response_type": "valid",
+                            "action": "next_question",
+                            "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                            "next_prompt": "Continue to the next screening question."
+                        },
+                        "created_at": "2026-09-14T14:52:36.882885+00:00"
+                    },
+                    {
+                        "system": "ZecPath AI Screening System",
+                        "pipeline_version": "Day 32",
+                        "pipeline_status": "success",
+                        "candidate": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001"
+                        },
+                        "question": {
+                            "question_id": "BACKEND_SALARY_001",
+                            "question": "What is your expected salary?",
+                            "category": "salary"
+                        },
+                        "input": {
+                            "raw_answer": "I expect 6 lakhs per year.",
+                            "normalized_answer": "I expect 6 lakhs per year.",
+                            "duration_seconds": 5,
+                            "audio_quality": 1.0,
+                            "background_noise": 0.0
+                        },
+                        "edge_case_handling": {
+                            "status": "normal",
+                            "action": "continue",
+                            "result": {
+                                "status": "success",
+                                "action": "continue",
+                                "error_type": null,
+                                "retry_count": 0,
+                                "follow_up_count": 0,
+                                "message": "Input processed successfully.",
+                                "edge_case_detection": {
+                                    "status": "normal",
+                                    "primary_error": null,
+                                    "detected_errors": [],
+                                    "transcript": "I expect 6 lakhs per year.",
+                                    "audio_quality": 1.0,
+                                    "background_noise": 0.0
+                                }
+                            }
+                        },
+                        "answer_understanding": {
+                            "intent": "salary",
+                            "answer_status": "valid",
+                            "off_topic": false,
+                            "confidence": 0.9167,
+                            "semantic_object": {
+                                "salary_expectation": {
+                                    "amount": 600000,
+                                    "currency": "INR",
+                                    "unit": "annual",
+                                    "period": "annual",
+                                    "source": "lpa"
+                                }
+                            }
+                        },
+                        "screening_scoring": {
+                            "candidate_id": "candidate_006",
+                            "job_id": "JOB_BACKEND_001",
+                            "question_id": "BACKEND_SALARY_001",
+                            "question": "What is your expected salary?",
+                            "question_category": "salary",
+                            "scores": {
+                                "clarity": 9,
+                                "relevance": 10,
+                                "completeness": 10,
+                                "consistency": 9
+                            },
+                            "weighted_score": 9.5,
+                            "normalized_score": 95.0,
+                            "answer_status": "valid",
+                            "intent": "salary",
+                            "off_topic": false,
+                            "explanation": {
+                                "strengths": [
+                                    "Answer is clear and easy to understand.",
+                                    "Answer directly addresses the question.",
+                                    "Required information is sufficiently provided.",
+                                    "Answer information is consistent."
+                                ],
+                                "weaknesses": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.883183+00:00"
+                        },
+                        "confidence_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_SALARY_001",
+                            "raw_answer": "I expect 6 lakhs per year.",
+                            "normalized_answer": "i expect 6 lakhs per year.",
+                            "response_length": {
+                                "word_count": 6,
+                                "character_count": 26
+                            },
+                            "pace": {
+                                "duration_seconds": 5,
+                                "words_per_minute": 72.0,
+                                "classification": "slow"
+                            },
+                            "hesitation": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "uncertainty": {
+                                "detected": false,
+                                "count": 0,
+                                "patterns": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.883258+00:00"
+                        },
+                        "sentiment_analysis": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_SALARY_001",
+                            "raw_answer": "I expect 6 lakhs per year.",
+                            "normalized_answer": "i expect 6 lakhs per year.",
+                            "sentiment_analysis": {
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "positive_count": 0,
+                                "negative_count": 0,
+                                "positive_words": [],
+                                "negative_words": []
+                            },
+                            "created_at": "2026-09-14T14:52:36.883290+00:00"
+                        },
+                        "behavioral_indicators": {
+                            "candidate_id": "candidate_006",
+                            "question_id": "BACKEND_SALARY_001",
+                            "communication_indicators": {
+                                "confidence": {
+                                    "score": 95,
+                                    "level": "strong"
+                                },
+                                "clarity": {
+                                    "score": 100,
+                                    "level": "strong"
+                                },
+                                "engagement": {
+                                    "score": 70,
+                                    "level": "moderate"
+                                },
+                                "consistency": {
+                                    "score": 100.0,
+                                    "level": "strong"
+                                },
+                                "communication_strength": {
+                                    "score": 91.25,
+                                    "level": "strong"
+                                }
+                            },
+                            "behavioral_signals": {
+                                "hesitation_count": 0,
+                                "uncertainty_count": 0,
+                                "response_word_count": 6,
+                                "pace": "slow",
+                                "sentiment": "neutral",
+                                "sentiment_score": 50.0,
+                                "contradiction_detected": false
+                            },
+                            "answer_status": "valid",
+                            "created_at": "2026-09-14T14:52:36.883302+00:00"
+                        },
+                        "conversation_flow": {
+                            "response_type": "valid",
+                            "action": "next_question",
+                            "reason": "Candidate provided a valid response. The AI can continue to the next question.",
+                            "next_prompt": "Continue to the next screening question."
+                        },
+                        "created_at": "2026-09-14T14:52:36.883310+00:00"
+                    }
+                ],
+                "created_at": "2026-09-14T14:52:36.883345+00:00"
+            },
+            "source_score": null,
+            "source_decision": null
+        },
+        "hr_interview": {
+            "source_name": "hr_interview",
+            "source_file": "day37_hr_interview_scoring\\results\\hr_interview_score.json",
+            "status": "AVAILABLE",
+            "data": {
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "total_questions": 4,
+                "scoring_weights": {
+                    "answer_relevance": 0.3,
+                    "communication": 0.25,
+                    "confidence": 0.2,
+                    "consistency": 0.25
+                },
+                "parameter_averages": {
+                    "answer_relevance": 93.75,
+                    "communication": 89.62,
+                    "confidence": 81.25,
+                    "consistency": 98.75
+                },
+                "question_scores": [
+                    {
+                        "question_id": "HR_SELF_001",
+                        "question_text": "Can you introduce yourself and briefly describe your technical background?",
+                        "candidate_answer": "I recently completed my MCA and have a background in software development. I have worked with Python, JavaScript, React, Node.js and databases. I am interested in backend development and enjoy solving technical problems and learning new technologies.",
+                        "answer_relevance": 90.0,
+                        "communication_score": 91.75,
+                        "confidence_score": 70.0,
+                        "consistency_score": 100.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.0,
+                            "communication": 22.94,
+                            "confidence": 14.0,
+                            "consistency": 25.0
+                        },
+                        "question_score": 88.94
+                    },
+                    {
+                        "question_id": "HR_TEAM_001",
+                        "question_text": "Tell me about a time when you worked as part of a team on a project.",
+                        "candidate_answer": "During my academic project, I worked as part of a team where we divided the work into different modules. I was responsible for development-related tasks and coordinated with other team members when integrating the modules. We discussed issues regularly and worked together to complete the project on time.",
+                        "answer_relevance": 95.0,
+                        "communication_score": 91.75,
+                        "confidence_score": 80.0,
+                        "consistency_score": 100.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 28.5,
+                            "communication": 22.94,
+                            "confidence": 16.0,
+                            "consistency": 25.0
+                        },
+                        "question_score": 92.44
+                    },
+                    {
+                        "question_id": "HR_GOALS_001",
+                        "question_text": "What are your career goals for the next few years?",
+                        "candidate_answer": "My goal is to build strong technical expertise and become a reliable software professional. I want to improve my development skills, work on real-world projects and gradually take more responsibility. I also want to keep learning new technologies that are useful for my role.",
+                        "answer_relevance": 90.0,
+                        "communication_score": 85.0,
+                        "confidence_score": 85.0,
+                        "consistency_score": 95.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 27.0,
+                            "communication": 21.25,
+                            "confidence": 17.0,
+                            "consistency": 23.75
+                        },
+                        "question_score": 89.0
+                    },
+                    {
+                        "question_id": "HR_AVAILABILITY_001",
+                        "question_text": "Are you comfortable with the job location, working hours and availability requirements of this position?",
+                        "candidate_answer": "Yes, I am comfortable with the job requirements and working schedule. I am willing to adapt to the organization's working environment and can manage my time according to the responsibilities of the role.",
+                        "answer_relevance": 100.0,
+                        "communication_score": 90.0,
+                        "confidence_score": 90.0,
+                        "consistency_score": 100.0,
+                        "weighted_contribution": {
+                            "answer_relevance": 30.0,
+                            "communication": 22.5,
+                            "confidence": 18.0,
+                            "consistency": 25.0
+                        },
+                        "question_score": 95.5
+                    }
+                ],
+                "final_hr_interview_score": 91.47,
+                "score_range": "0-100",
+                "normalization": "Average question score normalized to a 0-100 scale"
+            },
+            "source_score": null,
+            "source_decision": null
+        },
+        "technical_performance": {
+            "source_name": "technical_performance",
+            "source_file": "day47_technical_skill_scoring\\results\\candidate_technical_evaluation.json",
+            "status": "AVAILABLE",
+            "data": {
+                "engine": "ZecPath Candidate Technical Evaluator",
+                "data_type": "REVIEWER_SCORED_TEST_INPUT",
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "generated_at": "2026-10-09T16:42:08.205194+05:30",
+                "evaluation_summary": {
+                    "total_questions": 1,
+                    "overall_technical_score": 81.25,
+                    "score_category": "strong"
+                },
+                "question_results": [
+                    {
+                        "question_id": "TECH_PYTHON_001",
+                        "skill_domain": "Python",
+                        "question_text": "What is the difference between a list and a tuple in Python?",
+                        "candidate_answer": "A list is mutable, so its elements can be changed after creation. A tuple is immutable, so its elements cannot be reassigned after creation. Lists are useful for collections that change, while tuples are useful for fixed collections of values.",
+                        "answer_analysis": {
+                            "classification": "moderate",
+                            "word_count": 40,
+                            "indicators": [],
+                            "explanation": "Answer provides reasonable technical explanation and supporting details."
+                        },
+                        "parameter_scores": {
+                            "accuracy": 85.0,
+                            "depth": 80.0,
+                            "logical_reasoning": 80.0,
+                            "real_world_applicability": 75.0
+                        },
+                        "scoring_weights": {
+                            "accuracy": 0.4,
+                            "depth": 0.3,
+                            "logical_reasoning": 0.15,
+                            "real_world_applicability": 0.15
+                        },
+                        "technical_score": 81.25,
+                        "score_category": "strong"
+                    }
+                ],
+                "score_source": "Reviewer-provided parameter scores; not an automatic factual assessment of answer correctness."
+            },
+            "source_score": null,
+            "source_decision": null
+        },
+        "machine_test": {
+            "source_name": "machine_test",
+            "source_file": "day50_machine_test_scoring\\results\\machine_test_score.json",
+            "status": "AVAILABLE",
+            "data": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-10-09T16:48:39.361386+05:30",
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "task_id": "MT_PYTHON_001",
+                "task_title": "Python List Processing",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 3,
+                    "passed_tests": 3,
+                    "failed_tests": 0,
+                    "test_pass_rate": 100.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 100.0,
+                    "requirement_coverage": 90,
+                    "code_quality": 85,
+                    "readability": 90
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 50.0,
+                    "requirement_coverage": 18.0,
+                    "code_quality": 17.0,
+                    "readability": 9.0
+                },
+                "machine_test_score": 94.0,
+                "score_category": "strong",
+                "requirements": [
+                    "Remove duplicate values",
+                    "Preserve the original order",
+                    "Return the processed list"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            },
+            "source_score": 94.0,
+            "source_decision": null
+        },
+        "unified_candidate_score": {
+            "source_name": "unified_candidate_score",
+            "source_file": "day51_cross_round_aggregation\\results\\unified_candidate_score.json",
+            "status": "AVAILABLE",
+            "data": {
+                "schema_name": "ZecPath Unified Candidate Score Object",
+                "schema_version": "1.0",
+                "object_status": "SUCCESS",
+                "report_type": "DEMO_ONLY",
+                "candidate": {
+                    "candidate_id": "candidate_006",
+                    "job_id": "JOB_BACKEND_001"
+                },
+                "overall_evaluation": {
+                    "hiring_fit_score": 89.82,
+                    "score_scale": "0-100",
+                    "aggregation_status": "SUCCESS",
+                    "verified_hiring_fit_status": "NOT_EVALUATED",
+                    "demo_rounds": [
+                        "technical_interview",
+                        "machine_test"
+                    ]
+                },
+                "evaluation_rounds": {
+                    "ats": {
+                        "score": 90.1,
+                        "normalized_score": 90.1,
+                        "weight": 0.15,
+                        "weight_percentage": 15.0,
+                        "weighted_contribution": 13.515,
+                        "source_status": "SOURCE_SCORE",
+                        "data_type": "SOURCE_REPORTED",
+                        "is_demo_data": false,
+                        "explanation": "90.10 x 0.15 = 13.5150"
+                    },
+                    "screening": {
+                        "score": 95.0,
+                        "normalized_score": 95.0,
+                        "weight": 0.1,
+                        "weight_percentage": 10.0,
+                        "weighted_contribution": 9.5,
+                        "source_status": "SOURCE_SCORE",
+                        "data_type": "SOURCE_REPORTED",
+                        "is_demo_data": false,
+                        "explanation": "95.00 x 0.10 = 9.5000"
+                    },
+                    "hr_interview": {
+                        "score": 91.47,
+                        "normalized_score": 91.47,
+                        "weight": 0.2,
+                        "weight_percentage": 20.0,
+                        "weighted_contribution": 18.294,
+                        "source_status": "SOURCE_SCORE",
+                        "data_type": "SOURCE_REPORTED",
+                        "is_demo_data": false,
+                        "explanation": "91.47 x 0.20 = 18.2940"
+                    },
+                    "technical_interview": {
+                        "score": 81.25,
+                        "normalized_score": 81.25,
+                        "weight": 0.25,
+                        "weight_percentage": 25.0,
+                        "weighted_contribution": 20.3125,
+                        "source_status": "DEMO_SOURCE",
+                        "data_type": "DEMO_ONLY",
+                        "is_demo_data": true,
+                        "explanation": "81.25 x 0.25 = 20.3125"
+                    },
+                    "machine_test": {
+                        "score": 94.0,
+                        "normalized_score": 94.0,
+                        "weight": 0.3,
+                        "weight_percentage": 30.0,
+                        "weighted_contribution": 28.2,
+                        "source_status": "DEMO_SOURCE",
+                        "data_type": "DEMO_ONLY",
+                        "is_demo_data": true,
+                        "explanation": "94.00 x 0.30 = 28.2000"
+                    }
+                },
+                "weight_summary": {
+                    "weights": {
+                        "ats": 0.15,
+                        "screening": 0.1,
+                        "hr_interview": 0.2,
+                        "technical_interview": 0.25,
+                        "machine_test": 0.3
+                    },
+                    "total_weight_percentage": 100.0
+                },
+                "scoring_transparency": {
+                    "normalization": "Scores validated on a common 0-100 scale.",
+                    "aggregation_method": "Weighted sum",
+                    "formula": "Hiring Fit Score = sum(round score x round weight)",
+                    "weighted_contributions_sum": 89.8215,
+                    "demo_data_used": true,
+                    "verified_hiring_decision_made": false
+                },
+                "data_quality": {
+                    "all_five_rounds_present": true,
+                    "all_round_scores_numeric": true,
+                    "all_scores_within_range": true,
+                    "weights_valid": true,
+                    "demo_rounds": [
+                        "technical_interview",
+                        "machine_test"
+                    ],
+                    "data_quality_status": "DEMO_DATA_PRESENT"
+                },
+                "generated_at_utc": "2026-10-09T11:44:40.031107+00:00"
+            },
+            "source_score": 89.82,
+            "source_decision": null
+        },
+        "final_recommendation": {
+            "source_name": "final_recommendation",
+            "source_file": "day52_final_recommendation_ai\\results\\candidate_decision_output.json",
+            "status": "AVAILABLE",
+            "data": {
+                "engine": "ZecPath Day 52 Decision AI Engine",
+                "engine_version": "1.1",
+                "output_status": "SUCCESS",
+                "report_type": "DEMO_ONLY",
+                "candidate_id": "candidate_006",
+                "job_id": "JOB_BACKEND_001",
+                "hiring_fit_score": 89.82,
+                "decision": "Hold / Review",
+                "confidence": {
+                    "confidence_score": 60.0,
+                    "scale": "0-100",
+                    "verified_rounds": 3,
+                    "total_rounds": 5,
+                    "method": "Percentage of rounds not labelled as demo data.",
+                    "interpretation": "Data-completeness indicator, not a probability of hiring success."
+                },
+                "risk_assessment": {
+                    "risk_flags": [],
+                    "demo_data_rounds": [
+                        "machine_test",
+                        "technical_interview"
+                    ],
+                    "requires_human_review": true,
+                    "method": "Explicit input flags and evaluation-data labels."
+                },
+                "explanation": {
+                    "reasons": [
+                        "Demo data is present in: machine_test, technical_interview",
+                        "Eligibility status was not provided.",
+                        "Confidence indicator is below the configured threshold.",
+                        "The score meets the selection threshold, but one or more safeguards require review."
+                    ],
+                    "decision_policy": "Score thresholds combined with eligibility, confidence, risk, and data-quality safeguards.",
+                    "score_thresholds": {
+                        "selected_minimum_score": 80.0,
+                        "review_minimum_score": 60.0,
+                        "require_verified_data_for_selection": true,
+                        "review_if_demo_data": true,
+                        "review_if_risk_flags": true,
+                        "review_if_low_confidence": true,
+                        "minimum_confidence_for_selection": 80.0
+                    },
+                    "eligibility_status": "NOT_PROVIDED"
+                },
+                "human_review_required": true,
+                "automated_hiring_action_taken": false,
+                "generated_at_utc": "2026-10-10T04:19:34.813786+00:00"
+            },
+            "source_score": 89.82,
+            "source_decision": "Hold / Review"
+        }
+    },
+    "final_recommendation": {
+        "decision": "Hold / Review",
+        "hiring_fit_score": 89.82,
+        "confidence": {
+            "confidence_score": 60.0,
+            "scale": "0-100",
+            "verified_rounds": 3,
+            "total_rounds": 5,
+            "method": "Percentage of rounds not labelled as demo data.",
+            "interpretation": "Data-completeness indicator, not a probability of hiring success."
+        },
+        "risk_assessment": {
+            "risk_flags": [],
+            "demo_data_rounds": [
+                "machine_test",
+                "technical_interview"
+            ],
+            "requires_human_review": true,
+            "method": "Explicit input flags and evaluation-data labels."
+        },
+        "explanation": {
+            "reasons": [
+                "Demo data is present in: machine_test, technical_interview",
+                "Eligibility status was not provided.",
+                "Confidence indicator is below the configured threshold.",
+                "The score meets the selection threshold, but one or more safeguards require review."
+            ],
+            "decision_policy": "Score thresholds combined with eligibility, confidence, risk, and data-quality safeguards.",
+            "score_thresholds": {
+                "selected_minimum_score": 80.0,
+                "review_minimum_score": 60.0,
+                "require_verified_data_for_selection": true,
+                "review_if_demo_data": true,
+                "review_if_risk_flags": true,
+                "review_if_low_confidence": true,
+                "minimum_confidence_for_selection": 80.0
+            },
+            "eligibility_status": "NOT_PROVIDED"
+        },
+        "human_review_required": true,
+        "automated_hiring_action_taken": false
+    },
+    "report_limitations": [
+        "Source outputs are preserved and not rescored.",
+        "Missing source data is not inferred or fabricated.",
+        "A source being available does not mean its data is verified.",
+        "Demo results must not be treated as verified hiring evidence.",
+        "The report is decision support and requires appropriate human review."
+    ]
+}

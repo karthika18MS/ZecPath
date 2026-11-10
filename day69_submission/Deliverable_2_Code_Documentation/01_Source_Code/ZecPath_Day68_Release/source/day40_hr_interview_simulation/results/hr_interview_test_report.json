@@ -1,0 +1,427 @@
+{
+    "report_title": "Day 40 - Complete HR Interview Test Report",
+    "test_objective": "Test the HR interview system end-to-end using multiple simulated candidate types.",
+    "test_date": "2026-09-25 09:55:27",
+    "candidate_types_tested": [
+        "confident",
+        "hesitant",
+        "inexperienced",
+        "overqualified"
+    ],
+    "total_sessions": 4,
+    "evaluation_dimensions": [
+        "relevance",
+        "communication",
+        "confidence",
+        "consistency",
+        "HR interview score",
+        "logical reasoning",
+        "scenario evaluation",
+        "overall performance"
+    ],
+    "sessions": [
+        {
+            "candidate_id": "SIM_CONFIDENT_001",
+            "candidate_type": "confident",
+            "interview_status": "completed",
+            "question_count": 4,
+            "question_results": [
+                {
+                    "question_id": "HR_SIM_001",
+                    "question": "Tell me about yourself.",
+                    "category": "self_introduction",
+                    "response": "I am a software developer with experience in Python and backend development. I enjoy solving technical problems and working with teams.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 95,
+                        "communication": 85,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_002",
+                    "question": "What are your strengths?",
+                    "category": "strengths",
+                    "response": "My strengths are communication, problem solving, adaptability, and learning new technologies quickly.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 95,
+                        "communication": 75,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_003",
+                    "question": "Describe a challenging situation you faced and how you handled it.",
+                    "category": "problem_solving",
+                    "response": "In one project, we faced a deadline issue because of a technical problem. I identified the issue, discussed possible solutions with the team, and helped implement the solution before the deadline.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 95,
+                        "communication": 90,
+                        "confidence": 95,
+                        "logical_reasoning": 95,
+                        "scenario": 95
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_004",
+                    "question": "Why are you interested in this role?",
+                    "category": "career_goals",
+                    "response": "I am interested in this role because it matches my technical skills and gives me an opportunity to contribute to real projects.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 95,
+                        "communication": 85,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                }
+            ],
+            "evaluation_scores": {
+                "relevance": 95.0,
+                "communication": 83.75,
+                "confidence": 91.25,
+                "consistency": 100,
+                "hr_interview_score": 92.69,
+                "logical_reasoning_score": 95.0,
+                "scenario_score": 95.0,
+                "overall_score": 91.54
+            },
+            "performance_level": "Strong",
+            "summary": "The candidate demonstrated strong overall HR interview performance.",
+            "strengths": [
+                "Strong communication skills",
+                "Strong confidence indicators",
+                "Relevant and focused responses",
+                "Consistent responses",
+                "Good logical reasoning ability",
+                "Good practical problem-solving ability"
+            ],
+            "weaknesses": [],
+            "cultural_fit_indicators": [
+                "Communicates ideas clearly",
+                "Demonstrates practical problem-solving",
+                "Demonstrates consistent responses",
+                "Demonstrates teamwork orientation",
+                "Demonstrates adaptability"
+            ],
+            "risk_flags": [],
+            "inconsistencies": [],
+            "response_metrics": {
+                "total_responses": 4,
+                "answered_responses": 4,
+                "empty_responses": 0,
+                "completion_rate": 100.0,
+                "total_word_count": 86,
+                "average_words_per_response": 21.5
+            }
+        },
+        {
+            "candidate_id": "SIM_HESITANT_001",
+            "candidate_type": "hesitant",
+            "interview_status": "completed",
+            "question_count": 4,
+            "question_results": [
+                {
+                    "question_id": "HR_SIM_001",
+                    "question": "Tell me about yourself.",
+                    "category": "self_introduction",
+                    "response": "Um... I am a software developer. I have worked with Python... and some backend technologies.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 75,
+                        "confidence": 78,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_002",
+                    "question": "What are your strengths?",
+                    "category": "strengths",
+                    "response": "I think my strengths are... maybe communication and learning. I am not completely sure.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 70,
+                        "confidence": 54,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_003",
+                    "question": "Describe a challenging situation you faced and how you handled it.",
+                    "category": "problem_solving",
+                    "response": "There was a problem in a project. I was... not sure initially what to do. Then I discussed it with my team and we solved it.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 85,
+                        "confidence": 83,
+                        "logical_reasoning": 75,
+                        "scenario": 80
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_004",
+                    "question": "Why are you interested in this role?",
+                    "category": "career_goals",
+                    "response": "I am interested because... I think the role is related to my skills and I would like to learn more.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 85,
+                        "confidence": 78,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                }
+            ],
+            "evaluation_scores": {
+                "relevance": 90.0,
+                "communication": 78.75,
+                "confidence": 73.25,
+                "consistency": 100,
+                "hr_interview_score": 86.34,
+                "logical_reasoning_score": 75.0,
+                "scenario_score": 80.0,
+                "overall_score": 78.67
+            },
+            "performance_level": "Moderate",
+            "summary": "The candidate demonstrated moderate overall HR interview performance.",
+            "strengths": [
+                "Relevant and focused responses",
+                "Consistent responses",
+                "Good practical problem-solving ability"
+            ],
+            "weaknesses": [],
+            "cultural_fit_indicators": [
+                "Demonstrates practical problem-solving",
+                "Demonstrates consistent responses",
+                "Demonstrates teamwork orientation",
+                "Demonstrates adaptability"
+            ],
+            "risk_flags": [],
+            "inconsistencies": [],
+            "response_metrics": {
+                "total_responses": 4,
+                "answered_responses": 4,
+                "empty_responses": 0,
+                "completion_rate": 100.0,
+                "total_word_count": 75,
+                "average_words_per_response": 18.75
+            }
+        },
+        {
+            "candidate_id": "SIM_INEXPERIENCED_001",
+            "candidate_type": "inexperienced",
+            "interview_status": "completed",
+            "question_count": 4,
+            "question_results": [
+                {
+                    "question_id": "HR_SIM_001",
+                    "question": "Tell me about yourself.",
+                    "category": "self_introduction",
+                    "response": "I recently completed my studies and I am looking for an opportunity to start my career in software development. I have worked on academic projects.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 85,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_002",
+                    "question": "What are your strengths?",
+                    "category": "strengths",
+                    "response": "My strengths are willingness to learn, teamwork, and dedication.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 70,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_003",
+                    "question": "Describe a challenging situation you faced and how you handled it.",
+                    "category": "problem_solving",
+                    "response": "During my academic project, we had a problem with our application. I discussed it with my team members, searched for a solution, and tested the changes until the problem was resolved.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 95,
+                        "communication": 90,
+                        "confidence": 95,
+                        "logical_reasoning": 95,
+                        "scenario": 95
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_004",
+                    "question": "Why are you interested in this role?",
+                    "category": "career_goals",
+                    "response": "I am interested in this role because it will allow me to apply what I learned and develop my professional skills.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 85,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                }
+            ],
+            "evaluation_scores": {
+                "relevance": 91.25,
+                "communication": 82.5,
+                "confidence": 91.25,
+                "consistency": 100,
+                "hr_interview_score": 91.25,
+                "logical_reasoning_score": 95.0,
+                "scenario_score": 95.0,
+                "overall_score": 91.0
+            },
+            "performance_level": "Strong",
+            "summary": "The candidate demonstrated strong overall HR interview performance.",
+            "strengths": [
+                "Strong communication skills",
+                "Strong confidence indicators",
+                "Relevant and focused responses",
+                "Consistent responses",
+                "Good logical reasoning ability",
+                "Good practical problem-solving ability"
+            ],
+            "weaknesses": [],
+            "cultural_fit_indicators": [
+                "Communicates ideas clearly",
+                "Demonstrates practical problem-solving",
+                "Demonstrates consistent responses",
+                "Demonstrates teamwork orientation",
+                "Demonstrates adaptability"
+            ],
+            "risk_flags": [],
+            "inconsistencies": [],
+            "response_metrics": {
+                "total_responses": 4,
+                "answered_responses": 4,
+                "empty_responses": 0,
+                "completion_rate": 100.0,
+                "total_word_count": 86,
+                "average_words_per_response": 21.5
+            }
+        },
+        {
+            "candidate_id": "SIM_OVERQUALIFIED_001",
+            "candidate_type": "overqualified",
+            "interview_status": "completed",
+            "question_count": 4,
+            "question_results": [
+                {
+                    "question_id": "HR_SIM_001",
+                    "question": "Tell me about yourself.",
+                    "category": "self_introduction",
+                    "response": "I am a senior software professional with several years of experience in backend development, architecture, team leadership, and system design.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 80,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_002",
+                    "question": "What are your strengths?",
+                    "category": "strengths",
+                    "response": "My strengths include system architecture, technical leadership, problem solving, mentoring, and project management.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 75,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_003",
+                    "question": "Describe a challenging situation you faced and how you handled it.",
+                    "category": "problem_solving",
+                    "response": "In a previous project, we experienced a major scalability problem. I analyzed the architecture, identified the bottleneck, redesigned the affected component, and coordinated the implementation with the team.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 95,
+                        "communication": 85,
+                        "confidence": 95,
+                        "logical_reasoning": 85,
+                        "scenario": 80
+                    }
+                },
+                {
+                    "question_id": "HR_SIM_004",
+                    "question": "Why are you interested in this role?",
+                    "category": "career_goals",
+                    "response": "I am interested in this role because I believe my experience can help the organization solve complex technical problems and improve development processes.",
+                    "response_status": "valid",
+                    "scores": {
+                        "relevance": 90,
+                        "communication": 85,
+                        "confidence": 90,
+                        "logical_reasoning": 0,
+                        "scenario": 0
+                    }
+                }
+            ],
+            "evaluation_scores": {
+                "relevance": 91.25,
+                "communication": 81.25,
+                "confidence": 91.25,
+                "consistency": 100,
+                "hr_interview_score": 90.94,
+                "logical_reasoning_score": 85.0,
+                "scenario_score": 80.0,
+                "overall_score": 85.69
+            },
+            "performance_level": "Strong",
+            "summary": "The candidate demonstrated strong overall HR interview performance.",
+            "strengths": [
+                "Strong communication skills",
+                "Strong confidence indicators",
+                "Relevant and focused responses",
+                "Consistent responses",
+                "Good logical reasoning ability",
+                "Good practical problem-solving ability"
+            ],
+            "weaknesses": [],
+            "cultural_fit_indicators": [
+                "Communicates ideas clearly",
+                "Demonstrates practical problem-solving",
+                "Demonstrates consistent responses",
+                "Demonstrates teamwork orientation"
+            ],
+            "risk_flags": [],
+            "inconsistencies": [],
+            "response_metrics": {
+                "total_responses": 4,
+                "answered_responses": 4,
+                "empty_responses": 0,
+                "completion_rate": 100.0,
+                "total_word_count": 84,
+                "average_words_per_response": 21.0
+            }
+        }
+    ]
+}

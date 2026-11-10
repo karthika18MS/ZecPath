@@ -1,0 +1,584 @@
+{
+    "engine": "ZecPath Configurable Machine Test Adapter",
+    "scoring_engine": "ZecPath Day 50 Machine Test Evaluation Engine",
+    "dataset": "day63_demo_dataset",
+    "dataset_type": "DEMO_DATASET",
+    "dataset_root": "D:\\ZecPath-AI\\day63_demo_dataset",
+    "pipeline_status": "SUCCESS",
+    "scoring_mode": "DEMO",
+    "is_simulated": true,
+    "score_source": "SIMULATED_DEMO_DATA",
+    "generated_at": "2026-11-07T23:13:11.150119+05:30",
+    "scoring_policy": {
+        "test_pass_rate_weight": 0.5,
+        "requirement_coverage_weight": 0.2,
+        "code_quality_weight": 0.2,
+        "readability_weight": 0.1,
+        "human_review_required": true,
+        "test_execution_required": true,
+        "automatic_code_execution": false,
+        "test_results_are_simulated": true,
+        "review_scores_are_simulated": true,
+        "is_verified_real_candidate_result": false
+    },
+    "data_provenance": {
+        "data_type": "SIMULATED_DEMO_DATA",
+        "candidate_code": "Illustrative sample code, not actual candidate submissions.",
+        "test_results": "Illustrative values; test cases were not executed.",
+        "review_scores": "Illustrative values; no human review was performed.",
+        "hiring_use": "Demo testing only. Not suitable for real hiring decisions."
+    },
+    "summary": {
+        "total_candidates": 10,
+        "completed": 9,
+        "not_provided": 1,
+        "invalid_data": 0,
+        "scored_candidates": 9,
+        "average_machine_test_score": 81.03,
+        "highest_machine_test_score": 91.2,
+        "lowest_machine_test_score": 67.2,
+        "score_categories": {
+            "strong": 6,
+            "moderate": 3
+        },
+        "file_errors": 0
+    },
+    "candidate_results": [
+        {
+            "candidate_id": "CAND001",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 84.6,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_001_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.147568+05:30",
+                "candidate_id": "CAND001",
+                "job_id": "JD001",
+                "task_id": "MERN_TASK_001",
+                "task_title": "MERN Employee Management API",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 8,
+                    "failed_tests": 2,
+                    "test_pass_rate": 80.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 80.0,
+                    "requirement_coverage": 90,
+                    "code_quality": 88,
+                    "readability": 90
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 40.0,
+                    "requirement_coverage": 18.0,
+                    "code_quality": 17.6,
+                    "readability": 9.0
+                },
+                "machine_test_score": 84.6,
+                "score_category": "strong",
+                "requirements": [
+                    "Create employee records",
+                    "Retrieve employee records",
+                    "Validate incoming data",
+                    "Handle API errors"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND002",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 88.6,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_002_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.147923+05:30",
+                "candidate_id": "CAND002",
+                "job_id": "JD002",
+                "task_id": "PYTHON_TASK_002",
+                "task_title": "Python Employee Data Processing",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 9,
+                    "failed_tests": 1,
+                    "test_pass_rate": 90.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 90.0,
+                    "requirement_coverage": 88,
+                    "code_quality": 85,
+                    "readability": 90
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 45.0,
+                    "requirement_coverage": 17.6,
+                    "code_quality": 17.0,
+                    "readability": 9.0
+                },
+                "machine_test_score": 88.6,
+                "score_category": "strong",
+                "requirements": [
+                    "Process employee records",
+                    "Calculate average salary",
+                    "Filter employee records",
+                    "Handle empty input"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND003",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 74.8,
+            "score_category": "moderate",
+            "score_status": "SCORED",
+            "source_file": "candidate_003_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.148223+05:30",
+                "candidate_id": "CAND003",
+                "job_id": "JD001",
+                "task_id": "MERN_TASK_003",
+                "task_title": "React Form Validation",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 7,
+                    "failed_tests": 3,
+                    "test_pass_rate": 70.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 70.0,
+                    "requirement_coverage": 80,
+                    "code_quality": 78,
+                    "readability": 82
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 35.0,
+                    "requirement_coverage": 16.0,
+                    "code_quality": 15.6,
+                    "readability": 8.2
+                },
+                "machine_test_score": 74.8,
+                "score_category": "moderate",
+                "requirements": [
+                    "Create a React form",
+                    "Validate required fields",
+                    "Display validation messages",
+                    "Handle form submission"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND004",
+            "job_id": "JD003",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 73.6,
+            "score_category": "moderate",
+            "score_status": "SCORED",
+            "source_file": "candidate_004_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.148532+05:30",
+                "candidate_id": "CAND004",
+                "job_id": "JD003",
+                "task_id": "JAVA_TASK_004",
+                "task_title": "Java Employee Management",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 7,
+                    "failed_tests": 3,
+                    "test_pass_rate": 70.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 70.0,
+                    "requirement_coverage": 78,
+                    "code_quality": 75,
+                    "readability": 80
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 35.0,
+                    "requirement_coverage": 15.6,
+                    "code_quality": 15.0,
+                    "readability": 8.0
+                },
+                "machine_test_score": 73.6,
+                "score_category": "moderate",
+                "requirements": [
+                    "Create an Employee class",
+                    "Store employee information",
+                    "Calculate annual salary",
+                    "Display employee details"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND005",
+            "job_id": "JD003",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 91.2,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_005_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.148842+05:30",
+                "candidate_id": "CAND005",
+                "job_id": "JD003",
+                "task_id": "JAVA_TASK_005",
+                "task_title": "Spring Boot REST Service",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 9,
+                    "failed_tests": 1,
+                    "test_pass_rate": 90.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 90.0,
+                    "requirement_coverage": 94,
+                    "code_quality": 92,
+                    "readability": 90
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 45.0,
+                    "requirement_coverage": 18.8,
+                    "code_quality": 18.4,
+                    "readability": 9.0
+                },
+                "machine_test_score": 91.2,
+                "score_category": "strong",
+                "requirements": [
+                    "Create REST endpoints",
+                    "Implement employee service",
+                    "Use dependency injection",
+                    "Handle missing employee records"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND006",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 84.2,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_006_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.149130+05:30",
+                "candidate_id": "CAND006",
+                "job_id": "JD002",
+                "task_id": "PYTHON_TASK_006",
+                "task_title": "Python Candidate Matching",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 8,
+                    "failed_tests": 2,
+                    "test_pass_rate": 80.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 80.0,
+                    "requirement_coverage": 90,
+                    "code_quality": 88,
+                    "readability": 86
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 40.0,
+                    "requirement_coverage": 18.0,
+                    "code_quality": 17.6,
+                    "readability": 8.6
+                },
+                "machine_test_score": 84.2,
+                "score_category": "strong",
+                "requirements": [
+                    "Compare candidate skills",
+                    "Match required job skills",
+                    "Calculate matching percentage",
+                    "Handle missing skills"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND007",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 81.7,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_007_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.149404+05:30",
+                "candidate_id": "CAND007",
+                "job_id": "JD001",
+                "task_id": "MERN_TASK_007",
+                "task_title": "Node.js REST API",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 8,
+                    "failed_tests": 2,
+                    "test_pass_rate": 80.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 80.0,
+                    "requirement_coverage": 84,
+                    "code_quality": 82,
+                    "readability": 85
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 40.0,
+                    "requirement_coverage": 16.8,
+                    "code_quality": 16.4,
+                    "readability": 8.5
+                },
+                "machine_test_score": 81.7,
+                "score_category": "strong",
+                "requirements": [
+                    "Create REST API endpoint",
+                    "Validate request parameters",
+                    "Return JSON response",
+                    "Handle errors"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND008",
+            "job_id": "JD002",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 67.2,
+            "score_category": "moderate",
+            "score_status": "SCORED",
+            "source_file": "candidate_008_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.149685+05:30",
+                "candidate_id": "CAND008",
+                "job_id": "JD002",
+                "task_id": "PYTHON_TASK_008",
+                "task_title": "Python Data Filtering",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 6,
+                    "failed_tests": 4,
+                    "test_pass_rate": 60.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 60.0,
+                    "requirement_coverage": 75,
+                    "code_quality": 72,
+                    "readability": 78
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 30.0,
+                    "requirement_coverage": 15.0,
+                    "code_quality": 14.4,
+                    "readability": 7.8
+                },
+                "machine_test_score": 67.2,
+                "score_category": "moderate",
+                "requirements": [
+                    "Filter records by department",
+                    "Return matching employees",
+                    "Handle empty records",
+                    "Use reusable functions"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND009",
+            "job_id": "JD001",
+            "assessment_status": "COMPLETED",
+            "machine_test_score": 83.4,
+            "score_category": "strong",
+            "score_status": "SCORED",
+            "source_file": "candidate_009_machine_test.json",
+            "is_simulated": true,
+            "score_source": "SIMULATED_DEMO_DATA",
+            "test_results_are_simulated": true,
+            "review_scores_are_simulated": true,
+            "is_verified_real_candidate_result": false,
+            "data_provenance": "SIMULATED_TEST_RESULTS_AND_SIMULATED_REVIEW_SCORES",
+            "evaluation_result": {
+                "engine": "ZecPath Machine Test Evaluation Engine",
+                "data_type": "TEST_INPUT",
+                "generated_at": "2026-11-07T23:13:11.149962+05:30",
+                "candidate_id": "CAND009",
+                "job_id": "JD001",
+                "task_id": "MERN_TASK_009",
+                "task_title": "React Employee Search",
+                "evaluation_status": "SUCCESS",
+                "test_results": {
+                    "total_tests": 10,
+                    "passed_tests": 8,
+                    "failed_tests": 2,
+                    "test_pass_rate": 80.0
+                },
+                "scoring_weights": {
+                    "test_pass_rate": 0.5,
+                    "requirement_coverage": 0.2,
+                    "code_quality": 0.2,
+                    "readability": 0.1
+                },
+                "component_scores": {
+                    "test_pass_rate": 80.0,
+                    "requirement_coverage": 88,
+                    "code_quality": 85,
+                    "readability": 88
+                },
+                "weighted_contributions": {
+                    "test_pass_rate": 40.0,
+                    "requirement_coverage": 17.6,
+                    "code_quality": 17.0,
+                    "readability": 8.8
+                },
+                "machine_test_score": 83.4,
+                "score_category": "strong",
+                "requirements": [
+                    "Create employee search",
+                    "Filter employee records",
+                    "Handle case-insensitive search",
+                    "Display matching records"
+                ],
+                "scoring_note": "Review scores are supplied inputs and must be supported by a human review. Test results must come from actually executing the candidate's submission against test cases. This output is test data, not a verified real-candidate result."
+            }
+        },
+        {
+            "candidate_id": "CAND010",
+            "job_id": "JD003",
+            "assessment_status": "NOT_PROVIDED",
+            "machine_test_score": null,
+            "score_category": null,
+            "score_status": "NOT_SCORED",
+            "source_file": null,
+            "is_simulated": false,
+            "score_source": null,
+            "data_provenance": "NO_SUBMISSION_AVAILABLE",
+            "is_verified_real_candidate_result": false
+        }
+    ],
+    "file_errors": []
+}

@@ -1,0 +1,191 @@
+{
+    "report_title": "Day 40 - HR Interview Accuracy Evaluation",
+    "evaluation_type": "AI vs Manual Reference Comparison",
+    "objective": "Compare AI-generated HR interview evaluation scores with manually defined reference scores for simulated candidate profiles.",
+    "total_candidates_evaluated": 4,
+    "total_score_comparisons": 24,
+    "evaluation_dimensions": [
+        "relevance",
+        "communication",
+        "confidence",
+        "consistency",
+        "logical_reasoning",
+        "scenario"
+    ],
+    "candidate_results": [
+        {
+            "candidate_id": "SIM_CONFIDENT_001",
+            "candidate_type": "confident",
+            "comparison": {
+                "relevance": {
+                    "ai_score": 95.0,
+                    "manual_score": 94,
+                    "absolute_error": 1.0
+                },
+                "communication": {
+                    "ai_score": 83.75,
+                    "manual_score": 85,
+                    "absolute_error": 1.25
+                },
+                "confidence": {
+                    "ai_score": 91.25,
+                    "manual_score": 92,
+                    "absolute_error": 0.75
+                },
+                "consistency": {
+                    "ai_score": 100,
+                    "manual_score": 98,
+                    "absolute_error": 2.0
+                },
+                "logical_reasoning": {
+                    "ai_score": 95.0,
+                    "manual_score": 94,
+                    "absolute_error": 1.0
+                },
+                "scenario": {
+                    "ai_score": 95.0,
+                    "manual_score": 94,
+                    "absolute_error": 1.0
+                }
+            },
+            "mean_absolute_error": 1.17
+        },
+        {
+            "candidate_id": "SIM_HESITANT_001",
+            "candidate_type": "hesitant",
+            "comparison": {
+                "relevance": {
+                    "ai_score": 90.0,
+                    "manual_score": 88,
+                    "absolute_error": 2.0
+                },
+                "communication": {
+                    "ai_score": 78.75,
+                    "manual_score": 75,
+                    "absolute_error": 3.75
+                },
+                "confidence": {
+                    "ai_score": 73.25,
+                    "manual_score": 70,
+                    "absolute_error": 3.25
+                },
+                "consistency": {
+                    "ai_score": 100,
+                    "manual_score": 96,
+                    "absolute_error": 4.0
+                },
+                "logical_reasoning": {
+                    "ai_score": 75.0,
+                    "manual_score": 72,
+                    "absolute_error": 3.0
+                },
+                "scenario": {
+                    "ai_score": 80.0,
+                    "manual_score": 78,
+                    "absolute_error": 2.0
+                }
+            },
+            "mean_absolute_error": 3.0
+        },
+        {
+            "candidate_id": "SIM_INEXPERIENCED_001",
+            "candidate_type": "inexperienced",
+            "comparison": {
+                "relevance": {
+                    "ai_score": 91.25,
+                    "manual_score": 90,
+                    "absolute_error": 1.25
+                },
+                "communication": {
+                    "ai_score": 82.5,
+                    "manual_score": 82,
+                    "absolute_error": 0.5
+                },
+                "confidence": {
+                    "ai_score": 91.25,
+                    "manual_score": 88,
+                    "absolute_error": 3.25
+                },
+                "consistency": {
+                    "ai_score": 100,
+                    "manual_score": 97,
+                    "absolute_error": 3.0
+                },
+                "logical_reasoning": {
+                    "ai_score": 95.0,
+                    "manual_score": 90,
+                    "absolute_error": 5.0
+                },
+                "scenario": {
+                    "ai_score": 95.0,
+                    "manual_score": 92,
+                    "absolute_error": 3.0
+                }
+            },
+            "mean_absolute_error": 2.67
+        },
+        {
+            "candidate_id": "SIM_OVERQUALIFIED_001",
+            "candidate_type": "overqualified",
+            "comparison": {
+                "relevance": {
+                    "ai_score": 91.25,
+                    "manual_score": 90,
+                    "absolute_error": 1.25
+                },
+                "communication": {
+                    "ai_score": 81.25,
+                    "manual_score": 80,
+                    "absolute_error": 1.25
+                },
+                "confidence": {
+                    "ai_score": 91.25,
+                    "manual_score": 90,
+                    "absolute_error": 1.25
+                },
+                "consistency": {
+                    "ai_score": 100,
+                    "manual_score": 96,
+                    "absolute_error": 4.0
+                },
+                "logical_reasoning": {
+                    "ai_score": 85.0,
+                    "manual_score": 84,
+                    "absolute_error": 1.0
+                },
+                "scenario": {
+                    "ai_score": 80.0,
+                    "manual_score": 82,
+                    "absolute_error": 2.0
+                }
+            },
+            "mean_absolute_error": 1.79
+        }
+    ],
+    "dimension_mean_absolute_error": {
+        "relevance": 1.38,
+        "communication": 1.69,
+        "confidence": 2.12,
+        "consistency": 3.25,
+        "logical_reasoning": 2.5,
+        "scenario": 2.0
+    },
+    "overall_mean_absolute_error": 2.16,
+    "maximum_scoring_difference": {
+        "candidate_id": "SIM_INEXPERIENCED_001",
+        "candidate_type": "inexperienced",
+        "dimension": "logical_reasoning",
+        "ai_score": 95.0,
+        "manual_score": 90,
+        "absolute_error": 5.0
+    },
+    "dimensions_requiring_attention": [
+        {
+            "dimension": "consistency",
+            "mean_absolute_error": 3.25,
+            "reason": "Higher difference between AI and manual reference scores."
+        }
+    ],
+    "overall_evaluation": "Moderate agreement",
+    "interpretation": "The evaluation measures score differences between the AI simulation and controlled manual reference values. Manual values are reference labels created for this test and do not represent independent recruiter ratings."
+}

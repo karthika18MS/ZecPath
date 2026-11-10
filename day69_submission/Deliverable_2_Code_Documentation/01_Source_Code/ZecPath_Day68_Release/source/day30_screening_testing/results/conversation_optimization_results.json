@@ -1,0 +1,114 @@
+{
+    "report_type": "Optimized Conversation Logic Results",
+    "model": "Improved Rule-Based Conversation Flow",
+    "optimization_focus": [
+        "confusion handling",
+        "off-topic redirection",
+        "vague answer follow-up",
+        "silence retry",
+        "repeated answer handling",
+        "retry limits",
+        "follow-up limits"
+    ],
+    "total_cases": 6,
+    "matched_cases": 6,
+    "mismatched_cases": 0,
+    "agreement_percentage": 100.0,
+    "results": [
+        {
+            "test_id": "SC004",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "answer": "I'm confused. What do you mean?",
+            "expected_action": "clarification",
+            "optimized_result": {
+                "action": "clarification",
+                "response_type": "confused",
+                "intent": "confused",
+                "confidence": 0.95,
+                "reason": "Candidate appears confused about the question.",
+                "message": "I'd be happy to clarify. Could you please answer this question directly: How many years of backend development experience do you have?"
+            },
+            "action_match": true
+        },
+        {
+            "test_id": "SC005",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "answer": "I completed my MCA in Computer Applications.",
+            "expected_action": "redirect",
+            "optimized_result": {
+                "action": "redirect",
+                "response_type": "off_topic",
+                "intent": "education",
+                "confidence": 0.9,
+                "reason": "Detected intent 'education' does not match question category 'experience'.",
+                "message": "Thank you. Let's stay with the current question. Could you please answer: How many years of backend development experience do you have?"
+            },
+            "action_match": true
+        },
+        {
+            "test_id": "SC010",
+            "question": "What technical skills do you have?",
+            "question_category": "skills",
+            "answer": "I live in Kerala.",
+            "expected_action": "redirect",
+            "optimized_result": {
+                "action": "redirect",
+                "response_type": "off_topic",
+                "intent": "location",
+                "confidence": 0.9,
+                "reason": "Detected intent 'location' does not match question category 'skills'.",
+                "message": "Thank you. Let's stay with the current question. Could you please answer: What technical skills do you have?"
+            },
+            "action_match": true
+        },
+        {
+            "test_id": "VAGUE",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "answer": "I have some experience.",
+            "expected_action": "follow_up",
+            "optimized_result": {
+                "action": "follow_up",
+                "response_type": "vague",
+                "intent": "experience",
+                "confidence": 0.7,
+                "reason": "Answer is too vague for reliable screening evaluation.",
+                "message": "Could you briefly mention your years of experience and the relevant area you worked in?"
+            },
+            "action_match": true
+        },
+        {
+            "test_id": "SILENCE",
+            "question": "What technical skills do you have?",
+            "question_category": "skills",
+            "answer": "",
+            "expected_action": "retry",
+            "optimized_result": {
+                "action": "retry",
+                "response_type": "no_response",
+                "reason": "No response detected. Retry is allowed.",
+                "message": "I didn't hear a response. Could you please answer the question?"
+            },
+            "action_match": true
+        },
+        {
+            "test_id": "VALID",
+            "question": "How many years of backend development experience do you have?",
+            "question_category": "experience",
+            "answer": "I have three years of backend development experience.",
+            "expected_action": "next_question",
+            "optimized_result": {
+                "action": "next_question",
+                "response_type": "valid",
+                "intent": "experience",
+                "confidence": 0.95,
+                "reason": "Candidate provided a relevant response.",
+                "message": "Thank you. Let's move to the next question."
+            },
+            "action_match": true
+        }
+    ],
+    "created_at": "2026-09-11T11:17:54.206677+05:30"
+}

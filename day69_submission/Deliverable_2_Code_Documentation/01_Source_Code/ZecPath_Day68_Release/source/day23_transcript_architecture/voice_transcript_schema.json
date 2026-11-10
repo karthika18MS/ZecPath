@@ -1,0 +1,35 @@
+{
+  "schema_name": "ZecPath Voice Transcript Schema",
+  "schema_version": "1.0",
+  "description": "Structured storage schema for AI screening call transcripts.",
+
+  "session": {
+    "session_id": "SESSION_000001",
+    "candidate_id": "candidate_006",
+    "job_id": "JOB_BACKEND_001",
+    "role": "backend_developer",
+    "language": "en",
+    "started_at": "2026-09-03T11:30:00+05:30",
+    "ended_at": "2026-09-03T11:40:00+05:30",
+    "status": "completed"
+  },
+
+  "conversation": [
+    {
+      "turn_id": "TURN_001",
+      "question_id": "BACKEND_INTRO_001",
+      "speaker": "ai",
+      "timestamp": "2026-09-03T11:30:10+05:30",
+      "text": "Can you briefly introduce yourself and describe your current role?",
+      "confidence": 1.0
+    },
+    {
+      "turn_id": "TURN_002",
+      "question_id": "BACKEND_INTRO_001",
+      "speaker": "candidate",
+      "timestamp": "2026-09-03T11:30:25+05:30",
+      "text": "I am a backend developer with three years of experience.",
+      "confidence": 0.96
+    }
+  ]
+}
